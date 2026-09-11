@@ -1,0 +1,257 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  @page { size: 1400px 990px; margin: 0; }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  :root { --paper:#f5f3ec; --magenta:#f2247a; --p-pink:#f2a8c4; --ink:#1e1e3f;
+          --ink2:#262048; --grey:#6a6880; --rule:#dcd8ca; }
+  body { margin:0; font-family:Archivo,-apple-system,sans-serif; color:var(--ink);
+         background:var(--paper); }
+  .page { width:1400px; height:990px; position:relative; overflow:hidden;
+          background:var(--paper); page-break-after:always; }
+  .page:last-child { page-break-after:auto; }
+  .brand { position:absolute; top:70px; left:84px; font-size:35px; font-weight:700;
+           color:var(--magenta); letter-spacing:-0.025em; z-index:3; }
+  .arrow { position:absolute; top:64px; right:100px; width:64px; height:64px;
+           border:2.5px solid var(--ink); border-radius:50%; z-index:3; display:flex;
+           align-items:center; justify-content:center; font-size:27px; color:var(--ink); }
+  .bigtitle { position:absolute; top:140px; left:76px; z-index:3; font-family:Anton,Impact,sans-serif;
+              color:var(--magenta); font-size:184px; line-height:0.83; letter-spacing:0.005em;
+              text-transform:uppercase; }
+  .sub { position:absolute; bottom:104px; left:84px; z-index:3; font-size:31px; line-height:1.32;
+         font-weight:500; max-width:660px; color:var(--ink); letter-spacing:-0.01em; }
+  .stamp { position:absolute; bottom:48px; left:85px; z-index:3; font-family:"IBM Plex Mono",monospace;
+           font-size:14px; letter-spacing:0.12em; text-transform:uppercase; color:var(--grey); }
+  .gridwrap { position:absolute; top:38px; left:762px; right:-40px; z-index:1; font-family:"IBM Plex Mono",monospace;
+              font-size:22px; line-height:1.70; letter-spacing:0.31em; }
+  .gr span.cold { color:#dedac9; } .gr span.warm { color:var(--p-pink); }
+  .gr span.hot { color:var(--magenta); font-weight:600; }
+  .body { padding:74px 100px 118px 100px; height:990px; overflow:hidden; }
+  .kicker { font-family:"IBM Plex Mono",monospace; font-size:13px; letter-spacing:0.2em;
+            text-transform:uppercase; color:var(--magenta); font-weight:600; margin-bottom:16px; }
+  h1 { font-family:Anton,Impact,sans-serif; font-size:64px; line-height:0.94; margin:0 0 8px 0;
+       text-transform:uppercase; letter-spacing:0.008em; color:var(--ink); }
+  h2 { font-size:23px; font-weight:700; margin:26px 0 9px 0; letter-spacing:-0.015em; }
+  p { font-size:17.5px; line-height:1.58; margin:0 0 13px 0; max-width:63em; }
+  .lead { font-size:21.5px; line-height:1.48; font-weight:500; letter-spacing:-0.012em; max-width:52em; }
+  .pink { color:var(--magenta); }
+  .stats { display:flex; gap:54px; margin:26px 0 24px 0; }
+  .stat b { display:block; font-family:Anton,Impact,sans-serif; font-size:54px; color:var(--magenta);
+            line-height:1; letter-spacing:0.01em; }
+  .stat span { font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:0.12em;
+               text-transform:uppercase; color:var(--grey); display:block; margin-top:9px; }
+  .cols { display:flex; gap:44px; } .col { flex:1; }
+  .card { border-top:3px solid var(--magenta); padding-top:12px; margin-bottom:19px; }
+  .card h3 { font-size:19px; margin:0 0 6px 0; font-weight:700; letter-spacing:-0.01em; }
+  .card p { font-size:15px; line-height:1.5; color:#3a3852; margin:0; }
+  table { border-collapse:collapse; width:100%; margin:10px 0 16px 0; font-size:16.5px; }
+  th { text-align:left; font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:0.12em;
+       text-transform:uppercase; color:var(--grey); border-bottom:2px solid var(--ink); padding:0 14px 9px 0; }
+  td { padding:9px 14px 9px 0; border-bottom:1px solid var(--rule); vertical-align:top; }
+  .num { font-weight:700; color:var(--magenta); white-space:nowrap; }
+  .pull { border-left:5px solid var(--magenta); padding:5px 0 5px 22px; margin:22px 0 0 0; font-size:20.5px;
+          line-height:1.46; font-weight:500; max-width:50em; letter-spacing:-0.012em; }
+  .foot { position:absolute; bottom:38px; left:100px; right:100px; font-family:"IBM Plex Mono",monospace;
+          font-size:11.5px; color:var(--grey); letter-spacing:0.09em; display:flex;
+          justify-content:space-between; border-top:1px solid var(--rule); padding-top:12px;
+          text-transform:uppercase; }
+</style></head><body>
+<div class="page"><div class="gridwrap">
+<div class="gr"><span class="cold">U</span><span class="cold">Z</span><span class="cold">E</span><span class="cold">G</span><span class="cold">D</span><span class="warm">N</span><span class="cold">1</span><span class="cold">P</span><span class="warm">1</span><span class="cold">#</span><span class="cold">O</span><span class="cold">;</span><span class="cold">#</span><span class="cold">D</span><span class="cold">C</span><span class="cold">I</span><span class="cold">J</span><span class="cold">#</span><span class="cold">L</span><span class="cold">#</span><span class="cold">X</span><span class="cold">E</span><span class="cold">,</span><span class="cold">8</span><span class="cold">U</span><span class="cold">3</span><span class="cold">P</span><span class="cold">P</span><span class="cold">T</span><span class="cold">V</span><span class="cold">S</span><span class="cold">E</span><span class="cold">0</span><span class="cold">V</span><span class="cold">5</span><span class="cold">E</span><span class="cold">#</span><span class="cold">U</span><span class="cold">W</span><span class="cold">;</span><span class="cold">E</span><span class="cold">R</span><span class="warm">E</span><span class="cold">T</span><span class="cold">2</span><span class="cold">Y</span></div>
+<div class="gr"><span class="hot">W</span><span class="cold">3</span><span class="cold">,</span><span class="cold">D</span><span class="cold">S</span><span class="cold">P</span><span class="cold">5</span><span class="cold">2</span><span class="cold">R</span><span class="cold">1</span><span class="cold">R</span><span class="cold">W</span><span class="cold">Y</span><span class="cold">J</span><span class="cold">J</span><span class="hot">O</span><span class="cold">;</span><span class="hot">S</span><span class="cold">0</span><span class="cold">,</span><span class="cold">I</span><span class="cold">6</span><span class="cold">/</span><span class="cold">D</span><span class="cold">9</span><span class="cold">Z</span><span class="cold">4</span><span class="cold">D</span><span class="cold">N</span><span class="cold">H</span><span class="cold">D</span><span class="cold">#</span><span class="cold">G</span><span class="hot">,</span><span class="cold">N</span><span class="cold">J</span><span class="cold">W</span><span class="cold">4</span><span class="cold">5</span><span class="cold">3</span><span class="cold">T</span><span class="cold">G</span><span class="cold">Q</span><span class="cold">K</span><span class="cold">N</span><span class="cold">7</span></div>
+<div class="gr"><span class="cold">8</span><span class="cold">7</span><span class="cold">/</span><span class="cold">Q</span><span class="cold">K</span><span class="cold">O</span><span class="cold">6</span><span class="cold">O</span><span class="cold">M</span><span class="cold">Z</span><span class="cold">O</span><span class="cold">5</span><span class="cold">B</span><span class="cold">R</span><span class="cold">M</span><span class="cold">W</span><span class="cold">W</span><span class="cold">X</span><span class="cold">G</span><span class="cold">M</span><span class="cold">4</span><span class="cold">,</span><span class="cold">4</span><span class="cold">W</span><span class="cold">F</span><span class="cold">H</span><span class="cold">M</span><span class="cold">L</span><span class="cold">.</span><span class="cold">Z</span><span class="cold">F</span><span class="cold">K</span><span class="cold">B</span><span class="cold">3</span><span class="cold">J</span><span class="cold">:</span><span class="cold">W</span><span class="cold">9</span><span class="cold">A</span><span class="cold">/</span><span class="cold">I</span><span class="cold">M</span><span class="hot">N</span><span class="cold">N</span><span class="cold">P</span><span class="cold">U</span></div>
+<div class="gr"><span class="cold">0</span><span class="cold">D</span><span class="cold">W</span><span class="cold">;</span><span class="cold">7</span><span class="cold">6</span><span class="cold">J</span><span class="cold">B</span><span class="cold">L</span><span class="cold">J</span><span class="cold">4</span><span class="cold">H</span><span class="cold">U</span><span class="cold">7</span><span class="cold">G</span><span class="cold">D</span><span class="warm">R</span><span class="cold">G</span><span class="hot">9</span><span class="cold">E</span><span class="cold">,</span><span class="cold">:</span><span class="cold">R</span><span class="cold">8</span><span class="cold">6</span><span class="cold">7</span><span class="cold">Q</span><span class="cold">M</span><span class="cold">I</span><span class="cold">Z</span><span class="cold">E</span><span class="cold">1</span><span class="cold">T</span><span class="cold">J</span><span class="cold">/</span><span class="cold">J</span><span class="cold">I</span><span class="cold">O</span><span class="cold">G</span><span class="cold">5</span><span class="cold">O</span><span class="cold">1</span><span class="cold">Z</span><span class="cold">M</span><span class="cold">F</span><span class="cold">B</span></div>
+<div class="gr"><span class="cold">3</span><span class="cold">B</span><span class="cold">7</span><span class="cold">6</span><span class="cold">H</span><span class="cold">O</span><span class="cold">G</span><span class="warm">R</span><span class="cold">L</span><span class="cold">I</span><span class="cold">Q</span><span class="cold">8</span><span class="cold">#</span><span class="cold">U</span><span class="cold">D</span><span class="cold">L</span><span class="cold">E</span><span class="cold">B</span><span class="cold">Q</span><span class="warm">O</span><span class="cold">H</span><span class="cold">V</span><span class="cold">0</span><span class="cold">R</span><span class="cold">C</span><span class="cold">P</span><span class="cold">K</span><span class="cold">L</span><span class="cold">T</span><span class="cold">7</span><span class="cold">S</span><span class="cold">L</span><span class="cold">B</span><span class="hot">C</span><span class="cold">6</span><span class="cold">M</span><span class="cold">P</span><span class="cold">G</span><span class="cold">/</span><span class="cold">5</span><span class="cold">Z</span><span class="cold">T</span><span class="cold">O</span><span class="cold">.</span><span class="cold">W</span><span class="hot">I</span></div>
+<div class="gr"><span class="cold">.</span><span class="cold">Q</span><span class="cold">D</span><span class="cold">Y</span><span class="cold">S</span><span class="warm">S</span><span class="cold">L</span><span class="hot">2</span><span class="cold">X</span><span class="cold">9</span><span class="cold">C</span><span class="cold">T</span><span class="hot">L</span><span class="cold">Y</span><span class="cold">R</span><span class="cold">M</span><span class="cold">A</span><span class="cold">F</span><span class="warm">;</span><span class="cold">B</span><span class="cold">.</span><span class="cold">;</span><span class="cold">J</span><span class="cold">:</span><span class="cold">U</span><span class="cold">5</span><span class="cold">,</span><span class="cold">C</span><span class="cold">6</span><span class="cold">6</span><span class="cold">7</span><span class="cold">#</span><span class="cold">B</span><span class="cold">;</span><span class="cold">/</span><span class="warm">B</span><span class="cold">.</span><span class="cold">G</span><span class="cold">2</span><span class="hot">.</span><span class="cold">8</span><span class="cold">5</span><span class="cold">3</span><span class="cold">6</span><span class="cold">F</span><span class="cold">E</span></div>
+<div class="gr"><span class="cold">4</span><span class="cold">E</span><span class="cold">P</span><span class="cold">N</span><span class="cold">/</span><span class="cold">5</span><span class="cold">E</span><span class="cold">S</span><span class="cold">,</span><span class="cold">M</span><span class="cold">J</span><span class="cold">/</span><span class="cold">T</span><span class="hot">I</span><span class="cold">D</span><span class="cold">G</span><span class="cold">5</span><span class="cold">7</span><span class="cold">3</span><span class="cold">H</span><span class="cold">9</span><span class="cold">F</span><span class="cold">B</span><span class="cold">E</span><span class="cold">2</span><span class="cold">Y</span><span class="cold">N</span><span class="cold">F</span><span class="cold">7</span><span class="cold">X</span><span class="cold">.</span><span class="cold">H</span><span class="cold">O</span><span class="cold">5</span><span class="hot">K</span><span class="cold">5</span><span class="cold">Z</span><span class="cold">J</span><span class="cold">Y</span><span class="hot">V</span><span class="cold">V</span><span class="cold">H</span><span class="cold">M</span><span class="cold">S</span><span class="cold">E</span><span class="cold">;</span></div>
+<div class="gr"><span class="cold">1</span><span class="cold">D</span><span class="cold">D</span><span class="cold">S</span><span class="cold">J</span><span class="cold">R</span><span class="cold">U</span><span class="cold">X</span><span class="cold">1</span><span class="cold">.</span><span class="cold">9</span><span class="warm">F</span><span class="cold">0</span><span class="cold">I</span><span class="cold">S</span><span class="cold">9</span><span class="cold">4</span><span class="cold">S</span><span class="cold">/</span><span class="cold">/</span><span class="cold">4</span><span class="cold">Z</span><span class="cold">/</span><span class="cold">N</span><span class="cold">5</span><span class="cold">2</span><span class="cold">2</span><span class="cold">9</span><span class="cold">F</span><span class="cold">9</span><span class="cold">P</span><span class="cold">#</span><span class="cold">B</span><span class="cold">0</span><span class="cold">7</span><span class="cold">R</span><span class="cold">D</span><span class="cold">#</span><span class="cold">I</span><span class="cold">7</span><span class="cold">N</span><span class="cold">P</span><span class="cold">/</span><span class="cold">T</span><span class="cold">B</span><span class="cold">1</span></div>
+<div class="gr"><span class="cold">4</span><span class="hot">5</span><span class="cold">Z</span><span class="cold">7</span><span class="cold">2</span><span class="cold">G</span><span class="cold">J</span><span class="cold">G</span><span class="cold">/</span><span class="cold">3</span><span class="hot">C</span><span class="cold">I</span><span class="cold">C</span><span class="cold">T</span><span class="cold">.</span><span class="cold">.</span><span class="cold">H</span><span class="cold">T</span><span class="cold">;</span><span class="cold">Q</span><span class="hot">:</span><span class="cold">8</span><span class="cold">3</span><span class="cold">U</span><span class="cold">P</span><span class="cold">P</span><span class="cold">B</span><span class="cold">/</span><span class="cold">B</span><span class="cold">/</span><span class="cold">Q</span><span class="cold">1</span><span class="cold">O</span><span class="cold">V</span><span class="cold">X</span><span class="hot">M</span><span class="cold">S</span><span class="warm">6</span><span class="cold">5</span><span class="cold">T</span><span class="cold">M</span><span class="cold">O</span><span class="cold">S</span><span class="cold">,</span><span class="cold">L</span><span class="cold">5</span></div>
+<div class="gr"><span class="cold">D</span><span class="cold">J</span><span class="cold">D</span><span class="cold">:</span><span class="cold">D</span><span class="cold">L</span><span class="cold">U</span><span class="cold">F</span><span class="cold">V</span><span class="cold">/</span><span class="hot">3</span><span class="cold">Y</span><span class="cold">V</span><span class="hot">G</span><span class="cold">R</span><span class="cold">0</span><span class="cold">H</span><span class="cold">N</span><span class="cold">T</span><span class="cold">1</span><span class="cold">4</span><span class="cold">8</span><span class="cold">M</span><span class="hot">4</span><span class="cold">0</span><span class="cold">.</span><span class="cold">C</span><span class="warm">3</span><span class="cold">D</span><span class="cold">E</span><span class="cold">V</span><span class="cold">V</span><span class="warm">,</span><span class="cold">U</span><span class="hot">T</span><span class="cold">:</span><span class="cold">.</span><span class="hot">E</span><span class="cold">O</span><span class="cold">3</span><span class="cold">Y</span><span class="cold">1</span><span class="cold">I</span><span class="hot">L</span><span class="cold">T</span><span class="cold">J</span></div>
+<div class="gr"><span class="cold">U</span><span class="cold">3</span><span class="cold">:</span><span class="cold">M</span><span class="cold">K</span><span class="cold">E</span><span class="cold">4</span><span class="cold">U</span><span class="cold">1</span><span class="cold">E</span><span class="cold">F</span><span class="cold">0</span><span class="cold">2</span><span class="cold">I</span><span class="cold">,</span><span class="cold">P</span><span class="cold">H</span><span class="cold">S</span><span class="cold">#</span><span class="cold">Q</span><span class="cold">M</span><span class="cold">L</span><span class="cold">J</span><span class="cold">;</span><span class="cold">E</span><span class="cold">P</span><span class="cold">O</span><span class="cold">G</span><span class="cold">C</span><span class="cold">4</span><span class="cold">O</span><span class="warm">X</span><span class="cold">S</span><span class="cold">D</span><span class="cold">;</span><span class="cold">E</span><span class="cold">L</span><span class="cold">Q</span><span class="cold">A</span><span class="cold">:</span><span class="cold">W</span><span class="cold">X</span><span class="cold">C</span><span class="warm">Q</span><span class="cold">/</span><span class="cold">A</span></div>
+<div class="gr"><span class="cold">0</span><span class="cold">L</span><span class="cold">E</span><span class="cold">5</span><span class="cold">E</span><span class="cold">Z</span><span class="cold">J</span><span class="cold">F</span><span class="cold">Z</span><span class="cold">0</span><span class="cold">T</span><span class="cold">D</span><span class="cold">#</span><span class="cold">0</span><span class="cold">X</span><span class="cold">Z</span><span class="cold">N</span><span class="cold">1</span><span class="cold">1</span><span class="cold">F</span><span class="cold">X</span><span class="cold">K</span><span class="cold">D</span><span class="cold">/</span><span class="cold">Z</span><span class="cold">,</span><span class="cold">6</span><span class="cold">W</span><span class="cold">7</span><span class="cold">E</span><span class="cold">5</span><span class="cold">M</span><span class="cold">C</span><span class="cold">4</span><span class="cold">:</span><span class="cold">Y</span><span class="cold">,</span><span class="cold">K</span><span class="cold">O</span><span class="cold">,</span><span class="cold">4</span><span class="warm">N</span><span class="cold">7</span><span class="cold">W</span><span class="cold">P</span><span class="warm">M</span></div>
+<div class="gr"><span class="cold">9</span><span class="cold">C</span><span class="cold">U</span><span class="cold">:</span><span class="cold">.</span><span class="cold">/</span><span class="cold">;</span><span class="cold">Y</span><span class="cold">2</span><span class="hot">L</span><span class="cold">,</span><span class="cold">3</span><span class="cold">,</span><span class="cold">3</span><span class="cold">4</span><span class="cold">E</span><span class="cold">1</span><span class="cold">2</span><span class="warm">C</span><span class="cold">I</span><span class="cold">U</span><span class="cold">6</span><span class="cold">6</span><span class="cold">/</span><span class="hot">I</span><span class="cold">E</span><span class="cold">H</span><span class="cold">5</span><span class="cold">K</span><span class="warm">O</span><span class="cold">W</span><span class="cold">Q</span><span class="cold">,</span><span class="cold">3</span><span class="cold">6</span><span class="cold">4</span><span class="cold">Q</span><span class="cold">P</span><span class="cold">C</span><span class="cold">Z</span><span class="cold">R</span><span class="cold">Y</span><span class="cold">Q</span><span class="warm">7</span><span class="cold">X</span><span class="cold">2</span></div>
+<div class="gr"><span class="cold">;</span><span class="cold">G</span><span class="cold">8</span><span class="cold">Z</span><span class="cold">X</span><span class="cold">X</span><span class="cold">X</span><span class="cold">F</span><span class="cold">L</span><span class="cold">D</span><span class="cold">7</span><span class="cold">.</span><span class="cold">;</span><span class="cold">U</span><span class="cold">C</span><span class="cold">S</span><span class="cold">1</span><span class="cold">X</span><span class="cold">I</span><span class="cold">,</span><span class="warm">B</span><span class="cold">#</span><span class="cold">G</span><span class="cold">8</span><span class="cold">;</span><span class="cold">I</span><span class="cold">,</span><span class="cold">K</span><span class="cold">P</span><span class="cold">2</span><span class="cold">.</span><span class="cold">R</span><span class="cold">Q</span><span class="cold">D</span><span class="cold">9</span><span class="cold">:</span><span class="cold">2</span><span class="cold">7</span><span class="cold">P</span><span class="warm">A</span><span class="hot">8</span><span class="cold">L</span><span class="cold">D</span><span class="hot">G</span><span class="cold">9</span><span class="cold">M</span></div>
+<div class="gr"><span class="cold">M</span><span class="cold">/</span><span class="cold">/</span><span class="cold">,</span><span class="warm">T</span><span class="warm">.</span><span class="cold">4</span><span class="cold">A</span><span class="cold">1</span><span class="cold">3</span><span class="cold">/</span><span class="cold">O</span><span class="cold">Q</span><span class="cold">C</span><span class="cold">Q</span><span class="cold">R</span><span class="cold">1</span><span class="cold">7</span><span class="cold">S</span><span class="cold">N</span><span class="hot">6</span><span class="cold">Q</span><span class="cold">M</span><span class="cold">U</span><span class="cold">Y</span><span class="cold">P</span><span class="cold">.</span><span class="cold">8</span><span class="cold">7</span><span class="cold">B</span><span class="cold">O</span><span class="cold">T</span><span class="cold">Z</span><span class="cold">E</span><span class="cold">K</span><span class="cold">B</span><span class="cold">,</span><span class="cold">W</span><span class="hot">B</span><span class="cold">I</span><span class="warm">.</span><span class="cold">E</span><span class="cold">E</span><span class="cold">X</span><span class="cold">8</span><span class="cold">E</span></div>
+<div class="gr"><span class="cold">Y</span><span class="cold">N</span><span class="hot">C</span><span class="cold">.</span><span class="cold">.</span><span class="cold">4</span><span class="cold">G</span><span class="cold">/</span><span class="cold">U</span><span class="hot">Q</span><span class="cold">Q</span><span class="cold">D</span><span class="cold">X</span><span class="cold">:</span><span class="cold">S</span><span class="cold">B</span><span class="cold">B</span><span class="cold">G</span><span class="cold">D</span><span class="cold">N</span><span class="cold">F</span><span class="cold">S</span><span class="cold">A</span><span class="cold">S</span><span class="hot">D</span><span class="cold">5</span><span class="cold">L</span><span class="cold">;</span><span class="cold">6</span><span class="cold">K</span><span class="cold">N</span><span class="cold">O</span><span class="cold">H</span><span class="cold">F</span><span class="cold">9</span><span class="cold">.</span><span class="cold">G</span><span class="cold">Z</span><span class="cold">F</span><span class="hot">/</span><span class="cold">N</span><span class="cold">1</span><span class="cold">6</span><span class="cold">.</span><span class="cold">3</span><span class="cold">:</span></div>
+<div class="gr"><span class="cold">:</span><span class="cold">W</span><span class="cold">7</span><span class="cold">2</span><span class="cold">U</span><span class="cold">2</span><span class="cold">Q</span><span class="cold">I</span><span class="cold">/</span><span class="cold">P</span><span class="cold">R</span><span class="cold">,</span><span class="cold">J</span><span class="cold">U</span><span class="cold">W</span><span class="cold">U</span><span class="cold">Q</span><span class="cold">G</span><span class="cold">G</span><span class="cold">J</span><span class="cold">T</span><span class="cold">1</span><span class="cold">G</span><span class="cold">G</span><span class="cold">Y</span><span class="cold">A</span><span class="cold">1</span><span class="cold">6</span><span class="cold">S</span><span class="cold">J</span><span class="hot">Z</span><span class="cold">P</span><span class="cold">1</span><span class="cold">;</span><span class="cold">0</span><span class="cold">/</span><span class="cold">/</span><span class="cold">O</span><span class="cold">/</span><span class="cold">1</span><span class="cold">.</span><span class="cold">0</span><span class="cold">Z</span><span class="cold">.</span><span class="cold">1</span><span class="cold">B</span></div>
+<div class="gr"><span class="cold">0</span><span class="cold">L</span><span class="cold">U</span><span class="cold">Y</span><span class="warm">G</span><span class="cold">8</span><span class="cold">M</span><span class="cold">G</span><span class="cold">3</span><span class="cold">4</span><span class="cold">.</span><span class="cold">X</span><span class="cold">0</span><span class="cold">3</span><span class="cold">L</span><span class="cold">H</span><span class="cold">,</span><span class="cold">D</span><span class="cold">Y</span><span class="cold">A</span><span class="cold">0</span><span class="cold">W</span><span class="cold">G</span><span class="cold">Z</span><span class="cold">7</span><span class="cold">Z</span><span class="cold">K</span><span class="cold">E</span><span class="cold">.</span><span class="cold">/</span><span class="cold">O</span><span class="cold">J</span><span class="cold">.</span><span class="cold">0</span><span class="cold">S</span><span class="cold">/</span><span class="cold">4</span><span class="cold">O</span><span class="cold">Y</span><span class="cold">1</span><span class="hot">4</span><span class="cold">R</span><span class="cold">/</span><span class="cold">4</span><span class="cold">,</span><span class="cold">X</span></div>
+<div class="gr"><span class="cold">T</span><span class="cold">D</span><span class="cold">#</span><span class="cold">I</span><span class="cold">W</span><span class="cold">A</span><span class="cold">N</span><span class="cold">/</span><span class="cold">:</span><span class="cold">J</span><span class="cold">L</span><span class="cold">W</span><span class="cold">N</span><span class="cold">8</span><span class="cold">:</span><span class="cold">F</span><span class="cold">9</span><span class="cold">T</span><span class="cold">N</span><span class="cold">2</span><span class="cold">H</span><span class="cold">Q</span><span class="cold">I</span><span class="warm">9</span><span class="cold">3</span><span class="cold">5</span><span class="cold">K</span><span class="cold">A</span><span class="cold">U</span><span class="cold">#</span><span class="cold">S</span><span class="cold">X</span><span class="cold">E</span><span class="cold">X</span><span class="hot">B</span><span class="cold">C</span><span class="cold">V</span><span class="cold">G</span><span class="cold">5</span><span class="hot">J</span><span class="cold">0</span><span class="cold">V</span><span class="cold">X</span><span class="cold">7</span><span class="cold">N</span><span class="cold">V</span></div>
+<div class="gr"><span class="warm">9</span><span class="cold">S</span><span class="cold">5</span><span class="cold">6</span><span class="cold">6</span><span class="cold">N</span><span class="cold">H</span><span class="cold">U</span><span class="cold">I</span><span class="cold">.</span><span class="cold">C</span><span class="cold">9</span><span class="cold">8</span><span class="cold">Z</span><span class="warm">A</span><span class="cold">4</span><span class="cold">D</span><span class="cold">8</span><span class="cold">,</span><span class="cold">:</span><span class="cold">F</span><span class="cold">.</span><span class="cold">L</span><span class="cold">L</span><span class="cold">0</span><span class="hot">/</span><span class="cold">I</span><span class="cold">9</span><span class="cold">T</span><span class="cold">C</span><span class="cold">1</span><span class="cold">;</span><span class="cold">D</span><span class="warm">7</span><span class="cold">H</span><span class="cold">0</span><span class="cold">Z</span><span class="cold">A</span><span class="cold">:</span><span class="cold">J</span><span class="cold">0</span><span class="cold">F</span><span class="cold">N</span><span class="hot">.</span><span class="hot">A</span><span class="cold">H</span></div>
+<div class="gr"><span class="cold">F</span><span class="cold">H</span><span class="cold">B</span><span class="cold">#</span><span class="cold">L</span><span class="cold">X</span><span class="cold">J</span><span class="cold">F</span><span class="cold">9</span><span class="cold">3</span><span class="cold">Q</span><span class="cold">D</span><span class="warm">A</span><span class="cold">/</span><span class="cold">,</span><span class="cold">T</span><span class="cold">:</span><span class="cold">5</span><span class="cold">U</span><span class="cold">#</span><span class="cold">4</span><span class="cold">J</span><span class="cold">H</span><span class="cold">/</span><span class="cold">0</span><span class="cold">2</span><span class="cold">#</span><span class="warm">R</span><span class="cold">/</span><span class="cold">:</span><span class="cold">:</span><span class="cold">A</span><span class="cold">:</span><span class="cold">;</span><span class="cold">P</span><span class="cold">Y</span><span class="cold">O</span><span class="cold">S</span><span class="cold">U</span><span class="cold">1</span><span class="cold">C</span><span class="cold">J</span><span class="cold">#</span><span class="cold">9</span><span class="cold">5</span><span class="cold">F</span></div>
+<div class="gr"><span class="cold">5</span><span class="cold">M</span><span class="cold">O</span><span class="cold">D</span><span class="cold">3</span><span class="cold">Q</span><span class="cold">A</span><span class="cold">3</span><span class="cold">8</span><span class="cold">E</span><span class="cold">;</span><span class="cold">Q</span><span class="cold">7</span><span class="cold">6</span><span class="cold">M</span><span class="cold">F</span><span class="cold">S</span><span class="cold">#</span><span class="cold">7</span><span class="warm">P</span><span class="cold">5</span><span class="cold">G</span><span class="cold">3</span><span class="cold">J</span><span class="cold">B</span><span class="cold">7</span><span class="hot">G</span><span class="cold">#</span><span class="cold">#</span><span class="cold">R</span><span class="cold">2</span><span class="cold">:</span><span class="cold">Q</span><span class="cold">V</span><span class="cold">L</span><span class="warm">B</span><span class="cold">9</span><span class="cold">3</span><span class="cold">E</span><span class="cold">.</span><span class="cold">H</span><span class="cold">F</span><span class="cold">#</span><span class="cold">F</span><span class="cold">6</span><span class="cold">2</span></div>
+<div class="gr"><span class="cold">X</span><span class="cold">O</span><span class="cold">Q</span><span class="cold">D</span><span class="cold">B</span><span class="cold">D</span><span class="cold">6</span><span class="cold">/</span><span class="warm">4</span><span class="cold">J</span><span class="cold">A</span><span class="cold">T</span><span class="cold">2</span><span class="cold">G</span><span class="cold">X</span><span class="cold">H</span><span class="cold">Y</span><span class="cold">P</span><span class="cold">A</span><span class="cold">M</span><span class="cold">K</span><span class="cold">O</span><span class="cold">,</span><span class="cold">I</span><span class="cold">G</span><span class="cold">Y</span><span class="cold">.</span><span class="cold">V</span><span class="cold">O</span><span class="cold">.</span><span class="cold">V</span><span class="cold">D</span><span class="cold">2</span><span class="cold">J</span><span class="cold">J</span><span class="cold">0</span><span class="cold">B</span><span class="cold">S</span><span class="cold">K</span><span class="cold">G</span><span class="cold">4</span><span class="warm">6</span><span class="cold">N</span><span class="cold">S</span><span class="cold">M</span><span class="cold">1</span></div>
+<div class="gr"><span class="cold">P</span><span class="cold">G</span><span class="cold">0</span><span class="cold">D</span><span class="cold">S</span><span class="hot">.</span><span class="cold">6</span><span class="cold">I</span><span class="cold">7</span><span class="cold">X</span><span class="cold">0</span><span class="cold">#</span><span class="cold">L</span><span class="cold">O</span><span class="cold">M</span><span class="cold">F</span><span class="cold">5</span><span class="cold">L</span><span class="cold">,</span><span class="cold">.</span><span class="cold">;</span><span class="warm">A</span><span class="cold">7</span><span class="cold">D</span><span class="cold">W</span><span class="cold">.</span><span class="cold">5</span><span class="cold">0</span><span class="cold">4</span><span class="cold">R</span><span class="cold">#</span><span class="warm">X</span><span class="cold">X</span><span class="cold">A</span><span class="cold">2</span><span class="cold">E</span><span class="cold">P</span><span class="cold">U</span><span class="cold">Y</span><span class="cold">D</span><span class="cold">G</span><span class="cold">5</span><span class="cold">B</span><span class="cold">8</span><span class="cold">P</span><span class="cold">O</span></div>
+<div class="gr"><span class="cold">K</span><span class="cold">Q</span><span class="hot">B</span><span class="cold">M</span><span class="cold">:</span><span class="cold">3</span><span class="cold">2</span><span class="cold">G</span><span class="cold">C</span><span class="cold">3</span><span class="cold">6</span><span class="cold">H</span><span class="cold">Z</span><span class="cold">8</span><span class="cold">O</span><span class="cold">#</span><span class="cold">Z</span><span class="cold">B</span><span class="cold">Y</span><span class="cold">:</span><span class="warm">7</span><span class="cold">D</span><span class="cold">V</span><span class="cold">V</span><span class="cold">#</span><span class="cold">U</span><span class="warm">9</span><span class="cold">7</span><span class="cold">W</span><span class="cold">1</span><span class="cold">A</span><span class="cold">7</span><span class="cold">U</span><span class="cold">6</span><span class="cold">O</span><span class="cold">Z</span><span class="cold">3</span><span class="hot">C</span><span class="cold">/</span><span class="cold">,</span><span class="cold">8</span><span class="cold">C</span><span class="cold">Q</span><span class="cold">A</span><span class="cold">C</span><span class="cold">T</span></div>
+<div class="gr"><span class="cold">K</span><span class="cold">:</span><span class="cold">6</span><span class="cold">F</span><span class="cold">8</span><span class="cold">2</span><span class="cold">I</span><span class="cold">0</span><span class="cold">R</span><span class="cold">F</span><span class="cold">S</span><span class="cold">,</span><span class="cold">O</span><span class="cold">M</span><span class="cold">X</span><span class="cold">9</span><span class="cold">4</span><span class="hot">T</span><span class="cold">V</span><span class="cold">6</span><span class="cold">;</span><span class="cold">W</span><span class="cold">P</span><span class="cold">U</span><span class="cold">S</span><span class="cold">N</span><span class="cold">B</span><span class="cold">E</span><span class="cold">W</span><span class="cold">D</span><span class="cold">2</span><span class="cold">G</span><span class="cold">J</span><span class="cold">W</span><span class="cold">M</span><span class="cold">R</span><span class="cold">7</span><span class="cold">4</span><span class="cold">.</span><span class="cold">I</span><span class="hot">G</span><span class="cold">9</span><span class="cold">5</span><span class="cold">#</span><span class="cold">R</span><span class="cold">:</span></div></div>
+  <div class="brand">Frank Fu</div>
+  <div class="arrow">&#8599;</div>
+  <div class="bigtitle">UGC &amp; Trend<br>Analyzer</div>
+  <div class="sub">Sentiment, keywords and themes<br>pulled from Amazon product reviews.</div>
+  <div class="stamp">July 2025 &nbsp;·&nbsp; Review intelligence &nbsp;·&nbsp; Python · PyTorch · scikit-learn · statsmodels</div>
+</div>
+
+<!-- ══════════ 2 · EXECUTIVE SUMMARY ══════════ -->
+<div class="page"><div class="body">
+  <div class="kicker">01 — Executive summary</div>
+  <h1>Satisfied customers<br>are not silent</h1>
+  <p class="lead">Most systems that read customer feedback at scale attach the star rating to the
+  whole review. This one scores every sentence on its own — and the gap between the two methods
+  is where the useful information was hiding.</p>
+
+  <div class="stats">
+    <div class="stat"><b>17.5%</b><span>of sentences inside<br>5★ reviews are complaints</span></div>
+    <div class="stat"><b>21.9%</b><span>of all sentences were<br>mislabelled by rating</span></div>
+    <div class="stat"><b>88.2%</b><span>audited theme<br>accuracy</span></div>
+    <div class="stat"><b>95.1%</b><span>audited polarity<br>accuracy</span></div>
+  </div>
+
+  <h2>What was built</h2>
+  <p>A ten-stage pipeline over 4,173 Amazon Fine Food reviews — 9,954 sentences, 14 product
+  categories, 2003–2012. Each sentence is embedded, scored for polarity by a review-tuned
+  language model, and assigned to one or more of sixteen aspect themes by zero-shot entailment
+  against written definitions. A review-level regression then ranks themes by their estimated
+  drag on the star rating, and weighted log-odds identifies the vocabulary that separates praise
+  from complaint in each category.</p>
+
+  <h2>What it outputs</h2>
+  <p>Per category, two decisions rather than a dashboard: <b>a ranked fix list</b> — ordered by
+  how often a problem occurs there multiplied by what it is associated with costing, carrying 95%
+  confidence intervals — and <b>the language to lead with</b>, drawn from the words customers
+  themselves use when they are happy. Each category also gets a short written brief in which
+  every single number is automatically checked against the underlying evidence before it is
+  allowed to render.</p>
+
+  <div class="pull">The errors are not random. They concentrate exactly where a brand team would
+  most want to look: in the complaints of customers who stayed.</div>
+</div>
+<div class="foot"><span>UGC &amp; Trend Analyzer</span><span>Frank Fu · July 2025</span><span>02</span></div></div>
+
+<!-- ══════════ 3 · WHY IT MATTERS ══════════ -->
+<div class="page"><div class="body">
+  <div class="kicker">02 — Why it matters</div>
+  <h1>The cheapest problems<br>to fix are invisible</h1>
+
+  <p class="lead">A customer who gives five stars and mentions one broken thing is the most
+  valuable signal a feedback system can receive. They have not churned. They are still talking.
+  And the standard method throws that sentence away.</p>
+
+  <h2>The mechanism of the error</h2>
+  <p>When a review's rating is applied to its text, "the packaging arrived crushed" inside a
+  four-star review is recorded as <i>positive evidence</i>. Every share-of-voice figure computed
+  downstream inherits that mistake. Measured directly against sentence-level scoring, 21.9% of
+  sentences carried the wrong label — and the misses are systematically concentrated in
+  well-rated reviews, because that is where mixed feedback lives.</p>
+
+  <table>
+    <tr><th>Star rating</th><th>Share of its sentences that are complaints</th></tr>
+    <tr><td>5★</td><td><span class="num">17.5%</span> — invisible to a rating-based read</td></tr>
+    <tr><td>4★</td><td><span class="num">26.5%</span></td></tr>
+    <tr><td>3★</td><td><span class="num">55.4%</span></td></tr>
+    <tr><td>1★</td><td><span class="num">79.2%</span> — and 20.8% are <i>not</i> complaints</td></tr>
+  </table>
+
+  <h2>Volume is not importance</h2>
+  <p>The second correction matters as much. Ranking themes by how often they are discussed sends
+  teams after the loudest complaint rather than the costliest one. Here, themes are ranked by
+  <b>expected drag</b> — how often a complaint occurs in that category, multiplied by the rating
+  difference associated with it. Two themes were excluded from the ranking entirely because they
+  restate the outcome rather than explain it.</p>
+
+  <div class="pull">One finding inverts the assumption completely: complaints about not being
+  able to <i>find</i> a product travel with ratings 0.22★ <b>higher</b>. Scarcity complaints come
+  from devotees. That is a distribution signal, not a defect.</div>
+</div>
+<div class="foot"><span>UGC &amp; Trend Analyzer</span><span>Frank Fu · July 2025</span><span>03</span></div></div>
+
+<!-- ══════════ 4 · WHERE ELSE THIS APPLIES ══════════ -->
+<div class="page"><div class="body">
+  <div class="kicker">03 — Transferability</div>
+  <h1>Any text with<br>a score attached</h1>
+  <p class="lead">Nothing about this method is specific to food, to Amazon, or to stars. It applies
+  wherever an organisation collects free-text feedback alongside a numeric outcome — which is to
+  say, almost everywhere. The rating-inheritance bug travels with the pattern.</p>
+
+  <div class="cols">
+    <div class="col">
+      <div class="card"><h3>SaaS support &amp; CSAT</h3>
+      <p>Ticket text inherits the CSAT score, so friction described inside "satisfied" tickets is
+      never counted. Aspect extraction surfaces it; drag ranking orders it by association with
+      the outcome you actually care about — renewal, not the survey.</p></div>
+
+      <div class="card"><h3>App store reviews</h3>
+      <p>A five-star review naming a missing feature is the highest-value product input a team
+      can get, and it is exactly what a star-weighted dashboard discards. Aspect themes make
+      "requested but absent" a trackable quantity.</p></div>
+
+      <div class="card"><h3>Employee engagement</h3>
+      <p>Free-text comments paired with an eNPS score, same inheritance problem. Because themes
+      here are <i>aspects</i> rather than sentiments, "manager support" can be tracked as
+      improving or worsening — which "negative sentiment is up 4%" never tells you.</p></div>
+    </div>
+    <div class="col">
+      <div class="card"><h3>Patient experience</h3>
+      <p>Survey comments attached to an overall score. Complaints buried in high-scoring feedback
+      — discharge instructions, waiting communication — are usually operational and cheap to fix,
+      precisely because the patient was otherwise satisfied.</p></div>
+
+      <div class="card"><h3>Financial services complaints</h3>
+      <p>Regulated complaint narratives need triage, not sentiment. Aspect assignment with a
+      published error rate and an explicit "unassigned" class is the difference between a model
+      an auditor accepts and one they do not.</p></div>
+
+      <div class="card"><h3>Hospitality &amp; travel</h3>
+      <p>The archetypal mixed review — "loved the hotel, the air conditioning was broken" — is a
+      single sentence pair that rating-based reads collapse into one number. Multi-label
+      assignment keeps both halves.</p></div>
+    </div>
+  </div>
+
+  <h2>What a new domain actually needs</h2>
+  <p>Free text, a numeric outcome, and enough volume to estimate effects — a few thousand
+  responses is sufficient. The taxonomy is rewritten per domain and takes an afternoon; every
+  stage after it is unchanged. The pipeline runs on a laptop GPU with no API costs.</p>
+</div>
+<div class="foot"><span>UGC &amp; Trend Analyzer</span><span>Frank Fu · July 2025</span><span>04</span></div></div>
+
+<!-- ══════════ 5 · HOW FAR TO TRUST IT ══════════ -->
+<div class="page"><div class="body">
+  <div class="kicker">04 — Method integrity</div>
+  <h1>What it gets wrong,<br>stated first</h1>
+  <p class="lead">A pipeline that assigns labels with a model owes its reader an error rate. This
+  one publishes its own, including the two earlier versions that were not good enough.</p>
+
+  <table>
+    <tr><th>Assignment method</th><th>Theme accuracy</th><th>Why it changed</th></tr>
+    <tr><td>Clusters used directly as labels</td><td class="num">56.2%</td>
+        <td>Clustering must place every sentence somewhere, so chatter lands inside a theme</td></tr>
+    <tr><td>Zero-shot entailment</td><td class="num">82.4%</td>
+        <td>Compares each sentence against an explicit definition; can assign none</td></tr>
+    <tr><td>— pooling rule removed</td><td class="num">88.2%</td>
+        <td>An over-aggressive rule had merged a valid theme into "Other"</td></tr>
+  </table>
+
+  <p>Two methods were tried and rejected, and both are documented rather than quietly dropped.
+  <b>HDBSCAN</b> — the conventional modern choice — returned two clusters and left 90% of
+  sentences as noise; keeping it would have meant discarding nine tenths of the evidence to
+  preserve a fashionable technique. <b>Feeding full theme definitions</b> to the entailment model
+  left 62.5% of the corpus unassigned and erased "Price &amp; value" from a corpus of food
+  reviews; replacing them with short label phrases fixed it with no change of model or data.</p>
+
+  <h2>Claims are checked before they are shown</h2>
+  <p>Every number in every written brief is parsed and matched against the evidence behind it —
+  103 claims, none unmatched. It has caught real errors. It also has a blind spot worth naming:
+  it verifies that a number exists, not that a <i>comparison</i> built on it is true. Two false
+  superlatives passed it and were caught only by hand.</p>
+
+  <h2>What this cannot tell you</h2>
+  <p><b>Nothing causal.</b> Theme polarity is extracted from the same text that produced the
+  rating, so the association is mechanical by construction. These rankings are a triage order,
+  not a treatment effect. <b>Nothing about individual products</b> — 3,438 products across 4,173
+  reviews is roughly one review each. <b>Nothing about a representative market</b>: the sample's
+  provenance was not recorded, so the figures describe this corpus and the method, not the
+  category. And nothing about today — the data ends in 2012.</p>
+</div>
+<div class="foot"><span>UGC &amp; Trend Analyzer</span><span>Frank Fu · July 2025</span><span>05</span></div></div>
+
+</body></html>

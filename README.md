@@ -110,6 +110,13 @@ Four of the 14 categories have too few low-rated reviews to support a vocabulary
 comparison. The dashboard says so on those pages instead of showing a phrase list
 built from thirteen reviews.
 
+## The report
+
+A five-page summary — executive summary, why the finding matters, where the
+method transfers to other industries, and what it gets wrong — is at
+[`docs/UGC_Trend_Analyzer_Report.pdf`](docs/UGC_Trend_Analyzer_Report.pdf).
+Source for it is in `docs/report_src/`; it renders with headless Chrome.
+
 ## Running it
 
 The pipeline runs once; `artifacts/` is committed. The dashboard needs no API
