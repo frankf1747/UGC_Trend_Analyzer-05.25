@@ -142,38 +142,50 @@ p{font-size:29px;line-height:1.3;color:var(--ink);max-width:30ch;position:relati
 .foot2 .u b { display:block; font-size:10.5px; color:var(--title); margin-bottom:2px; }
 .foot2 .u span { font-size:9.2px; line-height:1.34; color:#4a4763; display:block; }
 
-/* keyword bar chart */
-.kgrid { display:grid; grid-template-columns:repeat(4,1fr); gap:8px 14px; margin-top:8px; }
-.kc { border-top:2.5px solid var(--hot); padding-top:6px; }
-.kh { display:flex; align-items:baseline; justify-content:space-between; margin-bottom:5px; }
-.kh b { font-size:13px; color:var(--title); letter-spacing:-.015em; text-transform:capitalize; }
-.kh span { font-family:Plex; font-size:8px; color:var(--mute); }
-.bars { }
-.br { display:flex; align-items:center; height:12.4px; }
-.bw { flex:0 0 78px; font-size:9px; text-align:right; padding-right:6px; color:#b01254;
-      font-weight:600; letter-spacing:-.01em; white-space:nowrap; overflow:hidden; }
-.bw.pos { color:#3b3856; font-weight:400; }
-.bt { flex:1; height:6.4px; background:rgba(38,32,72,.055); position:relative; }
-.bar { display:block; height:6.4px; }
-.bar.neg { background:var(--hot); }
-.bar.pos { background:#5b5580; }
-.bz { flex:0 0 20px; font-family:Plex; font-size:7.4px; color:#b01254; padding-left:5px; }
-.bz.pos { color:#7a7690; }
-.bsplit { height:4px; border-bottom:1px dotted #cfc8b6; margin:2px 0 3px 78px; }
-.opp { margin-top:6px; padding-top:5px; border-top:1px solid var(--line); font-size:9.1px;
-       line-height:1.32; color:#4a4763; }
-.scale { display:flex; align-items:center; gap:12px; font-family:Plex; font-size:8.2px;
-         color:var(--mute); margin-top:3px; }
-.skey { display:inline-flex; align-items:center; gap:5px; }
-.skey i { width:15px; height:7px; display:inline-block; }
 
-.oneline { display:flex; align-items:center; gap:0; margin-top:6px; border-top:2px solid var(--title);
-           padding-top:5px; }
-.oneline .tag { background:var(--hot); color:#fff; font-size:9.4px; font-weight:700;
+/* leadership action board */
+.board { display:flex; gap:20px; margin-top:10px; align-items:flex-start; }
+.plays { flex:0 0 700px; }
+.phead { display:flex; font-family:Plex; font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--mute); border-bottom:2px solid var(--title); padding-bottom:4px; }
+.phead .c1{flex:0 0 20px} .phead .c2{flex:1} .phead .c3{flex:0 0 104px}
+.phead .c4{flex:0 0 150px; text-align:right}
+.prow { display:flex; align-items:flex-start; padding:8px 0 7px; border-bottom:1px solid var(--line); }
+.prow .c1 { flex:0 0 20px; font-family:Anton; font-size:17px; color:var(--hot); line-height:1; }
+.prow .c2 { flex:1; padding-right:12px; }
+.prow .c2 b { display:block; font-size:12.5px; color:var(--title); letter-spacing:-.015em;
+              margin-bottom:2px; line-height:1.18; }
+.prow .c2 q { display:block; font-size:9.4px; line-height:1.34; color:#4a4763; font-style:italic;
+              quotes:'“' '”'; }
+.prow .c3 { flex:0 0 104px; }
+.own { display:inline-block; font-family:Plex; font-size:8px; letter-spacing:.05em; padding:2.5px 6px;
+       background:rgba(38,32,72,.08); color:var(--title); text-transform:uppercase; }
+.prow .c4 { flex:0 0 150px; text-align:right; }
+.c4 .imp { font-family:Anton; font-size:15px; color:var(--title); line-height:1; }
+.c4 .sub { font-family:Plex; font-size:7.8px; color:var(--mute); margin-top:2px; }
+.c4 .ibar { height:5px; background:rgba(38,32,72,.07); margin-top:4px; }
+.c4 .ibar i { display:block; height:5px; background:var(--hot); float:right; }
+.prow.up .c1 { color:#2f6b52 }
+.prow.up .c4 .imp { color:#2f6b52 }
+.prow.up .c4 .ibar i { background:#2f6b52 }
+.mk { flex:1; background:var(--chip); padding:11px 13px; }
+.mk h4 { font-size:11.5px; margin:0 0 6px 0; color:var(--title); }
+.mk h4 span { font-family:Plex; font-size:7.6px; letter-spacing:.1em; color:var(--mute);
+              text-transform:uppercase; display:block; margin-bottom:2px; font-weight:400; }
+.wds { display:flex; flex-wrap:wrap; gap:3px; margin-bottom:11px; }
+.wds span { font-size:10px; background:#fff; padding:2px 6px; color:#2f4f3f; border-radius:2px; }
+.stop { margin-bottom:7px; }
+.stop b { display:block; font-size:10px; color:#b01254; margin-bottom:1px; }
+.stop i { display:block; font-size:9px; line-height:1.32; color:#4a4763; font-style:normal; }
+
+.oneline { display:flex; align-items:center; margin-top:9px; border-top:2px solid var(--title);
+           padding-top:6px; }
+.oneline .tag { background:var(--hot); color:#fff; font-size:9.2px; font-weight:700;
                 padding:3px 9px; margin-right:11px; white-space:nowrap; }
-.oneline .txt { font-size:9.2px; line-height:1.3; color:#3b3856; }
+.oneline .txt { font-size:9.4px !important; line-height:1.3; color:#3b3856; max-width:none !important;
+                margin:0 !important; }
 .oneline .txt b { color:var(--title); }
-.oneline .grd { font-family:Plex; font-size:8.4px; color:var(--mute); margin-left:auto;
+.oneline .grd { font-family:Plex; font-size:8.2px; color:var(--mute); margin-left:auto;
                 padding-left:14px; text-align:right; white-space:nowrap; }
 </style></head><body><div class='sheet'><div class="card" style="--bg:#f5f3ec;--title:#f2247a;--ink:#262048;--noise:#dcd7ca;--hot:#f2247a">
   <div class="noise">:;507GJ<b>8</b>Z99AEM<b>6</b>;51SFR3FU0EGSBADZ4RT#H<b>G</b>;LMMIY#A5BZ6<b>G</b>J<b>Q</b>7SE5AXI.I<br>LT7M8MY6DCQZ61E.7RNE:CXIIV1IBW<b>C</b>8EUE2CIV.#B<b>4</b>YAFH#Y5;F<b>0</b>6BH7,AJMV<br>:PQ/MYUICRHR#1U7ERCRT<b>4</b>I<b>M</b>RJ8G9XM.A2LW1KOY;A40V9G9HYTUB<b>F</b>VRBECVI1<br>1:,F:S313Y7J1,2ABCZ4FE;Z.V.G<b>7</b>Q<b>B</b>JSW,50M<b>/</b>8128N2I8LUMMIIQ/#I8B4X0<br>VM.C74MNKGI;G;W68M;XMGAF840VQHKZVXLLV<b>G</b>W<b>7</b>RTZ209H<b>4</b>7PZMAQV01G96CK<br>K2D,1TSRS<b>S</b>P8YUDUO.<b>P</b>G;PH#NWHI;8#1IIHT7R4MPP9CA<b>/</b>C2FK8.N,E:7NQJ96<br>3LX;F/,;AN6TUJUH:RTO1XBZMX25L;SO2S9/22FG<b>F</b>99O1;VV,ECWY;<b>8</b>XH#P8KY<br>SDHJL<b>;</b>.CMN66:RT3QZVFONY1DP.:#KU1724AJF7G;50MF:2,TZTEIZHA.4ANJY<br>TZFMHR8YJIL<b>Z</b>;FCHE/IJY#ZUP6QV:YVGK237JM1MBMI4VXHI43QVHAX4K3<b>;</b>LIY<br>8B#JHLI4DCJ,.74S;#H11BD7YTE:Z.12ZEX#K#EI2<b>;</b>PBE:Z5<b>T</b>U,.MDWB38DTUR<br>I:KTMPSX15TLRFE1<b>C</b>5Q4SMRBJC5,E9UC0812K/:QP25<b>Q</b>6DL<b>6</b>,0QBL2PDC7Q,0Q<br>,6D;NC6J1<b>C</b>#J3/C7QPFX7K9V5LZNDW3.NT,LN#RR1Q4NXXP<b>H</b>U:Y1TPM6N/I3:J<br>R:YWS7C8ATENWX8/,YSRZKPVJQ3BHER,TU<b>E</b>WXQLY<b>X</b>N<b>8</b>2#E:<b>Y</b>IRXBMQP2A,33VG<br>UNKK74#29U0EGT:<b>.</b>7.QZ8UNI#IRI7OAIR8Y<b>I</b>HM2HB.E9Z#4NJGQ/URJZOMQJTA<br>.M##3D77MP:DB2EBT<b>;</b>N<b>X</b>1P,2G.#<b>7</b>4UXRX:R9GN<b>N</b>INGX<b>/</b>ZZ2<b>N</b>L5UOLEUWA897:8<br>4H;;YY<b>4</b>C:<b>5</b>DJV7.ZI,L9JGQCQW<b>2</b>/RP3,ED3EJLCOH77,98M/V86NI5IQ7TEX#E<br>/7;HW#5HSF;.#:XSRA<b>P</b>XQR5GN<b>X</b>BWBJX09OZOHE991NJG<b>F</b>9Q.H<b>J</b>XB#2G0EI0SP#</div>
@@ -243,17 +255,78 @@ p{font-size:29px;line-height:1.3;color:var(--ink);max-width:30ch;position:relati
 </div>
 
 <div class="card doc">
-  <div class="kick">02 — The opportunity board</div>
-  <h1>Eight categories, and the<br>word each one is losing on</h1>
-  <p class="lede">Bars are weighted log-odds — how decisively a word separates a one-star review
-  from a five-star one, on a shared scale across all eight. Every word was read back against real
-  low-rated sentences before it was allowed on this page.</p>
-  <div class="scale">
-    <span class="skey"><i style="background:#f2247a"></i>drives complaints</span>
-    <span class="skey"><i style="background:#5b5580"></i>drives loyalty</span>
-    <span>Longer bar = harder evidence · shared scale, max z = 4.2 (“china”)</span>
+  <div class="kick">02 — What to do about it</div>
+  <h1>Five plays, an owner<br>for each, sized by evidence</h1>
+  <p class="lede">Ranked by how many reviews the fix touches. “Impact” is the estimated star drag
+  this issue carries in the categories where it appears — a triage order, not a forecast.</p>
+
+  <div class="board">
+    <div class="plays">
+      <div class="phead"><span class="c1">#</span><span class="c2">The play — and what customers actually said</span>
+        <span class="c3">Owner</span><span class="c4">Reviews · impact</span></div>
+
+      <div class="prow"><span class="c1">1</span>
+        <span class="c2"><b>Make the back of the pack match the front</b>
+        <q>the first ingredient in this formulation is mineral oil — olive oil is the fourth</q></span>
+        <span class="c3"><span class="own">Brand · Regulatory</span></span>
+        <span class="c4"><span class="imp">206</span><div class="sub">reviews · 5 categories · −0.06★</div>
+        <div class="ibar"><i style="width:100%"></i></div></span></div>
+
+      <div class="prow"><span class="c1">2</span>
+        <span class="c2"><b>Publish brew strength and machine fit on coffee listings</b>
+        <q>very weak … they recommend brewing at the 6 oz size, and even that is still weak</q></span>
+        <span class="c3"><span class="own">Ecommerce · Content</span></span>
+        <span class="c4"><span class="imp">157</span><div class="sub">reviews · largest category · −0.16★</div>
+        <div class="ibar"><i style="width:76%"></i></div></span></div>
+
+      <div class="prow"><span class="c1">3</span>
+        <span class="c2"><b>Disclose country of origin on pet lines</b>
+        <q>i am downgrading from 5 star to 1 star because they are made in china</q></span>
+        <span class="c3"><span class="own">Sourcing · Brand</span></span>
+        <span class="c4"><span class="imp">112</span><div class="sub">reviews · strongest signal · −0.11★</div>
+        <div class="ibar"><i style="width:54%"></i></div></span></div>
+
+      <div class="prow"><span class="c1">4</span>
+        <span class="c2"><b>Reformulate two tea SKUs — peach and green</b>
+        <q>tastes like it was flavored with peach-scented soap</q></span>
+        <span class="c3"><span class="own">Product dev</span></span>
+        <span class="c4"><span class="imp">86</span><div class="sub">reviews · 2 SKUs · −0.16★</div>
+        <div class="ibar"><i style="width:42%"></i></div></span></div>
+
+      <div class="prow"><span class="c1">5</span>
+        <span class="c2"><b>Audit date rotation and seal integrity</b>
+        <q>i returned these because the expiration date was the day i received them</q></span>
+        <span class="c3"><span class="own">Supply chain</span></span>
+        <span class="c4"><span class="imp">59</span><div class="sub">reviews · 4 categories · −0.12★</div>
+        <div class="ibar"><i style="width:29%"></i></div></span></div>
+
+      <div class="prow up"><span class="c1">+</span>
+        <span class="c2"><b>Stop treating “I can’t find it” as a complaint</b>
+        <q>my favorite jerky was the world kitchens brand — but it’s no longer available</q></span>
+        <span class="c3"><span class="own">Channel · Supply</span></span>
+        <span class="c4"><span class="imp">+0.22★</span><div class="sub">rating <b>above</b> average · p=0.03</div>
+        <div class="ibar"><i style="width:34%"></i></div></span></div>
+    </div>
+
+    <div class="mk">
+      <h4><span>For marketing — say more of this</span>Words your five-star reviewers use</h4>
+      <div class="wds"><span>morning</span><span>rich</span><span>aroma</span><span>refreshing</span>
+        <span>energy</span><span>dog loves</span><span>teeth</span><span>gluten free</span>
+        <span>calories</span><span>mint</span><span>cinnamon</span><span>honey</span>
+        <span>dark chocolate</span><span>coconut oil</span><span>hot sauce</span></div>
+
+      <h4><span>Claims that cost you</span>What the copy promised, and the reply</h4>
+      <div class="stop"><b>“Sugar free” · candy</b>
+        <i>“bought this for my diabetic uncle … it ended up having tons of sugar”</i></div>
+      <div class="stop"><b>“Buttery” · snacks</b>
+        <i>“not buttery as advertised; they just taste greasy with little flavor”</i></div>
+      <div class="stop"><b>Flavour naming · snacks</b>
+        <i>“should have been called vinegar and sea salt — not sea salt and vinegar”</i></div>
+      <div class="stop"><b>Origin omitted · protein</b>
+        <i>“nowhere in the product description is the country of origin listed”</i></div>
+    </div>
   </div>
-  <div class="kgrid"><div class="kc"><div class="kh"><b>coffee</b><span>4.2★ · 634 rev</span></div><div class="bars"><div class="br"><span class="bw">weak</span><span class="bt"><i class="bar neg" style="width:90.1%"></i></span><span class="bz">3.7</span></div><div class="br"><span class="bw">serving</span><span class="bt"><i class="bar neg" style="width:84.3%"></i></span><span class="bz">3.5</span></div><div class="br"><span class="bw">description</span><span class="bt"><i class="bar neg" style="width:73.0%"></i></span><span class="bz">3.0</span></div><div class="br"><span class="bw">machine</span><span class="bt"><i class="bar neg" style="width:69.6%"></i></span><span class="bz">2.9</span></div><div class="br"><span class="bw">pods</span><span class="bt"><i class="bar neg" style="width:63.9%"></i></span><span class="bz">2.6</span></div><div class="bsplit"></div><div class="br"><span class="bw pos">morning</span><span class="bt"><i class="bar pos" style="width:47.2%"></i></span><span class="bz pos">2.0</span></div><div class="br"><span class="bw pos">rich</span><span class="bt"><i class="bar pos" style="width:39.5%"></i></span><span class="bz pos">1.6</span></div><div class="br"><span class="bw pos">aroma</span><span class="bt"><i class="bar pos" style="width:34.0%"></i></span><span class="bz pos">1.4</span></div></div><div class="opp">All five are <b>format or strength</b> — pods that don't fit the machine, packets that brew thin. An unset expectation, not bad coffee.</div></div><div class="kc"><div class="kh"><b>snack</b><span>4.34★ · 558 rev</span></div><div class="bars"><div class="br"><span class="bw">sea salt</span><span class="bt"><i class="bar neg" style="width:71.1%"></i></span><span class="bz">3.0</span></div><div class="br"><span class="bw">oil</span><span class="bt"><i class="bar neg" style="width:68.0%"></i></span><span class="bz">2.8</span></div><div class="br"><span class="bw">cardboard</span><span class="bt"><i class="bar neg" style="width:52.3%"></i></span><span class="bz">2.2</span></div><div class="br"><span class="bw">salt</span><span class="bt"><i class="bar neg" style="width:49.6%"></i></span><span class="bz">2.1</span></div><div class="br"><span class="bw">greasy</span><span class="bt"><i class="bar neg" style="width:48.7%"></i></span><span class="bz">2.0</span></div><div class="bsplit"></div><div class="br"><span class="bw pos">calories</span><span class="bt"><i class="bar pos" style="width:32.8%"></i></span><span class="bz pos">1.4</span></div><div class="br"><span class="bw pos">low</span><span class="bt"><i class="bar pos" style="width:32.8%"></i></span><span class="bz pos">1.4</span></div><div class="br"><span class="bw pos">gluten free</span><span class="bt"><i class="bar pos" style="width:31.3%"></i></span><span class="bz pos">1.3</span></div></div><div class="opp">“Sea salt” is a <b>labelling dispute</b> — buyers say the flavour is named backwards. Oil and grease do the rest.</div></div><div class="kc"><div class="kh"><b>drink</b><span>4.16★ · 436 rev</span></div><div class="bars"><div class="br"><span class="bw">worth</span><span class="bt"><i class="bar neg" style="width:59.3%"></i></span><span class="bz">2.5</span></div><div class="br"><span class="bw">received</span><span class="bt"><i class="bar neg" style="width:59.3%"></i></span><span class="bz">2.5</span></div><div class="br"><span class="bw">tasted</span><span class="bt"><i class="bar neg" style="width:48.0%"></i></span><span class="bz">2.0</span></div><div class="br"><span class="bw">money</span><span class="bt"><i class="bar neg" style="width:45.8%"></i></span><span class="bz">1.9</span></div><div class="br"><span class="bw">strange</span><span class="bt"><i class="bar neg" style="width:45.5%"></i></span><span class="bz">1.9</span></div><div class="bsplit"></div><div class="br"><span class="bw pos">energy</span><span class="bt"><i class="bar pos" style="width:42.7%"></i></span><span class="bz pos">1.8</span></div><div class="br"><span class="bw pos">real</span><span class="bt"><i class="bar pos" style="width:35.7%"></i></span><span class="bz pos">1.5</span></div><div class="br"><span class="bw pos">refreshing</span><span class="bt"><i class="bar pos" style="width:33.7%"></i></span><span class="bz pos">1.4</span></div></div><div class="opp">Watered down, strange aftertaste, <b>not worth the cost</b> — and “received” flags batch-to-batch inconsistency, not a recipe fault.</div></div><div class="kc"><div class="kh"><b>baby & pet</b><span>4.17★ · 431 rev</span></div><div class="bars"><div class="br"><span class="bw">china</span><span class="bt"><i class="bar neg" style="width:100.0%"></i></span><span class="bz">4.2</span></div><div class="br"><span class="bw">stopped</span><span class="bt"><i class="bar neg" style="width:67.5%"></i></span><span class="bz">2.8</span></div><div class="br"><span class="bw">problem</span><span class="bt"><i class="bar neg" style="width:46.3%"></i></span><span class="bz">1.9</span></div><div class="br"><span class="bw">upset</span><span class="bt"><i class="bar neg" style="width:40.7%"></i></span><span class="bz">1.7</span></div><div class="bsplit"></div><div class="br"><span class="bw pos">dog loves</span><span class="bt"><i class="bar pos" style="width:41.2%"></i></span><span class="bz pos">1.7</span></div><div class="br"><span class="bw pos">healthy</span><span class="bt"><i class="bar pos" style="width:41.2%"></i></span><span class="bz pos">1.7</span></div><div class="br"><span class="bw pos">teeth</span><span class="bt"><i class="bar pos" style="width:31.3%"></i></span><span class="bz pos">1.3</span></div></div><div class="opp"><b>The strongest signal in the entire dataset.</b> Owners link country of origin to illness and stop buying. Sourcing is the product.</div></div><div class="kc"><div class="kh"><b>tea</b><span>4.38★ · 334 rev</span></div><div class="bars"><div class="br"><span class="bw">peach</span><span class="bt"><i class="bar neg" style="width:67.7%"></i></span><span class="bz">2.8</span></div><div class="br"><span class="bw">green tea</span><span class="bt"><i class="bar neg" style="width:46.3%"></i></span><span class="bz">1.9</span></div><div class="br"><span class="bw">brewed</span><span class="bt"><i class="bar neg" style="width:46.0%"></i></span><span class="bz">1.9</span></div><div class="br"><span class="bw">weak</span><span class="bt"><i class="bar neg" style="width:41.9%"></i></span><span class="bz">1.7</span></div><div class="bsplit"></div><div class="br"><span class="bw pos">mint</span><span class="bt"><i class="bar pos" style="width:24.6%"></i></span><span class="bz pos">1.0</span></div><div class="br"><span class="bw pos">cinnamon</span><span class="bt"><i class="bar pos" style="width:22.2%"></i></span><span class="bz pos">0.9</span></div><div class="br"><span class="bw pos">honey</span><span class="bt"><i class="bar pos" style="width:22.2%"></i></span><span class="bz pos">0.9</span></div></div><div class="opp">Two named failures: peach “tastes like soap”, and green tea bags hold <b>half the leaf</b> of rivals. Fill weight and two SKUs.</div></div><div class="kc"><div class="kh"><b>candy</b><span>4.27★ · 285 rev</span></div><div class="bars"><div class="br"><span class="bw">artificial</span><span class="bt"><i class="bar neg" style="width:41.9%"></i></span><span class="bz">1.7</span></div><div class="br"><span class="bw">money</span><span class="bt"><i class="bar neg" style="width:41.7%"></i></span><span class="bz">1.7</span></div><div class="br"><span class="bw">sugar</span><span class="bt"><i class="bar neg" style="width:29.9%"></i></span><span class="bz">1.2</span></div><div class="br"><span class="bw">pieces</span><span class="bt"><i class="bar neg" style="width:24.6%"></i></span><span class="bz">1.0</span></div><div class="br"><span class="bw">diabetic</span><span class="bt"><i class="bar neg" style="width:23.1%"></i></span><span class="bz">1.0</span></div><div class="bsplit"></div><div class="br"><span class="bw pos">dark chocolate</span><span class="bt"><i class="bar pos" style="width:20.5%"></i></span><span class="bz pos">0.8</span></div><div class="br"><span class="bw pos">fresh</span><span class="bt"><i class="bar pos" style="width:19.5%"></i></span><span class="bz pos">0.8</span></div><div class="br"><span class="bw pos">cherry</span><span class="bt"><i class="bar pos" style="width:18.8%"></i></span><span class="bz pos">0.8</span></div></div><div class="opp">“Pieces” = <b>arrived broken</b>. “Diabetic” = sugar-free promised, not delivered. Neither failure is about flavour.</div></div><div class="kc"><div class="kh"><b>condiments</b><span>4.13★ · 236 rev</span></div><div class="bars"><div class="br"><span class="bw">tasted</span><span class="bt"><i class="bar neg" style="width:48.7%"></i></span><span class="bz">2.0</span></div><div class="br"><span class="bw">artificial</span><span class="bt"><i class="bar neg" style="width:45.1%"></i></span><span class="bz">1.9</span></div><div class="br"><span class="bw">xylitol</span><span class="bt"><i class="bar neg" style="width:35.2%"></i></span><span class="bz">1.5</span></div><div class="br"><span class="bw">ingredient</span><span class="bt"><i class="bar neg" style="width:29.2%"></i></span><span class="bz">1.2</span></div><div class="br"><span class="bw">box</span><span class="bt"><i class="bar neg" style="width:29.2%"></i></span><span class="bz">1.2</span></div><div class="bsplit"></div><div class="br"><span class="bw pos">coconut oil</span><span class="bt"><i class="bar pos" style="width:32.8%"></i></span><span class="bz pos">1.4</span></div><div class="br"><span class="bw pos">sugar free</span><span class="bt"><i class="bar pos" style="width:23.1%"></i></span><span class="bz pos">1.0</span></div><div class="br"><span class="bw pos">hot sauce</span><span class="bt"><i class="bar pos" style="width:22.9%"></i></span><span class="bz pos">0.9</span></div></div><div class="opp">Buyers read the panel: <b>“first ingredient is mineral oil — olive oil is fourth.”</b> The front of pack and the back disagree.</div></div><div class="kc"><div class="kh"><b>protein snacks</b><span>3.88★ · 137 rev</span></div><div class="bars"><div class="br"><span class="bw">description</span><span class="bt"><i class="bar neg" style="width:48.7%"></i></span><span class="bz">2.0</span></div><div class="br"><span class="bw">date</span><span class="bt"><i class="bar neg" style="width:45.3%"></i></span><span class="bz">1.9</span></div><div class="br"><span class="bw">bag</span><span class="bt"><i class="bar neg" style="width:40.0%"></i></span><span class="bz">1.7</span></div><div class="br"><span class="bw">texture</span><span class="bt"><i class="bar neg" style="width:31.3%"></i></span><span class="bz">1.3</span></div><div class="br"><span class="bw">expiration date</span><span class="bt"><i class="bar neg" style="width:23.4%"></i></span><span class="bz">1.0</span></div><div class="bsplit"></div><div class="br"><span class="bw pos">bar</span><span class="bt"><i class="bar pos" style="width:28.7%"></i></span><span class="bz pos">1.2</span></div><div class="br"><span class="bw pos">hazelnut</span><span class="bt"><i class="bar pos" style="width:22.7%"></i></span><span class="bz pos">0.9</span></div><div class="br"><span class="bw pos">almond</span><span class="bt"><i class="bar pos" style="width:21.4%"></i></span><span class="bz pos">0.9</span></div></div><div class="opp">Lowest-rated category, and <b>no complaint word is about the recipe.</b> Stock arriving at its expiry date, bags split at the seam.</div></div></div>
+
   <div class="oneline">
     <span class="tag">Same board, any channel</span>
     <span class="txt">Two models per message — which aspect, how negative — so the same board
