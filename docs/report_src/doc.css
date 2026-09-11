@@ -1,0 +1,60 @@
+
+/* ─────────── report pages, same system as the cover ─────────── */
+@page { size: 1200px 627px; margin: 0; }
+.sheet { gap: 0 !important; padding: 0 !important; }
+.card { page-break-after: always; }
+.card:last-child { page-break-after: auto; }
+.doc { --bg:#f5f3ec; --title:#262048; --ink:#262048; --hot:#f2247a; --mute:#6b6780;
+       --line:#d8d3c4; --chip:#eceade;
+       padding:34px 52px 40px !important; display:block !important; }
+.doc .kick { font-family:Plex; font-size:13px; letter-spacing:.18em; text-transform:uppercase;
+             color:var(--hot); font-weight:500; margin-bottom:7px; }
+.doc h1 { font-family:Anton; font-size:40px !important; line-height:.93 !important;
+          letter-spacing:-.02em !important; color:var(--title); display:block !important;
+          text-transform:uppercase; margin:0 0 8px 0; }
+.doc .lede { font-size:13.5px !important; line-height:1.38; color:#3b3856; max-width:none !important;
+             margin:0 0 4px 0 !important; }
+.doc b { font-weight:700; color:var(--title); }
+.doc .hot { color:var(--hot); }
+.doc .mono { font-family:Plex; }
+
+/* flowchart */
+.lane { margin-top:10px; }
+.lanetag { font-family:Plex; font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+           color:var(--mute); margin-bottom:5px; display:flex; align-items:center; gap:10px; }
+.lanetag:after { content:""; flex:1; height:1px; background:var(--line); }
+.nodes { display:flex; align-items:stretch; gap:0; }
+.node { flex:1; border:1.5px solid var(--line); border-radius:4px; background:#fbfaf5;
+        padding:7px 9px; position:relative; }
+.node.key { border-color:var(--hot); border-width:2px; background:#fdf3f7; }
+.node h3 { font-size:11.8px; font-weight:700; line-height:1.14; margin:0 0 3px 0; letter-spacing:-.01em;
+           color:var(--title); }
+.node .spec { font-family:Plex; font-size:8.6px; line-height:1.3; color:var(--hot);
+              letter-spacing:0; margin-bottom:3px; }
+.node .desc { font-size:9.6px; line-height:1.32; color:#4a4763; margin:0; }
+.conn { width:20px; flex:0 0 20px; display:flex; align-items:center; justify-content:center;
+        color:#bfb9a8; font-size:15px; }
+.drop { display:flex; justify-content:center; color:#bfb9a8; font-size:12px; margin:1px 0 -2px 0; }
+.outrow { display:flex; gap:10px; margin-top:9px; }
+.out { flex:1; background:var(--chip); border-left:3px solid var(--hot); padding:6px 9px; }
+.out h4 { font-size:11px; margin:0 0 2px 0; font-weight:700; color:var(--title); }
+.out p { font-size:9.6px !important; line-height:1.32; color:#4a4763; margin:0 !important;
+         max-width:none !important; }
+
+/* page 3 */
+.two { display:flex; gap:26px; margin-top:12px; }
+.two > div { flex:1; }
+.two.w > :first-child { flex:1.15; }
+.h3 { font-size:14px; font-weight:700; margin:0 0 6px 0; color:var(--title); letter-spacing:-.01em; }
+.rows { border-top:2px solid var(--title); }
+.rw { display:flex; gap:12px; padding:6px 0; border-bottom:1px solid var(--line); }
+.rw .w1 { flex:0 0 118px; font-size:11.5px; font-weight:700; color:var(--title); line-height:1.3; }
+.rw .w2 { flex:1; font-size:10.8px; line-height:1.38; color:#4a4763; }
+.risk { border-top:2px solid var(--hot); }
+.risk .w1 { color:var(--hot); }
+.band2 { background:var(--chip); border-left:3px solid var(--hot); padding:9px 13px; margin-top:11px; }
+.band2 p { font-size:11.5px !important; line-height:1.42; margin:0 !important; color:#3b3856;
+           max-width:none !important; }
+.pfoot { position:absolute; left:52px; right:52px; bottom:14px; font-family:Plex; font-size:9px;
+         letter-spacing:.1em; text-transform:uppercase; color:var(--mute); display:flex;
+         justify-content:space-between; border-top:1px solid var(--line); padding-top:7px; }

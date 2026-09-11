@@ -1,0 +1,99 @@
+<div class="card doc">
+  <div class="kick">01 — How it works</div>
+  <h1>What happens between<br>the review and the answer</h1>
+  <p class="lede">Nothing here is a prompt to a chatbot. Four models do four narrow jobs, each one
+  checkable on its own, and every judgement call is frozen to a file that lives in version control.</p>
+
+  <div class="lane">
+    <div class="lanetag">Stage one — build a taxonomy from the data, not from a workshop</div>
+    <div class="nodes">
+      <div class="node"><h3>Split into sentences</h3>
+        <div class="spec">4,173 reviews → 9,954 sentences</div>
+        <p class="desc">A mixed review stops being one verdict and becomes several separate claims.</p></div>
+      <div class="conn">→</div>
+      <div class="node"><h3>Embed each sentence</h3>
+        <div class="spec">BGE-small-en-v1.5 · 384-dim · CLS pooled, L2-normalised · local GPU</div>
+        <p class="desc">Meaning becomes geometry, so sentences saying the same thing land near each other.</p></div>
+      <div class="conn">→</div>
+      <div class="node"><h3>Cluster to discover themes</h3>
+        <div class="spec">spherical k-means · k=24 chosen by silhouette</div>
+        <p class="desc">Density clustering was tried first and rejected: 2 clusters, 90% noise.</p></div>
+      <div class="conn">→</div>
+      <div class="node key"><h3>Name once, then freeze</h3>
+        <div class="spec">taxonomy.json · 16 aspects · git-tracked</div>
+        <p class="desc">An LLM reads cluster exemplars and writes the taxonomy <b>one time</b>. Labels are never regenerated at runtime, so a theme cannot silently change meaning.</p></div>
+    </div>
+  </div>
+
+  <div class="drop">↓</div>
+
+  <div class="lane">
+    <div class="lanetag">Stage two — measure every sentence against that fixed taxonomy</div>
+    <div class="nodes">
+      <div class="node key"><h3>Assign themes</h3>
+        <div class="spec">DeBERTa-v3 zero-shot NLI · 9,954 × 16 = 159,264 entailment passes · multi-label, τ=0.50</div>
+        <p class="desc">Each sentence is tested against each written definition. It can match several aspects, or none — 20.7% match nothing and are excluded rather than forced.</p></div>
+      <div class="conn">+</div>
+      <div class="node key"><h3>Score polarity</h3>
+        <div class="spec">RoBERTa (review-tuned) · continuous −1 … +1</div>
+        <p class="desc">Per sentence, never inherited from the star rating. This is the step that recovers complaints buried inside positive reviews.</p></div>
+      <div class="conn">→</div>
+      <div class="node"><h3>Weight by outcome</h3>
+        <div class="spec">OLS · review-level · category + year fixed effects · HC1 robust SE</div>
+        <p class="desc">Ranks aspects by association with the rating, with confidence intervals — not by how loud they are.</p></div>
+      <div class="conn">→</div>
+      <div class="node"><h3>Extract language</h3>
+        <div class="spec">weighted log-odds · informative Dirichlet prior</div>
+        <p class="desc">Which words genuinely distinguish praise from complaint. TF-IDF cannot answer this.</p></div>
+    </div>
+  </div>
+
+  <div class="outrow">
+    <div class="out"><h4>Audited, not asserted</h4>
+      <p>102 sentences judged by hand: <b>88.2%</b> theme accuracy (CI 80.6–93.1), <b>95.1%</b> polarity. Two earlier designs scored 56.2% and 82.4% and are documented.</p></div>
+    <div class="out"><h4>Claims checked mechanically</h4>
+      <p>Every number in every generated brief is parsed and matched to its evidence before it renders. 103 claims, 0 unmatched — and it has caught real errors.</p></div>
+    <div class="out"><h4>Runs anywhere</h4>
+      <p>No API key, no vendor, no per-call cost. Every model is open-weight and runs on a laptop GPU; outputs are committed so the dashboard opens instantly.</p></div>
+  </div>
+  <div class="pfoot"><span>UGC &amp; Trend Analyzer</span><span>Frank Fu · July 2025</span><span>02</span></div>
+</div>
+
+<div class="card doc">
+  <div class="kick">02 — Why it matters</div>
+  <h1>The score tells you who left.<br>The text tells you why.</h1>
+  <p class="lede">Every organisation with a rating already knows its number went down. None of them
+  learn the reason from the number. This reads the sentence instead — which is where the reason
+  always was.</p>
+
+  <div class="two w">
+    <div>
+      <div class="h3">Where the same problem exists today</div>
+      <div class="rows">
+        <div class="rw"><div class="w1">Live comment streams</div><div class="w2">Comments arrive faster than anyone can read them. Aspect + polarity per comment turns a feed into a live count of <b>which specific thing</b> people are reacting to — separating a pricing backlash from a delivery outage within minutes, not at the next review cycle.</div></div>
+        <div class="rw"><div class="w1">Support &amp; CSAT</div><div class="w2">Ticket text inherits the survey score, so friction inside "satisfied" tickets is never counted. The same fix applies, and the outcome you weight against becomes renewal.</div></div>
+        <div class="rw"><div class="w1">App store &amp; marketplace</div><div class="w2">A five-star review naming a missing feature is the best product input a team receives, and exactly what a star-weighted dashboard throws away.</div></div>
+        <div class="rw"><div class="w1">Employee &amp; patient surveys</div><div class="w2">Free text beside eNPS or an overall score. Because themes are aspects rather than moods, "manager support" or "discharge communication" can be tracked as improving or worsening over time.</div></div>
+        <div class="rw"><div class="w1">Regulated complaints</div><div class="w2">Narratives needing triage and an audit trail. A published error rate and an explicit "unassigned" class are what make such a model defensible to a reviewer.</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="h3">What has to be true before anyone trusts it</div>
+      <div class="rows risk">
+        <div class="rw"><div class="w1">Silent mislabelling</div><div class="w2">A classifier that never abstains will file chatter under a real theme. Guard: an explicit unassigned class, and a hand-judged accuracy figure published beside every result.</div></div>
+        <div class="rw"><div class="w1">False causation</div><div class="w2">Polarity is read from the same text that produced the score, so the link is mechanical. This is a triage order, never "fix X and the rating rises". Stated in those words.</div></div>
+        <div class="rw"><div class="w1">Thin slices</div><div class="w2">Small segments produce confident nonsense. Guard: sample-size floors that make the system <b>decline to answer</b> — four of fourteen categories here report no language analysis at all.</div></div>
+        <div class="rw"><div class="w1">Drifting definitions</div><div class="w2">If a model renames themes on each run, no trend is real. Guard: the taxonomy is frozen in version control, so any change to a theme appears in a diff.</div></div>
+        <div class="rw"><div class="w1">Confident prose</div><div class="w2">Generated summaries are fluent whether or not they are right. Guard: every numeric claim is machine-checked against the evidence, and the checker's own blind spot is documented.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="band2"><p><b>What it takes to point this at something else:</b> free text, a numeric
+  outcome, and a few thousand rows. Only the taxonomy is rewritten — an afternoon — and every
+  stage after it is unchanged. <b>The finding that makes it worth doing:</b> 17.5% of sentences
+  inside five-star reviews are complaints. Those are the problems your happiest customers are
+  telling you about, and the score is hiding all of them.</p></div>
+  <div class="pfoot"><span>UGC &amp; Trend Analyzer</span><span>Frank Fu · July 2025</span><span>03</span></div>
+</div>
