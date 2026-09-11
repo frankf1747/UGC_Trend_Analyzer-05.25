@@ -52,8 +52,8 @@
 .rw .w2 { flex:1; font-size:10.8px; line-height:1.38; color:#4a4763; }
 .risk { border-top:2px solid var(--hot); }
 .risk .w1 { color:var(--hot); }
-.band2 { background:var(--chip); border-left:3px solid var(--hot); padding:9px 13px; margin-top:11px; }
-.band2 p { font-size:11.5px !important; line-height:1.42; margin:0 !important; color:#3b3856;
+.band2 { background:var(--chip); border-left:3px solid var(--hot); padding:7px 12px; margin-top:7px; }
+.band2 p { font-size:10.8px !important; line-height:1.38; margin:0 !important; color:#3b3856;
            max-width:none !important; }
 .pfoot { position:absolute; left:52px; right:52px; bottom:14px; font-family:Plex; font-size:9px;
          letter-spacing:.1em; text-transform:uppercase; color:var(--mute); display:flex;
@@ -67,8 +67,13 @@
 .find .t { font-size:11px; font-weight:700; color:var(--title); margin:4px 0 3px 0; line-height:1.2; }
 .find .d { font-size:9.6px; line-height:1.34; color:#4a4763; }
 .secttl { font-family:Plex; font-size:10px; letter-spacing:.14em; text-transform:uppercase;
-          color:var(--mute); margin:13px 0 6px 0; display:flex; align-items:center; gap:9px; }
+          color:var(--mute); margin:10px 0 5px 0; display:flex; align-items:center; gap:9px; }
 .secttl:after { content:""; flex:1; height:1px; background:var(--line); }
-.rw.tight { padding:4.5px 0; }
+.rw.tight { padding:3.8px 0; }
 .rw.tight .w1 { flex:0 0 104px; font-size:10.8px; }
 .rw.tight .w2 { font-size:10px; line-height:1.34; }
+.find .act { margin-top:5px; padding-top:5px; border-top:1px dotted #cfc8b6;
+             font-size:9.4px; line-height:1.34; color:#3b3856; }
+.find .act em { font-family:Plex; font-style:normal; font-size:8.2px; letter-spacing:.12em;
+                text-transform:uppercase; color:var(--hot); font-weight:500; display:block;
+                margin-bottom:2px; }
