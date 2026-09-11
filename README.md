@@ -2,7 +2,7 @@
 
 **Reads 4,173 customer reviews and says what to fix, what to feature, and what words to sell it in.**
 
-July 2025 · Amazon Fine Food Reviews · Python, PyTorch, scikit-learn, statsmodels, Streamlit
+May 2025 · Amazon Fine Food Reviews · Python, PyTorch, scikit-learn, statsmodels, Streamlit
 
 ---
 
