@@ -1,0 +1,72 @@
+{
+ "coffee": {
+  "headline": "634 reviews, averaging 4.20\u2605. Taste carries the category \u2014 and the complaint vocabulary says exactly what goes wrong with it: the word that most distinguishes a low-rated coffee review from a high-rated one is \u201cweak\u201d.",
+  "fix_argument": "Taste complaints appear in 25% of coffee reviews and account for an estimated 0.16\u2605 of drag on the category average \u2014 more than the next four fixable themes combined. The costliest single complaint is a different one: when a coffee arrives stale or unlike its description, that review runs 0.84\u2605 lower, but it only happens in 6% of reviews, so it contributes 0.05\u2605 overall. Fix taste consistency for reach; fix condition for severity.",
+  "language_argument": "Praise runs on \u201cmorning\u201d, \u201crich\u201d and \u201cblend\u201d \u2014 ritual and body. Complaint runs on \u201cweak\u201d, \u201cdescription\u201d and \u201cmachine\u201d. Both complaint terms point the same way: the coffee under-delivered against what the listing promised, rather than being bad in the abstract. Lead with strength and brew guidance, not with adjectives."
+ },
+ "snack": {
+  "headline": "558 reviews at 4.34\u2605 \u2014 a well-liked category where the complaints are unusually specific: \u201csea salt\u201d and \u201coil\u201d are among the strongest markers of a low-rated review.",
+  "fix_argument": "Taste complaints reach 21% of reviews and cost an estimated 0.14\u2605. Ingredients follow at 13% prevalence and 0.04\u2605 \u2014 high for this category, and consistent with a shopper reading the label before the packet. Condition problems are rarer (6%) but carry the heaviest per-review penalty at 0.84\u2605.",
+  "language_argument": "The praise vocabulary is diet-aware \u2014 \u201ccalories\u201d, \u201clow\u201d \u2014 while the complaint side names specific attributes (\u201csea salt\u201d, \u201coil\u201d, \u201cawful\u201d). That asymmetry is a gift: people are telling you which formulation choice lost them, not merely that they were unhappy."
+ },
+ "drink": {
+  "headline": "436 reviews at 4.16\u2605, and the most telling word in the whole category sits on the wrong side: \u201cnatural\u201d is among the strongest markers of a *low*-rated drink review.",
+  "fix_argument": "Taste drives 0.15\u2605 of drag at 24% prevalence. Ingredients are unusually prominent here \u2014 17% of reviews complain about them, the second-highest of any category \u2014 for 0.06\u2605. Together they say the same thing: this is a category where the label sets an expectation the liquid has to meet.",
+  "language_argument": "\u201cNatural\u201d appearing on the complaint side is the finding worth acting on. When a natural claim is the thing a reviewer reaches for while giving one star, the claim is being read as a promise about taste and then falling short. \u201cDisappointed\u201d and \u201csmell\u201d sit alongside it. Under-claim on naturalness; over-deliver on flavour."
+ },
+ "baby & pet": {
+  "headline": "431 reviews at 4.17\u2605 and the highest complaint density in the dataset \u2014 35% of sentences are negative. It is also the category where the analysis has to admit what it cannot rank.",
+  "fix_argument": "Pet health effects and pet palatability together dominate the conversation \u2014 413 mentions of health effects and 144 of palatability, the latter 53.5% negative \u2014 but neither shows a statistically reliable association with the star rating, so neither can be honestly placed on a ranked fix list. What can be ranked is taste (18% prevalence, 0.11\u2605 drag) and ingredients (8%, 0.03\u2605). The absence is itself informative: owners describe their animal's reaction at length, but that reaction does not translate cleanly into stars.",
+  "language_argument": "The single strongest complaint marker in this category is \u201cchina\u201d. Country of origin is doing real work in how pet owners judge a product, independently of the product itself. Praise runs on \u201cloves\u201d, \u201chealthy\u201d, \u201cdog loves\u201d \u2014 the animal's verdict, reported secondhand."
+ },
+ "tea": {
+  "headline": "334 reviews at 4.38\u2605, the highest-rated substantial category \u2014 and the one that shows most clearly why a complaint is not always a problem.",
+  "fix_argument": "Taste complaints, at 26% prevalence, carry 0.16\u2605 of drag and are the whole fix list of consequence. Ingredients and packaging together add 0.05\u2605. But the more interesting number is a positive one: complaints about being unable to find a tea are associated with a rating 0.22\u2605 *higher*, not lower. Scarcity complaints in tea come from devotees. Treat them as a distribution signal, not a defect.",
+  "language_argument": "Complaint terms are comparative \u2014 \u201ctaste like\u201d, \u201ccompared\u201d, \u201cdoesn't taste\u201d \u2014 reviewers measuring a tea against one they already know. Praise is possessive: \u201cfavorite\u201d, \u201cenjoy\u201d, \u201cbest\u201d. In a category where people arrive with a reference point, naming the reference beats describing the flavour."
+ },
+ "candy": {
+  "headline": "285 reviews at 4.27\u2605, with the highest taste-complaint prevalence of any category \u2014 28% of reviews say the flavour was wrong.",
+  "fix_argument": "That taste prevalence produces 0.18\u2605 of drag, the largest single-theme figure in the dataset outside condiments. Condition adds 0.05\u2605 at 6% prevalence \u2014 in candy, arriving melted or stale is a real and separate failure. Ingredients contribute 0.03\u2605.",
+  "language_argument": "\u201cArtificial\u201d is among the strongest complaint markers, sitting directly opposite \u201cdelicious\u201d and \u201cchocolate\u201d on the praise side. \u201cMoney\u201d also appears on the complaint side, which in a low-ticket category usually signals a portion or count disappointment rather than a price objection."
+ },
+ "staples": {
+  "headline": "256 reviews at 4.38\u2605 \u2014 a category bought on specification rather than impulse, and the language shows it: \u201cgluten free\u201d and \u201corganic\u201d are among the strongest praise markers.",
+  "fix_argument": "Taste still leads at 22% prevalence and 0.14\u2605, but ingredients are close behind at 16% prevalence for 0.05\u2605 \u2014 the second-highest ingredient prevalence in the dataset. In a category where people buy to a dietary requirement, the ingredient list is the product.",
+  "language_argument": "Praise names categories and certifications \u2014 \u201cpasta\u201d, \u201cgluten free\u201d, \u201corganic\u201d. Complaints name containers \u2014 \u201cbox\u201d, \u201ccans\u201d, \u201ccup\u201d, \u201cflour\u201d. Buyers here are specifying, and the failures are about what physically arrived versus what was specified."
+ },
+ "other": {
+  "headline": "249 uncategorised reviews at 3.90\u2605 \u2014 the lowest-rated group, and the one where packaging fails most often: 48.9% of packaging mentions here are negative.",
+  "fix_argument": "The fix list is unusually flat: taste 0.08\u2605, condition 0.06\u2605, packaging 0.02\u2605. No single theme dominates, which is what a residual category should look like. Condition's 8% prevalence is the second-highest in the dataset \u2014 these are products that frequently arrive wrong.",
+  "language_argument": "Complaint language is procedural \u2014 \u201ccan't\u201d, \u201citem\u201d, \u201cpurchase\u201d, \u201cbrand\u201d \u2014 rather than sensory. People in this bucket are describing transactions that failed, not products they disliked. Read this category as a fulfilment signal more than a product one."
+ },
+ "condiments": {
+  "headline": "236 reviews at 4.13\u2605, carrying the largest taste drag in the dataset: 31% of reviews complain about flavour, for an estimated 0.20\u2605.",
+  "fix_argument": "Taste at 0.20\u2605 and ingredients at 0.07\u2605 \u2014 the highest ingredient prevalence anywhere, 22% \u2014 make this the category where the recipe itself is most often the problem. Price adds 0.03\u2605. Together they describe a category bought for a specific culinary effect, where missing that effect is unforgiving.",
+  "language_argument": "\u201cArtificial\u201d and \u201ctasted\u201d lead the complaints; \u201ccoconut oil\u201d, \u201chot\u201d and \u201ctasting\u201d lead the praise. Reviewers name the ingredient they wanted and the aftertaste they got. Specificity in the listing \u2014 what it tastes of, what it is made from \u2014 is the whole marketing job here."
+ },
+ "protein snacks": {
+  "headline": "137 reviews at 3.88\u2605 \u2014 the lowest-rated category in the dataset, and the only one where how the product *arrived* is a top-two problem.",
+  "fix_argument": "Condition and expectations reach 14% prevalence here \u2014 the highest of any category that clears the 15-review floor for ranking \u2014 producing 0.12\u2605 of drag on top of taste's 0.17\u2605. Of the 26 condition mentions, 84.6% are negative. The complaint vocabulary names the mechanism directly: \u201cdescription\u201d, \u201cdate\u201d, \u201cbag\u201d. These are products arriving close to or past their date, in packaging that failed.",
+  "language_argument": "\u201cTexture\u201d and \u201cdisappointed\u201d round out the complaints \u2014 in protein bars and jerky, texture failure is what staleness feels like to the eater. Fixing date rotation and seal integrity would likely move more stars here than any recipe change."
+ },
+ "seasoning & spice": {
+  "headline": "112 reviews at 4.37\u2605. Well-liked, and thin enough that only the two largest effects can be stated with confidence.",
+  "fix_argument": "Taste complaints at 27% prevalence produce 0.17\u2605 of drag; ingredients at 20% produce 0.07\u2605. Both are high-prevalence for a category with a high mean rating, which suggests a product people mostly love and occasionally find mis-blended.",
+  "language_argument": "No distinguishing-language analysis is reported: with only 13 low-rated reviews, weighted log-odds would be estimating vocabulary differences from a sample too small to be meaningful. Reporting a phrase list here would be inventing precision."
+ },
+ "chocolate": {
+  "headline": "103 reviews at 4.29\u2605, and exactly one theme clears the bar for a ranked recommendation.",
+  "fix_argument": "Taste complaints appear in 28% of reviews and carry 0.18\u2605 of drag. Nothing else in the category reaches both the 15-review floor and statistical significance \u2014 with 103 reviews, that is the honest ceiling on what can be claimed. Texture is 32% negative across 50 mentions and is worth watching as the sample grows.",
+  "language_argument": "Not reported \u2014 13 low-rated reviews is too thin a base for a vocabulary comparison."
+ },
+ "baked goods": {
+  "headline": "91 reviews at 4.28\u2605. The smallest category that still supports a ranked finding, and only just.",
+  "fix_argument": "Taste complaints at 23% prevalence produce 0.15\u2605 of drag. That is the only effect here that survives both the sample-size floor and significance testing. Texture, at 30% negative across 50 mentions, is the obvious second candidate and cannot yet be separated from noise.",
+  "language_argument": "Not reported \u2014 only 13 low-rated reviews, below the threshold for a stable comparison."
+ },
+ "dairy": {
+  "headline": "74 reviews at 4.06\u2605 \u2014 the only category in the dataset where taste is not the leading fixable problem.",
+  "fix_argument": "Ingredients are the single ranked theme, at 20% prevalence for 0.07\u2605 of drag. Taste generates 81 mentions here and is only 21% negative \u2014 behind snack, coffee and tea, and below every other category in the dataset. Dairy buyers appear to like how these products taste and to object to what is in them.",
+  "language_argument": "Not reported \u2014 14 low-rated reviews is too small a base. With a larger sample this is the category whose vocabulary would be most worth revisiting, since the ingredient-over-taste pattern is unusual enough to want confirming."
+ }
+}

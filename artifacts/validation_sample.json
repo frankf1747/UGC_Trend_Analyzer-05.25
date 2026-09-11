@@ -1,0 +1,716 @@
+[
+ {
+  "sent_id": 188,
+  "theme": "Availability & sourcing",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "i have been having difficulty finding this blend at local stores."
+ },
+ {
+  "sent_id": 1179,
+  "theme": "Availability & sourcing",
+  "polarity_label": "positive",
+  "polarity": 0.993,
+  "sentence": "my grandmother used to travel home to japan in the 70's and bring this back with her and then we found a grocer in dc that sold s&b products....."
+ },
+ {
+  "sent_id": 784,
+  "theme": "Availability & sourcing",
+  "polarity_label": "negative",
+  "polarity": -0.991,
+  "sentence": "i was able to find them when visiting in nc but last few times there i could not find them."
+ },
+ {
+  "sent_id": 6924,
+  "theme": "Availability & sourcing",
+  "polarity_label": "positive",
+  "polarity": 0.985,
+  "sentence": "eso es el mismo producto que puede obtener en mexico, pero mandado a su puerta."
+ },
+ {
+  "sent_id": 6145,
+  "theme": "Availability & sourcing",
+  "polarity_label": "positive",
+  "polarity": 0.996,
+  "sentence": "i've even been to the factory outlet in oregon!"
+ },
+ {
+  "sent_id": 9418,
+  "theme": "Availability & sourcing",
+  "polarity_label": "negative",
+  "polarity": -0.961,
+  "sentence": "i bought this brand because my favorite brand was sold out and i thought i would try something new."
+ },
+ {
+  "sent_id": 9093,
+  "theme": "Condition & expectations",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "my husband opened the first bag and threw it out because he thought that it had gone bad."
+ },
+ {
+  "sent_id": 2165,
+  "theme": "Condition & expectations",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "i don't know what that guy was eating but it was not this product."
+ },
+ {
+  "sent_id": 1205,
+  "theme": "Condition & expectations",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "to my amazement, only 3 of the cookies were broken (out of a pack of 4 bags)."
+ },
+ {
+  "sent_id": 9383,
+  "theme": "Condition & expectations",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "the beans barely had a scent when you open the bag and after grinding you just didn't get that fresh ground coffee scent."
+ },
+ {
+  "sent_id": 8695,
+  "theme": "Condition & expectations",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "nor did they come in a box, i got a brown paper bag that someone had thrown whatever hadn't sold well into."
+ },
+ {
+  "sent_id": 8843,
+  "theme": "Condition & expectations",
+  "polarity_label": "negative",
+  "polarity": -0.998,
+  "sentence": "these rawhide bones literally disinegrated into a thousand small shards, occasionally causing my golden to gag on them."
+ },
+ {
+  "sent_id": 7781,
+  "theme": "Health & diet fit",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "my husband is gluten intolerant and he likes these crackers."
+ },
+ {
+  "sent_id": 3185,
+  "theme": "Health & diet fit",
+  "polarity_label": "positive",
+  "polarity": 0.99,
+  "sentence": "the calorie count is a little high for a snack for me, but as a lunch entree, it is low."
+ },
+ {
+  "sent_id": 8952,
+  "theme": "Health & diet fit",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "don't think there is anything wrong with this food just that it is not suited for my dog."
+ },
+ {
+  "sent_id": 1683,
+  "theme": "Health & diet fit",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "i take a glass a day, and then try to make good choices at meal times."
+ },
+ {
+  "sent_id": 6155,
+  "theme": "Health & diet fit",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "it has been difficult finding snacks that she enjoys and can bring to school."
+ },
+ {
+  "sent_id": 1032,
+  "theme": "Health & diet fit",
+  "polarity_label": "positive",
+  "polarity": 0.996,
+  "sentence": "as a vegetarian, i'm always looking for a way to add zing to food."
+ },
+ {
+  "sent_id": 9181,
+  "theme": "Health effects & energy",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "after eating this product, i had a stomach ache followed by hours on the toilet."
+ },
+ {
+  "sent_id": 5681,
+  "theme": "Health effects & energy",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "the coconut oil/shea butter potions are very soothing and have actually cured my formerly perpetually chapped lips and dry hands."
+ },
+ {
+  "sent_id": 7994,
+  "theme": "Health effects & energy",
+  "polarity_label": "negative",
+  "polarity": -0.997,
+  "sentence": "i tryed half a bottle since i didnt want to be all hiped up."
+ },
+ {
+  "sent_id": 6652,
+  "theme": "Health effects & energy",
+  "polarity_label": "positive",
+  "polarity": 0.992,
+  "sentence": "i noticed that the rate at which i sweated had increased significantly and i was very hungry after my workout (i'm pretty sure that that is a good thing)."
+ },
+ {
+  "sent_id": 2817,
+  "theme": "Health effects & energy",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i love to feel the burn as i eat."
+ },
+ {
+  "sent_id": 2937,
+  "theme": "Health effects & energy",
+  "polarity_label": "negative",
+  "polarity": -0.986,
+  "sentence": "i had very painful cramps with very heavy bleeding that lasted for 5 days!"
+ },
+ {
+  "sent_id": 2287,
+  "theme": "Ingredients & nutrition",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "these super chips meet their allergen criteria, and being raw, they are very healthy."
+ },
+ {
+  "sent_id": 8752,
+  "theme": "Ingredients & nutrition",
+  "polarity_label": "negative",
+  "polarity": -0.998,
+  "sentence": "quaker high fiber cinnamon swirl.....am returning it to the grocery store....."
+ },
+ {
+  "sent_id": 1983,
+  "theme": "Ingredients & nutrition",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "this juice is a miracle in and of itself."
+ },
+ {
+  "sent_id": 6203,
+  "theme": "Ingredients & nutrition",
+  "polarity_label": "positive",
+  "polarity": 0.995,
+  "sentence": "high in natural sugar but the best thing you are going to get without juicing your own."
+ },
+ {
+  "sent_id": 6369,
+  "theme": "Ingredients & nutrition",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "this is actually the first tea of any kind that i've been able to drink without adding artificial sweetener or honey."
+ },
+ {
+  "sent_id": 9722,
+  "theme": "Ingredients & nutrition",
+  "polarity_label": "positive",
+  "polarity": 0.99,
+  "sentence": "however, look at the ingredients, top 7 includes chicken meal."
+ },
+ {
+  "sent_id": 6062,
+  "theme": "Loyalty & repeat purchase",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "the bread mixes are perfect-i made every single loaf and they came better than perfect...thank you"
+ },
+ {
+  "sent_id": 4953,
+  "theme": "Loyalty & repeat purchase",
+  "polarity_label": "positive",
+  "polarity": 0.995,
+  "sentence": "that said, i used to purchase it exclusively because it was the best."
+ },
+ {
+  "sent_id": 594,
+  "theme": "Loyalty & repeat purchase",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "it was so friggin good, that, ever since, i always treat myself to a box of 25 every year."
+ },
+ {
+  "sent_id": 3195,
+  "theme": "Loyalty & repeat purchase",
+  "polarity_label": "positive",
+  "polarity": 0.996,
+  "sentence": "will purchase again after my four are used."
+ },
+ {
+  "sent_id": 7117,
+  "theme": "Loyalty & repeat purchase",
+  "polarity_label": "positive",
+  "polarity": 0.995,
+  "sentence": "this is a 11/27/2011 replacement of my original review, which was 5 stars ... we started using this coffee about 3 years ago."
+ },
+ {
+  "sent_id": 9259,
+  "theme": "Loyalty & repeat purchase",
+  "polarity_label": "positive",
+  "polarity": 0.993,
+  "sentence": "when i bought the first box i had a cup of tea every night and thought the hot flashes subsided a bit, so i bought another box."
+ },
+ {
+  "sent_id": 91,
+  "theme": "Other",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "this is about the strongest k cup i've purchased."
+ },
+ {
+  "sent_id": 9141,
+  "theme": "Other",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "i hate to say this but neither of these brews are stronger than any other \"extra bold\" brews i have tried."
+ },
+ {
+  "sent_id": 8064,
+  "theme": "Other",
+  "polarity_label": "negative",
+  "polarity": -0.926,
+  "sentence": "this particular coffee is a bit strong for my taste."
+ },
+ {
+  "sent_id": 93,
+  "theme": "Other",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "brewing this in a k cup machine at an 8 ounce cup will definately provide you with a strong cup of coffee."
+ },
+ {
+  "sent_id": 2724,
+  "theme": "Other",
+  "polarity_label": "positive",
+  "polarity": 0.996,
+  "sentence": "k-cups pumps to make it as strong as possible."
+ },
+ {
+  "sent_id": 1534,
+  "theme": "Other",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "a bit smoother than green mountain's double black diamond but stronger and more complex than both nantucket blend and newman's own bold, it is full bodied even when brewed on the 14 oz setting."
+ },
+ {
+  "sent_id": 0,
+  "theme": "Overall satisfaction",
+  "polarity_label": "negative",
+  "polarity": -0.989,
+  "sentence": "even though we are international delight fans we were not completely dissapointed by this product."
+ },
+ {
+  "sent_id": 323,
+  "theme": "Overall satisfaction",
+  "polarity_label": "positive",
+  "polarity": 0.983,
+  "sentence": "i feel completely full for a few hours with one drink."
+ },
+ {
+  "sent_id": 4425,
+  "theme": "Overall satisfaction",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "very pleased with the effeciency demonstrated by the vendors promoted through amazan."
+ },
+ {
+  "sent_id": 2446,
+  "theme": "Overall satisfaction",
+  "polarity_label": "positive",
+  "polarity": 0.976,
+  "sentence": "however overall, the service is not bad, and my chips are on the way.sorry guys, they really are not bad people, i am just an impatient buyer..."
+ },
+ {
+  "sent_id": 2845,
+  "theme": "Overall satisfaction",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i was mostly using it for a homemade vegan cheese spread and also going to try and make a vegan version of salted caramel using miso instead of butter. overall i think it's a great value and exactly what i was looking for."
+ },
+ {
+  "sent_id": 8728,
+  "theme": "Overall satisfaction",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i have used this product before and it is excellent."
+ },
+ {
+  "sent_id": 8975,
+  "theme": "Packaging & portioning",
+  "polarity_label": "negative",
+  "polarity": -0.988,
+  "sentence": "this box had a seal on it which had been cut through and then retaped."
+ },
+ {
+  "sent_id": 9834,
+  "theme": "Packaging & portioning",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "the wide mouth jar lid is easy to spin on and off."
+ },
+ {
+  "sent_id": 3845,
+  "theme": "Packaging & portioning",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "keeps k cups neat and shows everyone the variety."
+ },
+ {
+  "sent_id": 9424,
+  "theme": "Packaging & portioning",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "it comes in a small box with little insulation and a couple of (melted) ice packs."
+ },
+ {
+  "sent_id": 6500,
+  "theme": "Packaging & portioning",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "the jar is large, and the herring is delicious."
+ },
+ {
+  "sent_id": 2914,
+  "theme": "Packaging & portioning",
+  "polarity_label": "positive",
+  "polarity": 0.969,
+  "sentence": "my mug is rather large, so 2 k-cups fill it to the brim."
+ },
+ {
+  "sent_id": 7062,
+  "theme": "Pet health effects",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "it does cost a bit more, but well worth it when you factor in expensive vet visits and loss of sleep while the poor dog scratches and scratches while you watch helplessly."
+ },
+ {
+  "sent_id": 1356,
+  "theme": "Pet health effects",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "the food is made of healthy ingredients and is especially good for one dog of ours who has skin allergies, and there are many ingredients he can't tolerate."
+ },
+ {
+  "sent_id": 4301,
+  "theme": "Pet health effects",
+  "polarity_label": "negative",
+  "polarity": -0.997,
+  "sentence": "by the time he did show weakness, the cancer was far too advanced to operate on or save him and he died within a month. that set me to feeding my two dogs (his mate who is still with me, and her new mate) only quality dog food."
+ },
+ {
+  "sent_id": 1160,
+  "theme": "Pet health effects",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "our dog loves this formula, which we use one spoon of along with his dry food at each meal. for his size and diet i find that the small cans are more convenient since they last him so long."
+ },
+ {
+  "sent_id": 8805,
+  "theme": "Pet health effects",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "however, a year on the food and her small 12 lbs body (healthy weight) jumped to 19 lbs, which is obviously not healthy for her small breed frame."
+ },
+ {
+  "sent_id": 4556,
+  "theme": "Pet health effects",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "my dogs have always been on a high quality diet and recently i decided to give this food a try."
+ },
+ {
+  "sent_id": 4875,
+  "theme": "Pet palatability",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "he loves them and they are tiny so i don't worry about over feeding him."
+ },
+ {
+  "sent_id": 3287,
+  "theme": "Pet palatability",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "she won't eat a lot of foods, and we've narrowed it down to basically purnia products."
+ },
+ {
+  "sent_id": 7513,
+  "theme": "Pet palatability",
+  "polarity_label": "negative",
+  "polarity": -0.998,
+  "sentence": "this was a pricey gamble because my 4lb chihuahua is a very picky eater."
+ },
+ {
+  "sent_id": 8660,
+  "theme": "Pet palatability",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "my dog had an increased interest in his food for a very short time after using this product, then he got tired of it like he does everything."
+ },
+ {
+  "sent_id": 259,
+  "theme": "Pet palatability",
+  "polarity_label": "negative",
+  "polarity": -0.996,
+  "sentence": "he would rate these as 5 stars. the problem is, he finishes these off in 5 minutes. this makes it an expensive dog biscuit, rather than a dental chew toy."
+ },
+ {
+  "sent_id": 3575,
+  "theme": "Pet palatability",
+  "polarity_label": "positive",
+  "polarity": 0.912,
+  "sentence": "despite their small size, the only problem is they are too hard for my 8 pound and 12 pound dogs to chew."
+ },
+ {
+  "sent_id": 4807,
+  "theme": "Preparation & usage",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "it doesn't need to be rinsed and cooks up easily in the rice cooker. i love that i can get it started with one hand in less than a minute with a baby on my hip!"
+ },
+ {
+  "sent_id": 6341,
+  "theme": "Preparation & usage",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i love miso soup and this versiosn, with spinach, is easy to prepare amd very good."
+ },
+ {
+  "sent_id": 1741,
+  "theme": "Preparation & usage",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "i use them to make my own southern-style hot sauce by putting 12 whole peppers in a blender, along with red wine vinegar and some freshly ground organic salt."
+ },
+ {
+  "sent_id": 4513,
+  "theme": "Preparation & usage",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "this was my first time rolling fondant, and i had no trouble using this product."
+ },
+ {
+  "sent_id": 103,
+  "theme": "Preparation & usage",
+  "polarity_label": "positive",
+  "polarity": 0.996,
+  "sentence": "i bought a jar of this and it made two batches of the chili recipe i have."
+ },
+ {
+  "sent_id": 2241,
+  "theme": "Preparation & usage",
+  "polarity_label": "negative",
+  "polarity": -0.959,
+  "sentence": "i usually rub down my chicken and then pop in the oven at 400 and bake for an hour."
+ },
+ {
+  "sent_id": 3564,
+  "theme": "Price & value",
+  "polarity_label": "positive",
+  "polarity": 0.995,
+  "sentence": "but if cost is no object, this is the real deal."
+ },
+ {
+  "sent_id": 8153,
+  "theme": "Price & value",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "i finally decided this was the best even though it was on the high side of expensive."
+ },
+ {
+  "sent_id": 4150,
+  "theme": "Price & value",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "love that they are all natural organic and at the price, a bargain!"
+ },
+ {
+  "sent_id": 9014,
+  "theme": "Price & value",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "thought this was a deal as i've been paying $14+ per can of illy."
+ },
+ {
+  "sent_id": 9919,
+  "theme": "Price & value",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "$8.00 for about 25 - 30 drops not a very good deal.."
+ },
+ {
+  "sent_id": 1815,
+  "theme": "Price & value",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "the price is good and delivery was fast using amazon."
+ },
+ {
+  "sent_id": 9755,
+  "theme": "Taste & flavour",
+  "polarity_label": "negative",
+  "polarity": -0.998,
+  "sentence": "this mix tastes more like cornbread than white chocolate."
+ },
+ {
+  "sent_id": 6233,
+  "theme": "Taste & flavour",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "it smells great and tastes smooth. newman's own organics special blend: this is my second favorite."
+ },
+ {
+  "sent_id": 6517,
+  "theme": "Taste & flavour",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i tried the syrup first in a protein drink (vanilla) and it was excellent."
+ },
+ {
+  "sent_id": 552,
+  "theme": "Taste & flavour",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i have found white christmas tea to be another incredible experience from harney & son."
+ },
+ {
+  "sent_id": 8532,
+  "theme": "Taste & flavour",
+  "polarity_label": "negative",
+  "polarity": -0.999,
+  "sentence": "however, just as another reviewer explained, the most recent batch i received was horrible, it went from being the best coconut water to the worst i've ever had."
+ },
+ {
+  "sent_id": 8005,
+  "theme": "Taste & flavour",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "if you want to try an excellent brand la parisienne couture cocoa you will find is the best one on amazon. so far i have tried: bellagio sipping chocolate lake champlain hot chocolate mixes la parisienne couture cocoa (my favorite) mariebelle mocafe azteca d'oro 1519 mexican spiced ground chocolate (didn't like at all) jacques torres classic hot chocolate vosges la parisienne couture cocoa sarabeth's kitchen hot chocolate la maison du chocolat tasse de chocolat love to hear others feedback....."
+ },
+ {
+  "sent_id": 1492,
+  "theme": "Texture & consistency",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i like that they are not like the other fruit snacks that are thin and hardly anything there, these are thick enough that you feel like it is a snack not just a taste."
+ },
+ {
+  "sent_id": 4258,
+  "theme": "Texture & consistency",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "just be forewarned it is a bit \"moist.\" have plenty of papertowels/napkins around when eating it. however for vegan jerky, this has by far the best texture."
+ },
+ {
+  "sent_id": 8754,
+  "theme": "Texture & consistency",
+  "polarity_label": "negative",
+  "polarity": -0.995,
+  "sentence": "i found that the texture is tasty - somewhat like corn muffins - but the mix has very little sweetener in it, and didn't instruct to add any sweetening agent."
+ },
+ {
+  "sent_id": 9342,
+  "theme": "Texture & consistency",
+  "polarity_label": "positive",
+  "polarity": 0.985,
+  "sentence": "each drop is wrapped into hundred of crunchy round bits, just like a real berry."
+ },
+ {
+  "sent_id": 5905,
+  "theme": "Texture & consistency",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "very hot, but smooth, great consistancy, for use with most korean cusine."
+ },
+ {
+  "sent_id": 477,
+  "theme": "Texture & consistency",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "batter comes out light and fluffy every time, and my kids love them."
+ },
+ {
+  "sent_id": 6671,
+  "theme": "Unassigned",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "but i was very pleasantly surprised by this \"protect\" version."
+ },
+ {
+  "sent_id": 3146,
+  "theme": "Unassigned",
+  "polarity_label": "positive",
+  "polarity": 0.991,
+  "sentence": "ryder...micheal keaton is a great ghoulish pervert!!"
+ },
+ {
+  "sent_id": 5540,
+  "theme": "Unassigned",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "i was able to make far more product than expected."
+ },
+ {
+  "sent_id": 8937,
+  "theme": "Unassigned",
+  "polarity_label": "negative",
+  "polarity": -0.996,
+  "sentence": "these dried mushrooms are called \"funghi porcini\" on the label, implying that they are of italian origin."
+ },
+ {
+  "sent_id": 204,
+  "theme": "Unassigned",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "excellent product, let it soak overnight for best results."
+ },
+ {
+  "sent_id": 9018,
+  "theme": "Unassigned",
+  "polarity_label": "positive",
+  "polarity": 0.997,
+  "sentence": "for the most part these are pretty good, but not as good as the real thing."
+ },
+ {
+  "sent_id": 7918,
+  "theme": "Variety & range",
+  "polarity_label": "negative",
+  "polarity": -0.996,
+  "sentence": "variety is important so it would be nice to know if you are just buying another apple puree."
+ },
+ {
+  "sent_id": 5036,
+  "theme": "Variety & range",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i love the variety of choices you get with the keurig and this is another fine example."
+ },
+ {
+  "sent_id": 7426,
+  "theme": "Variety & range",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "i now buy the variety packs because i like all 6 flavors."
+ },
+ {
+  "sent_id": 6884,
+  "theme": "Variety & range",
+  "polarity_label": "positive",
+  "polarity": 0.998,
+  "sentence": "my brother was pleased with the wide variety of k-cups and is looking forward to trying them all."
+ },
+ {
+  "sent_id": 5749,
+  "theme": "Variety & range",
+  "polarity_label": "positive",
+  "polarity": 0.996,
+  "sentence": "also the gloria jean variety pack of five different flavors."
+ },
+ {
+  "sent_id": 8578,
+  "theme": "Variety & range",
+  "polarity_label": "negative",
+  "polarity": -0.997,
+  "sentence": "this is a 5 flavor assortment, not the 10 flavor assortment."
+ }
+]

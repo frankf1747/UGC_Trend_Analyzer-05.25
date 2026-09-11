@@ -1,0 +1,5122 @@
+{
+ "corpus": {
+  "sentences": 9954,
+  "sentences_analysed": 7893,
+  "theme_mentions": 13379,
+  "pct_unassigned": 20.7,
+  "reviews": 4173,
+  "products": 3438,
+  "categories_reported": 14,
+  "label_validation": {
+   "n_audited": 102,
+   "theme_accuracy": 0.882,
+   "theme_accuracy_ci95": [
+    0.806,
+    0.931
+   ],
+   "polarity_accuracy": 0.951,
+   "polarity_accuracy_ci95": [
+    0.89,
+    0.979
+   ],
+   "per_theme": {
+    "Availability & sourcing": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Condition & expectations": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Health & diet fit": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Health effects & energy": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Ingredients & nutrition": {
+     "n": 6,
+     "accuracy": 0.67
+    },
+    "Loyalty & repeat purchase": {
+     "n": 6,
+     "accuracy": 0.5
+    },
+    "Other": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Overall satisfaction": {
+     "n": 6,
+     "accuracy": 0.67
+    },
+    "Packaging & portioning": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Pet health effects": {
+     "n": 6,
+     "accuracy": 0.83
+    },
+    "Pet palatability": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Preparation & usage": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Price & value": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Taste & flavour": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Texture & consistency": {
+     "n": 6,
+     "accuracy": 1.0
+    },
+    "Unassigned": {
+     "n": 6,
+     "accuracy": 0.33
+    },
+    "Variety & range": {
+     "n": 6,
+     "accuracy": 1.0
+    }
+   },
+   "weakest_themes": [
+    [
+     0.33,
+     "Unassigned"
+    ],
+    [
+     0.5,
+     "Loyalty & repeat purchase"
+    ],
+    [
+     0.67,
+     "Ingredients & nutrition"
+    ]
+   ]
+  },
+  "negative_share_by_star": {
+   "1": 79.2,
+   "2": 68.8,
+   "3": 55.4,
+   "4": 26.5,
+   "5": 17.5
+  }
+ },
+ "categories": {
+  "baby & pet": {
+   "scope": {
+    "sentences": 1438,
+    "reviews": 431,
+    "products": 340,
+    "mean_star": 4.17,
+    "pct_negative_sentences": 35.0,
+    "years": "2005\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Pet health effects",
+     "sentences": 413,
+     "share_of_category_pct": 28.7,
+     "pct_negative": 39.2,
+     "mean_polarity": 0.214,
+     "reviews_with_negative_mention": 121,
+     "prevalence_of_complaint": 0.281,
+     "coef_stars": -0.071,
+     "expected_drag_stars": -0.0199,
+     "drag_ci": [
+      0.0531,
+      -0.0926
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Taste & flavour",
+     "sentences": 318,
+     "share_of_category_pct": 22.1,
+     "pct_negative": 26.7,
+     "mean_polarity": 0.467,
+     "reviews_with_negative_mention": 76,
+     "prevalence_of_complaint": 0.176,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1118,
+     "drag_ci": [
+      -0.0894,
+      -0.1342
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 144,
+     "share_of_category_pct": 10.0,
+     "pct_negative": 53.5,
+     "mean_polarity": -0.065,
+     "reviews_with_negative_mention": 62,
+     "prevalence_of_complaint": 0.144,
+     "coef_stars": -0.251,
+     "expected_drag_stars": -0.0361,
+     "drag_ci": [
+      0.0191,
+      -0.0912
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 141,
+     "share_of_category_pct": 9.8,
+     "pct_negative": 29.1,
+     "mean_polarity": 0.413,
+     "reviews_with_negative_mention": 36,
+     "prevalence_of_complaint": 0.084,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0275,
+     "drag_ci": [
+      -0.0151,
+      -0.0398
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 81,
+     "share_of_category_pct": 5.6,
+     "pct_negative": 34.6,
+     "mean_polarity": 0.296,
+     "reviews_with_negative_mention": 26,
+     "prevalence_of_complaint": 0.06,
+     "coef_stars": 0.176,
+     "expected_drag_stars": 0.0106,
+     "drag_ci": [
+      0.0277,
+      -0.0065
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 74,
+     "share_of_category_pct": 5.1,
+     "pct_negative": 35.1,
+     "mean_polarity": 0.295,
+     "reviews_with_negative_mention": 22,
+     "prevalence_of_complaint": 0.051,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0151,
+     "drag_ci": [
+      -0.0056,
+      -0.0245
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 73,
+     "share_of_category_pct": 5.1,
+     "pct_negative": 27.4,
+     "mean_polarity": 0.448,
+     "reviews_with_negative_mention": 17,
+     "prevalence_of_complaint": 0.039,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0214,
+     "drag_ci": [
+      -0.0131,
+      -0.0297
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 73,
+     "share_of_category_pct": 5.1,
+     "pct_negative": 39.7,
+     "mean_polarity": 0.203,
+     "reviews_with_negative_mention": 28,
+     "prevalence_of_complaint": 0.065,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.0057,
+     "drag_ci": [
+      0.0058,
+      -0.0172
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 40,
+     "share_of_category_pct": 2.8,
+     "pct_negative": 22.5,
+     "mean_polarity": 0.546,
+     "reviews_with_negative_mention": 8,
+     "prevalence_of_complaint": 0.019
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 26,
+     "share_of_category_pct": 1.8,
+     "pct_negative": 3.8,
+     "mean_polarity": 0.92,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.002
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 17,
+     "share_of_category_pct": 1.2,
+     "pct_negative": 82.4,
+     "mean_polarity": -0.651,
+     "reviews_with_negative_mention": 14,
+     "prevalence_of_complaint": 0.032
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 17,
+     "share_of_category_pct": 1.2,
+     "pct_negative": 11.8,
+     "mean_polarity": 0.76,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.005
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 8,
+     "share_of_category_pct": 0.6,
+     "pct_negative": 12.5,
+     "mean_polarity": 0.748,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.002
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 5,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.998,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.012
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 5,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 40.0,
+     "mean_polarity": 0.199,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.005
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 3,
+     "share_of_category_pct": 0.2,
+     "pct_negative": 33.3,
+     "mean_polarity": 0.329,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.002
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 318,
+     "share_of_category_pct": 22.1,
+     "pct_negative": 26.7,
+     "mean_polarity": 0.467,
+     "reviews_with_negative_mention": 76,
+     "prevalence_of_complaint": 0.176,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1118,
+     "drag_ci": [
+      -0.0894,
+      -0.1342
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 141,
+     "share_of_category_pct": 9.8,
+     "pct_negative": 29.1,
+     "mean_polarity": 0.413,
+     "reviews_with_negative_mention": 36,
+     "prevalence_of_complaint": 0.084,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0275,
+     "drag_ci": [
+      -0.0151,
+      -0.0398
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 73,
+     "share_of_category_pct": 5.1,
+     "pct_negative": 27.4,
+     "mean_polarity": 0.448,
+     "reviews_with_negative_mention": 17,
+     "prevalence_of_complaint": 0.039,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0214,
+     "drag_ci": [
+      -0.0131,
+      -0.0297
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 74,
+     "share_of_category_pct": 5.1,
+     "pct_negative": 35.1,
+     "mean_polarity": 0.295,
+     "reviews_with_negative_mention": 22,
+     "prevalence_of_complaint": 0.051,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0151,
+     "drag_ci": [
+      -0.0056,
+      -0.0245
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 4568,
+      "stars": 4,
+      "polarity": -1.0,
+      "text": "as others reviewers have mentioned, these really stink."
+     },
+     {
+      "sent_id": 9330,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i have a cocker spaniel who loves treat and though that this nugget help me with his oral care but he spitted it every time i tried, probably does not like the flavor."
+     },
+     {
+      "sent_id": 9951,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i thought the wet food version would be okay, but it made me completely ill."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 8413,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the latest is marked \"gluten free\" and has virtually no heat and little taste."
+     },
+     {
+      "sent_id": 8588,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "as a vet tech with tens years experience it is my opinion that this is the worst dog food on the market."
+     },
+     {
+      "sent_id": 8133,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "my vet told me not to use this food anymore because it is made in china and the glucosamine in the happy hips formula provides no benefit to my dog because the amount of glucosamine is too small and its not a high quality."
+     }
+    ],
+    "Price & value": [
+     {
+      "sent_id": 9953,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "these were kind of expensive for a dog treat and two of my dogs wouldn't even touch them, so i doubt i would buy them again."
+     },
+     {
+      "sent_id": 9073,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "for $9.95, i really don't feel this is a good value at all. disappointed."
+     },
+     {
+      "sent_id": 8844,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i don't feel that i got my money's worth, because they would break up & be gone in 10 minutes, rather than giving hours of enjoyment."
+     }
+    ],
+    "Packaging & portioning": [
+     {
+      "sent_id": 8170,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i might find a way to cover the food wells with something else, now that i'm stuck with this toy."
+     },
+     {
+      "sent_id": 7227,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "it is definatly something you would not want to let your dog use unattended b/c of it being all plastic."
+     },
+     {
+      "sent_id": 8616,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "i'm not sure if there are certain kinds of treats that would work better in here, but it does not work as well as i thought it would."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "loves",
+     "z": 2.46
+    },
+    {
+     "phrase": "great",
+     "z": 1.76
+    },
+    {
+     "phrase": "healthy",
+     "z": 1.71
+    },
+    {
+     "phrase": "dog loves",
+     "z": 1.71
+    },
+    {
+     "phrase": "size",
+     "z": 1.53
+    },
+    {
+     "phrase": "training",
+     "z": 1.51
+    },
+    {
+     "phrase": "diet",
+     "z": 1.51
+    },
+    {
+     "phrase": "clean",
+     "z": 1.48
+    },
+    {
+     "phrase": "quality",
+     "z": 1.43
+    },
+    {
+     "phrase": "bit",
+     "z": 1.42
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "china",
+     "z": -4.15
+    },
+    {
+     "phrase": "does",
+     "z": -3.38
+    },
+    {
+     "phrase": "reviews",
+     "z": -3.03
+    },
+    {
+     "phrase": "stopped",
+     "z": -2.8
+    },
+    {
+     "phrase": "dog",
+     "z": -2.66
+    },
+    {
+     "phrase": "decided",
+     "z": -2.37
+    },
+    {
+     "phrase": "care",
+     "z": -2.37
+    },
+    {
+     "phrase": "thinking",
+     "z": -2.37
+    },
+    {
+     "phrase": "guess",
+     "z": -2.37
+    },
+    {
+     "phrase": "product",
+     "z": -2.2
+    }
+   ]
+  },
+  "baked goods": {
+   "scope": {
+    "sentences": 338,
+    "reviews": 91,
+    "products": 89,
+    "mean_star": 4.28,
+    "pct_negative_sentences": 30.8,
+    "years": "2006\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 114,
+     "share_of_category_pct": 33.7,
+     "pct_negative": 25.4,
+     "mean_polarity": 0.49,
+     "reviews_with_negative_mention": 21,
+     "prevalence_of_complaint": 0.231,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1463,
+     "drag_ci": [
+      -0.117,
+      -0.1756
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 50,
+     "share_of_category_pct": 14.8,
+     "pct_negative": 30.0,
+     "mean_polarity": 0.398,
+     "reviews_with_negative_mention": 14,
+     "prevalence_of_complaint": 0.154
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 43,
+     "share_of_category_pct": 12.7,
+     "pct_negative": 37.2,
+     "mean_polarity": 0.255,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.143
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 35,
+     "share_of_category_pct": 10.4,
+     "pct_negative": 20.0,
+     "mean_polarity": 0.599,
+     "reviews_with_negative_mention": 7,
+     "prevalence_of_complaint": 0.077
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 22,
+     "share_of_category_pct": 6.5,
+     "pct_negative": 31.8,
+     "mean_polarity": 0.362,
+     "reviews_with_negative_mention": 6,
+     "prevalence_of_complaint": 0.066
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 16,
+     "share_of_category_pct": 4.7,
+     "pct_negative": 87.5,
+     "mean_polarity": -0.747,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.143
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 14,
+     "share_of_category_pct": 4.1,
+     "pct_negative": 14.3,
+     "mean_polarity": 0.709,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.011
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 13,
+     "share_of_category_pct": 3.8,
+     "pct_negative": 53.8,
+     "mean_polarity": -0.074,
+     "reviews_with_negative_mention": 6,
+     "prevalence_of_complaint": 0.066
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 11,
+     "share_of_category_pct": 3.3,
+     "pct_negative": 9.1,
+     "mean_polarity": 0.815,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.011
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 9,
+     "share_of_category_pct": 2.7,
+     "pct_negative": 44.4,
+     "mean_polarity": 0.11,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.044
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 5,
+     "share_of_category_pct": 1.5,
+     "pct_negative": 20.0,
+     "mean_polarity": 0.591,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.011
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 4,
+     "share_of_category_pct": 1.2,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.998,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 1,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.997,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 1,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.991,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.011
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 114,
+     "share_of_category_pct": 33.7,
+     "pct_negative": 25.4,
+     "mean_polarity": 0.49,
+     "reviews_with_negative_mention": 21,
+     "prevalence_of_complaint": 0.231,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1463,
+     "drag_ci": [
+      -0.117,
+      -0.1756
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 9498,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i made cookies with it this weekend and couldn't stand the taste of the batter or the cookie (i was hoping cooking would get rid of the bad taste)."
+     },
+     {
+      "sent_id": 8444,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "basicly looks like bread, has the texture of bread - but it is really difficult to get past the fact that it tastes terrible."
+     },
+     {
+      "sent_id": 4999,
+      "stars": 4,
+      "polarity": -1.0,
+      "text": "i tried another brand and all i tasted was flour and shortening, no peanut flavor at all."
+     }
+    ]
+   },
+   "praise_language": [],
+   "complaint_language": []
+  },
+  "candy": {
+   "scope": {
+    "sentences": 1021,
+    "reviews": 285,
+    "products": 264,
+    "mean_star": 4.27,
+    "pct_negative_sentences": 26.9,
+    "years": "2005\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 417,
+     "share_of_category_pct": 40.8,
+     "pct_negative": 25.4,
+     "mean_polarity": 0.489,
+     "reviews_with_negative_mention": 80,
+     "prevalence_of_complaint": 0.281,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.178,
+     "drag_ci": [
+      -0.1423,
+      -0.2136
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 138,
+     "share_of_category_pct": 13.5,
+     "pct_negative": 23.2,
+     "mean_polarity": 0.533,
+     "reviews_with_negative_mention": 28,
+     "prevalence_of_complaint": 0.098,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0323,
+     "drag_ci": [
+      -0.0178,
+      -0.0469
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 132,
+     "share_of_category_pct": 12.9,
+     "pct_negative": 31.1,
+     "mean_polarity": 0.376,
+     "reviews_with_negative_mention": 35,
+     "prevalence_of_complaint": 0.123,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.0107,
+     "drag_ci": [
+      0.0109,
+      -0.0324
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 59,
+     "share_of_category_pct": 5.8,
+     "pct_negative": 30.5,
+     "mean_polarity": 0.389,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.053,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0155,
+     "drag_ci": [
+      -0.0057,
+      -0.0253
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 47,
+     "share_of_category_pct": 4.6,
+     "pct_negative": 14.9,
+     "mean_polarity": 0.698,
+     "reviews_with_negative_mention": 7,
+     "prevalence_of_complaint": 0.025
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 42,
+     "share_of_category_pct": 4.1,
+     "pct_negative": 40.5,
+     "mean_polarity": 0.191,
+     "reviews_with_negative_mention": 14,
+     "prevalence_of_complaint": 0.049
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 40,
+     "share_of_category_pct": 3.9,
+     "pct_negative": 22.5,
+     "mean_polarity": 0.545,
+     "reviews_with_negative_mention": 8,
+     "prevalence_of_complaint": 0.028
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 32,
+     "share_of_category_pct": 3.1,
+     "pct_negative": 21.9,
+     "mean_polarity": 0.561,
+     "reviews_with_negative_mention": 7,
+     "prevalence_of_complaint": 0.025
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 27,
+     "share_of_category_pct": 2.6,
+     "pct_negative": 11.1,
+     "mean_polarity": 0.777,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.011
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 25,
+     "share_of_category_pct": 2.4,
+     "pct_negative": 88.0,
+     "mean_polarity": -0.758,
+     "reviews_with_negative_mention": 18,
+     "prevalence_of_complaint": 0.063,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.053,
+     "drag_ci": [
+      -0.0395,
+      -0.0665
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 22,
+     "share_of_category_pct": 2.2,
+     "pct_negative": 9.1,
+     "mean_polarity": 0.816,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.007
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 13,
+     "share_of_category_pct": 1.3,
+     "pct_negative": 30.8,
+     "mean_polarity": 0.389,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.014
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 10,
+     "share_of_category_pct": 1.0,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.994,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 8,
+     "share_of_category_pct": 0.8,
+     "pct_negative": 62.5,
+     "mean_polarity": -0.25,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.018
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 5,
+     "share_of_category_pct": 0.5,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.997,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 4,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 50.0,
+     "mean_polarity": 0.012,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.007
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 417,
+     "share_of_category_pct": 40.8,
+     "pct_negative": 25.4,
+     "mean_polarity": 0.489,
+     "reviews_with_negative_mention": 80,
+     "prevalence_of_complaint": 0.281,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.178,
+     "drag_ci": [
+      -0.1423,
+      -0.2136
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 25,
+     "share_of_category_pct": 2.4,
+     "pct_negative": 88.0,
+     "mean_polarity": -0.758,
+     "reviews_with_negative_mention": 18,
+     "prevalence_of_complaint": 0.063,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.053,
+     "drag_ci": [
+      -0.0395,
+      -0.0665
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 138,
+     "share_of_category_pct": 13.5,
+     "pct_negative": 23.2,
+     "mean_polarity": 0.533,
+     "reviews_with_negative_mention": 28,
+     "prevalence_of_complaint": 0.098,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0323,
+     "drag_ci": [
+      -0.0178,
+      -0.0469
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 59,
+     "share_of_category_pct": 5.8,
+     "pct_negative": 30.5,
+     "mean_polarity": 0.389,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.053,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0155,
+     "drag_ci": [
+      -0.0057,
+      -0.0253
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 8085,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i've tried this a couple of time and both times the noodle just fell apart."
+     },
+     {
+      "sent_id": 9059,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "surprisingly lacking in much flavor, just way too sweet, not rich chocolate tasting and far from satisfying for the 110 calorie three little airy bites."
+     },
+     {
+      "sent_id": 9114,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i made a cake with this and it was awful, i used 1 cup in the recipe for the whole cake, which i have done before with splenda."
+     }
+    ],
+    "Condition & expectations": [
+     {
+      "sent_id": 8737,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "not just broken but each cane was in several pieces."
+     },
+     {
+      "sent_id": 9539,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i tested it and in 2 hrs,the gum starts to get really hard to chew,plus the taste is gone.."
+     },
+     {
+      "sent_id": 9749,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "once a great traditional candy they're now just gross."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 9831,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i bought this for my diabetic uncle as a present, and it ended up having tons of sugar. ridiculous."
+     },
+     {
+      "sent_id": 7832,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "chocolate is too sweet and no flavor. too bad!"
+     },
+     {
+      "sent_id": 8796,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "chocolate is too sweet and no flavor. too bad!"
+     }
+    ],
+    "Packaging & portioning": [
+     {
+      "sent_id": 7808,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "as shown in the product images,this box contains a very small amount of candy for the price you pay."
+     },
+     {
+      "sent_id": 8278,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "the large dog chews have always had different thicknesses, but this bag was all just above paper thin."
+     },
+     {
+      "sent_id": 492,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "lots of things these days have completely unrealistic serving sizes."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "delicious",
+     "z": 1.11
+    },
+    {
+     "phrase": "great",
+     "z": 1.09
+    },
+    {
+     "phrase": "best",
+     "z": 1.01
+    },
+    {
+     "phrase": "good",
+     "z": 1.01
+    },
+    {
+     "phrase": "nice",
+     "z": 1.0
+    },
+    {
+     "phrase": "chocolate",
+     "z": 0.99
+    },
+    {
+     "phrase": "cereal",
+     "z": 0.89
+    },
+    {
+     "phrase": "treat",
+     "z": 0.89
+    },
+    {
+     "phrase": "dark",
+     "z": 0.87
+    },
+    {
+     "phrase": "dark chocolate",
+     "z": 0.85
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "bad",
+     "z": -2.42
+    },
+    {
+     "phrase": "used",
+     "z": -2.39
+    },
+    {
+     "phrase": "wasn't",
+     "z": -1.95
+    },
+    {
+     "phrase": "gone",
+     "z": -1.83
+    },
+    {
+     "phrase": "artificial",
+     "z": -1.74
+    },
+    {
+     "phrase": "money",
+     "z": -1.73
+    },
+    {
+     "phrase": "brown",
+     "z": -1.7
+    },
+    {
+     "phrase": "just",
+     "z": -1.67
+    },
+    {
+     "phrase": "bought",
+     "z": -1.62
+    },
+    {
+     "phrase": "far",
+     "z": -1.36
+    }
+   ]
+  },
+  "chocolate": {
+   "scope": {
+    "sentences": 355,
+    "reviews": 103,
+    "products": 94,
+    "mean_star": 4.29,
+    "pct_negative_sentences": 27.0,
+    "years": "2006\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 155,
+     "share_of_category_pct": 43.7,
+     "pct_negative": 25.2,
+     "mean_polarity": 0.494,
+     "reviews_with_negative_mention": 29,
+     "prevalence_of_complaint": 0.282,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1785,
+     "drag_ci": [
+      -0.1427,
+      -0.2143
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 57,
+     "share_of_category_pct": 16.1,
+     "pct_negative": 24.6,
+     "mean_polarity": 0.502,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.126
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 50,
+     "share_of_category_pct": 14.1,
+     "pct_negative": 32.0,
+     "mean_polarity": 0.36,
+     "reviews_with_negative_mention": 14,
+     "prevalence_of_complaint": 0.136
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 14,
+     "share_of_category_pct": 3.9,
+     "pct_negative": 28.6,
+     "mean_polarity": 0.428,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.039
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 13,
+     "share_of_category_pct": 3.7,
+     "pct_negative": 15.4,
+     "mean_polarity": 0.691,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.01
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 13,
+     "share_of_category_pct": 3.7,
+     "pct_negative": 15.4,
+     "mean_polarity": 0.691,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.019
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 12,
+     "share_of_category_pct": 3.4,
+     "pct_negative": 8.3,
+     "mean_polarity": 0.829,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.01
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 10,
+     "share_of_category_pct": 2.8,
+     "pct_negative": 90.0,
+     "mean_polarity": -0.834,
+     "reviews_with_negative_mention": 8,
+     "prevalence_of_complaint": 0.078
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 7,
+     "share_of_category_pct": 2.0,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.998,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 7,
+     "share_of_category_pct": 2.0,
+     "pct_negative": 42.9,
+     "mean_polarity": 0.138,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.029
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 4,
+     "share_of_category_pct": 1.1,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.994,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 4,
+     "share_of_category_pct": 1.1,
+     "pct_negative": 75.0,
+     "mean_polarity": -0.492,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.029
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 4,
+     "share_of_category_pct": 1.1,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.997,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 3,
+     "share_of_category_pct": 0.8,
+     "pct_negative": 33.3,
+     "mean_polarity": 0.327,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.01
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 1,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.996,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.01
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 1,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.998,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.01
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 155,
+     "share_of_category_pct": 43.7,
+     "pct_negative": 25.2,
+     "mean_polarity": 0.494,
+     "reviews_with_negative_mention": 29,
+     "prevalence_of_complaint": 0.282,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1785,
+     "drag_ci": [
+      -0.1427,
+      -0.2143
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 8456,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i did not like the taste of this hot chocolate and my kids didn't either."
+     },
+     {
+      "sent_id": 7720,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "unfortunately, these were pretty gross - miserable texture and more cardboard flavored than berry."
+     },
+     {
+      "sent_id": 9756,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i do not recommend it for white hot chocolate because it does not taste anything like you would hope."
+     }
+    ]
+   },
+   "praise_language": [],
+   "complaint_language": []
+  },
+  "coffee": {
+   "scope": {
+    "sentences": 2079,
+    "reviews": 634,
+    "products": 435,
+    "mean_star": 4.2,
+    "pct_negative_sentences": 24.4,
+    "years": "2003\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 990,
+     "share_of_category_pct": 47.6,
+     "pct_negative": 20.9,
+     "mean_polarity": 0.579,
+     "reviews_with_negative_mention": 157,
+     "prevalence_of_complaint": 0.248,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.157,
+     "drag_ci": [
+      -0.1256,
+      -0.1884
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 278,
+     "share_of_category_pct": 13.4,
+     "pct_negative": 21.6,
+     "mean_polarity": 0.56,
+     "reviews_with_negative_mention": 53,
+     "prevalence_of_complaint": 0.084,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0275,
+     "drag_ci": [
+      -0.0151,
+      -0.0399
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 181,
+     "share_of_category_pct": 8.7,
+     "pct_negative": 30.9,
+     "mean_polarity": 0.38,
+     "reviews_with_negative_mention": 52,
+     "prevalence_of_complaint": 0.082,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.0071,
+     "drag_ci": [
+      0.0073,
+      -0.0217
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 121,
+     "share_of_category_pct": 5.8,
+     "pct_negative": 35.5,
+     "mean_polarity": 0.29,
+     "reviews_with_negative_mention": 37,
+     "prevalence_of_complaint": 0.058,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0172,
+     "drag_ci": [
+      -0.0064,
+      -0.028
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 99,
+     "share_of_category_pct": 4.8,
+     "pct_negative": 33.3,
+     "mean_polarity": 0.331,
+     "reviews_with_negative_mention": 29,
+     "prevalence_of_complaint": 0.046,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0248,
+     "drag_ci": [
+      -0.0151,
+      -0.0344
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 85,
+     "share_of_category_pct": 4.1,
+     "pct_negative": 20.0,
+     "mean_polarity": 0.599,
+     "reviews_with_negative_mention": 16,
+     "prevalence_of_complaint": 0.025,
+     "coef_stars": -0.338,
+     "expected_drag_stars": -0.0085,
+     "drag_ci": [
+      0.0018,
+      -0.0189
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 71,
+     "share_of_category_pct": 3.4,
+     "pct_negative": 21.1,
+     "mean_polarity": 0.575,
+     "reviews_with_negative_mention": 14,
+     "prevalence_of_complaint": 0.022
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 67,
+     "share_of_category_pct": 3.2,
+     "pct_negative": 16.4,
+     "mean_polarity": 0.665,
+     "reviews_with_negative_mention": 11,
+     "prevalence_of_complaint": 0.017
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 60,
+     "share_of_category_pct": 2.9,
+     "pct_negative": 8.3,
+     "mean_polarity": 0.837,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.008
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 49,
+     "share_of_category_pct": 2.4,
+     "pct_negative": 91.8,
+     "mean_polarity": -0.834,
+     "reviews_with_negative_mention": 41,
+     "prevalence_of_complaint": 0.065,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.0543,
+     "drag_ci": [
+      -0.0404,
+      -0.0681
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 27,
+     "share_of_category_pct": 1.3,
+     "pct_negative": 18.5,
+     "mean_polarity": 0.628,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.006
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 20,
+     "share_of_category_pct": 1.0,
+     "pct_negative": 20.0,
+     "mean_polarity": 0.598,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.006
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 17,
+     "share_of_category_pct": 0.8,
+     "pct_negative": 5.9,
+     "mean_polarity": 0.88,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.002
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 8,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 37.5,
+     "mean_polarity": 0.246,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.005
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 6,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 50.0,
+     "mean_polarity": 0.003,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.005
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 990,
+     "share_of_category_pct": 47.6,
+     "pct_negative": 20.9,
+     "mean_polarity": 0.579,
+     "reviews_with_negative_mention": 157,
+     "prevalence_of_complaint": 0.248,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.157,
+     "drag_ci": [
+      -0.1256,
+      -0.1884
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 49,
+     "share_of_category_pct": 2.4,
+     "pct_negative": 91.8,
+     "mean_polarity": -0.834,
+     "reviews_with_negative_mention": 41,
+     "prevalence_of_complaint": 0.065,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.0543,
+     "drag_ci": [
+      -0.0404,
+      -0.0681
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 278,
+     "share_of_category_pct": 13.4,
+     "pct_negative": 21.6,
+     "mean_polarity": 0.56,
+     "reviews_with_negative_mention": 53,
+     "prevalence_of_complaint": 0.084,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0275,
+     "drag_ci": [
+      -0.0151,
+      -0.0399
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 99,
+     "share_of_category_pct": 4.8,
+     "pct_negative": 33.3,
+     "mean_polarity": 0.331,
+     "reviews_with_negative_mention": 29,
+     "prevalence_of_complaint": 0.046,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0248,
+     "drag_ci": [
+      -0.0151,
+      -0.0344
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 121,
+     "share_of_category_pct": 5.8,
+     "pct_negative": 35.5,
+     "mean_polarity": 0.29,
+     "reviews_with_negative_mention": 37,
+     "prevalence_of_complaint": 0.058,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0172,
+     "drag_ci": [
+      -0.0064,
+      -0.028
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 8247,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i know organic has a different taste, but this is bad."
+     },
+     {
+      "sent_id": 9393,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "it taste like tree bark ...their is no coffee oil left in this crap..............just buy folgers before you buy this blue mountain crap coffee..i wish i could get my $$$$$ back don't even buy>>>>>>>>>>>>> -1 vote"
+     },
+     {
+      "sent_id": 8236,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i highly recommend passing on this stuff--super saccharine taste plus the additional \"benefit\" of that awful artificial sweetener after taste."
+     }
+    ],
+    "Condition & expectations": [
+     {
+      "sent_id": 9455,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "this coffee is way too coarse to use."
+     },
+     {
+      "sent_id": 8484,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the end result is that the lid easily falls off. further, the quality of the ceramic glaze is terrible."
+     },
+     {
+      "sent_id": 7754,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the odor is terrible and it tastes like the coffee is flat or stale."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 8698,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "unfortunately, artificial flavoring also plainly occupies the front face. the aroma from the coffee is quite pleasant, however, after brewing, the coffee itself is nothing to write home about."
+     },
+     {
+      "sent_id": 8298,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the express / lattes that were made using these beans was really awful."
+     },
+     {
+      "sent_id": 8525,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the decaf chocolate hazelnut tea has absolutely no flavor even when i try 3 tea bags to a cup of boiling water."
+     }
+    ],
+    "Price & value": [
+     {
+      "sent_id": 8248,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "absolute rip off - i was not sent the item as stated and pictured."
+     },
+     {
+      "sent_id": 9431,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the pricing on this coffee has been getting more and more ridiculous over the last two years."
+     },
+     {
+      "sent_id": 9823,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "the only reason i am not more dissatified with this lousy coffee is that i paid very little for it by using a credit i had at amazon payments."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "good",
+     "z": 2.92
+    },
+    {
+     "phrase": "drink",
+     "z": 2.19
+    },
+    {
+     "phrase": "great",
+     "z": 1.97
+    },
+    {
+     "phrase": "morning",
+     "z": 1.96
+    },
+    {
+     "phrase": "tried",
+     "z": 1.93
+    },
+    {
+     "phrase": "sweet",
+     "z": 1.83
+    },
+    {
+     "phrase": "rich",
+     "z": 1.64
+    },
+    {
+     "phrase": "blend",
+     "z": 1.58
+    },
+    {
+     "phrase": "love",
+     "z": 1.55
+    },
+    {
+     "phrase": "smooth",
+     "z": 1.53
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "weak",
+     "z": -3.74
+    },
+    {
+     "phrase": "serving",
+     "z": -3.5
+    },
+    {
+     "phrase": "description",
+     "z": -3.03
+    },
+    {
+     "phrase": "going",
+     "z": -3.02
+    },
+    {
+     "phrase": "coffee tastes",
+     "z": -2.92
+    },
+    {
+     "phrase": "machine",
+     "z": -2.89
+    },
+    {
+     "phrase": "artificial",
+     "z": -2.75
+    },
+    {
+     "phrase": "tastes",
+     "z": -2.74
+    },
+    {
+     "phrase": "coffee ground",
+     "z": -2.73
+    },
+    {
+     "phrase": "taste",
+     "z": -2.72
+    }
+   ]
+  },
+  "condiments": {
+   "scope": {
+    "sentences": 871,
+    "reviews": 236,
+    "products": 208,
+    "mean_star": 4.13,
+    "pct_negative_sentences": 30.7,
+    "years": "2006\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 332,
+     "share_of_category_pct": 38.1,
+     "pct_negative": 28.0,
+     "mean_polarity": 0.439,
+     "reviews_with_negative_mention": 73,
+     "prevalence_of_complaint": 0.309,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1961,
+     "drag_ci": [
+      -0.1568,
+      -0.2354
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 185,
+     "share_of_category_pct": 21.2,
+     "pct_negative": 32.4,
+     "mean_polarity": 0.35,
+     "reviews_with_negative_mention": 51,
+     "prevalence_of_complaint": 0.216,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0711,
+     "drag_ci": [
+      -0.0391,
+      -0.1031
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 82,
+     "share_of_category_pct": 9.4,
+     "pct_negative": 37.8,
+     "mean_polarity": 0.245,
+     "reviews_with_negative_mention": 26,
+     "prevalence_of_complaint": 0.11,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.0096,
+     "drag_ci": [
+      0.0098,
+      -0.0291
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 59,
+     "share_of_category_pct": 6.8,
+     "pct_negative": 11.9,
+     "mean_polarity": 0.759,
+     "reviews_with_negative_mention": 7,
+     "prevalence_of_complaint": 0.03
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 37,
+     "share_of_category_pct": 4.2,
+     "pct_negative": 35.1,
+     "mean_polarity": 0.299,
+     "reviews_with_negative_mention": 12,
+     "prevalence_of_complaint": 0.051
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 37,
+     "share_of_category_pct": 4.2,
+     "pct_negative": 40.5,
+     "mean_polarity": 0.193,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.064,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0344,
+     "drag_ci": [
+      -0.021,
+      -0.0478
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 33,
+     "share_of_category_pct": 3.8,
+     "pct_negative": 39.4,
+     "mean_polarity": 0.21,
+     "reviews_with_negative_mention": 12,
+     "prevalence_of_complaint": 0.051
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 25,
+     "share_of_category_pct": 2.9,
+     "pct_negative": 12.0,
+     "mean_polarity": 0.753,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.013
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 23,
+     "share_of_category_pct": 2.6,
+     "pct_negative": 26.1,
+     "mean_polarity": 0.476,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.021
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 16,
+     "share_of_category_pct": 1.8,
+     "pct_negative": 87.5,
+     "mean_polarity": -0.747,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.055
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 14,
+     "share_of_category_pct": 1.6,
+     "pct_negative": 28.6,
+     "mean_polarity": 0.425,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.017
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 8,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 12.5,
+     "mean_polarity": 0.748,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.004
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 8,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 50.0,
+     "mean_polarity": 0.014,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.017
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 7,
+     "share_of_category_pct": 0.8,
+     "pct_negative": 28.6,
+     "mean_polarity": 0.429,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.008
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 5,
+     "share_of_category_pct": 0.6,
+     "pct_negative": 20.0,
+     "mean_polarity": 0.602,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.004
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 332,
+     "share_of_category_pct": 38.1,
+     "pct_negative": 28.0,
+     "mean_polarity": 0.439,
+     "reviews_with_negative_mention": 73,
+     "prevalence_of_complaint": 0.309,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1961,
+     "drag_ci": [
+      -0.1568,
+      -0.2354
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 185,
+     "share_of_category_pct": 21.2,
+     "pct_negative": 32.4,
+     "mean_polarity": 0.35,
+     "reviews_with_negative_mention": 51,
+     "prevalence_of_complaint": 0.216,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0711,
+     "drag_ci": [
+      -0.0391,
+      -0.1031
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 37,
+     "share_of_category_pct": 4.2,
+     "pct_negative": 40.5,
+     "mean_polarity": 0.193,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.064,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0344,
+     "drag_ci": [
+      -0.021,
+      -0.0478
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 8942,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "the taste is ok but i just can't see myself buying this again.i have been a big taco bell fan for years, however this spicy ranchero sauce does nothing for me."
+     },
+     {
+      "sent_id": 9317,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "may have been due to the weather but even after adding powdered sugar we still could not use it."
+     },
+     {
+      "sent_id": 7785,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "this has the same consistency as natural peanut butter, however, i found this very hard to swallow."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 8442,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "compared to other stevia extracts, i found this to be a very mediocre product."
+     },
+     {
+      "sent_id": 9274,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i keep trying to like these \"natural\" sweeteners, but they always come up short in the flavor category."
+     },
+     {
+      "sent_id": 8946,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "what is the point of using xylitol if you are going to put nasty toxic crap like artificial colors in here??!! very annoying!"
+     }
+    ],
+    "Price & value": [
+     {
+      "sent_id": 6276,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "don't know why this stuff is so horrendously expensive in the grocery stores, for a fraction of the amount you receive from this company."
+     },
+     {
+      "sent_id": 2360,
+      "stars": 4,
+      "polarity": -1.0,
+      "text": "overall, not a good value, but tasty for packaged."
+     },
+     {
+      "sent_id": 3642,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "$25 for 12 cans is not a good deal and if you contact the company directly to find out who sells it near you your bound to get it cheaper than this..."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "great",
+     "z": 1.79
+    },
+    {
+     "phrase": "it's",
+     "z": 1.53
+    },
+    {
+     "phrase": "use",
+     "z": 1.49
+    },
+    {
+     "phrase": "best",
+     "z": 1.42
+    },
+    {
+     "phrase": "coconut oil",
+     "z": 1.36
+    },
+    {
+     "phrase": "hot",
+     "z": 1.32
+    },
+    {
+     "phrase": "tasting",
+     "z": 1.14
+    },
+    {
+     "phrase": "coconut",
+     "z": 1.09
+    },
+    {
+     "phrase": "used",
+     "z": 1.04
+    },
+    {
+     "phrase": "delicious",
+     "z": 1.0
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "thought",
+     "z": -3.33
+    },
+    {
+     "phrase": "mix",
+     "z": -2.18
+    },
+    {
+     "phrase": "does",
+     "z": -2.09
+    },
+    {
+     "phrase": "tasted",
+     "z": -2.02
+    },
+    {
+     "phrase": "artificial",
+     "z": -1.87
+    },
+    {
+     "phrase": "don't know",
+     "z": -1.84
+    },
+    {
+     "phrase": "don't",
+     "z": -1.81
+    },
+    {
+     "phrase": "taste",
+     "z": -1.72
+    },
+    {
+     "phrase": "sour",
+     "z": -1.69
+    },
+    {
+     "phrase": "processed",
+     "z": -1.69
+    }
+   ]
+  },
+  "dairy": {
+   "scope": {
+    "sentences": 268,
+    "reviews": 74,
+    "products": 66,
+    "mean_star": 4.06,
+    "pct_negative_sentences": 24.3,
+    "years": "2004\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 81,
+     "share_of_category_pct": 30.2,
+     "pct_negative": 21.0,
+     "mean_polarity": 0.578,
+     "reviews_with_negative_mention": 14,
+     "prevalence_of_complaint": 0.189
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 59,
+     "share_of_category_pct": 22.0,
+     "pct_negative": 28.8,
+     "mean_polarity": 0.427,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.203,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0667,
+     "drag_ci": [
+      -0.0367,
+      -0.0967
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 27,
+     "share_of_category_pct": 10.1,
+     "pct_negative": 3.7,
+     "mean_polarity": 0.923,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.014
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 27,
+     "share_of_category_pct": 10.1,
+     "pct_negative": 25.9,
+     "mean_polarity": 0.48,
+     "reviews_with_negative_mention": 7,
+     "prevalence_of_complaint": 0.095
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 12,
+     "share_of_category_pct": 4.5,
+     "pct_negative": 25.0,
+     "mean_polarity": 0.498,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.027
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 12,
+     "share_of_category_pct": 4.5,
+     "pct_negative": 50.0,
+     "mean_polarity": 0.001,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.054
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 11,
+     "share_of_category_pct": 4.1,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.997,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 9,
+     "share_of_category_pct": 3.4,
+     "pct_negative": 33.3,
+     "mean_polarity": 0.356,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.041
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 9,
+     "share_of_category_pct": 3.4,
+     "pct_negative": 11.1,
+     "mean_polarity": 0.774,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.014
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 9,
+     "share_of_category_pct": 3.4,
+     "pct_negative": 22.2,
+     "mean_polarity": 0.55,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.027
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 4,
+     "share_of_category_pct": 1.5,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.999,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.054
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 4,
+     "share_of_category_pct": 1.5,
+     "pct_negative": 50.0,
+     "mean_polarity": -0.002,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.027
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 2,
+     "share_of_category_pct": 0.7,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.997,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 1,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.989,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.014
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 1,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.999,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.014
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 59,
+     "share_of_category_pct": 22.0,
+     "pct_negative": 28.8,
+     "mean_polarity": 0.427,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.203,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0667,
+     "drag_ci": [
+      -0.0367,
+      -0.0967
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 8681,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the change in ingredient profile to include syrup solids is disappointing."
+     },
+     {
+      "sent_id": 9920,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "bought the bottles less than a month ago. totally tasteless...odorless...useless."
+     },
+     {
+      "sent_id": 8566,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "now why would the description say it's a great alternative to milk when it contains milk by products!?! annoying!"
+     }
+    ]
+   },
+   "praise_language": [],
+   "complaint_language": []
+  },
+  "drink": {
+   "scope": {
+    "sentences": 1536,
+    "reviews": 436,
+    "products": 373,
+    "mean_star": 4.16,
+    "pct_negative_sentences": 28.1,
+    "years": "2006\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 576,
+     "share_of_category_pct": 37.5,
+     "pct_negative": 24.8,
+     "mean_polarity": 0.5,
+     "reviews_with_negative_mention": 106,
+     "prevalence_of_complaint": 0.243,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1541,
+     "drag_ci": [
+      -0.1233,
+      -0.185
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 310,
+     "share_of_category_pct": 20.2,
+     "pct_negative": 27.1,
+     "mean_polarity": 0.45,
+     "reviews_with_negative_mention": 76,
+     "prevalence_of_complaint": 0.174,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0573,
+     "drag_ci": [
+      -0.0316,
+      -0.0831
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 140,
+     "share_of_category_pct": 9.1,
+     "pct_negative": 37.1,
+     "mean_polarity": 0.257,
+     "reviews_with_negative_mention": 44,
+     "prevalence_of_complaint": 0.101,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.0088,
+     "drag_ci": [
+      0.009,
+      -0.0266
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 108,
+     "share_of_category_pct": 7.0,
+     "pct_negative": 13.9,
+     "mean_polarity": 0.719,
+     "reviews_with_negative_mention": 14,
+     "prevalence_of_complaint": 0.032
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 83,
+     "share_of_category_pct": 5.4,
+     "pct_negative": 34.9,
+     "mean_polarity": 0.305,
+     "reviews_with_negative_mention": 28,
+     "prevalence_of_complaint": 0.064,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0189,
+     "drag_ci": [
+      -0.007,
+      -0.0308
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 75,
+     "share_of_category_pct": 4.9,
+     "pct_negative": 46.7,
+     "mean_polarity": 0.07,
+     "reviews_with_negative_mention": 28,
+     "prevalence_of_complaint": 0.064,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0348,
+     "drag_ci": [
+      -0.0213,
+      -0.0483
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 70,
+     "share_of_category_pct": 4.6,
+     "pct_negative": 24.3,
+     "mean_polarity": 0.513,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.034,
+     "coef_stars": 0.224,
+     "expected_drag_stars": 0.0077,
+     "drag_ci": [
+      0.0147,
+      0.0007
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 43,
+     "share_of_category_pct": 2.8,
+     "pct_negative": 30.2,
+     "mean_polarity": 0.358,
+     "reviews_with_negative_mention": 12,
+     "prevalence_of_complaint": 0.028
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 26,
+     "share_of_category_pct": 1.7,
+     "pct_negative": 38.5,
+     "mean_polarity": 0.23,
+     "reviews_with_negative_mention": 8,
+     "prevalence_of_complaint": 0.018
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 25,
+     "share_of_category_pct": 1.6,
+     "pct_negative": 16.0,
+     "mean_polarity": 0.679,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.009
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 22,
+     "share_of_category_pct": 1.4,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.994,
+     "reviews_with_negative_mention": 19,
+     "prevalence_of_complaint": 0.044,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.0366,
+     "drag_ci": [
+      -0.0272,
+      -0.0459
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 20,
+     "share_of_category_pct": 1.3,
+     "pct_negative": 10.0,
+     "mean_polarity": 0.795,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.005
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 14,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 7.1,
+     "mean_polarity": 0.854,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.002
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 13,
+     "share_of_category_pct": 0.8,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.998,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 8,
+     "share_of_category_pct": 0.5,
+     "pct_negative": 50.0,
+     "mean_polarity": -0.0,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.009
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 3,
+     "share_of_category_pct": 0.2,
+     "pct_negative": 33.3,
+     "mean_polarity": 0.331,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.002
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 576,
+     "share_of_category_pct": 37.5,
+     "pct_negative": 24.8,
+     "mean_polarity": 0.5,
+     "reviews_with_negative_mention": 106,
+     "prevalence_of_complaint": 0.243,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1541,
+     "drag_ci": [
+      -0.1233,
+      -0.185
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 310,
+     "share_of_category_pct": 20.2,
+     "pct_negative": 27.1,
+     "mean_polarity": 0.45,
+     "reviews_with_negative_mention": 76,
+     "prevalence_of_complaint": 0.174,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0573,
+     "drag_ci": [
+      -0.0316,
+      -0.0831
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 22,
+     "share_of_category_pct": 1.4,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.994,
+     "reviews_with_negative_mention": 19,
+     "prevalence_of_complaint": 0.044,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.0366,
+     "drag_ci": [
+      -0.0272,
+      -0.0459
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 75,
+     "share_of_category_pct": 4.9,
+     "pct_negative": 46.7,
+     "mean_polarity": 0.07,
+     "reviews_with_negative_mention": 28,
+     "prevalence_of_complaint": 0.064,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0348,
+     "drag_ci": [
+      -0.0213,
+      -0.0483
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 83,
+     "share_of_category_pct": 5.4,
+     "pct_negative": 34.9,
+     "mean_polarity": 0.305,
+     "reviews_with_negative_mention": 28,
+     "prevalence_of_complaint": 0.064,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0189,
+     "drag_ci": [
+      -0.007,
+      -0.0308
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 70,
+     "share_of_category_pct": 4.6,
+     "pct_negative": 24.3,
+     "mean_polarity": 0.513,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.034,
+     "coef_stars": 0.224,
+     "expected_drag_stars": 0.0077,
+     "drag_ci": [
+      0.0147,
+      0.0007
+     ],
+     "effect_significant": true
+    }
+   ],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 9849,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "it may do everything the company claims this product will do, but i just couldn't get past the flavor."
+     },
+     {
+      "sent_id": 9017,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "maybe if you like diet soda you will like this, but the 3 people that sampled it did not."
+     },
+     {
+      "sent_id": 9944,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "this product tastes terrible and it also tastes nothing like actual coconut water."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 8340,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "we have tried wetting the food mixing tuna fish water drained from the canned tuna. just something about the content that gives the food an smell lexie doesn't care for. our dog is thirteen years old and is spoil to one type of dry dog food. we can not recommend this product."
+     },
+     {
+      "sent_id": 9786,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "however, i was very disappointed the product is tastless."
+     },
+     {
+      "sent_id": 8267,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the \"vegetable\" contains nothing but desiccated potatoes - no other vegetables!"
+     }
+    ],
+    "Condition & expectations": [
+     {
+      "sent_id": 9449,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "they also just threw them in the box,bad packaging."
+     },
+     {
+      "sent_id": 7986,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "it was wrapped poorly - the tab you're supposed to pull tore off."
+     },
+     {
+      "sent_id": 8787,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the bottle is pretty and coll looking but the smell and taste is terrible."
+     }
+    ],
+    "Price & value": [
+     {
+      "sent_id": 7260,
+      "stars": 4,
+      "polarity": -1.0,
+      "text": "this particular offering, and many others for that matter, do not reflect that value."
+     },
+     {
+      "sent_id": 8872,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i mean, unless your child really, really needs portable applesauce, i'd say stick w/a jar or cups for sooooo much less money, i don't really think this is the best product, and yet another thing to throw in a landfill! not recommended!"
+     },
+     {
+      "sent_id": 8998,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "this particular soup is not worth the money."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "great",
+     "z": 2.52
+    },
+    {
+     "phrase": "energy",
+     "z": 1.77
+    },
+    {
+     "phrase": "it's",
+     "z": 1.72
+    },
+    {
+     "phrase": "stores",
+     "z": 1.69
+    },
+    {
+     "phrase": "add",
+     "z": 1.67
+    },
+    {
+     "phrase": "love",
+     "z": 1.67
+    },
+    {
+     "phrase": "use",
+     "z": 1.64
+    },
+    {
+     "phrase": "easy",
+     "z": 1.61
+    },
+    {
+     "phrase": "delicious",
+     "z": 1.61
+    },
+    {
+     "phrase": "nice",
+     "z": 1.59
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "natural",
+     "z": -3.03
+    },
+    {
+     "phrase": "product",
+     "z": -3.03
+    },
+    {
+     "phrase": "disappointed",
+     "z": -2.98
+    },
+    {
+     "phrase": "reviews",
+     "z": -2.84
+    },
+    {
+     "phrase": "smell",
+     "z": -2.69
+    },
+    {
+     "phrase": "did",
+     "z": -2.48
+    },
+    {
+     "phrase": "received",
+     "z": -2.46
+    },
+    {
+     "phrase": "worth",
+     "z": -2.46
+    },
+    {
+     "phrase": "doesn't",
+     "z": -2.43
+    },
+    {
+     "phrase": "pack",
+     "z": -2.34
+    }
+   ]
+  },
+  "other": {
+   "scope": {
+    "sentences": 555,
+    "reviews": 249,
+    "products": 233,
+    "mean_star": 3.9,
+    "pct_negative_sentences": 29.7,
+    "years": "2006\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 134,
+     "share_of_category_pct": 24.1,
+     "pct_negative": 27.6,
+     "mean_polarity": 0.443,
+     "reviews_with_negative_mention": 30,
+     "prevalence_of_complaint": 0.12,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.0764,
+     "drag_ci": [
+      -0.0611,
+      -0.0917
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 71,
+     "share_of_category_pct": 12.8,
+     "pct_negative": 19.7,
+     "mean_polarity": 0.602,
+     "reviews_with_negative_mention": 12,
+     "prevalence_of_complaint": 0.048
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 55,
+     "share_of_category_pct": 9.9,
+     "pct_negative": 30.9,
+     "mean_polarity": 0.379,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.052
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 47,
+     "share_of_category_pct": 8.5,
+     "pct_negative": 23.4,
+     "mean_polarity": 0.528,
+     "reviews_with_negative_mention": 11,
+     "prevalence_of_complaint": 0.044
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 45,
+     "share_of_category_pct": 8.1,
+     "pct_negative": 48.9,
+     "mean_polarity": 0.022,
+     "reviews_with_negative_mention": 20,
+     "prevalence_of_complaint": 0.08,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0237,
+     "drag_ci": [
+      -0.0088,
+      -0.0386
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 39,
+     "share_of_category_pct": 7.0,
+     "pct_negative": 12.8,
+     "mean_polarity": 0.707,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.02
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 34,
+     "share_of_category_pct": 6.1,
+     "pct_negative": 5.9,
+     "mean_polarity": 0.881,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.008
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 33,
+     "share_of_category_pct": 5.9,
+     "pct_negative": 45.5,
+     "mean_polarity": 0.049,
+     "reviews_with_negative_mention": 14,
+     "prevalence_of_complaint": 0.056
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 26,
+     "share_of_category_pct": 4.7,
+     "pct_negative": 38.5,
+     "mean_polarity": 0.229,
+     "reviews_with_negative_mention": 10,
+     "prevalence_of_complaint": 0.04
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 20,
+     "share_of_category_pct": 3.6,
+     "pct_negative": 10.0,
+     "mean_polarity": 0.798,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.008
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 19,
+     "share_of_category_pct": 3.4,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.997,
+     "reviews_with_negative_mention": 19,
+     "prevalence_of_complaint": 0.076,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.064,
+     "drag_ci": [
+      -0.0477,
+      -0.0803
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 12,
+     "share_of_category_pct": 2.2,
+     "pct_negative": 25.0,
+     "mean_polarity": 0.497,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.012
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 9,
+     "share_of_category_pct": 1.6,
+     "pct_negative": 55.6,
+     "mean_polarity": -0.109,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.02
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 5,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 20.0,
+     "mean_polarity": 0.594,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.004
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 4,
+     "share_of_category_pct": 0.7,
+     "pct_negative": 25.0,
+     "mean_polarity": 0.498,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.004
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 2,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 50.0,
+     "mean_polarity": -0.001,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.004
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 134,
+     "share_of_category_pct": 24.1,
+     "pct_negative": 27.6,
+     "mean_polarity": 0.443,
+     "reviews_with_negative_mention": 30,
+     "prevalence_of_complaint": 0.12,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.0764,
+     "drag_ci": [
+      -0.0611,
+      -0.0917
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 19,
+     "share_of_category_pct": 3.4,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.997,
+     "reviews_with_negative_mention": 19,
+     "prevalence_of_complaint": 0.076,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.064,
+     "drag_ci": [
+      -0.0477,
+      -0.0803
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 45,
+     "share_of_category_pct": 8.1,
+     "pct_negative": 48.9,
+     "mean_polarity": 0.022,
+     "reviews_with_negative_mention": 20,
+     "prevalence_of_complaint": 0.08,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0237,
+     "drag_ci": [
+      -0.0088,
+      -0.0386
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 9721,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i was so disappointed in this product...it had a horrible aftertaste...no matter how little i used - the taste linger in your mouth for hours...very bad taste...not recommended at all."
+     },
+     {
+      "sent_id": 9677,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i'm not sure what i was expecting but the taste isnt something that makes me want to take another one an the effect of the product isnt anything i felt."
+     },
+     {
+      "sent_id": 9291,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "do not purchase this crap as it will arrive rancid and the cans are dented."
+     }
+    ],
+    "Condition & expectations": [
+     {
+      "sent_id": 8345,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "didn't notice any improvement or change in anything, and it tastes awful>"
+     },
+     {
+      "sent_id": 8742,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "didn't notice any improvement or change in anything, and it tastes awful>"
+     },
+     {
+      "sent_id": 9638,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "product was so poorly packed it split open spilling toxic chemicals all over. had to throw the whole thing in the garbage."
+     }
+    ],
+    "Packaging & portioning": [
+     {
+      "sent_id": 8433,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "was very disappointed in how tiny the item actually was."
+     },
+     {
+      "sent_id": 9560,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "it's on the jar, but i can't read it - can't find it in the description."
+     },
+     {
+      "sent_id": 6359,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "the only thing i question is so much plastic is wasted because the container is less than half full each time i've ever received this product."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "great",
+     "z": 2.57
+    },
+    {
+     "phrase": "i've",
+     "z": 1.67
+    },
+    {
+     "phrase": "best",
+     "z": 1.52
+    },
+    {
+     "phrase": "works",
+     "z": 1.46
+    },
+    {
+     "phrase": "husband",
+     "z": 1.39
+    },
+    {
+     "phrase": "vanilla",
+     "z": 1.39
+    },
+    {
+     "phrase": "love",
+     "z": 1.33
+    },
+    {
+     "phrase": "beans",
+     "z": 1.32
+    },
+    {
+     "phrase": "local",
+     "z": 1.3
+    },
+    {
+     "phrase": "bags",
+     "z": 1.28
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "bad",
+     "z": -2.45
+    },
+    {
+     "phrase": "can't",
+     "z": -2.26
+    },
+    {
+     "phrase": "people",
+     "z": -2.2
+    },
+    {
+     "phrase": "brand",
+     "z": -1.99
+    },
+    {
+     "phrase": "does",
+     "z": -1.89
+    },
+    {
+     "phrase": "tried",
+     "z": -1.78
+    },
+    {
+     "phrase": "item",
+     "z": -1.78
+    },
+    {
+     "phrase": "purchase",
+     "z": -1.77
+    },
+    {
+     "phrase": "don't",
+     "z": -1.67
+    },
+    {
+     "phrase": "received",
+     "z": -1.67
+    }
+   ]
+  },
+  "protein snacks": {
+   "scope": {
+    "sentences": 476,
+    "reviews": 137,
+    "products": 127,
+    "mean_star": 3.88,
+    "pct_negative_sentences": 36.8,
+    "years": "2005\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 164,
+     "share_of_category_pct": 34.5,
+     "pct_negative": 29.3,
+     "mean_polarity": 0.414,
+     "reviews_with_negative_mention": 37,
+     "prevalence_of_complaint": 0.27,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1712,
+     "drag_ci": [
+      -0.1369,
+      -0.2055
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 73,
+     "share_of_category_pct": 15.3,
+     "pct_negative": 28.8,
+     "mean_polarity": 0.433,
+     "reviews_with_negative_mention": 18,
+     "prevalence_of_complaint": 0.131,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0432,
+     "drag_ci": [
+      -0.0238,
+      -0.0627
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 66,
+     "share_of_category_pct": 13.9,
+     "pct_negative": 47.0,
+     "mean_polarity": 0.066,
+     "reviews_with_negative_mention": 25,
+     "prevalence_of_complaint": 0.182,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.0159,
+     "drag_ci": [
+      0.0162,
+      -0.0482
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 26,
+     "share_of_category_pct": 5.5,
+     "pct_negative": 84.6,
+     "mean_polarity": -0.672,
+     "reviews_with_negative_mention": 19,
+     "prevalence_of_complaint": 0.139,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.1164,
+     "drag_ci": [
+      -0.0867,
+      -0.146
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 22,
+     "share_of_category_pct": 4.6,
+     "pct_negative": 59.1,
+     "mean_polarity": -0.238,
+     "reviews_with_negative_mention": 10,
+     "prevalence_of_complaint": 0.073
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 21,
+     "share_of_category_pct": 4.4,
+     "pct_negative": 4.8,
+     "mean_polarity": 0.902,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.007
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 21,
+     "share_of_category_pct": 4.4,
+     "pct_negative": 52.4,
+     "mean_polarity": -0.109,
+     "reviews_with_negative_mention": 9,
+     "prevalence_of_complaint": 0.066
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 19,
+     "share_of_category_pct": 4.0,
+     "pct_negative": 31.6,
+     "mean_polarity": 0.368,
+     "reviews_with_negative_mention": 6,
+     "prevalence_of_complaint": 0.044
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 17,
+     "share_of_category_pct": 3.6,
+     "pct_negative": 35.3,
+     "mean_polarity": 0.314,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.036
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 16,
+     "share_of_category_pct": 3.4,
+     "pct_negative": 43.8,
+     "mean_polarity": 0.124,
+     "reviews_with_negative_mention": 6,
+     "prevalence_of_complaint": 0.044
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 9,
+     "share_of_category_pct": 1.9,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.996,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 6,
+     "share_of_category_pct": 1.3,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.998,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 6,
+     "share_of_category_pct": 1.3,
+     "pct_negative": 50.0,
+     "mean_polarity": -0.001,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.022
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 4,
+     "share_of_category_pct": 0.8,
+     "pct_negative": 75.0,
+     "mean_polarity": -0.5,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.022
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 4,
+     "share_of_category_pct": 0.8,
+     "pct_negative": 25.0,
+     "mean_polarity": 0.504,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.007
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 2,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.992,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.015
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 164,
+     "share_of_category_pct": 34.5,
+     "pct_negative": 29.3,
+     "mean_polarity": 0.414,
+     "reviews_with_negative_mention": 37,
+     "prevalence_of_complaint": 0.27,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1712,
+     "drag_ci": [
+      -0.1369,
+      -0.2055
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 26,
+     "share_of_category_pct": 5.5,
+     "pct_negative": 84.6,
+     "mean_polarity": -0.672,
+     "reviews_with_negative_mention": 19,
+     "prevalence_of_complaint": 0.139,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.1164,
+     "drag_ci": [
+      -0.0867,
+      -0.146
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 73,
+     "share_of_category_pct": 15.3,
+     "pct_negative": 28.8,
+     "mean_polarity": 0.433,
+     "reviews_with_negative_mention": 18,
+     "prevalence_of_complaint": 0.131,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0432,
+     "drag_ci": [
+      -0.0238,
+      -0.0627
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 9318,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "this jerkey is possibly the worst i have ever eaten....the texture is very thready and dry...i tried giving some to my dog and he wouldn't even eat it!"
+     },
+     {
+      "sent_id": 9389,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i guess this is a personal opinion, but i don't particulary like the taste of this."
+     },
+     {
+      "sent_id": 9556,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "disappointingly, this is imitation almond extract and a terrible value."
+     }
+    ],
+    "Condition & expectations": [
+     {
+      "sent_id": 8307,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "i am thinking about getting away from this product due to inconsistency with amazon delivery and freshness. i would say: buyer beware"
+     },
+     {
+      "sent_id": 7873,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "these are really dry and really can't be eaten unless you soak them first."
+     },
+     {
+      "sent_id": 8846,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "this bag busted open at the seams after using it twice."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 9234,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i read this description over and over, and still it didn't make any sense. ten bars!"
+     },
+     {
+      "sent_id": 3696,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "so far nothing with malitol tastes \"right\" to me."
+     },
+     {
+      "sent_id": 8075,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "it's very, very fatty, greasy to the touch and too bland."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "great",
+     "z": 1.65
+    },
+    {
+     "phrase": "delicious",
+     "z": 1.24
+    },
+    {
+     "phrase": "bar",
+     "z": 1.19
+    },
+    {
+     "phrase": "good",
+     "z": 1.02
+    },
+    {
+     "phrase": "free",
+     "z": 1.01
+    },
+    {
+     "phrase": "they're",
+     "z": 1.01
+    },
+    {
+     "phrase": "hazelnut",
+     "z": 0.94
+    },
+    {
+     "phrase": "i've",
+     "z": 0.9
+    },
+    {
+     "phrase": "best",
+     "z": 0.89
+    },
+    {
+     "phrase": "almond",
+     "z": 0.89
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "description",
+     "z": -2.02
+    },
+    {
+     "phrase": "date",
+     "z": -1.88
+    },
+    {
+     "phrase": "bag",
+     "z": -1.66
+    },
+    {
+     "phrase": "don't",
+     "z": -1.53
+    },
+    {
+     "phrase": "texture",
+     "z": -1.3
+    },
+    {
+     "phrase": "disappointed",
+     "z": -1.19
+    },
+    {
+     "phrase": "beef jerky",
+     "z": -1.19
+    },
+    {
+     "phrase": "local",
+     "z": -1.17
+    },
+    {
+     "phrase": "bought",
+     "z": -1.04
+    },
+    {
+     "phrase": "expiration date",
+     "z": -0.97
+    }
+   ]
+  },
+  "seasoning & spice": {
+   "scope": {
+    "sentences": 444,
+    "reviews": 112,
+    "products": 104,
+    "mean_star": 4.37,
+    "pct_negative_sentences": 28.2,
+    "years": "2007\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 166,
+     "share_of_category_pct": 37.4,
+     "pct_negative": 25.9,
+     "mean_polarity": 0.481,
+     "reviews_with_negative_mention": 30,
+     "prevalence_of_complaint": 0.268,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1698,
+     "drag_ci": [
+      -0.1358,
+      -0.2038
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 91,
+     "share_of_category_pct": 20.5,
+     "pct_negative": 28.6,
+     "mean_polarity": 0.428,
+     "reviews_with_negative_mention": 23,
+     "prevalence_of_complaint": 0.205,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0676,
+     "drag_ci": [
+      -0.0372,
+      -0.098
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 45,
+     "share_of_category_pct": 10.1,
+     "pct_negative": 13.3,
+     "mean_polarity": 0.727,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.045
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 37,
+     "share_of_category_pct": 8.3,
+     "pct_negative": 40.5,
+     "mean_polarity": 0.194,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.116
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 26,
+     "share_of_category_pct": 5.9,
+     "pct_negative": 34.6,
+     "mean_polarity": 0.307,
+     "reviews_with_negative_mention": 9,
+     "prevalence_of_complaint": 0.08
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 17,
+     "share_of_category_pct": 3.8,
+     "pct_negative": 23.5,
+     "mean_polarity": 0.528,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.027
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 12,
+     "share_of_category_pct": 2.7,
+     "pct_negative": 16.7,
+     "mean_polarity": 0.664,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.018
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 8,
+     "share_of_category_pct": 1.8,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.997,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 8,
+     "share_of_category_pct": 1.8,
+     "pct_negative": 50.0,
+     "mean_polarity": 0.006,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.036
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 7,
+     "share_of_category_pct": 1.6,
+     "pct_negative": 42.9,
+     "mean_polarity": 0.143,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.027
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 7,
+     "share_of_category_pct": 1.6,
+     "pct_negative": 14.3,
+     "mean_polarity": 0.712,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.009
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 7,
+     "share_of_category_pct": 1.6,
+     "pct_negative": 42.9,
+     "mean_polarity": 0.139,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.018
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 6,
+     "share_of_category_pct": 1.4,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.994,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.045
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 4,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 25.0,
+     "mean_polarity": 0.499,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.009
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 2,
+     "share_of_category_pct": 0.5,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.975,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.009
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 1,
+     "share_of_category_pct": 0.2,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.993,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 166,
+     "share_of_category_pct": 37.4,
+     "pct_negative": 25.9,
+     "mean_polarity": 0.481,
+     "reviews_with_negative_mention": 30,
+     "prevalence_of_complaint": 0.268,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1698,
+     "drag_ci": [
+      -0.1358,
+      -0.2038
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 91,
+     "share_of_category_pct": 20.5,
+     "pct_negative": 28.6,
+     "mean_polarity": 0.428,
+     "reviews_with_negative_mention": 23,
+     "prevalence_of_complaint": 0.205,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0676,
+     "drag_ci": [
+      -0.0372,
+      -0.098
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 8384,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i expected it to have it's usual fresh, potent citrus flavor and instead it's mostly bland."
+     },
+     {
+      "sent_id": 9033,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "i did not like these beans and won't be purchasing them again."
+     },
+     {
+      "sent_id": 8383,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "unfortunately the batch of sumac i received had very little flavor to it at all."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 8586,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i hope this is just a bad batch because nobody else in the reviews complained about this being too salty to eat."
+     },
+     {
+      "sent_id": 7870,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i don't recommend this unless you really really like salt."
+     },
+     {
+      "sent_id": 7619,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "a lot of the other triscuit brands like garlic tastes terrible and has hidden msg."
+     }
+    ]
+   },
+   "praise_language": [],
+   "complaint_language": []
+  },
+  "snack": {
+   "scope": {
+    "sentences": 2035,
+    "reviews": 558,
+    "products": 429,
+    "mean_star": 4.34,
+    "pct_negative_sentences": 23.5,
+    "years": "2006\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 801,
+     "share_of_category_pct": 39.4,
+     "pct_negative": 18.9,
+     "mean_polarity": 0.618,
+     "reviews_with_negative_mention": 119,
+     "prevalence_of_complaint": 0.213,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1352,
+     "drag_ci": [
+      -0.1081,
+      -0.1623
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 353,
+     "share_of_category_pct": 17.3,
+     "pct_negative": 22.7,
+     "mean_polarity": 0.54,
+     "reviews_with_negative_mention": 71,
+     "prevalence_of_complaint": 0.127,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0419,
+     "drag_ci": [
+      -0.023,
+      -0.0607
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 265,
+     "share_of_category_pct": 13.0,
+     "pct_negative": 26.8,
+     "mean_polarity": 0.458,
+     "reviews_with_negative_mention": 63,
+     "prevalence_of_complaint": 0.113,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.0098,
+     "drag_ci": [
+      0.01,
+      -0.0298
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 126,
+     "share_of_category_pct": 6.2,
+     "pct_negative": 29.4,
+     "mean_polarity": 0.412,
+     "reviews_with_negative_mention": 35,
+     "prevalence_of_complaint": 0.063,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0185,
+     "drag_ci": [
+      -0.0068,
+      -0.0301
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 117,
+     "share_of_category_pct": 5.7,
+     "pct_negative": 14.5,
+     "mean_polarity": 0.71,
+     "reviews_with_negative_mention": 17,
+     "prevalence_of_complaint": 0.03,
+     "coef_stars": 0.176,
+     "expected_drag_stars": 0.0054,
+     "drag_ci": [
+      0.014,
+      -0.0033
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 78,
+     "share_of_category_pct": 3.8,
+     "pct_negative": 28.2,
+     "mean_polarity": 0.415,
+     "reviews_with_negative_mention": 21,
+     "prevalence_of_complaint": 0.038,
+     "coef_stars": 0.224,
+     "expected_drag_stars": 0.0084,
+     "drag_ci": [
+      0.0161,
+      0.0008
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 62,
+     "share_of_category_pct": 3.0,
+     "pct_negative": 30.6,
+     "mean_polarity": 0.391,
+     "reviews_with_negative_mention": 16,
+     "prevalence_of_complaint": 0.029,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0155,
+     "drag_ci": [
+      -0.0095,
+      -0.0216
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 56,
+     "share_of_category_pct": 2.8,
+     "pct_negative": 78.6,
+     "mean_polarity": -0.571,
+     "reviews_with_negative_mention": 36,
+     "prevalence_of_complaint": 0.065,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.0541,
+     "drag_ci": [
+      -0.0403,
+      -0.0679
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 50,
+     "share_of_category_pct": 2.5,
+     "pct_negative": 8.0,
+     "mean_polarity": 0.838,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.007
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 31,
+     "share_of_category_pct": 1.5,
+     "pct_negative": 48.4,
+     "mean_polarity": 0.045,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.023
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 25,
+     "share_of_category_pct": 1.2,
+     "pct_negative": 8.0,
+     "mean_polarity": 0.837,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.004
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 24,
+     "share_of_category_pct": 1.2,
+     "pct_negative": 12.5,
+     "mean_polarity": 0.748,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.005
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 23,
+     "share_of_category_pct": 1.1,
+     "pct_negative": 4.3,
+     "mean_polarity": 0.91,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.002
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 8,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 75.0,
+     "mean_polarity": -0.637,
+     "reviews_with_negative_mention": 6,
+     "prevalence_of_complaint": 0.011
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 8,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 37.5,
+     "mean_polarity": 0.249,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.005
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 8,
+     "share_of_category_pct": 0.4,
+     "pct_negative": 50.0,
+     "mean_polarity": 0.001,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.007
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 801,
+     "share_of_category_pct": 39.4,
+     "pct_negative": 18.9,
+     "mean_polarity": 0.618,
+     "reviews_with_negative_mention": 119,
+     "prevalence_of_complaint": 0.213,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1352,
+     "drag_ci": [
+      -0.1081,
+      -0.1623
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 56,
+     "share_of_category_pct": 2.8,
+     "pct_negative": 78.6,
+     "mean_polarity": -0.571,
+     "reviews_with_negative_mention": 36,
+     "prevalence_of_complaint": 0.065,
+     "coef_stars": -0.839,
+     "expected_drag_stars": -0.0541,
+     "drag_ci": [
+      -0.0403,
+      -0.0679
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 353,
+     "share_of_category_pct": 17.3,
+     "pct_negative": 22.7,
+     "mean_polarity": 0.54,
+     "reviews_with_negative_mention": 71,
+     "prevalence_of_complaint": 0.127,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0419,
+     "drag_ci": [
+      -0.023,
+      -0.0607
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 126,
+     "share_of_category_pct": 6.2,
+     "pct_negative": 29.4,
+     "mean_polarity": 0.412,
+     "reviews_with_negative_mention": 35,
+     "prevalence_of_complaint": 0.063,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0185,
+     "drag_ci": [
+      -0.0068,
+      -0.0301
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 62,
+     "share_of_category_pct": 3.0,
+     "pct_negative": 30.6,
+     "mean_polarity": 0.391,
+     "reviews_with_negative_mention": 16,
+     "prevalence_of_complaint": 0.029,
+     "coef_stars": -0.542,
+     "expected_drag_stars": -0.0155,
+     "drag_ci": [
+      -0.0095,
+      -0.0216
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 78,
+     "share_of_category_pct": 3.8,
+     "pct_negative": 28.2,
+     "mean_polarity": 0.415,
+     "reviews_with_negative_mention": 21,
+     "prevalence_of_complaint": 0.038,
+     "coef_stars": 0.224,
+     "expected_drag_stars": 0.0084,
+     "drag_ci": [
+      0.0161,
+      0.0008
+     ],
+     "effect_significant": true
+    }
+   ],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 8571,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i think with all the oil that leached out, it upset the flavor balance of the chip and now they just taste really salty and stale. tried 3 different bags, and it was the same in each case (couldnt eat more than a couple of chips, they were that bad)."
+     },
+     {
+      "sent_id": 9817,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "these do not taste the same as before, i do not know if they have changed something - but these are disappointing to say the least."
+     },
+     {
+      "sent_id": 7970,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i had high hopes for this mix but ended up being not too happy with it."
+     }
+    ],
+    "Condition & expectations": [
+     {
+      "sent_id": 8685,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "not good, product was old and nearly passed due, poor quality and taste when compared to a fresh product."
+     },
+     {
+      "sent_id": 7449,
+      "stars": 4,
+      "polarity": -1.0,
+      "text": "too many products labelled as spicy are not, have no kick, and are as bland as can be."
+     },
+     {
+      "sent_id": 8686,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the product seemed dry and the taste was inconsistent with previously purchased, fresher products."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 8601,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "considering the soy is at the end of the ingredient list after various oils and before the salt, then such soy is just a marketing gimmick to help excuse such a disappointing blue corn chip."
+     },
+     {
+      "sent_id": 7978,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "stay away from this product if you want to control your calorie intake, by taking supposedly healthier dried vegetable chips."
+     },
+     {
+      "sent_id": 1318,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "be warned that these chips have no salt."
+     }
+    ],
+    "Packaging & portioning": [
+     {
+      "sent_id": 7779,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "after opening the box it looking like it fell down a set of stairs."
+     },
+     {
+      "sent_id": 9236,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "it was supposed to be a six pack of bars but only five were in the ziplock bag they came in."
+     },
+     {
+      "sent_id": 2991,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "i wanted to try the squeeze packs because the other brand i have eaten in the past though good, it's such a pain to have to stir this huge jar of it every time and i like to keep an eye on my calories so having to measure out a serving from a jar each time gets messy plus it's so bland i always add a little honey to it."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "great",
+     "z": 2.77
+    },
+    {
+     "phrase": "snack",
+     "z": 1.91
+    },
+    {
+     "phrase": "love",
+     "z": 1.71
+    },
+    {
+     "phrase": "best",
+     "z": 1.63
+    },
+    {
+     "phrase": "delicious",
+     "z": 1.59
+    },
+    {
+     "phrase": "it's",
+     "z": 1.44
+    },
+    {
+     "phrase": "calories",
+     "z": 1.36
+    },
+    {
+     "phrase": "low",
+     "z": 1.36
+    },
+    {
+     "phrase": "time",
+     "z": 1.3
+    },
+    {
+     "phrase": "perfect",
+     "z": 1.3
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "years",
+     "z": -3.54
+    },
+    {
+     "phrase": "sea salt",
+     "z": -2.95
+    },
+    {
+     "phrase": "awful",
+     "z": -2.83
+    },
+    {
+     "phrase": "oil",
+     "z": -2.82
+    },
+    {
+     "phrase": "sea",
+     "z": -2.81
+    },
+    {
+     "phrase": "really",
+     "z": -2.76
+    },
+    {
+     "phrase": "pops",
+     "z": -2.53
+    },
+    {
+     "phrase": "dog",
+     "z": -2.22
+    },
+    {
+     "phrase": "cardboard",
+     "z": -2.17
+    },
+    {
+     "phrase": "box",
+     "z": -2.15
+    }
+   ]
+  },
+  "staples": {
+   "scope": {
+    "sentences": 936,
+    "reviews": 256,
+    "products": 238,
+    "mean_star": 4.38,
+    "pct_negative_sentences": 28.0,
+    "years": "2005\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 279,
+     "share_of_category_pct": 29.8,
+     "pct_negative": 24.7,
+     "mean_polarity": 0.505,
+     "reviews_with_negative_mention": 56,
+     "prevalence_of_complaint": 0.219,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1387,
+     "drag_ci": [
+      -0.1109,
+      -0.1665
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 193,
+     "share_of_category_pct": 20.6,
+     "pct_negative": 26.4,
+     "mean_polarity": 0.471,
+     "reviews_with_negative_mention": 41,
+     "prevalence_of_complaint": 0.16,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0527,
+     "drag_ci": [
+      -0.029,
+      -0.0764
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 88,
+     "share_of_category_pct": 9.4,
+     "pct_negative": 10.2,
+     "mean_polarity": 0.79,
+     "reviews_with_negative_mention": 9,
+     "prevalence_of_complaint": 0.035
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 88,
+     "share_of_category_pct": 9.4,
+     "pct_negative": 38.6,
+     "mean_polarity": 0.229,
+     "reviews_with_negative_mention": 29,
+     "prevalence_of_complaint": 0.113,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.0099,
+     "drag_ci": [
+      0.0101,
+      -0.0299
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 65,
+     "share_of_category_pct": 6.9,
+     "pct_negative": 20.0,
+     "mean_polarity": 0.589,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.051
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 42,
+     "share_of_category_pct": 4.5,
+     "pct_negative": 45.2,
+     "mean_polarity": 0.098,
+     "reviews_with_negative_mention": 15,
+     "prevalence_of_complaint": 0.059,
+     "coef_stars": -0.071,
+     "expected_drag_stars": -0.0042,
+     "drag_ci": [
+      0.0111,
+      -0.0193
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 39,
+     "share_of_category_pct": 4.2,
+     "pct_negative": 46.2,
+     "mean_polarity": 0.065,
+     "reviews_with_negative_mention": 17,
+     "prevalence_of_complaint": 0.066,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0196,
+     "drag_ci": [
+      -0.0072,
+      -0.0319
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 38,
+     "share_of_category_pct": 4.1,
+     "pct_negative": 31.6,
+     "mean_polarity": 0.368,
+     "reviews_with_negative_mention": 11,
+     "prevalence_of_complaint": 0.043
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 35,
+     "share_of_category_pct": 3.7,
+     "pct_negative": 31.4,
+     "mean_polarity": 0.369,
+     "reviews_with_negative_mention": 11,
+     "prevalence_of_complaint": 0.043
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 30,
+     "share_of_category_pct": 3.2,
+     "pct_negative": 13.3,
+     "mean_polarity": 0.734,
+     "reviews_with_negative_mention": 4,
+     "prevalence_of_complaint": 0.016
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 18,
+     "share_of_category_pct": 1.9,
+     "pct_negative": 83.3,
+     "mean_polarity": -0.684,
+     "reviews_with_negative_mention": 13,
+     "prevalence_of_complaint": 0.051
+    },
+    {
+     "theme": "Pet palatability",
+     "sentences": 8,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 75.0,
+     "mean_polarity": -0.497,
+     "reviews_with_negative_mention": 5,
+     "prevalence_of_complaint": 0.02
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 7,
+     "share_of_category_pct": 0.7,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.998,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 3,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 33.3,
+     "mean_polarity": 0.333,
+     "reviews_with_negative_mention": 1,
+     "prevalence_of_complaint": 0.004
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 3,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.998,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 279,
+     "share_of_category_pct": 29.8,
+     "pct_negative": 24.7,
+     "mean_polarity": 0.505,
+     "reviews_with_negative_mention": 56,
+     "prevalence_of_complaint": 0.219,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1387,
+     "drag_ci": [
+      -0.1109,
+      -0.1665
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 193,
+     "share_of_category_pct": 20.6,
+     "pct_negative": 26.4,
+     "mean_polarity": 0.471,
+     "reviews_with_negative_mention": 41,
+     "prevalence_of_complaint": 0.16,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0527,
+     "drag_ci": [
+      -0.029,
+      -0.0764
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 39,
+     "share_of_category_pct": 4.2,
+     "pct_negative": 46.2,
+     "mean_polarity": 0.065,
+     "reviews_with_negative_mention": 17,
+     "prevalence_of_complaint": 0.066,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0196,
+     "drag_ci": [
+      -0.0072,
+      -0.0319
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 9150,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i know kellogg's is really pushing the \"special k\" diet and all, but this is the worst tasting cereal i've ever had."
+     },
+     {
+      "sent_id": 8550,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i was very disappointed in the taste of this product."
+     },
+     {
+      "sent_id": 8371,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "i opened 4 of the 12 cans in this case and in each of them, less than 10 beans per can were edible."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 9481,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "if people want to feed sugar to their kids they can add separately, i just don't understand why they add sugar to this baby food."
+     },
+     {
+      "sent_id": 9549,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "i sampled one and found they are very salty and tastless."
+     },
+     {
+      "sent_id": 2766,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "plus, most of them were just full of sugar anyway."
+     }
+    ],
+    "Packaging & portioning": [
+     {
+      "sent_id": 9468,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "though the idea was still cute, each cup had very smudged artwork and the cups all had black ash on the outside of them while sealed in the general mills box."
+     },
+     {
+      "sent_id": 8494,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "you might as well eat the box it came in."
+     },
+     {
+      "sent_id": 9424,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "it comes in a small box with little insulation and a couple of (melted) ice packs."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "great",
+     "z": 1.55
+    },
+    {
+     "phrase": "pasta",
+     "z": 1.33
+    },
+    {
+     "phrase": "gluten",
+     "z": 1.24
+    },
+    {
+     "phrase": "gluten free",
+     "z": 1.22
+    },
+    {
+     "phrase": "organic",
+     "z": 1.07
+    },
+    {
+     "phrase": "free",
+     "z": 1.03
+    },
+    {
+     "phrase": "sauce",
+     "z": 0.98
+    },
+    {
+     "phrase": "dog",
+     "z": 0.98
+    },
+    {
+     "phrase": "rice",
+     "z": 0.96
+    },
+    {
+     "phrase": "years",
+     "z": 0.95
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "box",
+     "z": -2.53
+    },
+    {
+     "phrase": "cans",
+     "z": -2.16
+    },
+    {
+     "phrase": "taste",
+     "z": -2.08
+    },
+    {
+     "phrase": "just",
+     "z": -1.98
+    },
+    {
+     "phrase": "product",
+     "z": -1.98
+    },
+    {
+     "phrase": "bought",
+     "z": -1.83
+    },
+    {
+     "phrase": "cup",
+     "z": -1.66
+    },
+    {
+     "phrase": "flour",
+     "z": -1.45
+    },
+    {
+     "phrase": "wrong",
+     "z": -1.45
+    },
+    {
+     "phrase": "tasting",
+     "z": -1.39
+    }
+   ]
+  },
+  "tea": {
+   "scope": {
+    "sentences": 1027,
+    "reviews": 334,
+    "products": 264,
+    "mean_star": 4.38,
+    "pct_negative_sentences": 23.9,
+    "years": "2005\u20132012"
+   },
+   "themes": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 517,
+     "share_of_category_pct": 50.3,
+     "pct_negative": 20.9,
+     "mean_polarity": 0.578,
+     "reviews_with_negative_mention": 86,
+     "prevalence_of_complaint": 0.257,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1632,
+     "drag_ci": [
+      -0.1305,
+      -0.1959
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 170,
+     "share_of_category_pct": 16.6,
+     "pct_negative": 18.8,
+     "mean_polarity": 0.616,
+     "reviews_with_negative_mention": 29,
+     "prevalence_of_complaint": 0.087,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0286,
+     "drag_ci": [
+      -0.0157,
+      -0.0414
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 60,
+     "share_of_category_pct": 5.8,
+     "pct_negative": 31.7,
+     "mean_polarity": 0.374,
+     "reviews_with_negative_mention": 19,
+     "prevalence_of_complaint": 0.057,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0168,
+     "drag_ci": [
+      -0.0062,
+      -0.0273
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Texture & consistency",
+     "sentences": 58,
+     "share_of_category_pct": 5.6,
+     "pct_negative": 41.4,
+     "mean_polarity": 0.175,
+     "reviews_with_negative_mention": 23,
+     "prevalence_of_complaint": 0.069,
+     "coef_stars": -0.087,
+     "expected_drag_stars": -0.006,
+     "drag_ci": [
+      0.0061,
+      -0.0182
+     ],
+     "effect_significant": false
+    },
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 46,
+     "share_of_category_pct": 4.5,
+     "pct_negative": 47.8,
+     "mean_polarity": 0.05,
+     "reviews_with_negative_mention": 21,
+     "prevalence_of_complaint": 0.063,
+     "coef_stars": 0.224,
+     "expected_drag_stars": 0.0141,
+     "drag_ci": [
+      0.0268,
+      0.0013
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Price & value",
+     "sentences": 46,
+     "share_of_category_pct": 4.5,
+     "pct_negative": 28.3,
+     "mean_polarity": 0.437,
+     "reviews_with_negative_mention": 11,
+     "prevalence_of_complaint": 0.033
+    },
+    {
+     "theme": "Preparation & usage",
+     "sentences": 40,
+     "share_of_category_pct": 3.9,
+     "pct_negative": 15.0,
+     "mean_polarity": 0.695,
+     "reviews_with_negative_mention": 6,
+     "prevalence_of_complaint": 0.018
+    },
+    {
+     "theme": "Loyalty & repeat purchase",
+     "sentences": 31,
+     "share_of_category_pct": 3.0,
+     "pct_negative": 6.5,
+     "mean_polarity": 0.87,
+     "reviews_with_negative_mention": 2,
+     "prevalence_of_complaint": 0.006
+    },
+    {
+     "theme": "Health & diet fit",
+     "sentences": 12,
+     "share_of_category_pct": 1.2,
+     "pct_negative": 25.0,
+     "mean_polarity": 0.497,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.009
+    },
+    {
+     "theme": "Strength & balance",
+     "sentences": 10,
+     "share_of_category_pct": 1.0,
+     "pct_negative": 30.0,
+     "mean_polarity": 0.396,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.009
+    },
+    {
+     "theme": "Condition & expectations",
+     "sentences": 9,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 100.0,
+     "mean_polarity": -0.996,
+     "reviews_with_negative_mention": 9,
+     "prevalence_of_complaint": 0.027
+    },
+    {
+     "theme": "Health effects & energy",
+     "sentences": 9,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 44.4,
+     "mean_polarity": 0.115,
+     "reviews_with_negative_mention": 3,
+     "prevalence_of_complaint": 0.009
+    },
+    {
+     "theme": "Variety & range",
+     "sentences": 9,
+     "share_of_category_pct": 0.9,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.993,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Overall satisfaction",
+     "sentences": 7,
+     "share_of_category_pct": 0.7,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.998,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    },
+    {
+     "theme": "Pet health effects",
+     "sentences": 3,
+     "share_of_category_pct": 0.3,
+     "pct_negative": 0.0,
+     "mean_polarity": 0.997,
+     "reviews_with_negative_mention": 0,
+     "prevalence_of_complaint": 0.0
+    }
+   ],
+   "fix_list": [
+    {
+     "theme": "Taste & flavour",
+     "sentences": 517,
+     "share_of_category_pct": 50.3,
+     "pct_negative": 20.9,
+     "mean_polarity": 0.578,
+     "reviews_with_negative_mention": 86,
+     "prevalence_of_complaint": 0.257,
+     "coef_stars": -0.634,
+     "expected_drag_stars": -0.1632,
+     "drag_ci": [
+      -0.1305,
+      -0.1959
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Ingredients & nutrition",
+     "sentences": 170,
+     "share_of_category_pct": 16.6,
+     "pct_negative": 18.8,
+     "mean_polarity": 0.616,
+     "reviews_with_negative_mention": 29,
+     "prevalence_of_complaint": 0.087,
+     "coef_stars": -0.329,
+     "expected_drag_stars": -0.0286,
+     "drag_ci": [
+      -0.0157,
+      -0.0414
+     ],
+     "effect_significant": true
+    },
+    {
+     "theme": "Packaging & portioning",
+     "sentences": 60,
+     "share_of_category_pct": 5.8,
+     "pct_negative": 31.7,
+     "mean_polarity": 0.374,
+     "reviews_with_negative_mention": 19,
+     "prevalence_of_complaint": 0.057,
+     "coef_stars": -0.295,
+     "expected_drag_stars": -0.0168,
+     "drag_ci": [
+      -0.0062,
+      -0.0273
+     ],
+     "effect_significant": true
+    }
+   ],
+   "tailwinds": [
+    {
+     "theme": "Availability & sourcing",
+     "sentences": 46,
+     "share_of_category_pct": 4.5,
+     "pct_negative": 47.8,
+     "mean_polarity": 0.05,
+     "reviews_with_negative_mention": 21,
+     "prevalence_of_complaint": 0.063,
+     "coef_stars": 0.224,
+     "expected_drag_stars": 0.0141,
+     "drag_ci": [
+      0.0268,
+      0.0013
+     ],
+     "effect_significant": true
+    }
+   ],
+   "quotes": {
+    "Taste & flavour": [
+     {
+      "sent_id": 9637,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "it is lovely to smell, disappointing to drink - very little citrus tones (as in, none i could detect) with just the slightest tang of bergamot oil. extremely disappointing."
+     },
+     {
+      "sent_id": 9685,
+      "stars": 2,
+      "polarity": -1.0,
+      "text": "they're just not all that tasty, and all have a nasty aftertaste from the artificial sweeteners. this product almost earned itself a one-star review because in addition to the aftertaste, there are little crumbly bits in it that just aren't a pleasant thing to encounter in a beverage."
+     },
+     {
+      "sent_id": 9683,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "one major problem, this \"tea\" has zero tea flavor."
+     }
+    ],
+    "Ingredients & nutrition": [
+     {
+      "sent_id": 8417,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "tea tastes good but it doesn't do anything."
+     },
+     {
+      "sent_id": 6802,
+      "stars": 5,
+      "polarity": -1.0,
+      "text": "it's hard to find a powder that tastes good and is decaf. i find these types of products very artifical tasting and i really don't enjoy them."
+     },
+     {
+      "sent_id": 8519,
+      "stars": 3,
+      "polarity": -1.0,
+      "text": "the tea is slightly bitter, not very flavorful, nor memorable."
+     }
+    ],
+    "Packaging & portioning": [
+     {
+      "sent_id": 9594,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "the bag that is holding the tea leaves is impossible to use."
+     },
+     {
+      "sent_id": 9252,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "on the box it tells you not to drink more than 1 cup in a 24 hour period- i drank three the other day not even thinking about it and nothing happened!"
+     },
+     {
+      "sent_id": 9526,
+      "stars": 1,
+      "polarity": -1.0,
+      "text": "this fact is hidden on the back of the box, while it should be in the product's name."
+     }
+    ]
+   },
+   "praise_language": [
+    {
+     "phrase": "it's",
+     "z": 1.83
+    },
+    {
+     "phrase": "best",
+     "z": 1.57
+    },
+    {
+     "phrase": "tried",
+     "z": 1.44
+    },
+    {
+     "phrase": "favorite",
+     "z": 1.3
+    },
+    {
+     "phrase": "hot",
+     "z": 1.26
+    },
+    {
+     "phrase": "love",
+     "z": 1.19
+    },
+    {
+     "phrase": "enjoy",
+     "z": 1.07
+    },
+    {
+     "phrase": "mint",
+     "z": 1.02
+    },
+    {
+     "phrase": "strong",
+     "z": 1.02
+    },
+    {
+     "phrase": "time",
+     "z": 1.01
+    }
+   ],
+   "complaint_language": [
+    {
+     "phrase": "peach",
+     "z": -2.81
+    },
+    {
+     "phrase": "taste like",
+     "z": -2.79
+    },
+    {
+     "phrase": "bad",
+     "z": -2.65
+    },
+    {
+     "phrase": "compared",
+     "z": -2.14
+    },
+    {
+     "phrase": "thought",
+     "z": -1.92
+    },
+    {
+     "phrase": "green tea",
+     "z": -1.92
+    },
+    {
+     "phrase": "brewed",
+     "z": -1.91
+    },
+    {
+     "phrase": "doesn't taste",
+     "z": -1.87
+    },
+    {
+     "phrase": "doesn't",
+     "z": -1.85
+    },
+    {
+     "phrase": "just",
+     "z": -1.8
+    }
+   ]
+  }
+ }
+}

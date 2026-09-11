@@ -1,0 +1,12 @@
+# The page is designed as a printed brief — warm paper ground, dark ink.
+# Pinning the theme keeps it legible regardless of the viewer's OS setting.
+[theme]
+base = "light"
+primaryColor = "#b4412c"
+backgroundColor = "#fdfcfa"
+secondaryBackgroundColor = "#f5f2ec"
+textColor = "#1b1b1b"
+font = "serif"
+
+[server]
+headless = true

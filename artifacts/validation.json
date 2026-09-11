@@ -1,0 +1,97 @@
+{
+ "n_audited": 102,
+ "theme_accuracy": 0.882,
+ "theme_accuracy_ci95": [
+  0.806,
+  0.931
+ ],
+ "polarity_accuracy": 0.951,
+ "polarity_accuracy_ci95": [
+  0.89,
+  0.979
+ ],
+ "per_theme": {
+  "Availability & sourcing": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Condition & expectations": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Health & diet fit": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Health effects & energy": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Ingredients & nutrition": {
+   "n": 6,
+   "accuracy": 0.67
+  },
+  "Loyalty & repeat purchase": {
+   "n": 6,
+   "accuracy": 0.5
+  },
+  "Other": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Overall satisfaction": {
+   "n": 6,
+   "accuracy": 0.67
+  },
+  "Packaging & portioning": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Pet health effects": {
+   "n": 6,
+   "accuracy": 0.83
+  },
+  "Pet palatability": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Preparation & usage": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Price & value": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Taste & flavour": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Texture & consistency": {
+   "n": 6,
+   "accuracy": 1.0
+  },
+  "Unassigned": {
+   "n": 6,
+   "accuracy": 0.33
+  },
+  "Variety & range": {
+   "n": 6,
+   "accuracy": 1.0
+  }
+ },
+ "weakest_themes": [
+  [
+   0.33,
+   "Unassigned"
+  ],
+  [
+   0.5,
+   "Loyalty & repeat purchase"
+  ],
+  [
+   0.67,
+   "Ingredients & nutrition"
+  ]
+ ]
+}

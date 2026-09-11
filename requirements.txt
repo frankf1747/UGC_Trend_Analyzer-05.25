@@ -1,0 +1,13 @@
+# Dashboard + analysis (enough to open the committed artifacts)
+pandas>=2.2
+pyarrow>=16.0
+numpy>=1.26
+scikit-learn>=1.5        # HDBSCAN and KMeans both live here as of 1.5
+statsmodels>=0.14
+altair>=5.0
+streamlit>=1.37
+
+# Pipeline only — needed to recompute artifacts, not to view them
+torch>=2.4
+transformers>=4.44
+sentencepiece>=0.2       # DeBERTa-v3 tokenizer

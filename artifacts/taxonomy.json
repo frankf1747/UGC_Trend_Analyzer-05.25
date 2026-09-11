@@ -1,0 +1,146 @@
+{
+ "_provenance": {
+  "method": "Micro-clusters from stage 04 (spherical k-means, k=24) were reviewed as exemplar sets and merged into aspect themes by an LLM pass (Claude Opus, Sept 2026), then frozen. Labels are NOT regenerated at runtime; this file is the single source of truth and is version-controlled so any change to a theme is visible in the diff.",
+  "design": "Themes are aspects, not sentiments. Polarity is measured separately and continuously in stage 03, so 'the flavour is wonderful' and 'the flavour is vile' are the same theme with opposite polarity. Folding sentiment into the theme name (as the 2025 pipeline did) makes it impossible to ask whether an aspect is improving.",
+  "actionable_flag": "Two themes are marked actionable=false. 'Overall satisfaction' and 'Loyalty & repeat purchase' are expressions of the rating rather than causes of it; including them in a driver ranking would predict the outcome with a restatement of the outcome. They are reported in coverage and excluded from the fix list.",
+  "labels": "Each theme carries a short `label` used as the zero-shot entailment hypothesis, separate from the longer `definition` used for documentation and for human audit. Feeding the full definitions to the NLI model left 62.5% of sentences unassigned and lost 'Price & value' entirely: long compound hypotheses entail poorly."
+ },
+ "themes": {
+  "Taste & flavour": {
+   "clusters": [
+    0,
+    2,
+    5,
+    17,
+    18
+   ],
+   "actionable": true,
+   "definition": "Whether the product tastes good or bad; flavour delivery against expectation.",
+   "label": "the taste or flavour"
+  },
+  "Strength & balance": {
+   "clusters": [
+    6,
+    22
+   ],
+   "actionable": true,
+   "definition": "Intensity calibration \u2014 too strong, too weak, too sweet, too bitter.",
+   "label": "how strong, sweet or bitter it is"
+  },
+  "Texture & consistency": {
+   "clusters": [
+    12
+   ],
+   "actionable": true,
+   "definition": "Mouthfeel, crunch, toughness, aftertaste, artificial-sweetener finish.",
+   "label": "the texture or mouthfeel"
+  },
+  "Price & value": {
+   "clusters": [
+    1
+   ],
+   "actionable": true,
+   "definition": "Price against grocery/competitor alternatives; whether the quantity justifies the cost.",
+   "label": "the price or value for money"
+  },
+  "Ingredients & nutrition": {
+   "clusters": [
+    3,
+    11
+   ],
+   "actionable": true,
+   "definition": "Ingredient composition, protein/fibre/sugar content, nutritional claims.",
+   "label": "the ingredients or nutritional content"
+  },
+  "Health & diet fit": {
+   "clusters": [
+    15
+   ],
+   "actionable": true,
+   "definition": "Fit with a diet or eating goal \u2014 healthier alternative, low fat, gluten-free.",
+   "label": "fitting a diet or health goal"
+  },
+  "Health effects & energy": {
+   "clusters": [
+    21
+   ],
+   "actionable": true,
+   "definition": "Felt physiological effect after consumption \u2014 energy, immunity, wellbeing.",
+   "label": "how it made the person feel physically"
+  },
+  "Packaging & portioning": {
+   "clusters": [
+    13
+   ],
+   "actionable": true,
+   "definition": "Container, seal, bag count, portion size, how the product is packed.",
+   "label": "the packaging, container or portion size"
+  },
+  "Condition & expectations": {
+   "clusters": [
+    4
+   ],
+   "actionable": true,
+   "definition": "Arrived damaged, stale, defective, or materially unlike what was described.",
+   "label": "arriving damaged, stale or not as described"
+  },
+  "Availability & sourcing": {
+   "clusters": [
+    7
+   ],
+   "actionable": true,
+   "definition": "Whether the product can be found at all \u2014 discontinued lines, local stockouts.",
+   "label": "being able to find or buy the product"
+  },
+  "Variety & range": {
+   "clusters": [
+    8
+   ],
+   "actionable": true,
+   "definition": "Breadth of the flavour or product line; interest in trying other variants.",
+   "label": "the range of flavours or varieties available"
+  },
+  "Preparation & usage": {
+   "clusters": [
+    20
+   ],
+   "actionable": true,
+   "definition": "How the product is prepared, mixed, cooked, dosed or combined.",
+   "label": "how to prepare, cook or use it"
+  },
+  "Pet palatability": {
+   "clusters": [
+    10,
+    14
+   ],
+   "actionable": true,
+   "definition": "Whether the animal will actually eat it, including picky-eater acceptance.",
+   "label": "whether a pet will eat it"
+  },
+  "Pet health effects": {
+   "clusters": [
+    16,
+    19
+   ],
+   "actionable": true,
+   "definition": "Effect on the animal's health \u2014 digestion, illness, coat, vet outcomes.",
+   "label": "a pet's health or digestion"
+  },
+  "Overall satisfaction": {
+   "clusters": [
+    9
+   ],
+   "actionable": false,
+   "definition": "Undifferentiated approval or disapproval of the purchase.",
+   "label": "being satisfied or dissatisfied overall"
+  },
+  "Loyalty & repeat purchase": {
+   "clusters": [
+    23
+   ],
+   "actionable": false,
+   "definition": "Long-running use, favourite status, intent to rebuy.",
+   "label": "buying it again or being a long-time customer"
+  }
+ }
+}

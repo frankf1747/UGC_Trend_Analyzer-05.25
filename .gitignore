@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Regenerable in ~4 minutes by `make 02`, 15MB, and the dashboard never reads it.
+# theme_scores.npy IS committed — it is the 35-minute artifact, and keeping it
+# lets anyone re-threshold stage 05 instantly without a GPU.
+artifacts/embeddings.npy

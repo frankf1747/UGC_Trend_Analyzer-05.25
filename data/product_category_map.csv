@@ -1,0 +1,3805 @@
+ProductId,final_category,cat_confidence
+7310172001,dried fruit,1.0
+7310172101,pet food,1.0
+B00004CI84,other,1.0
+B00004CXX9,other,1.0
+B00004RAMS,other,1.0
+B00004RAMX,other,1.0
+B00004RBDU,other,1.0
+B00004RBDZ,other,1.0
+B00004RYGX,other,1.0
+B00004S1C6,flour & baking mix,1.0
+B00005C2M2,milk & cream,1.0
+B00005IX96,coffee,1.0
+B00005IX98,coffee,1.0
+B00006FMLY,cake & pastry,1.0
+B00006IDJO,coffee,1.0
+B000084388,pet food,1.0
+B000084DWM,baby food,1.0
+B000084E6V,pet food,1.0
+B000084EKW,soup,1.0
+B000084ETV,pet food,1.0
+B000084EZ4,rice & grain,1.0
+B000084F1I,pet food,1.0
+B000084F1O,pet food,1.0
+B000084F6F,pet food,1.0
+B000096OIV,bread,1.0
+B0000A0BS8,coffee,1.0
+B0000BXJIS,pet food,1.0
+B0000CAV3C,coffee,1.0
+B0000CERZK,other,1.0
+B0000CEU7J,coffee,1.0
+B0000D17HA,noodle & pasta,1.0
+B0000D9N8O,honey,1.0
+B0000DCXCM,nuts & seeds,1.0
+B0000DG4NJ,seasoning & spice,1.0
+B0000DG586,other,1.0
+B0000DG734,cheese,1.0
+B0000DGF9V,other,1.0
+B0000DID5R,sauce & dressing,1.0
+B0000DJ7RX,other,1.0
+B0000E2YA1,candy,1.0
+B0000ESTGX,candy,1.0
+B0000GG256,drink,1.0
+B0000GGHMY,sauce & dressing,1.0
+B0000GGHVU,drink,1.0
+B0000GHEEY,soup,1.0
+B0000GHNTK,cake & pastry,1.0
+B0000GHNUE,sauce & dressing,1.0
+B0000GHNVS,sauce & dressing,1.0
+B0000GHNWC,drink,1.0
+B0000GHNWM,sauce & dressing,1.0
+B0000GIORA,rice & grain,1.0
+B0000GIOS4,drink,1.0
+B0000GIVFA,drink,1.0
+B0000GIZRY,other,1.0
+B0000KCKV2,sauce & dressing,1.0
+B0000SY9U4,coffee,1.0
+B0000TLFIC,candy,1.0
+B0000TWLJO,tea,1.0
+B0000TZ204,baby food,1.0
+B0000VM8TK,nuts & seeds,1.0
+B0000W0GQQ,other,1.0
+B0000WKU8K,cake & pastry,1.0
+B0000Y3PUS,coffee,1.0
+B0000ZSH9Q,drink,1.0
+B00011RJU2,drink,1.0
+B000126ZU6,other,1.0
+B00013C2L6,chocolate,1.0
+B00014D37W,drink,1.0
+B00014DXCC,milk & cream,0.5
+B00014JNI0,tea,0.5
+B00015ECGC,coffee,1.0
+B00015UEM8,other,1.0
+B00016JH3O,fruit,1.0
+B00016LA7K,seasoning & spice,0.5
+B00016LA7U,other,1.0
+B00016LA8Y,other,1.0
+B00016LZT8,dried fruit,0.5
+B00016UX1E,sauce & dressing,1.0
+B00017L1TG,snack,1.0
+B00017LEXE,snack,1.0
+B00017LEXO,snack,1.0
+B00018CWLQ,flour & baking mix,1.0
+B0001BGTSA,other,1.0
+B0001BVJIA,drink,1.0
+B0001CVDYO,other,1.0
+B0001E5CJO,other,1.0
+B0001EQN88,coffee,1.0
+B0001ES9F8,coffee,0.5
+B0001ES9FI,coffee,1.0
+B0001G6VJW,pancake & waffle,1.0
+B0001GDC4O,coffee,1.0
+B0001GV4QM,other,1.0
+B0001GZ6C0,coffee,1.0
+B0001I9XO0,oil & vinegar,1.0
+B0001IOSDQ,noodle & pasta,1.0
+B0001KH4AI,candy,1.0
+B0001KL70Q,cheese,1.0
+B0001L3HLM,supplement,1.0
+B0001LQKBQ,tea,1.0
+B0001M0Z3O,supplement,1.0
+B0001M11HI,drink,1.0
+B0001QNI8Y,tea,1.0
+B0001QNMW6,other,1.0
+B0001QNMZ8,snack,1.0
+B0001UXQ9Q,candy,1.0
+B0001VWCV8,sauce & dressing,1.0
+B0001VWFBK,seasoning & spice,1.0
+B0001VWGWI,seasoning & spice,1.0
+B0001W7M1W,cake & pastry,1.0
+B0001WA6D8,candy,1.0
+B00020HHAO,tea,0.6666666666666666
+B00020HHE0,tea,1.0
+B00020HHGS,tea,1.0
+B00020HHHC,coffee,1.0
+B00020HHK4,tea,1.0
+B00020HHRW,tea,0.75
+B00020UGMU,coffee,1.0
+B00020UGNE,candy,1.0
+B00020XNUW,chocolate,1.0
+B00023T3GW,drink,1.0
+B00023T3IA,snack,0.5
+B000246WIS,chocolate,1.0
+B00024896G,candy,1.0
+B00024CW1O,supplement,1.0
+B00024D628,chocolate,1.0
+B000256DPE,other,1.0
+B00027CL5S,pet food,1.0
+B00028HN5A,pet food,1.0
+B00028LDJC,coffee,1.0
+B00028M72E,tea,1.0
+B00028N5Q6,tea,1.0
+B00029F5E0,drink,1.0
+B0002AQ7QO,other,1.0
+B0002ARQYQ,pet food,1.0
+B0002ASMT4,pet food,1.0
+B0002AUTY0,tea,1.0
+B0002CDZD0,seasoning & spice,1.0
+B0002D1590,candy,1.0
+B0002DGM5M,pet food,1.0
+B0002DGRQ6,meat,0.6666666666666666
+B0002DGRRA,pet food,0.3333333333333333
+B0002DGRSY,pet food,1.0
+B0002DGRZC,drink,1.0
+B0002DGSRO,plant,1.0
+B0002DHNLE,jam & spread,1.0
+B0002DJFTW,pet food,1.0
+B0002DJFUQ,candy,1.0
+B0002G3UWM,drink,1.0
+B0002G3UY0,tea,1.0
+B0002H3SDM,baby food,1.0
+B0002H3TBI,pet food,1.0
+B0002HDLZW,other,1.0
+B0002HV63Q,coffee,1.0
+B0002HV730,coffee,1.0
+B0002I0GUY,pet food,1.0
+B0002I0GVS,pet food,1.0
+B0002JG0HG,drink,1.0
+B0002K6ESK,biscuit & cookie,1.0
+B0002LDAHC,coffee,1.0
+B0002MLAFK,baby food,1.0
+B0002NV04K,drink,1.0
+B0002NVLJO,drink,1.0
+B0002PCET8,drink,1.0
+B0002PHEW0,seasoning & spice,1.0
+B0002PHFBK,coffee,1.0
+B0002QEIX2,fruit,1.0
+B0002QF0UW,soup,1.0
+B0002QX3Q0,pet food,1.0
+B0002RE0K2,nuts & seeds,1.0
+B0002TJB04,pet food,1.0
+B0002UEEAA,tea,1.0
+B0002VXZ40,dried fruit,0.5
+B0002XEI9O,other,1.0
+B0002XIBO2,chocolate,1.0
+B0002YBYCW,yogurt,1.0
+B0002YGSA0,seasoning & spice,1.0
+B0002YW26E,baby food,1.0
+B0002YX8QC,other,1.0
+B0002Z18SQ,noodle & pasta,1.0
+B00032BG3K,dried fruit,1.0
+B00032CW9W,other,1.0
+B00032HBAC,rice & grain,1.0
+B0004JR8SE,coffee,1.0
+B0004N1K48,nut & seeds,1.0
+B0005XMKBO,noodle & pasta,1.0
+B0005XMKD2,noodle & pasta,1.0
+B0005XN9HI,snack,1.0
+B0005YXP9Y,snack,1.0
+B0005Z7U9O,other,1.0
+B0005ZIC1O,drink,1.0
+B0005ZVX1U,tea,1.0
+B0005ZXPY8,drink,1.0
+B00061E7UC,canned food,1.0
+B00061EUN6,candy,1.0
+B00061MW36,pet food,1.0
+B00061R4AW,gum,0.5
+B00061V138,other,1.0
+B000633NXM,pet food,0.75
+B000633T6I,pet food,1.0
+B000633Z8A,pet food,1.0
+B00063464C,pet food,1.0
+B000634HD2,meat,1.0
+B00064VQO4,oil & vinegar,1.0
+B00065KBSK,other,1.0
+B00065LI0A,other,1.0
+B00068K7UE,pet food,1.0
+B0006G1K9I,other,1.0
+B0006G5N0K,pet food,1.0
+B0006G5QC0,pet food,1.0
+B0006GWXQM,pet food,1.0
+B0006HVB96,drink,1.0
+B0006I5M2M,drink,1.0
+B0006LKDS2,chocolate,1.0
+B0006M13WG,rice & grain,1.0
+B0006M13XK,sugar & sweetener,0.5
+B0006NL1D6,tea,1.0
+B0006NLXKC,pet food,1.0
+B0006Q98PG,biscuit & cookie,1.0
+B0006U7SVI,pet food,1.0
+B0006VB3TU,candy,0.5
+B0006Z7NOK,drink,0.6666666666666666
+B0006ZN538,other,1.0
+B00073IVAQ,tea,0.75
+B00073JVFU,tea,0.6666666666666666
+B0007A0AP8,pet food,1.0
+B0007A0APS,pet food,1.0
+B0007A0AQM,pet food,1.0
+B0007A0AQW,pet food,0.8
+B0007A0PX0,tea,1.0
+B0007CHPUY,candy,1.0
+B0007DHMU6,tea,1.0
+B0007KLGC4,candy,1.0
+B0007LXU9A,snack,1.0
+B0007O911S,candy,1.0
+B0007OPVVW,dried fruit,1.0
+B0007OVVZ2,candy,1.0
+B0007OVXXM,candy,1.0
+B0007PQC3M,drink,1.0
+B0007SN7B4,sauce & dressing,1.0
+B0007SNZBG,canned food,1.0
+B0007U5J40,snack,1.0
+B0007UQ73W,oil & vinegar,1.0
+B0007V11TQ,chocolate,1.0
+B0007W4VXI,coffee,1.0
+B0007XPS98,tea,0.6666666666666666
+B000812K0O,coffee,0.25
+B0008IT47E,candy,1.0
+B0008IT4OM,chocolate,1.0
+B0008IUQE4,sauce & dressing,1.0
+B0008IUV12,chocolate,1.0
+B0008JEZ8G,coffee,1.0
+B0008JGWRI,candy,1.0
+B00094D202,drink,1.0
+B00099XKXG,rice & grain,1.0
+B00099XNZ6,coffee,1.0
+B0009AFWYU,sauce & dressing,1.0
+B0009AJQ0Q,sugar & sweetener,1.0
+B0009DY554,tea,1.0
+B0009EHNXE,bread,1.0
+B0009ETA6W,syrup,1.0
+B0009ETA76,milk & cream,0.75
+B0009F3POY,milk & cream,0.6666666666666666
+B0009F3QKM,tea,1.0
+B0009F3QL6,coffee,1.0
+B0009F3QLG,tea,1.0
+B0009F3SBY,fruit,1.0
+B0009F3SF0,tea,1.0
+B0009F3SFK,tea,1.0
+B0009F5RXQ,pet food,1.0
+B0009H9SMU,coffee,1.0
+B0009HL7CY,other,1.0
+B0009J27XA,supplement,1.0
+B0009P5EJS,chocolate,1.0
+B0009TMZIM,tea,1.0
+B0009W7L3S,candy,1.0
+B0009WMEL2,syrup,1.0
+B0009X0TVS,coffee,1.0
+B0009XQWDM,rice & grain,1.0
+B0009YD7P2,pet food,1.0
+B0009YD8ME,milk & cream,1.0
+B0009YF3TU,pet food,1.0
+B0009YF43U,pet food,1.0
+B0009Z9FFW,other,1.0
+B0009ZC482,candy,1.0
+B000A0BOW8,other,1.0
+B000A10TV4,pet food,1.0
+B000A11IRI,candy,1.0
+B000AAIAH0,pet food,1.0
+B000ALGNHI,pet food,1.0
+B000ANO3N2,pet food,1.0
+B000AS1LFU,snack,1.0
+B000AY9SR2,meat,1.0
+B000AYFAO2,other,1.0
+B000AYFATW,chocolate,0.5
+B000AYFCEU,other,1.0
+B000B1X14K,oil & vinegar,1.0
+B000B6CYP2,sauce & dressing,1.0
+B000B6MV8M,drink,1.0
+B000B6O4LO,canned food,1.0
+B000B7SX0G,other,1.0
+B000BBY7YS,other,1.0
+B000BEZVW2,canned food,1.0
+B000BF10K8,candy,1.0
+B000BF3AGU,soup,1.0
+B000BF3AL0,other,1.0
+B000BH3K8G,drink,1.0
+B000BIVY6K,milk & cream,1.0
+B000BLLWCS,pet food,1.0
+B000BNY5UW,other,1.0
+B000BRR8VQ,pet food,0.6
+B000BSW6K8,pet food,1.0
+B000BSWIQA,jam & spread,1.0
+B000BVY02M,sauce & dressing,1.0
+B000BXSQVQ,pet food,1.0
+B000BXSTXQ,pet food,1.0
+B000BXSTY0,pet food,1.0
+B000BY50C8,pet food,1.0
+B000C5UYF4,drink,1.0
+B000CBFTC6,tea,1.0
+B000CBUOTY,tea,1.0
+B000CCIX96,candy,1.0
+B000CD9P88,chocolate,1.0
+B000CDMZDK,tea,1.0
+B000CDWPOO,candy,1.0
+B000CE9I9S,pet food,1.0
+B000CFJDWY,snack,1.0
+B000CIXMKA,snack,1.0
+B000CMD63E,supplement,1.0
+B000CMDRWO,snack,1.0
+B000CMF196,tea,1.0
+B000CMH0PY,tea,1.0
+B000CMHMUC,snack,1.0
+B000CNB4LE,drink,0.8
+B000COEZXC,pet food,1.0
+B000CONMBS,snack,1.0
+B000CQ01NS,noodle & pasta,1.0
+B000CQ26DG,cheese,1.0
+B000CQBZOW,tea,1.0
+B000CQBZPG,tea,0.75
+B000CQBZQK,tea,0.75
+B000CQC04Q,coffee,0.5
+B000CQC050,coffee,0.5
+B000CQC05K,tea,1.0
+B000CQC05U,tea,1.0
+B000CQC08C,tea,1.0
+B000CQC0BE,tea,1.0
+B000CQE3HS,snack,0.6666666666666666
+B000CQE3IC,snack,1.0
+B000CQE3NM,tea,1.0
+B000CQG87Q,tea,1.0
+B000CQG89Y,tea,1.0
+B000CQG8AS,tea,0.6666666666666666
+B000CQG8B2,coffee,1.0
+B000CQG8K8,tea,1.0
+B000CQG8KS,tea,1.0
+B000CQG8M6,coffee,1.0
+B000CQID1A,jerky & dried meat,0.5
+B000CQID2Y,tea,1.0
+B000CQID6U,tea,0.5
+B000CQIDAG,tea,0.5
+B000CQIDHE,tea,1.0
+B000CQIDHO,tea,1.0
+B000CQIDHY,tea,1.0
+B000CQIDJM,tea,0.6666666666666666
+B000CQY378,seasoning & spice,0.5
+B000CQY3FK,pet food,1.0
+B000CR1ELU,milk & cream,1.0
+B000CR1VVI,canned food,1.0
+B000CR1YOM,snack,1.0
+B000CR41KQ,cereal,0.5
+B000CRFORU,protein bar,0.5
+B000CRHQN0,jam & spread,1.0
+B000CRIBC0,protein bar,0.5
+B000CRIUNU,cereal,1.0
+B000CRKOIE,nuts & seeds,0.5
+B000CSCP1C,snack,1.0
+B000CSEFQ0,cereal,1.0
+B000DN8EZW,coffee,1.0
+B000DT7QE6,pet food,1.0
+B000DZFMEQ,bread,0.5
+B000DZFMG4,chocolate,1.0
+B000DZFMIM,snack,1.0
+B000DZH19U,coffee,1.0
+B000DZKKK2,cake & pastry,1.0
+B000E199RK,tea,1.0
+B000E1BLGC,other,1.0
+B000E1BLOY,candy,1.0
+B000E1BM7A,snack,1.0
+B000E1DR28,cake & pastry,1.0
+B000E1DS90,yogurt,1.0
+B000E1DSU4,other,1.0
+B000E1FZCI,other,1.0
+B000E1ZUQO,snack,1.0
+B000E1ZUQY,snack,1.0
+B000E21Z7Q,other,1.0
+B000E23VXW,drink,1.0
+B000E283KS,cake & pastry,1.0
+B000E39P9U,canned food,1.0
+B000E3XBT0,seasoning & spice,1.0
+B000E3ZFBC,rice & grain,1.0
+B000E3ZFDK,other,1.0
+B000E46GFA,cereal,1.0
+B000E46GFU,cereal,1.0
+B000E46LX2,drink,1.0
+B000E46LXM,jerky & dried meat,1.0
+B000E4ALEW,snack,1.0
+B000E4ALGU,pet food,1.0
+B000E4ALHY,snack,0.5
+B000E4ARAU,jerky & dried meat,1.0
+B000E4ARCS,jerky & dried meat,1.0
+B000E4C2MQ,cereal,1.0
+B000E4KDV8,coffee,1.0
+B000E5GFQE,seasoning & spice,1.0
+B000E63L8S,tea,1.0
+B000E63LOM,tea,1.0
+B000E63LQU,tea,1.0
+B000E65OJW,tea,1.0
+B000E65OV0,coffee,1.0
+B000E671W0,coffee,1.0
+B000E682EG,tea,1.0
+B000E682NW,tea,1.0
+B000E7UJJ6,rice & grain,1.0
+B000E7UJLO,rice & grain,1.0
+B000E7VDEG,vegetable,1.0
+B000E7YPOQ,noodle & pasta,1.0
+B000E8PZNA,tea,1.0
+B000E8PZNK,coffee,1.0
+B000E8U9DQ,noodle & pasta,1.0
+B000E8UAEO,tea,1.0
+B000E8WIAS,coffee,1.0
+B000ED7M3Q,biscuit & cookie,1.0
+B000ED9L9E,drink,1.0
+B000ED9LIU,snack,1.0
+B000EDDS6Q,milk & cream,1.0
+B000EDDSES,noodle & pasta,1.0
+B000EDG3UE,candy,0.5
+B000EDG430,bread,1.0
+B000EDG53Y,candy,1.0
+B000EDG5CA,drink,1.0
+B000EDGB2E,dried fruit,1.0
+B000EDI14K,snack,1.0
+B000EDI2N0,nuts & seeds,1.0
+B000EDK3RS,sauce & dressing,1.0
+B000EDKDTQ,fruit,1.0
+B000EDM8FS,snack,1.0
+B000EDMDZS,snack,1.0
+B000EEWZG4,drink,0.5
+B000EF3E3G,canned food,1.0
+B000EFHSUQ,seasoning & spice,1.0
+B000EGR85A,biscuit & cookie,1.0
+B000EGUYQA,other,1.0
+B000EGZ98S,other,1.0
+B000EH0RTS,rice & grain,1.0
+B000EH0RU2,rice & grain,1.0
+B000EH4XYS,rice & grain,1.0
+B000EHOZRI,protein bar,1.0
+B000EHP522,other,1.0
+B000EHP62G,candy,1.0
+B000EI2LLO,seasoning & spice,0.5
+B000EIN84S,gum,1.0
+B000EIP6MA,sauce & dressing,1.0
+B000EITV30,biscuit & cookie,1.0
+B000EITV3K,other,1.0
+B000EIVM8C,chocolate,1.0
+B000EJR49M,tea,1.0
+B000EKEYEY,sauce & dressing,0.5
+B000ELVUKY,drink,1.0
+B000EM0LVM,nuts & seeds,1.0
+B000EM2PGG,drink,1.0
+B000EM6PC6,coffee,1.0
+B000EM8U1U,milk & cream,1.0
+B000EM8U4C,tea,1.0
+B000EM8UJC,coffee,1.0
+B000EM8UOW,meat,1.0
+B000EM8UPQ,sauce & dressing,1.0
+B000EMD1MS,drink,1.0
+B000EMK4VE,tea,1.0
+B000EMM95S,biscuit & cookie,1.0
+B000EMM96W,nuts & seeds,1.0
+B000EMM9DU,other,1.0
+B000EMM9EO,canned food,1.0
+B000EMM9O4,tea,1.0
+B000EMM9WG,snack,1.0
+B000EMM9YO,other,1.0
+B000EMPNCE,drink,1.0
+B000EMU2BG,chocolate,1.0
+B000ENUC3S,energy bar,0.5
+B000EOXQS0,other,1.0
+B000EPMP36,snack,1.0
+B000EPOC2S,coffee,1.0
+B000EPR1KI,snack,1.0
+B000EQSAIY,seasoning & spice,1.0
+B000EQT4MA,snack,1.0
+B000EQT574,snack,1.0
+B000EQT9MK,snack,1.0
+B000EQTB4Q,drink,0.5
+B000EQVAFY,snack,1.0
+B000EQX62Y,snack,1.0
+B000EQX6HO,snack,1.0
+B000EQX6QK,snack,1.0
+B000EQYQBO,snack,1.0
+B000EQYS7Q,snack,1.0
+B000EQYW0E,snack,1.0
+B000EQYXIK,snack,1.0
+B000ER3DTE,soup,1.0
+B000ER5CTS,biscuit & cookie,1.0
+B000ER5CVQ,baby food,1.0
+B000ER5DFQ,pet food,0.5
+B000ER5EKA,snack,1.0
+B000ERXBZ0,pet food,1.0
+B000ES17HI,pet food,1.0
+B000ES1R28,tea,1.0
+B000ES5GMK,tea,1.0
+B000ESJR2A,coffee,1.0
+B000ESLJ6C,cheese,0.5
+B000ET4SM8,other,0.75
+B000ET93MS,snack,1.0
+B000ET93N2,snack,1.0
+B000ETAJZI,snack,1.0
+B000ETXO8M,candy,1.0
+B000ETZU2K,candy,1.0
+B000EUD6AM,chocolate,1.0
+B000EUF9E8,chocolate,1.0
+B000EUHGB2,snack,1.0
+B000EUINFA,pet food,1.0
+B000EUJK5W,snack,1.0
+B000EUJLHE,snack,1.0
+B000EVG8FQ,snack,1.0
+B000EVG8H4,bread,1.0
+B000EVG8J2,candy,1.0
+B000EVIDUY,cake & pastry,1.0
+B000EVIDV8,cake & pastry,1.0
+B000EVIDVI,flour & baking mix,0.5
+B000EVIDWW,rice & grain,0.5
+B000EVKHQM,snack,0.5
+B000EVMNMI,candy,1.0
+B000EVMNO6,candy,1.0
+B000EVMNP0,candy,1.0
+B000EVOSE4,dried fruit,0.25
+B000EVOSFI,candy,1.0
+B000EVQWK2,candy,1.0
+B000EVQWKC,candy,0.5
+B000EVT074,other,1.0
+B000EVT07O,candy,1.0
+B000EWADQA,snack,1.0
+B000EXMP74,noodle & pasta,1.0
+B000EXS6E0,soup,1.0
+B000EXWL8M,jam & spread,1.0
+B000EYRBTK,snack,1.0
+B000EZMMPW,other,1.0
+B000EZMRP2,snack,1.0
+B000EZOP1G,seasoning & spice,0.5
+B000EZQTEC,drink,1.0
+B000EZSFY4,jerky & dried meat,1.0
+B000F013RE,seasoning & spice,1.0
+B000F0C56M,drink,1.0
+B000F0FX52,drink,1.0
+B000F17AKC,coffee,1.0
+B000F2VESU,other,1.0
+B000F3WSBQ,coffee,1.0
+B000F3YEIQ,tea,1.0
+B000F409HU,tea,1.0
+B000F4D5GC,oil & vinegar,0.5
+B000F4F95C,tea,1.0
+B000F4GPC8,soup,1.0
+B000F4H5FO,tea,1.0
+B000F4H5FY,tea,1.0
+B000F4H5GI,coffee,0.5
+B000F4J74G,tea,1.0
+B000F4SVV6,candy,1.0
+B000F5K5XW,snack,1.0
+B000F6SNPS,tea,1.0
+B000F6SQ1O,chocolate,1.0
+B000F6X5BK,other,1.0
+B000F70R9C,tea,1.0
+B000F7A5X0,canned food,1.0
+B000F8L4GG,candy,1.0
+B000F8L4I4,candy,1.0
+B000F9B6OK,coffee,1.0
+B000F9HM70,tea,1.0
+B000F9Z1V4,other,1.0
+B000FA38YK,snack,1.0
+B000FA38ZO,candy,1.0
+B000FA38ZY,candy,1.0
+B000FA393U,sugar & sweetener,1.0
+B000FA395I,biscuit & cookie,1.0
+B000FA3L24,rice & grain,1.0
+B000FA77TW,bread,1.0
+B000FAIR82,bread,1.0
+B000FAIRCS,sauce & dressing,1.0
+B000FAPM2Q,drink,1.0
+B000FBKFRW,candy,1.0
+B000FBL8NM,candy,1.0
+B000FBLG6G,candy,1.0
+B000FBM3RC,snack,1.0
+B000FBM480,coffee,1.0
+B000FBMFDO,other,1.0
+B000FBO9LK,candy,0.6666666666666666
+B000FBOA46,bread,1.0
+B000FBOAOQ,snack,1.0
+B000FBOAP0,snack,1.0
+B000FBQ4YU,chocolate,1.0
+B000FBQ56M,snack,1.0
+B000FBQ594,biscuit & cookie,1.0
+B000FDDESM,bread,1.0
+B000FDDET6,rice & grain,1.0
+B000FDDJAA,snack,1.0
+B000FDLB9Q,coffee,1.0
+B000FDMLUO,sugar & sweetener,1.0
+B000FDMQAE,jam & spread,1.0
+B000FDMQGS,cheese,1.0
+B000FDQV3C,soup,1.0
+B000FE9F84,candy,1.0
+B000FFAK9G,candy,1.0
+B000FFIIZO,snack,1.0
+B000FFIIZY,snack,1.0
+B000FFIL9C,tea,1.0
+B000FFLHSY,tea,1.0
+B000FFPXDO,rice & grain,1.0
+B000FFQ1VW,jam & spread,1.0
+B000FFQ23Y,snack,1.0
+B000FFRTVI,other,1.0
+B000FFRY5O,biscuit & cookie,1.0
+B000FFS0CA,tea,1.0
+B000FFS0D4,tea,1.0
+B000FFVYF0,dried fruit,1.0
+B000FGXT20,tea,1.0
+B000FHREWK,coffee,1.0
+B000FI2VHM,dried fruit,1.0
+B000FI4O8Q,plant,1.0
+B000FI4O90,seasoning & spice,0.4
+B000FI61OQ,other,1.0
+B000FIDLNU,nuts & seeds,1.0
+B000FIWIW0,sugar & sweetener,1.0
+B000FIXT2I,rice & grain,1.0
+B000FJEURA,candy,1.0
+B000FJPKWO,gum,1.0
+B000FK5O0G,snack,1.0
+B000FK63LK,noodle & pasta,1.0
+B000FK7PYY,noodle & pasta,1.0
+B000FK8VHE,noodle & pasta,1.0
+B000FK8VSS,noodle & pasta,1.0
+B000FKGT8W,snack,1.0
+B000FKIYEO,candy,1.0
+B000FKIYM6,sugar & sweetener,1.0
+B000FKMNSM,candy,1.0
+B000FL08AQ,candy,1.0
+B000FL0A9K,coffee,1.0
+B000FL1I3C,tea,1.0
+B000FL521G,sugar & sweetener,1.0
+B000FMTJJQ,cereal,1.0
+B000FMZO8G,snack,1.0
+B000FMZO90,snack,1.0
+B000FNCVR2,sugar & sweetener,1.0
+B000FNCXL6,chocolate,1.0
+B000FNEX8C,biscuit & cookie,1.0
+B000FNEZGM,chocolate,1.0
+B000FNH1C2,biscuit & cookie,1.0
+B000FNJ69S,drink,1.0
+B000FOIYS6,candy,1.0
+B000FP0514,tea,1.0
+B000FPDYQM,cake & pastry,1.0
+B000FPDYRQ,sugar & sweetener,1.0
+B000FPJ6QO,pet food,0.6666666666666666
+B000FPJ72W,pet food,1.0
+B000FPJ78G,gum,1.0
+B000FPKX3E,meat,1.0
+B000FPKX5C,candy,1.0
+B000FPM22Y,baby food,1.0
+B000FPM2NS,baby food,1.0
+B000FRSSFC,candy,1.0
+B000FSPQTM,drink,1.0
+B000FTU5MY,seasoning & spice,1.0
+B000FVBYCW,tea,1.0
+B000FVDWU4,tea,1.0
+B000FVZW7K,drink,1.0
+B000FYVKRS,meat,1.0
+B000FYVKW8,jerky & dried meat,1.0
+B000FYYOZI,seasoning & spice,0.5
+B000G00ONC,noodle & pasta,1.0
+B000G176DW,other,1.0
+B000G17Y0C,coffee,1.0
+B000G18NRU,seasoning & spice,1.0
+B000G32YEG,snack,1.0
+B000G6MBUA,snack,1.0
+B000G6MBX2,snack,1.0
+B000G6O2QG,snack,1.0
+B000G6O2S4,snack,1.0
+B000G6Q4FI,snack,1.0
+B000G6Q4GW,snack,1.0
+B000G6RYOI,snack,1.0
+B000G7I7DO,pet food,1.0
+B000G7TBMK,snack,1.0
+B000G7V3BM,snack,1.0
+B000G7VZ56,snack,1.0
+B000G7WWW6,snack,1.0
+B000G7X0MW,rice & grain,1.0
+B000G80R6S,coffee,1.0
+B000GAPPAY,other,1.0
+B000GAQE3G,coffee,1.0
+B000GAT6MM,supplement,0.3333333333333333
+B000GAT6NG,other,0.3333333333333333
+B000GAXRMW,other,1.0
+B000GB3LL8,tea,1.0
+B000GBOM0C,rice & grain,1.0
+B000GBOM0M,snack,1.0
+B000GF56OY,seasoning & spice,1.0
+B000GFYRJE,tea,1.0
+B000GFYRMG,tea,1.0
+B000GG0BOI,drink,1.0
+B000GG0BPW,tea,1.0
+B000GG0BQ6,drink,1.0
+B000GG1O6M,tea,1.0
+B000GG1O6W,tea,1.0
+B000GG1O8U,tea,1.0
+B000GG1O9E,tea,1.0
+B000GJ4PZG,candy,1.0
+B000GJQ5C2,cake & pastry,1.0
+B000GKEYT2,snack,1.0
+B000GPNKRE,rice & grain,1.0
+B000GPW5KW,other,1.0
+B000GUOA8W,drink,1.0
+B000GW46D4,seasoning & spice,1.0
+B000GW46DE,snack,1.0
+B000GW6786,snack,1.0
+B000GWLUGU,snack,1.0
+B000GZ3B1O,pet food,1.0
+B000GZSDPS,jam & spread,0.5
+B000GZSDZI,dried fruit,0.5
+B000GZU7SY,soup,1.0
+B000GZUBAS,baby food,1.0
+B000GZW5OS,seasoning & spice,0.5
+B000GZY942,drink,1.0
+B000GZYAN2,flour & baking mix,1.0
+B000H0J9W8,pancake & waffle,1.0
+B000H0ZJHW,pet food,1.0
+B000H0ZJIG,pet food,1.0
+B000H1217M,pet food,1.0
+B000H121DQ,pet food,1.0
+B000H136HG,canned food,1.0
+B000H136W6,other,1.0
+B000H154US,snack,1.0
+B000H155ZM,canned food,1.0
+B000H23Z1C,seasoning & spice,1.0
+B000H24052,drink,1.0
+B000H241DS,other,1.0
+B000H25S8U,pancake & waffle,1.0
+B000H25Y0M,snack,1.0
+B000H25YH0,meat,1.0
+B000H27JI2,sauce & dressing,1.0
+B000H27O8C,drink,1.0
+B000H6PV4M,chocolate,0.5
+B000H7D1HK,tea,1.0
+B000H7ELU6,candy,1.0
+B000H7F722,nuts & seeds,1.0
+B000H7F78Q,candy,1.0
+B000H7GSDY,jam & spread,1.0
+B000H7LVKY,candy,1.0
+B000H9AXHE,syrup,1.0
+B000H9K4KA,candy,1.0
+B000HBO14I,other,1.0
+B000HCKZGA,pet food,1.0
+B000HCMRI4,candy,1.0
+B000HDGC7U,seasoning & spice,1.0
+B000HDI5O8,canned food,0.3333333333333333
+B000HDJZWO,snack,1.0
+B000HDK0D2,candy,1.0
+B000HDK0DC,candy,1.0
+B000HDKZCS,candy,1.0
+B000HDKZJG,dried fruit,1.0
+B000HDL1RQ,candy,1.0
+B000HDMUQ2,chocolate,1.0
+B000HDMV3E,snack,1.0
+B000HDMW8S,oil & vinegar,0.5
+B000HDMW9M,soup,1.0
+B000HDONP8,candy,0.5
+B000HDONQC,drink,1.0
+B000HDOPYC,biscuit & cookie,0.3333333333333333
+B000HDOPYM,other,1.0
+B000HDOQ5U,cereal,1.0
+B000HE6FU8,candy,1.0
+B000HE6PR6,snack,1.0
+B000HE8QM8,meat,1.0
+B000HEC48A,pet food,1.0
+B000HESDVW,snack,1.0
+B000HG84EQ,snack,1.0
+B000HGA782,candy,1.0
+B000HGC96K,fruit,1.0
+B000HGE7RO,tea,1.0
+B000HJ7AIY,other,1.0
+B000HP5FV2,snack,1.0
+B000HP5H5Q,flour & baking mix,1.0
+B000HP7KEW,soup,1.0
+B000HQN5K4,coffee,1.0
+B000HQNBSU,chocolate,1.0
+B000HQPGF6,seasoning & spice,1.0
+B000HRRVKI,drink,1.0
+B000HTDFCE,cereal,1.0
+B000HZ9CGQ,baby food,1.0
+B000HZEK1I,biscuit & cookie,1.0
+B000HZF7II,soup,1.0
+B000HZLPRU,coffee,1.0
+B000HZTBG2,tea,1.0
+B000I0VLRS,coffee,1.0
+B000I1OLT2,tea,1.0
+B000I1RHMU,coffee,1.0
+B000I1T368,biscuit & cookie,1.0
+B000I200NC,drink,1.0
+B000I3RLWE,drink,1.0
+B000I48STS,tea,1.0
+B000I4T41O,drink,1.0
+B000I4UZXK,seasoning & spice,1.0
+B000I60JUW,snack,1.0
+B000I612BM,other,1.0
+B000I660LY,tea,1.0
+B000I6625I,other,1.0
+B000I6KQ8W,snack,1.0
+B000I6MBKS,coffee,1.0
+B000I6MC3E,coffee,1.0
+B000IEDUB4,snack,1.0
+B000IEDUHS,other,1.0
+B000IEZKNU,cereal,1.0
+B000IHJEDE,snack,1.0
+B000IHNCQO,snack,0.6666666666666666
+B000IHXQ9W,pet food,1.0
+B000IKEED6,sugar & sweetener,1.0
+B000IKGG5U,jam & spread,1.0
+B000ILA5RO,snack,1.0
+B000ILEITA,chocolate,1.0
+B000ILEIUE,pet food,1.0
+B000ILEVWO,sauce & dressing,1.0
+B000ILILLQ,snack,1.0
+B000IMJU3I,snack,1.0
+B000IOC7RW,snack,1.0
+B000ITUEDQ,snack,1.0
+B000ITYT0K,other,1.0
+B000IW71BQ,dried fruit,1.0
+B000J2DQ46,seasoning & spice,1.0
+B000J41TB6,drink,1.0
+B000J423MK,other,1.0
+B000J4EPGW,drink,1.0
+B000JGLE0U,other,1.0
+B000JIN1H2,dried fruit,1.0
+B000JJK0B6,snack,1.0
+B000JJLXAI,cheese,1.0
+B000JKJJHG,sauce & dressing,1.0
+B000JL0NDO,cereal,1.0
+B000JOE224,pet food,1.0
+B000JSLYSU,chocolate,1.0
+B000JSO18K,soup,1.0
+B000JSQKS4,soup,1.0
+B000JSSNW0,tea,1.0
+B000JVGNP6,coffee,1.0
+B000JWCA0M,nuts & seeds,1.0
+B000JX0A76,tea,1.0
+B000JZYM8W,snack,1.0
+B000K2CSS0,drink,1.0
+B000K2D5PK,gum,1.0
+B000K4ZA56,other,1.0
+B000K6DVDM,tea,1.0
+B000K6X8KI,rice & grain,1.0
+B000K89490,rice & grain,1.0
+B000K8ATPI,candy,1.0
+B000K8ID2E,drink,0.5
+B000K8UL4C,snack,1.0
+B000KADHIW,cereal,1.0
+B000KC0XJQ,drink,1.0
+B000KEJMS2,flour & baking mix,1.0
+B000KELHNU,soup,1.0
+B000KELSYI,cereal,1.0
+B000KENKXA,sugar & sweetener,1.0
+B000KEPBGO,cereal,1.0
+B000KEVF3M,pet food,1.0
+B000KFVAF4,chocolate,1.0
+B000KFZ3LQ,other,1.0
+B000KGW2BY,snack,1.0
+B000KHYU54,coffee,1.0
+B000KNB0NI,honey,1.0
+B000KNB0OW,cereal,1.0
+B000KND8RY,coffee,1.0
+B000KNDF7M,tea,0.5
+B000KSPX7C,coffee,1.0
+B000KV61FC,pet food,1.0
+B000KV7ZGQ,pet food,1.0
+B000KY6NQG,chocolate,1.0
+B000L8FZMY,cheese,1.0
+B000LBGBP6,chocolate,1.0
+B000LCIO3M,dried fruit,1.0
+B000LDOUHU,tea,1.0
+B000LDRWWU,pet food,1.0
+B000LG2GU0,jerky & dried meat,1.0
+B000LJDQ06,pet food,1.0
+B000LKTEYC,snack,1.0
+B000LKTJ9C,nut & seeds,1.0
+B000LKTKTG,seasoning & spice,1.0
+B000LKTMLM,chocolate,1.0
+B000LKTQAE,syrup,1.0
+B000LKTUGY,energy bar,1.0
+B000LKTVCC,snack,1.0
+B000LKTXHA,soup,1.0
+B000LKTZNM,canned food,1.0
+B000LKU3DI,snack,1.0
+B000LKU3K6,jerky & dried meat,1.0
+B000LKU3WY,snack,1.0
+B000LKU4XM,supplement,1.0
+B000LKUTIM,noodle & pasta,1.0
+B000LKV2KQ,snack,1.0
+B000LKV2TC,canned food,1.0
+B000LKV3DC,drink,1.0
+B000LKV7T2,nuts & seeds,1.0
+B000LKVAFI,milk & cream,1.0
+B000LKVBGG,chocolate,1.0
+B000LKVCCO,candy,1.0
+B000LKVD5U,drink,0.3333333333333333
+B000LKVDLO,other,1.0
+B000LKVL16,jerky & dried meat,1.0
+B000LKVQXY,snack,1.0
+B000LKVROW,tea,1.0
+B000LKVRVA,snack,1.0
+B000LKVSDM,baby food,1.0
+B000LKVSR8,soup,1.0
+B000LKVTCW,other,1.0
+B000LKWVFQ,cereal,1.0
+B000LKX01K,other,1.0
+B000LKX1HI,canned food,1.0
+B000LKXBL4,snack,1.0
+B000LKXCB8,seasoning & spice,1.0
+B000LKXFBK,other,1.0
+B000LKXGFU,cake & pastry,1.0
+B000LKXHUY,milk & cream,1.0
+B000LKXJW0,dried fruit,1.0
+B000LKXNG2,syrup,1.0
+B000LKXQCS,jerky & dried meat,1.0
+B000LKXRW2,chocolate,1.0
+B000LKYNLG,canned food,1.0
+B000LKYSOI,drink,1.0
+B000LKYUAU,coffee,1.0
+B000LKYWZI,cereal,0.6666666666666666
+B000LKYY6A,supplement,1.0
+B000LKYYBU,tea,1.0
+B000LKZ3GA,chocolate,1.0
+B000LKZ86K,other,1.0
+B000LKZ8RY,sauce & dressing,1.0
+B000LKZ91Y,other,1.0
+B000LKZ9KK,other,1.0
+B000LKZA1I,flour & baking mix,1.0
+B000LKZBI0,tea,1.0
+B000LKZK36,meat,1.0
+B000LKZL76,tea,1.0
+B000LKZLCQ,drink,1.0
+B000LL0R92,drink,1.0
+B000LL0RFQ,rice & grain,1.0
+B000LL3PO6,cheese,1.0
+B000LLHRU4,canned food,1.0
+B000LLKCV0,seasoning & spice,1.0
+B000LO40AG,candy,0.5
+B000LQJKPE,tea,1.0
+B000LQLV7E,soup,0.5
+B000LQN5TQ,other,1.0
+B000LQNK5A,snack,1.0
+B000LQNK96,other,1.0
+B000LQOJ6E,tea,1.0
+B000LQORES,drink,1.0
+B000LR0M1E,canned food,1.0
+B000LR4FNU,drink,1.0
+B000LRE2MO,cheese,1.0
+B000LRH780,candy,1.0
+B000LRH7GC,drink,1.0
+B000LRIGJE,coffee,1.0
+B000LRKLTW,candy,0.5
+B000LRKR1E,soup,1.0
+B000LT0STS,sugar & sweetener,0.3333333333333333
+B000LTIDR2,snack,1.0
+B000LVTWLG,drink,1.0
+B000LZJPRS,snack,1.0
+B000M0F58U,tea,1.0
+B000M646KM,plant,1.0
+B000M9N1NW,rice & grain,1.0
+B000MANI4S,snack,1.0
+B000MAOJDW,other,1.0
+B000MBZGBA,candy,1.0
+B000MD48XU,vegetable,1.0
+B000MDHHOC,snack,1.0
+B000MGWEZQ,other,1.0
+B000MGWIH0,sugar & sweetener,0.6666666666666666
+B000MMO8W2,sauce & dressing,1.0
+B000MNWYZE,coffee,1.0
+B000MPRP4C,tea,1.0
+B000MQVM5O,rice & grain,1.0
+B000MRI24M,candy,1.0
+B000MRU0PQ,chocolate,0.5
+B000MS798G,drink,1.0
+B000MT5194,canned food,1.0
+B000MT8G64,snack,1.0
+B000MTM0WK,drink,1.0
+B000MTQIXM,fruit,1.0
+B000MUPCEW,energy bar,1.0
+B000MWYAMU,other,1.0
+B000MXEN9O,pet food,1.0
+B000MXHQR0,cereal,1.0
+B000MXHQTS,snack,1.0
+B000MXHQZW,candy,1.0
+B000MXJR5Y,cake & pastry,1.0
+B000MXJR68,snack,1.0
+B000MXX04S,tea,1.0
+B000N17T4G,other,1.0
+B000N36U44,drink,1.0
+B000N42A0G,drink,1.0
+B000N4LS04,seasoning & spice,1.0
+B000N4M6XC,other,1.0
+B000N5BNN0,drink,1.0
+B000N648QS,pet food,1.0
+B000N9IJQA,oil & vinegar,1.0
+B000NBQUNW,supplement,0.5
+B000NBYPEI,coffee,1.0
+B000NCW0BC,seasoning & spice,1.0
+B000NGNEKY,coffee,0.5
+B000NGP8UI,sugar & sweetener,1.0
+B000NHYNNU,tea,1.0
+B000NIFO96,coffee,1.0
+B000NMCQ9S,candy,1.0
+B000NME0QK,candy,1.0
+B000NME7F4,candy,1.0
+B000NMHY7W,candy,1.0
+B000NMHYO0,candy,1.0
+B000NMI4QM,drink,1.0
+B000NMI4ZS,candy,1.0
+B000NMJWZO,flour & baking mix,0.375
+B000NNGQRA,tea,1.0
+B000NOYZV8,coffee,1.0
+B000NU8H0C,drink,1.0
+B000NVU4Q6,chocolate,1.0
+B000O393QK,tea,1.0
+B000O5DI1E,pet food,0.5
+B000O82BEG,candy,1.0
+B000O88OXI,dried fruit,1.0
+B000O8UP76,snack,1.0
+B000O9RELA,cake & pastry,1.0
+B000OB4ESY,nuts & seeds,1.0
+B000OC7NB8,candy,1.0
+B000OCLVIO,tea,1.0
+B000ODH4BG,other,1.0
+B000OH57ZW,rice & grain,1.0
+B000OHBAE4,gum,1.0
+B000OJ1GUK,nut & seeds,1.0
+B000OQ2DJQ,other,1.0
+B000OQ2DL4,supplement,0.5
+B000OQ4A3S,candy,1.0
+B000ORSIJ4,biscuit & cookie,1.0
+B000ORY230,drink,1.0
+B000OSGASE,pet food,1.0
+B000OTZXAO,rice & grain,1.0
+B000OU5EJS,cheese,1.0
+B000OZFECU,drink,1.0
+B000P0VRW0,snack,1.0
+B000P3T4HW,candy,1.0
+B000P49A0W,candy,1.0
+B000P55XAC,drink,1.0
+B000P5OXYY,seasoning & spice,1.0
+B000P77GPK,candy,1.0
+B000PAM5CQ,chocolate,1.0
+B000PBJ66I,canned food,1.0
+B000PBQ65C,other,1.0
+B000PDLBBO,noodle & pasta,1.0
+B000PDWBKO,snack,0.7777777777777778
+B000PDY3P0,snack,1.0
+B000PEDTT0,sauce & dressing,1.0
+B000PG8KGU,supplement,1.0
+B000PGQQFC,tea,1.0
+B000PHN63Q,drink,1.0
+B000PIB6FA,snack,1.0
+B000PJFH0E,chocolate,0.5
+B000PKFZ0A,vegetable,1.0
+B000PKYG1Y,pet food,1.0
+B000PSNJXC,tea,1.0
+B000PU6QXA,candy,1.0
+B000PW05RQ,cereal,1.0
+B000PWTCBQ,seasoning & spice,1.0
+B000PWTXE2,cake & pastry,1.0
+B000Q3PTXO,jam & spread,1.0
+B000Q5X876,snack,1.0
+B000Q5X8DK,snack,0.6666666666666666
+B000Q611U6,snack,0.5
+B000Q6XR0S,candy,1.0
+B000Q71L50,candy,1.0
+B000Q7BOBQ,chocolate,1.0
+B000QAWN2C,seasoning & spice,1.0
+B000QB0XDC,seasoning & spice,1.0
+B000QDNIKU,coffee,1.0
+B000QFOXTS,soup,1.0
+B000QFPY8C,syrup,1.0
+B000QSN7P6,baby food,1.0
+B000QSON4K,pet food,0.6
+B000QV0GNE,supplement,1.0
+B000QV0M1A,snack,1.0
+B000QV4U4U,seasoning & spice,1.0
+B000QY9YDY,coffee,1.0
+B000R7X45O,soup,1.0
+B000RE6GLG,supplement,1.0
+B000RE7QIS,coffee,1.0
+B000REI2X6,candy,1.0
+B000RH4FG6,baby food,1.0
+B000RHUWMC,tea,1.0
+B000RHXH6K,rice & grain,1.0
+B000RHXKDA,dried fruit,1.0
+B000RI1FDG,other,1.0
+B000RI1W8E,jerky & dried meat,1.0
+B000RI1W9S,snack,1.0
+B000RI4DOE,pet food,1.0
+B000RJRFNO,tea,1.0
+B000RNHAF8,other,1.0
+B000ROR8Z4,yogurt,1.0
+B000RY8Z88,sauce & dressing,1.0
+B000RZAJL8,meat,1.0
+B000S11CD0,snack,1.0
+B000S4GCNM,candy,1.0
+B000S97K9M,snack,1.0
+B000S9IJN8,pet food,1.0
+B000SANUJ0,drink,1.0
+B000SAPV6A,tea,1.0
+B000SAPXN6,drink,1.0
+B000SAQACE,candy,1.0
+B000SARJF6,drink,0.5
+B000SARJLA,tea,1.0
+B000SARZ64,drink,1.0
+B000SATIBO,tea,1.0
+B000SATID2,seasoning & spice,1.0
+B000SATIFA,tea,1.0
+B000SATIZA,tea,1.0
+B000SAVWR2,flour & baking mix,1.0
+B000SDIO3E,drink,1.0
+B000SDKDM4,coffee,1.0
+B000SDO5YQ,snack,1.0
+B000SQLQ0Y,pet food,1.0
+B000ST9GCQ,coffee,1.0
+B000SU201O,other,1.0
+B000SUKHZ0,candy,1.0
+B000SW4NZI,canned food,1.0
+B000TAZPYM,snack,1.0
+B000TK6LBS,seasoning & spice,1.0
+B000TMS0QA,jam & spread,1.0
+B000TQEWM2,coffee,0.8
+B000TRFGGM,other,1.0
+B000TUM7PM,sugar & sweetener,1.0
+B000TV4W2C,snack,1.0
+B000TV8NR2,snack,1.0
+B000TV8STA,soup,1.0
+B000TVQVNA,tea,1.0
+B000TWQ7TC,chocolate,1.0
+B000U676C4,other,1.0
+B000U96JEC,sauce & dressing,1.0
+B000UA0QCM,drink,1.0
+B000UBD88A,coffee,1.0
+B000UGUWZM,plant,1.0
+B000UI8K5Y,syrup,1.0
+B000UJTZ8O,other,1.0
+B000UMC36W,candy,1.0
+B000UOHJ6O,snack,1.0
+B000UPALJ0,drink,1.0
+B000UUWECC,milk & cream,0.5
+B000UUYOPW,other,1.0
+B000UVBYRM,protein bar,0.5
+B000UXBOOI,snack,1.0
+B000UXY2EC,milk & cream,1.0
+B000UXY2EM,other,1.0
+B000UY0JUC,sauce & dressing,1.0
+B000UYIPYY,snack,1.0
+B000UYIPZS,jam & spread,1.0
+B000UZWWHO,seasoning & spice,1.0
+B000V0H4A8,snack,1.0
+B000V17ML8,seasoning & spice,1.0
+B000V17MLS,seasoning & spice,0.6666666666666666
+B000V1AWBK,rice & grain,0.5
+B000V1O28Y,canned food,1.0
+B000V1WXJO,dried fruit,1.0
+B000V4PW6M,snack,1.0
+B000V5X0MO,drink,1.0
+B000V6FTTU,candy,1.0
+B000V76YOS,canned food,1.0
+B000V7SV1W,drink,1.0
+B000V9PH4O,tea,1.0
+B000V9SMXC,coffee,1.0
+B000VDL7RG,nut & seeds,0.5
+B000VI3JCC,drink,1.0
+B000VIFCYU,soup,1.0
+B000VJRP0S,tea,1.0
+B000VJYTZM,supplement,1.0
+B000VK08OC,drink,0.5
+B000VK2UDE,snack,1.0
+B000VK339Y,pet food,0.5
+B000VK33C6,pet food,0.75
+B000VK4AZU,cereal,1.0
+B000VK4E6A,pet food,1.0
+B000VK4K2S,soup,0.3333333333333333
+B000VK6NDC,pet food,1.0
+B000VK6P1C,drink,1.0
+B000VK6TGI,rice & grain,1.0
+B000VK6TKO,baby food,0.5
+B000VK8A0Q,sugar & sweetener,1.0
+B000VK8AVK,snack,0.9
+B000VK8HJ0,pet food,1.0
+B000VK9VQS,tea,1.0
+B000VKA68A,soup,1.0
+B000VKA92I,baby food,0.5
+B000VM7HFS,dried fruit,1.0
+B000VQBIPY,candy,1.0
+B000VQD4Z6,noodle & pasta,1.0
+B000VTQB6W,pet food,0.5
+B000VTR1G6,coffee,1.0
+B000VVT9IM,other,1.0
+B000VZSRWM,sauce & dressing,1.0
+B000VZTTQ0,candy,1.0
+B000W59DQU,noodle & pasta,1.0
+B000W5SLB8,pet food,1.0
+B000W5U5RG,pet food,1.0
+B000W655AW,candy,1.0
+B000W7GXZ2,candy,1.0
+B000W7PUS8,sauce & dressing,1.0
+B000W7WQX0,snack,1.0
+B000WEKOQE,jam & spread,1.0
+B000WEMH5K,other,1.0
+B000WFEN74,canned food,1.0
+B000WFGOX0,baby food,1.0
+B000WFKGR0,pet food,1.0
+B000WFKI82,pet food,0.75
+B000WFKWDI,pet food,1.0
+B000WFLOCQ,pet food,1.0
+B000WFLZ84,soup,1.0
+B000WFM9QQ,pet food,1.0
+B000WFN0VO,pet food,1.0
+B000WFNLP4,pet food,1.0
+B000WFNW4O,baby food,1.0
+B000WFORH0,drink,0.3333333333333333
+B000WFPJIG,other,1.0
+B000WFRQQ4,rice & grain,0.5
+B000WFRUP6,baby food,1.0
+B000WFSKK0,pet food,1.0
+B000WFUL3E,rice & grain,1.0
+B000WH9LSI,snack,1.0
+B000WKXVLI,chocolate,1.0
+B000WL167S,candy,1.0
+B000WL58J0,jam & spread,1.0
+B000WLIAPE,other,1.0
+B000WN468M,snack,1.0
+B000WO1HYC,milk & cream,1.0
+B000WSHV1Q,pet food,1.0
+B000WT93TS,nut & seeds,1.0
+B000WVY4PE,cake & pastry,1.0
+B000WVYB8Y,supplement,0.6666666666666666
+B000X1GFN2,coffee,1.0
+B000X9D8ZM,supplement,1.0
+B000XAMNPC,pet food,1.0
+B000XE7S7Q,pet food,1.0
+B000XEN1LS,other,1.0
+B000XEV9TO,tea,1.0
+B000XEV9YE,drink,0.5
+B000XEYUMC,tea,1.0
+B000XJS6Z4,coffee,1.0
+B000XS6RJW,pet food,1.0
+B000XSGMHO,snack,1.0
+B000XSJLW2,cake & pastry,1.0
+B000XZBXP8,pet food,1.0
+B000XZFZI4,pet food,1.0
+B000Y2CT6M,drink,0.5
+B000Y2M07U,drink,1.0
+B000Y434HI,pet food,1.0
+B000Y4S38I,sugar & sweetener,1.0
+B000Y8X0LE,skin care,1.0
+B000YC317I,drink,1.0
+B000YDRP2Y,soup,1.0
+B000YHGMTW,candy,1.0
+B000YHLS8W,snack,1.0
+B000YHNQSC,other,1.0
+B000YIWN0S,pet food,1.0
+B000YK7V9O,baby food,1.0
+B000YPG7RQ,drink,1.0
+B000YPKODY,dried fruit,1.0
+B000YPMKRC,cereal,1.0
+B000YQCDQY,sugar & sweetener,1.0
+B000YSQ9GC,baby food,1.0
+B000YSRK7E,snack,1.0
+B000YSS7EO,candy,0.5
+B000YSTGGW,cereal,1.0
+B000YSTIL0,snack,1.0
+B000YT7RLW,biscuit & cookie,1.0
+B000YTAOIU,snack,1.0
+B000YTC9MO,snack,1.0
+B000YUOI4A,cereal,1.0
+B000YUOWVO,drink,1.0
+B000YVGMZW,oil & vinegar,1.0
+B000Z3IQ0S,drink,1.0
+B000Z3IQ3U,pet food,1.0
+B000Z45RL8,sugar & sweetener,1.0
+B000Z8Z8DQ,drink,1.0
+B000Z8ZOM6,tea,1.0
+B000Z95UME,tea,1.0
+B000ZFDLNI,other,1.0
+B000ZGY7X0,seasoning & spice,1.0
+B000ZSX4D2,chocolate,0.5
+B000ZSX4GE,drink,0.5
+B000ZSZ5S4,nut & seeds,1.0
+B000ZT15EQ,snack,1.0
+B000ZZS6XS,candy,1.0
+B0010748DM,pet food,1.0
+B00108ES0Y,chocolate,1.0
+B0010CBEY8,sauce & dressing,1.0
+B0010S8XHS,other,1.0
+B0010TCFYO,protein bar,1.0
+B0010TGJQO,honey,1.0
+B0010UOGWM,drink,1.0
+B00110FN28,candy,1.0
+B00112EUPM,drink,1.0
+B00112GBO0,tea,1.0
+B00113FULO,coffee,1.0
+B00113FUOQ,tea,1.0
+B00113WU0S,drink,1.0
+B00113XJQW,rice & grain,1.0
+B00115X9Q0,oil & vinegar,1.0
+B00116629A,snack,1.0
+B001181NBA,protein bar,0.5
+B001189I3A,milk & cream,0.5
+B0011DFY38,syrup,1.0
+B0011EO7WQ,milk & cream,0.3333333333333333
+B0011G6DMG,drink,1.0
+B0011MZLEQ,drink,1.0
+B0011X5S8Y,tea,1.0
+B0011XKHY4,syrup,1.0
+B001225KGO,seasoning & spice,1.0
+B001225KXM,sauce & dressing,1.0
+B001228Q5Q,canned food,1.0
+B00122AMS0,seasoning & spice,1.0
+B00124YOFU,sugar & sweetener,1.0
+B00125ZCWI,supplement,0.75
+B00126N3CI,candy,1.0
+B0012AD8SI,noodle & pasta,1.0
+B0012AL40W,candy,1.0
+B0012BSMJM,tea,0.6666666666666666
+B0012BU7P4,other,1.0
+B0012BUR8Q,drink,0.5
+B0012C0X3O,chocolate,1.0
+B0012C2GFM,candy,0.5
+B0012C7VLG,supplement,1.0
+B0012HEVOG,canned food,1.0
+B0012HLESW,rice & grain,1.0
+B0012IP658,snack,1.0
+B0012KB3ZI,pet food,0.5
+B0012KB466,soup,1.0
+B0012KB47K,pet food,1.0
+B0012KIBP8,pet food,1.0
+B0012LAFG0,snack,1.0
+B0012NI060,tea,1.0
+B0012NUVN0,jerky & dried meat,1.0
+B0012O2N1W,drink,1.0
+B0012ORCPY,soup,1.0
+B0012S8VHS,soup,1.0
+B0012TYZ4K,other,1.0
+B0012UV1BY,drink,1.0
+B0012V1G0Y,pet food,0.6666666666666666
+B0012VNB70,candy,1.0
+B0012XBDH8,snack,1.0
+B0012XEJZ6,candy,1.0
+B0012XJBEU,snack,1.0
+B0012YEKCM,other,1.0
+B0012ZX18A,candy,1.0
+B00132YTO2,drink,1.0
+B001396HQS,pet food,1.0
+B001397WV2,rice & grain,0.5
+B00139TT72,pet food,0.5
+B00139ZPKM,pet food,1.0
+B0013A0QXC,coffee,0.6666666666666666
+B0013ENGXK,coffee,1.0
+B0013HCP4I,milk & cream,1.0
+B0013JK0O8,flour & baking mix,1.0
+B0013JNMWA,candy,1.0
+B0013JOH38,drink,1.0
+B0013L92Y0,pet food,1.0
+B0013M07PW,cereal,1.0
+B0013M5EM8,snack,1.0
+B0013MEB40,candy,1.0
+B0013NUGDE,snack,1.0
+B0013OVWPE,syrup,1.0
+B0013TAI90,coffee,1.0
+B0013Z0PTW,snack,1.0
+B0013Z1R1W,supplement,1.0
+B00141OU50,pet food,1.0
+B00141OY4W,candy,1.0
+B00141R0IO,candy,1.0
+B00141UC9I,pet food,0.5
+B00141WDXG,jerky & dried meat,1.0
+B001428X16,tea,1.0
+B00142BX68,tea,0.5
+B00142I7BM,coffee,1.0
+B001444G5Q,candy,1.0
+B00144ECUU,soup,1.0
+B001452DM8,oil & vinegar,1.0
+B001467JYO,tea,1.0
+B00146K7MU,candy,1.0
+B0014AUJII,tea,0.6666666666666666
+B0014AURLM,tea,1.0
+B0014AWBS4,honey,1.0
+B0014B0HWK,supplement,1.0
+B0014C0HJW,candy,1.0
+B0014C2IW6,other,1.0
+B0014C5ODG,chocolate,1.0
+B0014DZQA6,chocolate,1.0
+B0014EOU8E,drink,1.0
+B0014EOUBQ,drink,1.0
+B0014EQHK8,soup,1.0
+B0014ET0VQ,soup,1.0
+B0014GDRSQ,pet food,1.0
+B0014JUPTW,chocolate,1.0
+B0014RK2F6,drink,1.0
+B0014UAHQM,coffee,1.0
+B0014WYXTC,drink,1.0
+B0014WYXYW,drink,1.0
+B0014WYY1E,drink,1.0
+B00152KJMG,cereal,1.0
+B00155X14G,honey,1.0
+B00158U8DU,nuts & seeds,1.0
+B0015CS73E,candy,1.0
+B0015D62BW,drink,1.0
+B0015IS26U,coffee,1.0
+B0015MIGGW,seasoning & spice,1.0
+B0015N7E96,candy,1.0
+B0015NHRE8,other,1.0
+B0015QBRWI,candy,1.0
+B0015QV87M,canned food,1.0
+B0015R9BQG,jerky & dried meat,1.0
+B0015SZCU4,cheese,1.0
+B0015UX574,candy,0.5
+B0015V7E48,candy,1.0
+B0015VVS2M,coffee,1.0
+B0015WUQ24,drink,1.0
+B0015Y943Y,pet food,1.0
+B0015Z3BT6,pet food,1.0
+B00161O0VC,candy,1.0
+B00164X9SE,snack,1.0
+B00164YEJ2,plant,1.0
+B001650VPC,chocolate,1.0
+B001652NBM,candy,1.0
+B0016687F2,drink,1.0
+B0016862HU,seasoning & spice,1.0
+B00168ACE4,snack,1.0
+B00168AE38,snack,1.0
+B001691P6C,other,1.0
+B001693OLQ,other,1.0
+B0016B7Z32,tea,1.0
+B0016BPX7W,flour & baking mix,1.0
+B0016BS3BK,chocolate,1.0
+B0016FRI8A,drink,1.0
+B0016FY6H6,tea,1.0
+B0016G1EZM,drink,1.0
+B0016J7SYU,cereal,0.5
+B0016LSKL8,sauce & dressing,1.0
+B0016N2OYA,other,1.0
+B00170NWEI,tea,1.0
+B001710KV0,other,1.0
+B001710L78,sauce & dressing,1.0
+B001714V1U,tea,1.0
+B001717UGI,meat,1.0
+B00176C6N0,pet food,1.0
+B0017ANVFI,baby food,1.0
+B0017I1QAC,sauce & dressing,1.0
+B0017I1QAW,seasoning & spice,1.0
+B0017I1QB6,sauce & dressing,1.0
+B0017IAMU2,snack,1.0
+B0017JFWLK,drink,1.0
+B0017JL5R0,cake & pastry,1.0
+B0017JULHU,cake & pastry,1.0
+B0017OGFU2,baby food,1.0
+B0017SPYN2,candy,1.0
+B0017SWABG,rice & grain,1.0
+B0017SZTRI,tea,1.0
+B0017T2MWW,tea,1.0
+B0017T6S1I,tea,1.0
+B0017T6S2M,drink,1.0
+B0017TONPG,pet food,1.0
+B0017U08M2,soup,1.0
+B0017U08SQ,meat,1.0
+B0017U4STG,seasoning & spice,1.0
+B0017ZAJL2,biscuit & cookie,1.0
+B00181Y1PU,tea,1.0
+B0018207IE,snack,1.0
+B001871FQW,sugar & sweetener,1.0
+B0018AKRRC,cake & pastry,1.0
+B0018AMWXE,other,1.0
+B0018AXEFY,candy,1.0
+B0018CE6DQ,pet food,1.0
+B0018CEA50,baby food,1.0
+B0018CEABE,pet food,1.0
+B0018CG13Y,pet food,1.0
+B0018CICX6,pet food,1.0
+B0018CIP6K,pet food,1.0
+B0018CIPJ2,pet food,1.0
+B0018CIPS8,baby food,1.0
+B0018CJJ9C,candy,1.0
+B0018CJWPI,meat,1.0
+B0018CJXFC,pet food,1.0
+B0018CK0EA,pet food,0.5
+B0018CK0EU,seasoning & spice,1.0
+B0018DG2S2,canned food,1.0
+B0018HKOJQ,drink,1.0
+B0018KLPFK,snack,0.5
+B0018KR8V0,energy bar,0.3333333333333333
+B0018MIF9M,other,1.0
+B0018OMTOM,pet food,1.0
+B00192CNG2,plant,1.0
+B00192EJSC,other,1.0
+B001940AJC,drink,1.0
+B00196499C,jam & spread,1.0
+B0019696AY,chocolate,1.0
+B00199557E,coffee,1.0
+B0019955O2,coffee,1.0
+B00199AB5U,coffee,1.0
+B0019CSQ36,jerky & dried meat,1.0
+B0019FGRJI,biscuit & cookie,1.0
+B0019FM29M,coffee,1.0
+B0019FR0WQ,tea,1.0
+B0019LPM0C,sugar & sweetener,1.0
+B0019N25F0,flour & baking mix,1.0
+B0019N37HK,drink,1.0
+B0019O5Z0Q,pet food,1.0
+B0019QT66I,supplement,1.0
+B0019VD8MG,tea,1.0
+B0019X02HI,pet food,1.0
+B001A1PYHW,other,1.0
+B001ABOBEO,coffee,1.0
+B001ABOC4S,tea,1.0
+B001ABOCBG,seasoning & spice,1.0
+B001ABUYIQ,chocolate,1.0
+B001AC67CM,sauce & dressing,1.0
+B001AC8JL4,candy,1.0
+B001ACMCNU,bread,1.0
+B001ACNWY8,cheese,1.0
+B001ACPPXE,flour & baking mix,1.0
+B001AG6BMO,nut & seeds,1.0
+B001AHFVHO,snack,1.0
+B001AHJ2D8,snack,1.0
+B001AHJ2FQ,snack,1.0
+B001AIQP8M,snack,0.75
+B001AJ1NLU,snack,1.0
+B001AJ1ULS,pet food,1.0
+B001ARJE5E,other,1.0
+B001AS1A4Q,drink,0.6666666666666666
+B001AV19EY,coffee,1.0
+B001AVMWJK,pet food,1.0
+B001AW9WLU,yogurt,1.0
+B001AWD97I,sugar & sweetener,1.0
+B001AY7XVO,dried fruit,1.0
+B001AY9GSC,soup,1.0
+B001AY9JHK,noodle & pasta,1.0
+B001AY9RIQ,tea,1.0
+B001AYBD4C,seasoning & spice,1.0
+B001B0W0R4,pet food,1.0
+B001B1KH1Y,seasoning & spice,1.0
+B001B1OK80,pet food,1.0
+B001B4VOQI,pet food,1.0
+B001B7NMTM,snack,1.0
+B001BBUA3Y,chocolate,1.0
+B001BBXP7M,candy,1.0
+B001BCUBTQ,fruit,1.0
+B001BCVE5G,drink,1.0
+B001BCVLG8,canned food,1.0
+B001BCVY4W,pet food,0.5
+B001BCVY9W,pet food,0.6666666666666666
+B001BCXI64,canned food,1.0
+B001BCXTGS,soup,0.5
+B001BDDTB2,pet food,1.0
+B001BDEI6W,canned food,1.0
+B001BETMEO,pet food,0.5
+B001BF3FGY,snack,1.0
+B001BKLHMI,soup,0.5
+B001BLXRPC,snack,1.0
+B001BLZVQ0,yogurt,1.0
+B001BM01BE,snack,1.0
+B001BM368E,baby food,1.0
+B001BM4NAE,snack,1.0
+B001BM4RC8,milk & cream,0.5
+B001BM62T4,coffee,1.0
+B001BON7HM,meat,1.0
+B001BOQ3SW,pet food,0.3333333333333333
+B001BORBM4,candy,1.0
+B001BOVE54,rice & grain,1.0
+B001BOXBAA,pet food,1.0
+B001BS4G6O,pet food,1.0
+B001BVXZYK,snack,1.0
+B001BZ9SMO,snack,1.0
+B001C5KY58,noodle & pasta,1.0
+B001CCS80Y,snack,1.0
+B001CCU8AW,coffee,1.0
+B001CCU8F2,coffee,1.0
+B001CCU8G6,coffee,1.0
+B001CCXVOW,coffee,1.0
+B001CD1VI4,biscuit & cookie,1.0
+B001CERZ5Q,coffee,1.0
+B001CFMGGI,seasoning & spice,1.0
+B001CGX3ZK,supplement,1.0
+B001CHFSUW,nuts & seeds,1.0
+B001CHFUGY,coffee,1.0
+B001CJSWI0,cake & pastry,1.0
+B001CMMJFY,pet food,1.0
+B001CO2LOQ,rice & grain,1.0
+B001COJ860,snack,1.0
+B001CTYT6E,snack,0.3333333333333333
+B001CU0N7C,snack,1.0
+B001CWSK98,snack,1.0
+B001CWSKFC,snack,0.6666666666666666
+B001CWU9HE,snack,1.0
+B001CWV4RS,snack,1.0
+B001CWW0UI,pet food,1.0
+B001CWX7EG,snack,1.0
+B001CZT04O,flour & baking mix,1.0
+B001CZYQA2,supplement,1.0
+B001D0676C,seasoning & spice,1.0
+B001D09KAM,snack,1.0
+B001D0DMME,nuts & seeds,0.5
+B001D0DMMY,snack,1.0
+B001D0GV5E,tea,1.0
+B001D0GV7M,coffee,1.0
+B001D0GV90,coffee,1.0
+B001D0GVAO,coffee,1.0
+B001D0IZ80,coffee,1.0
+B001D0IZ8U,coffee,1.0
+B001D0IZBM,coffee,1.0
+B001D0KG4Q,coffee,1.0
+B001D0MF22,coffee,1.0
+B001D3K34Q,gum,1.0
+B001D3NXT8,candy,1.0
+B001D4CJJ2,candy,1.0
+B001D74BGS,candy,1.0
+B001D9JC0G,baby food,1.0
+B001D9RVMM,snack,0.5
+B001DBPUB4,baby food,1.0
+B001DC9SY8,snack,1.0
+B001DIM8K8,cereal,1.0
+B001DKA7HM,other,1.0
+B001DNE5RM,seasoning & spice,1.0
+B001DY6TWU,pet food,1.0
+B001E0T2RC,coffee,1.0
+B001E0TBA0,supplement,0.6666666666666666
+B001E18K8S,supplement,1.0
+B001E4Q4BU,meat,1.0
+B001E4Q54G,milk & cream,1.0
+B001E4Q5GO,sugar & sweetener,0.3333333333333333
+B001E4S850,jam & spread,1.0
+B001E50R4Y,pet food,0.5
+B001E50THY,coffee,1.0
+B001E50X66,candy,1.0
+B001E5116C,baby food,1.0
+B001E52VR0,drink,1.0
+B001E52WEM,coffee,1.0
+B001E52WME,coffee,1.0
+B001E52YY0,snack,1.0
+B001E530J8,coffee,1.0
+B001E534MG,other,1.0
+B001E53U48,coffee,1.0
+B001E53UTS,tea,1.0
+B001E53VC4,snack,1.0
+B001E53WIW,drink,0.5
+B001E55Z6E,cheese,1.0
+B001E55ZQO,meat,1.0
+B001E560PY,candy,1.0
+B001E5DR5U,snack,1.0
+B001E5DRBO,cereal,1.0
+B001E5DRC8,dried fruit,1.0
+B001E5DRCS,snack,1.0
+B001E5DS40,coffee,1.0
+B001E5DX90,tea,1.0
+B001E5DXEU,tea,1.0
+B001E5DXH2,coffee,1.0
+B001E5DY6M,coffee,1.0
+B001E5DYEE,snack,1.0
+B001E5DYSK,coffee,1.0
+B001E5DYUS,honey,1.0
+B001E5DZH0,candy,1.0
+B001E5DZLG,nuts & seeds,1.0
+B001E5DZTS,milk & cream,1.0
+B001E5DZYS,coffee,1.0
+B001E5E010,snack,1.0
+B001E5E074,dried fruit,0.3333333333333333
+B001E5E0B0,candy,1.0
+B001E5E0CE,coffee,1.0
+B001E5E0CO,coffee,1.0
+B001E5E0D8,coffee,1.0
+B001E5E0T2,coffee,0.5
+B001E5E0YW,noodle & pasta,1.0
+B001E5E10A,candy,1.0
+B001E5E1C8,pet food,1.0
+B001E5E1DM,cheese,1.0
+B001E5E1KA,candy,1.0
+B001E5E1LE,drink,1.0
+B001E5E1MI,oil & vinegar,0.6666666666666666
+B001E5E1XW,tea,1.0
+B001E5E23Q,coffee,1.0
+B001E5E24A,coffee,1.0
+B001E5E25Y,tea,1.0
+B001E5E2PY,coffee,1.0
+B001E5E2ZO,coffee,1.0
+B001E5E3FS,candy,1.0
+B001E5E3NK,coffee,1.0
+B001E5E3S0,dried fruit,1.0
+B001E5E3XU,sauce & dressing,1.0
+B001E5E4EI,drink,1.0
+B001E6EJQU,milk & cream,1.0
+B001E6GFR6,snack,1.0
+B001E6GFZI,milk & cream,1.0
+B001E6IZVU,cereal,1.0
+B001E6KBYE,chocolate,1.0
+B001E8DHPW,supplement,1.0
+B001E95KOC,tea,1.0
+B001E95KRE,pet food,1.0
+B001E95KUQ,coffee,1.0
+B001E96JZG,drink,1.0
+B001EGZKH2,pet food,1.0
+B001EHDNHA,drink,1.0
+B001ELJJX8,drink,1.0
+B001ELJK64,sugar & sweetener,1.0
+B001ELL260,milk & cream,1.0
+B001ELL36Y,dried fruit,1.0
+B001ELL3LE,drink,1.0
+B001ELL3U0,sugar & sweetener,1.0
+B001ELL4A4,snack,1.0
+B001ELL4E0,drink,1.0
+B001ELL4FY,coffee,1.0
+B001ELL4HM,candy,1.0
+B001ELL4NG,candy,1.0
+B001ELL4O0,seasoning & spice,1.0
+B001ELL4ZY,coffee,1.0
+B001ELL512,coffee,1.0
+B001ELL59Y,coffee,1.0
+B001ELL5IK,pancake & waffle,1.0
+B001ELL60W,drink,1.0
+B001ELL67A,coffee,1.0
+B001ELL68Y,coffee,1.0
+B001ELL6WA,sugar & sweetener,1.0
+B001ELL86Y,coffee,1.0
+B001ELL8F0,coffee,1.0
+B001ELL9GI,chocolate,1.0
+B001ELLA4Y,cereal,1.0
+B001ELLAH6,coffee,1.0
+B001ELLAHG,tea,1.0
+B001ELLB16,other,1.0
+B001ELLB4S,drink,1.0
+B001EO5N3K,snack,1.0
+B001EO5NIA,coffee,1.0
+B001EO5NV2,coffee,1.0
+B001EO5OKC,cereal,1.0
+B001EO5P88,coffee,1.0
+B001EO5PE2,coffee,1.0
+B001EO5Q3M,soup,1.0
+B001EO5Q4G,coffee,1.0
+B001EO5Q64,oil & vinegar,0.8333333333333334
+B001EO5QBO,sugar & sweetener,1.0
+B001EO5QLE,drink,0.5
+B001EO5QPA,coffee,1.0
+B001EO5QTQ,other,1.0
+B001EO5R04,tea,0.6666666666666666
+B001EO5R0Y,tea,1.0
+B001EO5R2W,cereal,1.0
+B001EO5RF4,coffee,1.0
+B001EO5RG8,coffee,1.0
+B001EO5RGS,drink,1.0
+B001EO5RI6,tea,1.0
+B001EO5RLI,cereal,1.0
+B001EO5ROA,drink,1.0
+B001EO5RYK,cereal,1.0
+B001EO5SBW,snack,1.0
+B001EO5T52,sugar & sweetener,1.0
+B001EO5TGQ,tea,1.0
+B001EO5TJ8,tea,1.0
+B001EO5TRK,cereal,1.0
+B001EO5TWU,drink,0.5
+B001EO5U3I,cereal,0.6666666666666666
+B001EO5U8I,tea,1.0
+B001EO5UVK,candy,1.0
+B001EO5X6M,hair care,1.0
+B001EO5XD0,drink,1.0
+B001EO5XPS,coffee,1.0
+B001EO5XYY,biscuit & cookie,1.0
+B001EO5Y52,coffee,1.0
+B001EO5Y8Y,coffee,1.0
+B001EO5YAC,coffee,1.0
+B001EO5YDY,coffee,1.0
+B001EO5YN4,candy,1.0
+B001EO5Z4W,drink,1.0
+B001EO5Z56,sauce & dressing,1.0
+B001EO5ZGU,coffee,1.0
+B001EO5ZHO,sauce & dressing,1.0
+B001EO607I,tea,1.0
+B001EO616S,honey,0.6666666666666666
+B001EO62ZS,tea,1.0
+B001EO630C,tea,1.0
+B001EO63SE,tea,1.0
+B001EO63WU,cake & pastry,1.0
+B001EO6424,tea,1.0
+B001EO65KA,drink,0.5
+B001EO6622,coffee,1.0
+B001EO6636,drink,1.0
+B001EO6672,cake & pastry,1.0
+B001EO66RM,candy,1.0
+B001EO677G,coffee,1.0
+B001EO69NS,yogurt,1.0
+B001EO6AHI,pet food,1.0
+B001EO6ASM,coffee,1.0
+B001EO6CLW,nut & seeds,1.0
+B001EO6DJ8,oil & vinegar,1.0
+B001EO6E0Q,noodle & pasta,1.0
+B001EO6ESS,coffee,1.0
+B001EO6GSG,pet food,1.0
+B001EO6H4Y,honey,1.0
+B001EO76XK,flour & baking mix,1.0
+B001EO773O,coffee,1.0
+B001EO7EI2,nut & seeds,1.0
+B001EO7FTU,rice & grain,1.0
+B001EO7G94,supplement,1.0
+B001EO7J8W,cheese,1.0
+B001EO7LZS,noodle & pasta,1.0
+B001EPPD98,tea,1.0
+B001EPPFUK,snack,1.0
+B001EPPIRK,candy,1.0
+B001EPPJX8,tea,1.0
+B001EPPVX6,tea,1.0
+B001EPQ73O,tea,1.0
+B001EPQNO2,tea,1.0
+B001EPQPPO,sugar & sweetener,1.0
+B001EPQQBM,seasoning & spice,1.0
+B001EQ4ABO,candy,1.0
+B001EQ4ADC,snack,1.0
+B001EQ4AKU,candy,1.0
+B001EQ4ATQ,candy,1.0
+B001EQ4E60,canned food,1.0
+B001EQ4EC4,coffee,1.0
+B001EQ4IJS,chocolate,1.0
+B001EQ4J92,drink,1.0
+B001EQ4JFQ,energy bar,1.0
+B001EQ4KO6,candy,1.0
+B001EQ4LFO,seasoning & spice,1.0
+B001EQ4LZY,snack,1.0
+B001EQ4MPI,tea,1.0
+B001EQ4OWO,other,1.0
+B001EQ4P2I,snack,0.6666666666666666
+B001EQ4RBM,snack,0.5
+B001EQ4RU8,other,1.0
+B001EQ4RXU,candy,1.0
+B001EQ4S9I,cheese,1.0
+B001EQ51YE,chocolate,1.0
+B001EQ522A,coffee,1.0
+B001EQ524S,pet food,1.0
+B001EQ52CU,drink,1.0
+B001EQ54R8,coffee,1.0
+B001EQ55A4,other,1.0
+B001EQ55MM,coffee,0.5
+B001EQ55RW,candy,0.4
+B001EQ55ZO,snack,0.3333333333333333
+B001EQ56IA,coffee,0.5
+B001EQ574I,sauce & dressing,1.0
+B001EQ57DO,other,1.0
+B001EQ59C8,snack,1.0
+B001EQ59V4,nuts & seeds,1.0
+B001EQ5A5E,seasoning & spice,1.0
+B001EQ5C2A,other,1.0
+B001EQ5CHK,coffee,1.0
+B001EQ5CIO,drink,1.0
+B001EQ5DLA,snack,1.0
+B001EQ5E5A,snack,1.0
+B001EQ5F9K,cereal,0.5
+B001EQ5FSG,candy,1.0
+B001EQ5GG2,nuts & seeds,1.0
+B001EQ5GLM,chocolate,1.0
+B001EQ5GXK,coffee,1.0
+B001EQ5IPQ,drink,1.0
+B001EQ5IS8,other,1.0
+B001EQ5JLE,tea,0.5
+B001EQ5JLY,tea,1.0
+B001EQ5L0I,coffee,1.0
+B001EQ5LLC,canned food,1.0
+B001EQ5LT4,nut & seeds,1.0
+B001EQ5MMK,coffee,1.0
+B001EQ5NE2,candy,1.0
+B001EQ5NG0,snack,1.0
+B001EQ5O2I,sugar & sweetener,1.0
+B001EQ5OSM,snack,1.0
+B001EQ5PU4,tea,1.0
+B001EQ5PWW,coffee,1.0
+B001EQ5SGU,sugar & sweetener,1.0
+B001ET5XX0,drink,1.0
+B001ET63MK,oil & vinegar,1.0
+B001EUG65I,pet food,1.0
+B001EXNA2W,tea,1.0
+B001EYUE5C,coffee,1.0
+B001EYUE5M,coffee,1.0
+B001F0RJHG,candy,1.0
+B001F0RJIK,candy,1.0
+B001F0RRTQ,pet food,1.0
+B001F1SAPA,coffee,1.0
+B001F2GDNK,drink,1.0
+B001F3C2U2,drink,1.0
+B001F993N0,pet food,1.0
+B001F9QW16,other,1.0
+B001FA1DMI,chocolate,1.0
+B001FA1DSM,chocolate,1.0
+B001FA1E0O,nut & seeds,1.0
+B001FA1K94,coffee,1.0
+B001FA1KEO,coffee,1.0
+B001FA1L6Q,oil & vinegar,1.0
+B001FA1LF2,drink,1.0
+B001FA1LP2,tea,1.0
+B001FA1MHY,candy,1.0
+B001FA1MMY,drink,1.0
+B001FB6A0C,candy,1.0
+B001FB6A2A,sauce & dressing,1.0
+B001FB6BB0,sauce & dressing,1.0
+B001FCFYU8,snack,0.5
+B001FFGREW,coffee,1.0
+B001FP2PWA,candy,1.0
+B001FPT0ZA,candy,1.0
+B001FPUWPW,candy,1.0
+B001FSJCPK,pet food,1.0
+B001FSK4R0,snack,1.0
+B001FWXMHA,drink,1.0
+B001FXPNY4,candy,1.0
+B001FYX0KM,pet food,1.0
+B001FYZ0W8,pet food,1.0
+B001FZ0SVA,pet food,1.0
+B001G0MG14,chocolate,1.0
+B001G0MG2I,chocolate,1.0
+B001G0NKZU,pet food,1.0
+B001G604ZI,coffee,1.0
+B001G6W0Y6,dried fruit,1.0
+B001G8WXJQ,tea,1.0
+B001G96KJ4,coffee,1.0
+B001GB0U2K,cereal,1.0
+B001GCTTRQ,supplement,0.5
+B001GINOQC,snack,1.0
+B001GL6GBE,protein bar,1.0
+B001GM969M,coffee,0.5
+B001GQ3E2S,jam & spread,0.5
+B001GQ3E5A,drink,1.0
+B001GVIRWA,tea,1.0
+B001GVIRYS,coffee,1.0
+B001GVISU6,coffee,1.0
+B001GVIT6E,coffee,1.0
+B001GVIUSG,cereal,1.0
+B001GVIUXQ,pet food,1.0
+B001GWVOTM,sugar & sweetener,1.0
+B001H0FHXW,coffee,1.0
+B001H0FHZA,coffee,1.0
+B001H322YQ,candy,1.0
+B001H9N3BG,coffee,1.0
+B001HA6W36,other,1.0
+B001HBXL5M,drink,1.0
+B001HKZZ4I,coffee,1.0
+B001HN5Z4K,snack,0.5
+B001HTG33Q,jam & spread,1.0
+B001HTGAUM,pet food,1.0
+B001HTI60Y,coffee,1.0
+B001HTIW8U,sauce & dressing,1.0
+B001HTIY1U,coffee,1.0
+B001HTJ2BQ,drink,1.0
+B001HTKO86,seasoning & spice,1.0
+B001HTKOWC,tea,0.6666666666666666
+B001HTKQ3O,tea,1.0
+B001HTKR1U,jam & spread,1.0
+B001HTKZT4,chocolate,1.0
+B001HTL7TG,snack,1.0
+B001HTMSIA,noodle & pasta,1.0
+B001HTMSZI,snack,1.0
+B001HTP04E,rice & grain,1.0
+B001HTPAE4,rice & grain,1.0
+B001HWWKW6,tea,1.0
+B001HWWLHA,coffee,1.0
+B001HX59ZU,tea,1.0
+B001HXJPS2,chocolate,1.0
+B001HXNIPS,dried fruit,0.5
+B001HYB2P0,pet food,0.5
+B001I7OPJ6,tea,1.0
+B001I8BOEE,coffee,1.0
+B001I8DP5U,coffee,1.0
+B001IA3RV0,honey,0.5
+B001IA7WCA,candy,1.0
+B001IA99FS,jerky & dried meat,1.0
+B001IAKEVG,sauce & dressing,1.0
+B001IAQ8KC,sauce & dressing,1.0
+B001IHWDX6,seasoning & spice,1.0
+B001IQ1ITW,sauce & dressing,1.0
+B001IVXALG,drink,1.0
+B001IW0ASG,drink,1.0
+B001IWBI1E,drink,1.0
+B001IYSOQO,candy,1.0
+B001IZ4J30,oil & vinegar,1.0
+B001IZA5EM,dried fruit,1.0
+B001IZASY4,other,1.0
+B001IZATIY,nuts & seeds,1.0
+B001IZCL8U,gum,1.0
+B001IZIB34,flour & baking mix,1.0
+B001IZK7K4,snack,1.0
+B001IZKD2Q,rice & grain,0.5
+B001IZM8WY,candy,1.0
+B001IZM92S,snack,1.0
+B001J3ZUQ6,snack,1.0
+B001J5R8H8,pet food,1.0
+B001J5SW5U,biscuit & cookie,0.5
+B001J9QBU4,coffee,0.5
+B001J9SUHG,pet food,1.0
+B001JJZCVI,other,1.0
+B001JK27VA,tea,1.0
+B001JU81ZG,tea,1.0
+B001JYVT60,pet food,1.0
+B001K9TK24,snack,1.0
+B001KQAR24,nut & seeds,1.0
+B001KTA03C,snack,1.0
+B001KUOH26,drink,1.0
+B001KUSLGY,supplement,1.0
+B001KUVTM2,candy,1.0
+B001KUWFXY,tea,1.0
+B001KVPBS4,seasoning & spice,1.0
+B001KWEZTO,drink,1.0
+B001KWH7TY,snack,1.0
+B001KWXK36,tea,1.0
+B001KZ7G2E,candy,1.0
+B001L1ASN6,candy,1.0
+B001L1IQHQ,coffee,1.0
+B001L492LW,other,1.0
+B001L4JH5I,pancake & waffle,1.0
+B001L54X74,pet food,1.0
+B001L70ZX8,sugar & sweetener,1.0
+B001L73DMI,drink,1.0
+B001LFEUCM,nuts & seeds,1.0
+B001LG940E,drink,1.0
+B001LG945O,drink,1.0
+B001LGG9K2,tea,1.0
+B001LGGH40,candy,1.0
+B001LGGH54,drink,1.0
+B001LNHQ34,seasoning & spice,1.0
+B001LNLW5M,coffee,1.0
+B001LQCOIS,baby food,0.5
+B001LQNVTE,coffee,1.0
+B001LQRKC8,pancake & waffle,1.0
+B001LQTDZA,dried fruit,1.0
+B001LUM1ZU,sauce & dressing,1.0
+B001LXYA5Q,snack,0.5
+B001M05070,coffee,1.0
+B001M050CA,coffee,0.3333333333333333
+B001M050CU,drink,1.0
+B001M050T8,soup,1.0
+B001M074ME,coffee,1.0
+B001M08XA6,noodle & pasta,1.0
+B001M08XPG,snack,1.0
+B001M08YZA,cereal,1.0
+B001M09BTS,cereal,1.0
+B001M0A6C4,dried fruit,1.0
+B001M0UK3E,candy,1.0
+B001M1DUDU,tea,1.0
+B001M1V9MY,seasoning & spice,1.0
+B001M23W50,honey,1.0
+B001MLZB6E,snack,1.0
+B001NASPPI,chocolate,1.0
+B001NC8HS6,snack,1.0
+B001NGASS4,drink,1.0
+B001NH1W3I,tea,1.0
+B001NJMLTU,coffee,1.0
+B001NW70MK,nuts & seeds,1.0
+B001NXM3GM,baby food,0.5
+B001NXM3I0,other,0.6666666666666666
+B001NZLUYG,seasoning & spice,1.0
+B001NZPFB0,baby food,1.0
+B001O023FK,tea,1.0
+B001O08SQI,drink,1.0
+B001O1Q0NA,drink,1.0
+B001O2DGY0,drink,1.0
+B001O2H9WU,rice & grain,1.0
+B001O2HBIM,cereal,1.0
+B001O2IWVW,milk & cream,1.0
+B001O4GMDU,seasoning & spice,1.0
+B001O8KQP6,seasoning & spice,1.0
+B001O8KR4Q,other,1.0
+B001OCBT3U,drink,0.5
+B001OCKIBY,candy,0.5
+B001OCKIP0,snack,0.5
+B001ONPMN2,chocolate,1.0
+B001ONPN22,seasoning & spice,1.0
+B001ONVON4,snack,1.0
+B001OZ5FPA,plant,1.0
+B001P05K6I,candy,1.0
+B001P05K7M,candy,1.0
+B001P05K7W,pet food,1.0
+B001P05K8Q,pet food,0.5
+B001P22K5U,drink,1.0
+B001P26PBA,coffee,1.0
+B001P2KCXC,pet food,1.0
+B001P3NU30,pet food,0.6666666666666666
+B001P3NU3U,candy,1.0
+B001P3NU44,pet food,1.0
+B001P3PR54,candy,0.6
+B001P3PR5O,drink,1.0
+B001P4H57Q,snack,1.0
+B001PATNEI,snack,1.0
+B001PB4LR6,nut & seeds,1.0
+B001PE1R6G,tea,1.0
+B001PEWJWC,other,1.0
+B001PICX42,snack,1.0
+B001PMDYXW,pet food,0.6666666666666666
+B001PNYKSE,chocolate,1.0
+B001POGTP0,soup,1.0
+B001PQNV6S,flour & baking mix,1.0
+B001PQOB4O,flour & baking mix,1.0
+B001PQTYN2,sauce & dressing,1.0
+B001PUFBLM,plant,1.0
+B001Q9C8CM,pet food,1.0
+B001Q9EFW8,pet food,1.0
+B001QE7J2G,pet food,0.5
+B001QE8W54,pet food,1.0
+B001QEAUZO,pet food,1.0
+B001QEEXCK,pet food,1.0
+B001QEEZX2,pet food,1.0
+B001QEF4XC,pet food,1.0
+B001QJW57U,biscuit & cookie,1.0
+B001QTRGAQ,coffee,1.0
+B001QTSV6Y,seasoning & spice,1.0
+B001QWBU3M,pet food,1.0
+B001QXZ8ES,chocolate,1.0
+B001QXZ94C,other,1.0
+B001QY04Q4,coffee,1.0
+B001R1LRPS,drink,1.0
+B001R1T0XY,drink,1.0
+B001R3VEY0,coffee,1.0
+B001R7OKFQ,honey,1.0
+B001RIW8AO,seasoning & spice,1.0
+B001RJ91IK,snack,1.0
+B001RK3NDI,coffee,1.0
+B001RMC0YE,candy,1.0
+B001RN8HJK,soup,1.0
+B001RNHITU,soup,1.0
+B001RQOY94,other,1.0
+B001RVCDME,nuts & seeds,1.0
+B001RVFDOO,snack,0.5
+B001RVFEP2,snack,0.9
+B001RVFERK,snack,1.0
+B001S8TR34,gum,1.0
+B001SAMKCW,candy,1.0
+B001SAO77S,sauce & dressing,1.0
+B001SAOHWI,soup,1.0
+B001SAQ546,coffee,0.5
+B001SAQCNA,milk & cream,1.0
+B001SAU2N6,chocolate,1.0
+B001SAVY5G,drink,1.0
+B001SAVZ3W,other,1.0
+B001SAW8JC,candy,1.0
+B001SAWSTM,sauce & dressing,1.0
+B001SAX2CE,drink,1.0
+B001SAXNE6,seasoning & spice,1.0
+B001SAXPEO,snack,1.0
+B001SAY0DO,drink,1.0
+B001SAY7BO,sauce & dressing,1.0
+B001SAYQFQ,noodle & pasta,1.0
+B001SAYXPY,noodle & pasta,1.0
+B001SB1P1I,sauce & dressing,1.0
+B001SB1WN4,oil & vinegar,1.0
+B001SB291S,coffee,1.0
+B001SB2SGO,tea,1.0
+B001SB4WUO,sauce & dressing,1.0
+B001SCCON0,snack,1.0
+B001SITWC0,jerky & dried meat,1.0
+B001SITYJ6,candy,0.5
+B001SIY3O2,meat,1.0
+B001SIY414,meat,1.0
+B001SJR4XS,coffee,1.0
+B001SS5RI8,biscuit & cookie,1.0
+B001STPJJO,meat,0.5
+B001TH4C2A,snack,1.0
+B001THPU3A,tea,1.0
+B001THPU76,tea,1.0
+B001THW7AO,other,1.0
+B001TJISSC,candy,1.0
+B001TKBUF4,cake & pastry,1.0
+B001TLY7A8,drink,0.5
+B001TLY7BM,pet food,1.0
+B001TLY7DK,drink,0.3333333333333333
+B001TM3XJ8,pet food,1.0
+B001TZJ1ZK,other,1.0
+B001U0ON5M,other,1.0
+B001UJCKCG,noodle & pasta,1.0
+B001ULH7P4,snack,1.0
+B001ULOTKU,fruit,0.5
+B001VDXO3K,drink,1.0
+B001VIY7O0,snack,1.0
+B001VIY8BW,pet food,0.5
+B001VJ0B0I,pet food,1.0
+B001VJ1IE6,pet food,1.0
+B001VNECN6,seasoning & spice,1.0
+B001VNGG58,seasoning & spice,1.0
+B001VNGHSO,seasoning & spice,1.0
+B001VNGK6I,seasoning & spice,1.0
+B001VNGKHW,sugar & sweetener,1.0
+B001VNGMPM,seasoning & spice,1.0
+B001VNO3B2,soup,1.0
+B001VNP3R0,sauce & dressing,1.0
+B001VNP7L2,canned food,1.0
+B001VSBWF2,drink,1.0
+B001W59NKA,coffee,1.0
+B001XUIGG6,drink,1.0
+B001XUIGNY,candy,1.0
+B001YJ4Y1W,candy,1.0
+B001YJ6L4A,other,1.0
+B001YJBLMM,snack,1.0
+B001ZWHGFO,other,1.0
+B00206DS60,drink,1.0
+B00206I9RS,snack,1.0
+B0020LP6T2,pet food,1.0
+B002133Z56,cereal,1.0
+B00213EU7I,biscuit & cookie,0.5
+B0021L8XT6,coffee,1.0
+B00238ZZDO,dried fruit,1.0
+B0023DFVCO,baby food,1.0
+B00248EE4O,snack,0.75
+B0024LAQ1Q,chocolate,1.0
+B0024V5LYI,canned food,1.0
+B00250I61S,candy,1.0
+B0025AMRFY,chocolate,1.0
+B0025UA7AG,other,1.0
+B0025UC2DQ,sugar & sweetener,1.0
+B0025UCDBC,sauce & dressing,1.0
+B0025UOE82,drink,1.0
+B0025UOMXE,soup,1.0
+B0025VP9I0,other,1.0
+B0025VZPP2,fruit,1.0
+B00264442S,snack,1.0
+B00264TMWU,pet food,1.0
+B00269WUTC,seasoning & spice,1.0
+B0026KJPYE,snack,1.0
+B0026KNQSA,snack,0.75
+B0026KPDG8,snack,1.0
+B0026L2MDY,snack,1.0
+B0026LFFN8,pet food,1.0
+B0026LFGT6,pet food,1.0
+B0026LINFK,pet food,1.0
+B0026LJQG0,snack,1.0
+B0026N8W4U,cheese,1.0
+B0026PCGEK,coffee,1.0
+B0026RQTGE,pet food,0.7142857142857143
+B0026S9O60,cheese,1.0
+B0026WL13U,meat,1.0
+B00270YQ9M,jerky & dried meat,1.0
+B00271NNLI,coffee,1.0
+B0027E0XGS,syrup,1.0
+B0027EFQHY,chocolate,1.0
+B0027YVV00,snack,1.0
+B0027YYXM8,nuts & seeds,1.0
+B0027Z8VES,coffee,1.0
+B00283A5RA,seasoning & spice,0.5
+B00283LQI2,pet food,1.0
+B00283LRDG,pet food,1.0
+B002866EWM,drink,1.0
+B002866FSU,snack,0.5
+B0028686E6,snack,1.0
+B0028C7T7K,snack,1.0
+B0028GWJI0,pet food,1.0
+B0028PDFQG,noodle & pasta,0.5
+B0028PHH6U,candy,1.0
+B00290W1CY,other,1.0
+B002910N6Y,milk & cream,1.0
+B00292BM7C,pet food,1.0
+B00292BM7W,pet food,1.0
+B00292BMN6,pet food,1.0
+B0029JDU70,sugar & sweetener,1.0
+B0029JI9OE,snack,1.0
+B0029JIBAG,snack,1.0
+B0029JLS7E,snack,1.0
+B0029JTZ7Y,sauce & dressing,1.0
+B0029JZQMC,snack,1.0
+B0029K0QHG,candy,1.0
+B0029K5DHY,tea,1.0
+B0029K68ZK,candy,1.0
+B0029NICD8,drink,1.0
+B0029NIFXK,supplement,1.0
+B0029NIGMA,pet food,1.0
+B0029NIIKK,pet food,1.0
+B0029NILPW,pet food,1.0
+B0029NIMYW,pet food,0.5
+B0029NIOYU,pet food,1.0
+B0029NLV8G,drink,1.0
+B0029NMB6M,pet food,1.0
+B0029NQNWU,drink,1.0
+B0029NQTI8,other,1.0
+B0029NTQ1K,pet food,1.0
+B0029NTSHM,pet food,1.0
+B0029NU31M,pet food,1.0
+B0029NUYZW,pet food,1.0
+B0029NV61I,pet food,1.0
+B0029NV6P4,rice & grain,1.0
+B0029NVJ4M,pet food,1.0
+B0029NVJX8,pet food,1.0
+B0029NVMXA,pet food,1.0
+B0029NX98G,pet food,1.0
+B0029O0DIO,pet food,1.0
+B0029O0XGQ,pet food,1.0
+B0029OCY36,candy,1.0
+B0029TAVKE,candy,1.0
+B0029TECEA,soup,1.0
+B0029TEGM8,jam & spread,1.0
+B0029TJR0Y,soup,1.0
+B0029XDZDK,coffee,1.0
+B0029XDZKI,nuts & seeds,1.0
+B0029XLH4Y,coffee,1.0
+B0029ZAOW8,drink,0.5
+B002ACQH80,coffee,1.0
+B002ACU9V6,coffee,1.0
+B002ACU9X4,coffee,1.0
+B002AEH6UQ,drink,1.0
+B002AIPT6K,chocolate,1.0
+B002AJWI2W,candy,1.0
+B002AMRNNI,other,1.0
+B002AN8JDK,canned food,1.0
+B002ANABN6,pet food,1.0
+B002AQ0OL2,coffee,1.0
+B002AQ0OS0,coffee,1.0
+B002AQ0OW6,drink,0.5
+B002AQKY9Y,cake & pastry,1.0
+B002AQLO4S,tea,1.0
+B002AQP516,drink,1.0
+B002AQP5IE,flour & baking mix,1.0
+B002AQP5MK,cake & pastry,1.0
+B002ATOUZA,snack,1.0
+B002ATOV2C,nuts & seeds,1.0
+B002AU3K1E,snack,0.5
+B002AUF0Q2,cereal,1.0
+B002AUGW3C,nuts & seeds,1.0
+B002AY5BHG,pet food,1.0
+B002AYA6M6,jerky & dried meat,1.0
+B002AYC7TG,pet food,1.0
+B002BB2E5U,snack,1.0
+B002BCE97K,drink,1.0
+B002BCFI70,milk & cream,1.0
+B002BFXYNC,milk & cream,1.0
+B002BFZAT8,other,1.0
+B002BR4MPO,drink,1.0
+B002BUBIW6,sugar & sweetener,1.0
+B002C0E5VG,bread,1.0
+B002C1URM6,rice & grain,1.0
+B002C4BOHK,coffee,1.0
+B002C52WIO,snack,1.0
+B002C54UK2,coffee,1.0
+B002C561BS,other,1.0
+B002C6F7IK,plant,1.0
+B002C7S3QW,seasoning & spice,1.0
+B002CJAOJY,pet food,1.0
+B002CJAS86,meat,1.0
+B002CJASXQ,pet food,1.0
+B002CJO8T6,pet food,1.0
+B002CN7EI4,snack,1.0
+B002CYLV5U,sauce & dressing,1.0
+B002D4DY8G,coffee,1.0
+B002DHTWNO,jerky & dried meat,1.0
+B002DMOY6O,other,1.0
+B002DVTR8K,jam & spread,1.0
+B002DVVP6W,snack,1.0
+B002DW0QG6,snack,1.0
+B002DZKL5O,tea,1.0
+B002EDIJX6,biscuit & cookie,1.0
+B002EDISKA,soup,1.0
+B002ESDVJS,drink,1.0
+B002ESMK4U,coffee,1.0
+B002ESMSRO,coffee,1.0
+B002ESMUYK,coffee,1.0
+B002ESS6RK,coffee,1.0
+B002EY5TTW,drink,1.0
+B002EYBB3A,drink,1.0
+B002F1PSZY,snack,1.0
+B002F8XGJW,plant,1.0
+B002F914G8,other,1.0
+B002FBUY0I,snack,1.0
+B002FBY3GE,dried fruit,1.0
+B002FBY3YG,snack,1.0
+B002FC6JZG,other,1.0
+B002FDK8YI,other,1.0
+B002FJW54I,supplement,1.0
+B002FOSI7G,candy,1.0
+B002FUGVV0,dried fruit,1.0
+B002FX2HG0,milk & cream,1.0
+B002FX3EV2,sugar & sweetener,1.0
+B002FXIMDM,sugar & sweetener,1.0
+B002FYJTL0,soup,1.0
+B002FZLJWG,jerky & dried meat,1.0
+B002G0CA6O,drink,1.0
+B002G8D2AO,seasoning & spice,1.0
+B002G96XUE,coffee,1.0
+B002GC3D8Q,soup,1.0
+B002GECBG4,supplement,1.0
+B002GJ9JWS,drink,1.0
+B002GJ9JY6,drink,0.5
+B002GJBQ0Q,tea,1.0
+B002GKEK7G,coffee,0.3333333333333333
+B002GWFAX2,drink,1.0
+B002GWFB40,coffee,1.0
+B002GWH78S,coffee,1.0
+B002GWH972,coffee,1.0
+B002GWH9NG,coffee,1.0
+B002GWHDT6,coffee,1.0
+B002GWM8ZU,coffee,1.0
+B002GWMGGQ,coffee,1.0
+B002GWMP0S,nuts & seeds,1.0
+B002GWSAKM,rice & grain,1.0
+B002H1PS34,coffee,1.0
+B002HFNB5C,tea,1.0
+B002HFNESG,tea,1.0
+B002HFPW6I,other,1.0
+B002HFRAN6,coffee,1.0
+B002HFU7HC,tea,1.0
+B002HFWMOI,drink,1.0
+B002HFWNAQ,chocolate,0.6666666666666666
+B002HFWNKG,coffee,1.0
+B002HG6Z8Q,biscuit & cookie,1.0
+B002HNZRKQ,sauce & dressing,1.0
+B002HP2XB0,coffee,1.0
+B002HQCWYM,coffee,0.5
+B002HQGNYW,candy,1.0
+B002HQLY7S,candy,0.5
+B002HZEDY0,canned food,1.0
+B002I7KOFY,dried fruit,1.0
+B002IEVJRY,coffee,0.8
+B002IEZJMA,coffee,1.0
+B002IYDXVE,drink,1.0
+B002J0EAPA,candy,1.0
+B002J28SFQ,pet food,1.0
+B002J75TH6,jam & spread,1.0
+B002J771J0,jam & spread,1.0
+B002J9J8QC,jam & spread,1.0
+B002JANPDI,supplement,1.0
+B002JG5TVS,drink,1.0
+B002JGBC96,nuts & seeds,1.0
+B002JWZVWO,drink,1.0
+B002K6BV3C,fruit,1.0
+B002KOTMX0,drink,1.0
+B002L35LH6,drink,1.0
+B002L3RVBA,candy,1.0
+B002L8XKEW,biscuit & cookie,1.0
+B002L96UVG,sugar & sweetener,1.0
+B002L96X68,biscuit & cookie,1.0
+B002L96YM6,dried fruit,0.5
+B002LANN56,pet food,1.0
+B002LN1ME2,supplement,1.0
+B002LO5SFA,seasoning & spice,1.0
+B002LQTOPS,other,1.0
+B002LVACUE,cereal,1.0
+B002LVACWM,sugar & sweetener,1.0
+B002M42YME,tea,1.0
+B002MAH7MK,pet food,1.0
+B002MG4Y9S,coffee,1.0
+B002MGCWBU,other,1.0
+B002MO765O,sugar & sweetener,1.0
+B002MWZOSM,cereal,1.0
+B002MXSAD2,baby food,1.0
+B002N4AUH4,cereal,1.0
+B002N4ID5K,pet food,1.0
+B002N4O8WC,pet food,1.0
+B002N7DSLG,biscuit & cookie,0.5
+B002N7OCGQ,biscuit & cookie,1.0
+B002NGKHPM,tea,1.0
+B002NHYQAS,chocolate,1.0
+B002NM1UYS,other,1.0
+B002O0NGR8,sugar & sweetener,1.0
+B002OFU7MK,snack,0.6666666666666666
+B002OFU8JC,dried fruit,0.5
+B002OFU94G,jerky & dried meat,1.0
+B002OFUBJO,jerky & dried meat,1.0
+B002OFUC8O,jerky & dried meat,1.0
+B002OFZIV0,jerky & dried meat,1.0
+B002OFZM8O,candy,0.5
+B002OFZMPW,candy,0.5
+B002OG89MO,snack,1.0
+B002OGFICS,pet food,1.0
+B002OMV09W,drink,1.0
+B002ON641U,dried fruit,1.0
+B002OSFQ2I,other,1.0
+B002OSS32I,snack,1.0
+B002OVICJO,pet food,1.0
+B002P23I50,snack,1.0
+B002P5D37K,candy,1.0
+B002P9MIJ0,other,1.0
+B002PAHIWQ,sauce & dressing,1.0
+B002PAYL80,tea,1.0
+B002PB0RBO,snack,1.0
+B002PI82P0,coffee,1.0
+B002PKUUK8,other,1.0
+B002PNWU76,cake & pastry,1.0
+B002PO3KBK,sugar & sweetener,1.0
+B002Q0Z8F4,pet food,1.0
+B002Q8JOSI,syrup,1.0
+B002QGK2V8,coffee,1.0
+B002QM9CTA,sauce & dressing,1.0
+B002QTWTFW,snack,1.0
+B002QTXS5C,snack,1.0
+B002QWFT5Q,pet food,1.0
+B002QWHJOU,pet food,0.8
+B002QWP89S,pet food,0.75
+B002QWP8H0,pet food,1.0
+B002QX4SLG,other,1.0
+B002R81L92,chocolate,1.0
+B002R83IMK,coffee,1.0
+B002R8IR12,jerky & dried meat,1.0
+B002R8J7YS,supplement,0.5
+B002R8LYWQ,pet food,1.0
+B002R8SLUY,pet food,1.0
+B002R8UANK,pet food,1.0
+B002RBOB9G,candy,1.0
+B002RBTV78,candy,1.0
+B002RBTWHC,chocolate,1.0
+B002RBTXL2,chocolate,1.0
+B002S4AQOQ,pet food,1.0
+B002SCDI9I,candy,1.0
+B002SHYCQQ,nuts & seeds,1.0
+B002SV5P9A,nuts & seeds,1.0
+B002SVAYGY,cake & pastry,1.0
+B002SZDJNK,pet food,1.0
+B002T0GXNC,drink,1.0
+B002T0IHJ0,drink,1.0
+B002T0IHPO,drink,0.5
+B002T0KDNI,drink,1.0
+B002T0NWKE,drink,1.0
+B002T9F6B8,sauce & dressing,1.0
+B002TMV34E,coffee,1.0
+B002TMV3CG,coffee,1.0
+B002TMV3GC,coffee,1.0
+B002TOEMWW,pet food,1.0
+B002TSA90C,drink,1.0
+B002TSA91G,skin care,1.0
+B002TSA91Q,skin care,0.4
+B002TW7438,syrup,1.0
+B002TXGVIQ,soup,1.0
+B002TXT502,other,1.0
+B002UKH434,biscuit & cookie,1.0
+B002UKRORU,flour & baking mix,1.0
+B002UP3ZZU,milk & cream,1.0
+B002UQIZ2C,biscuit & cookie,1.0
+B002UT92L2,pet food,1.0
+B002UUJ590,other,1.0
+B002UV74RE,honey,1.0
+B002V0FZMU,cake & pastry,1.0
+B002VC943E,other,1.0
+B002VLZ8D0,oil & vinegar,1.0
+B002VNKTUA,candy,1.0
+B002VRQJC8,pet food,1.0
+B002VTE7JI,soup,1.0
+B002VZUW0A,snack,1.0
+B002W9JILE,coffee,1.0
+B002WD98NS,coffee,1.0
+B002WDCEHA,coffee,1.0
+B002WDCFFG,coffee,0.5
+B002WDZ6Y8,coffee,0.5
+B002WW7XGI,drink,1.0
+B002WWHY7G,coffee,1.0
+B002X3VJIE,other,1.0
+B002Y2OWOC,coffee,1.0
+B002Y2QSSK,coffee,1.0
+B002Y5MM8M,dried fruit,1.0
+B002Y7018S,other,1.0
+B002YFZ7IY,pet food,1.0
+B002YH5JJ4,seasoning & spice,1.0
+B002YJ0118,snack,1.0
+B002YJ6K2M,tea,1.0
+B002YLG8HC,oil & vinegar,1.0
+B002YLGA0W,snack,1.0
+B002YR7A78,rice & grain,1.0
+B002YR7B7C,flour & baking mix,1.0
+B002Z04S06,snack,1.0
+B002Z04ZNQ,drink,1.0
+B002Z9EQPO,baby food,1.0
+B002Z9ER6W,pet food,1.0
+B002ZF06JI,snack,1.0
+B002ZF3PQY,pet food,1.0
+B002ZJ3CC2,candy,1.0
+B002ZJ4J7Y,coffee,1.0
+B002ZJMRTQ,snack,1.0
+B002ZJSSEE,jam & spread,1.0
+B002ZOCF0M,coffee,1.0
+B002ZOG29C,coffee,1.0
+B002ZOG2K6,coffee,1.0
+B002ZQ7B0O,other,1.0
+B002ZX1U9A,drink,0.5
+B00305AA0M,baby food,1.0
+B00305L330,coffee,1.0
+B00305L394,pet food,1.0
+B0030DH0Q6,pet food,1.0
+B0030F70HI,candy,1.0
+B0030F70LO,pet food,1.0
+B0030GOO5S,coffee,1.0
+B0030H1WW0,coffee,1.0
+B0030HIITA,snack,1.0
+B0030HSFW0,drink,1.0
+B0030L2SVA,seasoning & spice,1.0
+B0030MV7IO,drink,1.0
+B0030VBPN2,baby food,0.5
+B0030VBQ5Y,baby food,0.5
+B0030VBQOK,baby food,1.0
+B0030VBRCG,fruit,0.5
+B0030VBRIU,baby food,1.0
+B0030VBSBG,yogurt,1.0
+B0030VJ818,snack,0.5
+B0030VJ8E0,candy,1.0
+B0030VJ8YU,baby food,1.0
+B0030VJ97Q,baby food,1.0
+B0030VJ9K8,baby food,0.5
+B0030VJ9UI,snack,1.0
+B00317Y3HK,rice & grain,1.0
+B003194PBC,pet food,1.0
+B0031Q1VX0,pet food,1.0
+B0031TJ0X0,tea,1.0
+B0031U9UZC,fruit,1.0
+B0031U9VI8,baby food,1.0
+B0031UBWLM,baby food,1.0
+B0031VDJZS,baby food,1.0
+B0032B0BD0,snack,1.0
+B0032BXUJM,coffee,1.0
+B0032BYMJE,candy,1.0
+B0032CB15Q,coffee,1.0
+B0032COF5O,drink,1.0
+B0032GL19S,candy,1.0
+B0032GMRBO,snack,1.0
+B0032K0492,cereal,1.0
+B0032RPLSY,snack,1.0
+B003373C2A,drink,1.0
+B0033758B8,sugar & sweetener,1.0
+B00337P71Y,meat,1.0
+B00337WU1E,biscuit & cookie,1.0
+B00338BV68,noodle & pasta,1.0
+B0033HGLTG,coffee,1.0
+B0033HPPIO,chocolate,0.5
+B0033HPPIY,coffee,1.0
+B0033WDDU6,gum,1.0
+B0033YH45Y,supplement,1.0
+B00344R71Y,coffee,1.0
+B00348D8G8,soup,1.0
+B0034EDLS2,snack,0.5
+B0034EDMCW,nuts & seeds,0.3333333333333333
+B0034EDMLI,nuts & seeds,0.6666666666666666
+B0034EFIYC,supplement,0.5
+B0034KP00S,honey,1.0
+B0034KQPKM,tea,1.0
+B0034L8UZY,dried fruit,0.5
+B00351JWTQ,coffee,1.0
+B0035CPZ4G,meat,1.0
+B0035R8WVO,seasoning & spice,1.0
+B0035RLCLQ,seasoning & spice,1.0
+B00362FJD2,coffee,1.0
+B0036B8B0Q,snack,1.0
+B0036FBCGM,pet food,1.0
+B0036Q6DSS,other,1.0
+B0036QD9VC,candy,1.0
+B0036QLL3A,tea,1.0
+B00370CFR6,coffee,1.0
+B00370ESNU,drink,1.0
+B00375LB7Q,other,1.0
+B003762ZJI,pet food,1.0
+B00376ZEY6,candy,0.5
+B0037AJCA4,plant,1.0
+B0037BONRK,sugar & sweetener,1.0
+B0037J1YO2,sauce & dressing,1.0
+B0037JFHIQ,drink,1.0
+B0037QUWY8,sauce & dressing,1.0
+B00382UXU4,snack,1.0
+B0038336IE,meat,1.0
+B00384ABT0,supplement,1.0
+B00384NZTI,drink,1.0
+B00388XW7Y,pet food,1.0
+B0038B1DEU,yogurt,0.5
+B0038B38BQ,candy,1.0
+B0038B3AAK,chocolate,0.5
+B0038F7ZU2,chocolate,1.0
+B0038KBTZE,candy,1.0
+B0038KCCMS,snack,1.0
+B0038KHK8E,nut & seeds,1.0
+B0038N9CCS,sauce & dressing,1.0
+B0038QUJHM,tea,1.0
+B00394JNAW,flour & baking mix,1.0
+B00395570G,drink,0.5
+B00395DVQS,coffee,1.0
+B0039KDRCQ,noodle & pasta,1.0
+B0039KERRK,milk & cream,1.0
+B0039KES42,snack,1.0
+B0039LVLS2,snack,1.0
+B0039N20OY,honey,1.0
+B0039OT488,dried fruit,1.0
+B0039VPITK,cake & pastry,1.0
+B0039XA3BG,nuts & seeds,1.0
+B003A199AI,snack,1.0
+B003A23HZK,pet food,1.0
+B003ANFMY8,pet food,1.0
+B003AOH5Y2,coffee,1.0
+B003AOIO6K,drink,1.0
+B003AUB1XM,other,1.0
+B003AYGMNC,pet food,1.0
+B003AZ2ECY,snack,1.0
+B003B3OKF4,other,1.0
+B003B3OOPA,oil & vinegar,0.75
+B003B6VI60,supplement,1.0
+B003BGRUPI,tea,1.0
+B003BI2HK4,biscuit & cookie,1.0
+B003BJZMSM,snack,0.6666666666666666
+B003BKOTQ2,pet food,1.0
+B003BL1GXU,snack,1.0
+B003BV2LES,snack,1.0
+B003BYIPO0,snack,1.0
+B003C5JX44,honey,1.0
+B003C5TCYU,pet food,1.0
+B003CIBPN8,drink,0.6
+B003CIFZZC,seasoning & spice,1.0
+B003CJJKRU,coffee,1.0
+B003CK0WLM,tea,1.0
+B003CK0XC0,tea,1.0
+B003CK2BQG,tea,1.0
+B003CK7MME,coffee,0.5
+B003CK7O36,tea,1.0
+B003CMLP9I,seasoning & spice,1.0
+B003CN5NPE,drink,1.0
+B003D4F1QS,tea,1.0
+B003D4IUCK,tea,1.0
+B003D4IYSU,tea,1.0
+B003D4MDKK,drink,1.0
+B003D4MFUS,drink,1.0
+B003D4MW38,tea,0.6666666666666666
+B003D4MYLS,tea,1.0
+B003D5JJEC,chocolate,1.0
+B003DCUBOM,other,1.0
+B003DKT870,coffee,1.0
+B003DMXDKQ,snack,1.0
+B003DNL9TW,other,1.0
+B003DVMYUW,tea,1.0
+B003DVTAN6,supplement,1.0
+B003DY179S,drink,1.0
+B003E3WMM4,dried fruit,1.0
+B003E6COLK,snack,1.0
+B003E728CE,pet food,1.0
+B003EIXT6C,snack,1.0
+B003EJG7GA,snack,1.0
+B003EM7J9Q,seasoning & spice,0.5
+B003EML8PM,sugar & sweetener,0.3333333333333333
+B003EMVY8S,candy,1.0
+B003EYXUXS,sauce & dressing,1.0
+B003F8XZSS,tea,1.0
+B003FCZOPQ,candy,1.0
+B003FCZUCI,drink,1.0
+B003FD41QI,drink,1.0
+B003FDC2I2,candy,0.6666666666666666
+B003FDG4K4,drink,0.5
+B003FFHFS2,seasoning & spice,1.0
+B003FWH170,snack,1.0
+B003G0APGK,rice & grain,1.0
+B003G2JNQQ,chocolate,1.0
+B003G2UPS6,coffee,1.0
+B003G50HPE,seasoning & spice,1.0
+B003G52BN0,drink,1.0
+B003GAJQ3S,drink,1.0
+B003GHESE8,coffee,1.0
+B003GMFAWM,soup,1.0
+B003GMGQSY,snack,1.0
+B003GS3VQ8,soup,1.0
+B003GSVSWW,tea,1.0
+B003GTR8IO,coffee,1.0
+B003GU0ENY,coffee,1.0
+B003GWZB4E,other,1.0
+B003H26J5I,noodle & pasta,1.0
+B003H7YHUW,canned food,1.0
+B003H8Q2E0,coffee,1.0
+B003HFA3XY,tea,1.0
+B003IDF86C,snack,1.0
+B003IHO8LE,drink,1.0
+B003IHO8LY,supplement,1.0
+B003IMECGU,fruit,1.0
+B003IMSFI6,drink,1.0
+B003JA5KLM,coffee,1.0
+B003JYEJH4,snack,1.0
+B003JYWDLS,seasoning & spice,1.0
+B003K2EXI0,other,1.0
+B003KJE2WK,chocolate,1.0
+B003KLK8BW,snack,1.0
+B003KLT05C,snack,1.0
+B003KRHDMI,drink,0.5
+B003KV4LRO,seasoning & spice,1.0
+B003KV7V1C,other,1.0
+B003L1XMAA,drink,1.0
+B003LECIDE,coffee,1.0
+B003LLRE5O,drink,1.0
+B003LPKEMU,nut & seeds,1.0
+B003LPM9VE,other,1.0
+B003LPQDS4,tea,1.0
+B003LWOS7A,coffee,0.5
+B003LZ6MLW,candy,1.0
+B003M5VN92,pet food,1.0
+B003M60630,tea,1.0
+B003M61F0I,cereal,1.0
+B003M61F4E,pet food,1.0
+B003M61HU6,baby food,1.0
+B003M63C0E,pet food,1.0
+B003MA8P02,snack,1.0
+B003MBC4MG,tea,1.0
+B003MCDXZM,other,1.0
+B003MOXA6C,snack,1.0
+B003MSS1X0,other,1.0
+B003MW77W2,pet food,1.0
+B003MW7858,pet food,1.0
+B003MZC8NM,milk & cream,1.0
+B003N0ZEKU,coffee,1.0
+B003N7WWRG,gum,1.0
+B003N891CY,gum,1.0
+B003NDF1MI,snack,1.0
+B003NDJ86S,snack,1.0
+B003NF38G2,sauce & dressing,1.0
+B003NUYBV8,snack,1.0
+B003NV4O00,candy,1.0
+B003NZHOQ2,energy bar,0.3333333333333333
+B003O5Q3KE,pet food,1.0
+B003O7T87C,tea,1.0
+B003OB4CMY,noodle & pasta,1.0
+B003OGKCDC,coffee,1.0
+B003OJLCXI,coffee,1.0
+B003OP550S,chocolate,1.0
+B003OS4AMO,hair care,1.0
+B003OZV4Y4,drink,1.0
+B003P02EGU,drink,1.0
+B003P5YNDC,drink,1.0
+B003P7ZO0G,drink,1.0
+B003P9XFV4,pet food,1.0
+B003P9XFVO,rice & grain,1.0
+B003P9XGDG,pet food,1.0
+B003PBTQMO,tea,1.0
+B003PEKJK4,cereal,1.0
+B003PFPFIE,drink,1.0
+B003PFUNU4,other,1.0
+B003PK3EOQ,other,1.0
+B003PMQMK2,cereal,1.0
+B003PPAS9K,oil & vinegar,1.0
+B003PPDFBI,snack,1.0
+B003Q4TY18,candy,1.0
+B003QDRJXY,oil & vinegar,0.6666666666666666
+B003QGODTO,coffee,1.0
+B003QKBDX4,coffee,0.8
+B003QM6ZDU,candy,1.0
+B003QNJYXM,drink,0.8
+B003QNLUTI,drink,0.5
+B003QTB222,cake & pastry,1.0
+B003QTZ2RS,tea,1.0
+B003QVL4SW,drink,1.0
+B003R0LLIU,pet food,1.0
+B003RG9WGM,pet food,1.0
+B003RM9SA6,rice & grain,0.5
+B003RWVFEI,canned food,1.0
+B003RYCUS6,coffee,1.0
+B003S9C79C,pet food,1.0
+B003S9GWU2,pet food,1.0
+B003SB9XXI,pet food,1.0
+B003SBPSXM,candy,1.0
+B003SBU3OG,baby food,0.5
+B003SBW50G,drink,1.0
+B003SBXKEQ,yogurt,1.0
+B003SBZC1U,drink,1.0
+B003SE5QIG,pet food,1.0
+B003SLTETG,pet food,1.0
+B003SO46SC,snack,1.0
+B003SSWCJI,supplement,1.0
+B003TC7WN4,coffee,1.0
+B003THS4ZE,drink,1.0
+B003TNANSO,supplement,0.5
+B003TO9RSU,other,1.0
+B003TRFU06,candy,1.0
+B003TS11MG,chocolate,1.0
+B003TVIB0I,canned food,1.0
+B003TX4L6O,drink,1.0
+B003UE2X2G,cereal,1.0
+B003UI24QW,other,1.0
+B003UIFL0S,candy,1.0
+B003UMQ86U,other,1.0
+B003UQ6OMY,pet food,1.0
+B003UYGW8W,other,1.0
+B003V019RY,sugar & sweetener,1.0
+B003V3AX0K,seasoning & spice,1.0
+B003V7XNRQ,drink,0.5
+B003V8QGAG,snack,1.0
+B003V8SO10,drink,1.0
+B003V8Y892,coffee,0.5
+B003VCULUS,coffee,1.0
+B003VD9NQ0,coffee,1.0
+B003VF5Y6G,candy,1.0
+B003VIFGWU,candy,1.0
+B003VIJI1A,soup,1.0
+B003VIWN1C,pet food,0.6666666666666666
+B003VIWN1M,pet food,1.0
+B003VIWN26,pet food,1.0
+B003VMVL3O,chocolate,1.0
+B003VN8ZRI,cheese,1.0
+B003VN9536,fruit,1.0
+B003VQJT8E,candy,1.0
+B003VS77A4,drink,1.0
+B003VTN95K,milk & cream,1.0
+B003VTNBQ2,drink,1.0
+B003VUETIA,candy,1.0
+B003VXE46Y,nut & seeds,1.0
+B003VXFK44,coffee,1.0
+B003VXHGDM,coffee,0.6666666666666666
+B003VXHGE6,coffee,1.0
+B003VXHGPK,coffee,0.75
+B003VXJJTQ,coffee,1.0
+B003VXL0V6,coffee,0.8333333333333334
+B003WE8Q98,snack,0.5
+B003WGQHQ0,candy,1.0
+B003WM7ILW,other,1.0
+B003XP3010,drink,1.0
+B003XUHGRO,canned food,1.0
+B003XUJ3I4,drink,1.0
+B003XW3ZYU,other,1.0
+B003Y391DC,drink,1.0
+B003Y3F5T6,drink,1.0
+B003Y3F5TQ,snack,1.0
+B003Y3GW9S,baby food,1.0
+B003Y5J5GI,snack,1.0
+B003Y5OYZK,soup,1.0
+B003Y5P6CK,pet food,1.0
+B003YBH398,jerky & dried meat,1.0
+B003YBLF2E,snack,1.0
+B003YBNIME,snack,1.0
+B003YBP6Q0,snack,0.5
+B003YK8YU6,baby food,1.0
+B003YU7V1E,cereal,1.0
+B003YUW7EK,seasoning & spice,1.0
+B003YV46WK,drink,1.0
+B003YVQMW2,pet food,1.0
+B003YXUK2I,noodle & pasta,1.0
+B003YXWAF8,candy,1.0
+B003Z6W32E,coffee,1.0
+B003Z6ZGZK,coffee,1.0
+B003Z6ZGZU,soup,0.5
+B003ZDYQ0E,rice & grain,0.5
+B003ZIAOV4,drink,1.0
+B003ZN534C,other,1.0
+B003ZNXCE0,pet food,1.0
+B003ZNXCIQ,pet food,1.0
+B003ZRZN7K,drink,1.0
+B003ZUNVOE,other,1.0
+B003ZUPWDM,drink,1.0
+B003ZWV5Z4,jam & spread,1.0
+B003ZXAN4C,snack,1.0
+B003ZXCA2U,snack,1.0
+B003ZXCAAC,sugar & sweetener,1.0
+B003ZXE9QA,cereal,1.0
+B003ZXG0VW,candy,0.5
+B00401OZ1U,drink,1.0
+B004051BO0,coffee,1.0
+B00406ZNL6,milk & cream,1.0
+B004078WRW,cereal,1.0
+B0040BESXK,pet food,1.0
+B0040I3D2U,other,1.0
+B0040J01KQ,cake & pastry,1.0
+B0040J1OCA,coffee,1.0
+B0040J7HIU,snack,1.0
+B0040K41MY,cereal,1.0
+B0040PSIWI,canned food,1.0
+B0040PWIHE,vegetable,1.0
+B0040PWYVO,rice & grain,1.0
+B0040PYN86,drink,1.0
+B0040PZ0BA,snack,1.0
+B0040WCWN2,other,1.0
+B0040WE7ZI,tea,1.0
+B0040WHJQM,noodle & pasta,1.0
+B0040Y4DJ6,rice & grain,1.0
+B0040YW1Q8,chocolate,1.0
+B00412W76S,tea,1.0
+B004157PZI,protein bar,1.0
+B0041CD3W0,candy,1.0
+B0041CH3NU,other,1.0
+B0041CIR62,drink,0.5
+B0041KZI0M,pet food,1.0
+B0041L3MAE,pet food,1.0
+B0041L3T4I,candy,1.0
+B0041NYV8E,tea,0.5714285714285714
+B0041QF02W,coffee,1.0
+B00423UVBO,snack,1.0
+B0042GUIN2,chocolate,1.0
+B0042RKTG2,noodle & pasta,1.0
+B0042SI0VW,other,1.0
+B0042TVKZY,snack,1.0
+B0042U90LO,sauce & dressing,1.0
+B00430B73W,chocolate,1.0
+B00433YTRA,other,1.0
+B004346LH0,tea,1.0
+B00434KOQO,soup,1.0
+B00437AB1O,cereal,1.0
+B00438XVGU,coffee,1.0
+B004391DK0,bread,0.25
+B0043H4U20,chocolate,1.0
+B0043OYZ8W,pet food,1.0
+B0043Q5HFU,coffee,1.0
+B0043SXKGG,snack,1.0
+B0043WOANY,other,0.5
+B0043YM2F0,coffee,1.0
+B00448FZWM,seasoning & spice,1.0
+B0044AAGNI,gum,1.0
+B0044BT06G,noodle & pasta,1.0
+B0044CPA28,nuts & seeds,1.0
+B0044TP0Y4,candy,1.0
+B0044UT0O4,candy,1.0
+B00450W1QW,meat,1.0
+B00451WLYI,coffee,1.0
+B00452C1V0,flour & baking mix,1.0
+B004579W2Q,coffee,1.0
+B0045E0CCI,other,1.0
+B0045G8KHA,fruit,1.0
+B0045H0CTS,cheese,1.0
+B0045H0KYA,honey,1.0
+B0045IO2XO,tea,1.0
+B0045IO37Y,drink,1.0
+B0045KOOXU,other,1.0
+B0045OTOWM,pet food,1.0
+B0045TEG2K,bread,1.0
+B0045XE32E,cereal,0.25
+B0045Z6K50,coffee,1.0
+B00469QW58,other,1.0
+B0046H53AK,drink,1.0
+B0046IEITG,candy,1.0
+B0046LXLZU,skin care,1.0
+B004724HJM,rice & grain,1.0
+B004728MI4,snack,1.0
+B004729CVA,snack,1.0
+B00472BKSS,biscuit & cookie,1.0
+B00472I5A4,snack,1.0
+B00473O48K,flour & baking mix,1.0
+B004748K70,tea,1.0
+B00474ALEU,drink,1.0
+B00474CP26,drink,1.0
+B00474CSVE,coffee,1.0
+B00474JKN8,canned food,1.0
+B00474OQWI,coffee,1.0
+B00474OR8G,coffee,1.0
+B00474VPY0,coffee,1.0
+B004754DO8,pet food,1.0
+B004770OLM,drink,0.6666666666666666
+B004772OWE,coffee,1.0
+B004777F3M,coffee,1.0
+B004779XNW,coffee,1.0
+B004779XSM,coffee,1.0
+B0047E2I5U,pet food,1.0
+B0047E3GBK,candy,1.0
+B0047ORGWK,noodle & pasta,0.5
+B0047RQ9M0,coffee,1.0
+B0047ZEXM0,supplement,1.0
+B00480MKD8,snack,1.0
+B00483LG9O,other,1.0
+B004868RJ8,coffee,1.0
+B0048IISX6,bread,1.0
+B0048KD4XS,drink,1.0
+B0048KD6Z4,drink,1.0
+B0048Z8OCO,pet food,1.0
+B00497LSLA,candy,1.0
+B0049AQWWM,coffee,1.0
+B0049D3X3U,cereal,1.0
+B0049D7ICM,rice & grain,1.0
+B0049EIUGY,meat,1.0
+B0049II9IY,other,1.0
+B0049LUEKC,jam & spread,1.0
+B0049OPXP0,bread,1.0
+B0049OQJXA,drink,1.0
+B0049RDI0Y,drink,1.0
+B0049ULB78,coffee,1.0
+B0049YMBKA,flour & baking mix,1.0
+B0049ZCF9G,nut & seeds,1.0
+B004A6W57Q,jam & spread,1.0
+B004ACQKDK,other,1.0
+B004AGBYA0,other,1.0
+B004AH7C2S,seasoning & spice,1.0
+B004ASBLJ2,snack,1.0
+B004AWTR6M,drink,1.0
+B004B9L9N8,drink,1.0
+B004BBR95I,candy,1.0
+B004BCT2JI,snack,0.5
+B004BKLHOS,snack,1.0
+B004BLOQHC,milk & cream,1.0
+B004CH7VYK,candy,1.0
+B004CQ5OPO,other,1.0
+B004CT1NCY,drink,1.0
+B004CWO9Y0,snack,1.0
+B004CYLW7A,nuts & seeds,0.5
+B004CZURWK,pet food,1.0
+B004D1ZM8C,baby food,1.0
+B004DAP7KQ,chocolate,1.0
+B004DBS2TI,drink,1.0
+B004DBT12A,coffee,1.0
+B004DBXK8G,other,1.0
+B004DE60QM,snack,1.0
+B004DN7MI8,seasoning & spice,1.0
+B004DN9LCS,coffee,1.0
+B004E4EBMG,tea,0.5
+B004E4FUHG,drink,1.0
+B004E4HUMY,tea,0.5
+B004EAGP74,oil & vinegar,0.5
+B004EDZ87Y,tea,0.5
+B004EE0TYK,coffee,1.0
+B004EE2UR4,coffee,1.0
+B004EEW2HW,tea,1.0
+B004EKBH7W,supplement,1.0
+B004EKO2HE,nuts & seeds,1.0
+B004ET5TP4,coffee,1.0
+B004ET9OLY,cheese,1.0
+B004EVNB6Q,jam & spread,1.0
+B004EWT89O,seasoning & spice,1.0
+B004F1LNDI,honey,1.0
+B004F4990E,snack,1.0
+B004FDW4HU,candy,1.0
+B004FEJ968,snack,1.0
+B004FELBH8,snack,1.0
+B004FEN3GA,cheese,0.5
+B004FEN3GK,snack,1.0
+B004FGTEP2,coffee,1.0
+B004FGUYWY,coffee,1.0
+B004FGWU9O,coffee,1.0
+B004G1WFH0,rice & grain,1.0
+B004G5ZYOW,dried fruit,0.5
+B004G5ZYVA,pet food,1.0
+B004GB6ZGC,candy,1.0
+B004GU3YXU,noodle & pasta,1.0
+B004GW6MLY,supplement,1.0
+B004GW6O9E,nuts & seeds,0.25
+B004GWEBBC,pet food,1.0
+B004H10F44,tea,1.0
+B004HK60VM,drink,0.5
+B004HOLD4W,snack,0.5
+B004HOLD60,snack,1.0
+B004HOLD92,snack,1.0
+B004HOOZEW,candy,1.0
+B004HOQDK6,seasoning & spice,1.0
+B004HOQE64,drink,0.5
+B004HOQELO,snack,1.0
+B004HOSGWE,snack,1.0
+B004HYAIES,coffee,1.0
+B004HYH8PK,pet food,1.0
+B004HYH8PU,pet food,1.0
+B004HYH8Q4,pet food,1.0
+B004HYW5JO,flour & baking mix,1.0
+B004HZEAPK,drink,1.0
+B004I2IEPE,candy,1.0
+B004I5FCUG,drink,1.0
+B004I9WPTI,candy,1.0
+B004IAIH5S,cereal,1.0
+B004IGGGUA,seasoning & spice,1.0
+B004IJHY4Y,snack,1.0
+B004IJJQK4,snack,1.0
+B004IN4LLO,pet food,1.0
+B004IRCHKW,coffee,1.0
+B004IV73VQ,coffee,1.0
+B004IXYLJ6,drink,0.5
+B004J04DRI,tea,1.0
+B004JGQ15E,snack,1.0
+B004JGQ15Y,candy,1.0
+B004JGQ16I,snack,1.0
+B004JQR6DK,coffee,1.0
+B004JRKEH4,sauce & dressing,0.8
+B004JRMG98,sauce & dressing,0.3333333333333333
+B004JRO1S2,sauce & dressing,1.0
+B004JRSAJS,soup,1.0
+B004JRXZKM,drink,1.0
+B004K07LQM,drink,1.0
+B004K3EOFU,chocolate,1.0
+B004KAT9HQ,other,1.0
+B004KC23U4,candy,1.0
+B004KENQOY,candy,1.0
+B004L44PHU,supplement,1.0
+B004L5NFT8,snack,1.0
+B004LB7A5W,candy,1.0
+B004LDEYFE,cake & pastry,1.0
+B004LJM08Q,candy,1.0
+B004LKY7NG,other,1.0
+B004LKZWNU,cereal,1.0
+B004LL97EO,snack,1.0
+B004LLD27M,pet food,1.0
+B004LQRQL0,candy,1.0
+B004LS830Q,dried fruit,1.0
+B004LWL9ZS,snack,1.0
+B004LWP5YE,dried fruit,1.0
+B004M16MX2,noodle & pasta,1.0
+B004M5XUGK,coffee,1.0
+B004M62D5S,coffee,1.0
+B004M63EI8,coffee,1.0
+B004M6FNK0,drink,1.0
+B004M8G0SC,other,1.0
+B004M8J9Y4,coffee,1.0
+B004M8KYCK,coffee,1.0
+B004M8MSAQ,other,1.0
+B004MA3J8Y,pet food,1.0
+B004MC0CNW,nut & seeds,1.0
+B004MDQSDO,noodle & pasta,1.0
+B004MNH6Y4,tea,1.0
+B004MZ40DW,pet food,1.0
+B004N5C7FE,snack,1.0
+B004N5FG5W,milk & cream,1.0
+B004N5KUO4,candy,1.0
+B004NC82MY,drink,1.0
+B004NC9G9M,tea,1.0
+B004NCBZQO,baby food,1.0
+B004NDV46E,drink,1.0
+B004NJIISK,other,1.0
+B004NNEYUC,drink,1.0
+B004NNHFZS,snack,1.0
+B004NOZRA2,other,1.0
+B004NRTVXI,coffee,1.0
+B004NZ0JIQ,coffee,1.0
+B004O5Y59O,coffee,1.0
+B004OA8SMO,other,1.0
+B004OAZ36I,milk & cream,1.0
+B004OBELOM,coffee,1.0
+B004OCIUDO,flour & baking mix,1.0
+B004OCK2Z8,cake & pastry,1.0
+B004OLKF60,coffee,1.0
+B004OLKF6K,coffee,1.0
+B004OPJEUE,coffee,1.0
+B004OQBC8K,tea,1.0
+B004OQJQ2O,sauce & dressing,1.0
+B004OV6X6Q,snack,1.0
+B004OVWQDA,drink,1.0
+B004OW342G,drink,1.0
+B004P4POZ8,drink,0.5
+B004P4TL8E,other,1.0
+B004P7R9Z8,biscuit & cookie,1.0
+B004P7V8XW,cheese,1.0
+B004PDIRDA,dried fruit,1.0
+B004PELXC6,snack,1.0
+B004PR2OYE,tea,1.0
+B004PWRO8U,candy,1.0
+B004PX9JPU,snack,1.0
+B004Q3LBTG,seasoning & spice,1.0
+B004Q3UQFQ,sauce & dressing,1.0
+B004Q6VZHQ,other,1.0
+B004Q70FAI,drink,1.0
+B004Q9QIPM,other,1.0
+B004QDA8WC,coffee,0.5
+B004QQA1U8,nuts & seeds,1.0
+B004QWW2GI,snack,1.0
+B004QZKZ0A,dried fruit,1.0
+B004R2D81U,pet food,1.0
+B004R72WAS,candy,1.0
+B004R7N8GA,candy,1.0
+B004R8L71W,noodle & pasta,0.5
+B004R8SG20,snack,1.0
+B004R9GFJU,seasoning & spice,1.0
+B004RCLQOG,other,1.0
+B004RUGYIQ,other,1.0
+B004RZ63KK,drink,1.0
+B004S0332A,sugar & sweetener,1.0
+B004SBEHFQ,other,1.0
+B004SCR3W4,pet food,1.0
+B004SEOUU0,biscuit & cookie,1.0
+B004SI9AWY,oil & vinegar,1.0
+B004SKOGHG,candy,1.0
+B004SKVWO6,baby food,1.0
+B004SPDI3Y,candy,1.0
+B004SRFYMK,drink,0.42857142857142855
+B004SRH2B6,drink,0.8571428571428571
+B004T3QMD8,coffee,0.6666666666666666
+B004TES39I,snack,1.0
+B004TJD758,nuts & seeds,1.0
+B004TJF3BE,coffee,1.0
+B004TMBOGO,drink,1.0
+B004TPKAN4,snack,1.0
+B004TPWRQW,noodle & pasta,1.0
+B004TPWSB6,noodle & pasta,1.0
+B004U43ZO0,snack,1.0
+B004U49QU2,chocolate,1.0
+B004U49QVG,snack,1.0
+B004U49R24,chocolate,1.0
+B004U7QZ4Y,tea,1.0
+B004U8WJA2,drink,1.0
+B004UA52F4,sauce & dressing,1.0
+B004UAXISM,milk & cream,1.0
+B004UB6IFQ,snack,1.0
+B004UB6YLO,chocolate,1.0
+B004UBZBMW,coffee,1.0
+B004UC0GIU,coffee,0.5
+B004UC7CMS,coffee,1.0
+B004UIT9GO,other,1.0
+B004UJAHUA,tea,1.0
+B004UOA23M,coffee,1.0
+B004UOA31I,coffee,1.0
+B004V3INKQ,coffee,1.0
+B004V6A9SC,cheese,1.0
+B004VELOGK,soup,1.0
+B004VLVB4S,cereal,1.0
+B004VLVD4G,soup,1.0
+B004VLVG0C,drink,1.0
+B004VNTTKY,meat,1.0
+B004VW3LF4,drink,1.0
+B004W12G3M,candy,1.0
+B004W19VE4,snack,1.0
+B004W55ZKO,biscuit & cookie,1.0
+B004WBBEFI,other,1.0
+B004WI6FQY,drink,1.0
+B004WP7OEE,jam & spread,1.0
+B004WWX2PC,drink,1.0
+B004WZ4HC6,noodle & pasta,1.0
+B004X3VRLG,pet food,1.0
+B004X8GYPA,drink,1.0
+B004X8T8DK,chocolate,1.0
+B004X8T8DU,cereal,1.0
+B004X8TD4O,chocolate,1.0
+B004X8TGW8,snack,1.0
+B004XAPINM,other,1.0
+B004XAPIOQ,rice & grain,1.0
+B004XE0EHI,other,1.0
+B004XTDL14,other,1.0
+B004XUGORG,snack,1.0
+B004XZMVZK,tea,1.0
+B004XZQVBU,sugar & sweetener,1.0
+B004YGQPAK,supplement,1.0
+B004YGQPCI,candy,1.0
+B004YTZXW8,pet food,1.0
+B004YV7VE4,snack,1.0
+B004YV80O4,other,0.6666666666666666
+B004YV80OE,cheese,1.0
+B004YWHTBS,coffee,1.0
+B004Z27GWE,coffee,1.0
+B004Z33GI6,drink,1.0
+B004Z4HUO6,seasoning & spice,1.0
+B004ZA0E66,other,1.0
+B004ZIER34,coffee,1.0
+B004ZWRA6G,gum,1.0
+B004ZWRALQ,gum,1.0
+B004ZY7NKC,drink,1.0
+B00503DP0O,snack,0.5
+B00507A02Q,drink,1.0
+B00509LVKY,fruit,1.0
+B0050ZD7J6,seasoning & spice,1.0
+B00511MJO8,coffee,1.0
+B00511MKR4,snack,1.0
+B00513J46M,canned food,1.0
+B00514DPDY,rice & grain,1.0
+B005151BV6,candy,1.0
+B0051COPH6,candy,0.2857142857142857
+B0051S6U82,plant,1.0
+B0051S7P54,plant,1.0
+B0051SU8BC,jerky & dried meat,1.0
+B0051WBQ00,snack,1.0
+B0051ZCNIQ,pet food,0.5
+B00520J3JW,drink,1.0
+B0052BRWJE,coffee,1.0
+B0052BRXDY,syrup,1.0
+B0052HX9IG,soup,1.0
+B0052HXC1A,soup,1.0
+B0052MTNN6,plant,1.0
+B0052OUAOK,energy bar,0.3333333333333333
+B0052P8ETM,nuts & seeds,1.0
+B00545EXFY,snack,1.0
+B00545PN26,pet food,1.0
+B0054ESJM8,candy,1.0
+B0054FXUPI,drink,1.0
+B0054I4LTO,sugar & sweetener,1.0
+B0054TWRUI,snack,1.0
+B00560QHRY,gum,1.0
+B005763OZK,snack,1.0
+B0057ISDW2,snack,1.0
+B0057OE5A0,drink,1.0
+B0057TWZ16,snack,1.0
+B0057XJSEY,other,1.0
+B0058AMY10,snack,1.0
+B0058AMY5G,seasoning & spice,0.5
+B0058AMY74,snack,1.0
+B0058AMYTC,snack,1.0
+B0058D4RGC,other,1.0
+B0058DA0H2,snack,1.0
+B0058HAQKY,snack,1.0
+B0058M8PFC,drink,1.0
+B0058P0G3I,snack,1.0
+B0059YB880,drink,1.0
+B005A1L5VM,biscuit & cookie,1.0
+B005A1LGIY,drink,1.0
+B005A1LINC,tea,0.5
+B005A1LJ04,drink,0.75
+B005A7X56Y,drink,1.0
+B005AP8TR6,candy,1.0
+B005ATVY88,rice & grain,1.0
+B005B57A2U,candy,1.0
+B005BFJGJU,nuts & seeds,1.0
+B005BHIESC,snack,1.0
+B005BRHVD6,energy bar,0.5
+B005BUZYTG,pet food,1.0
+B005C5JMWU,snack,1.0
+B005CJJ5AU,seasoning & spice,1.0
+B005CUU23S,pet food,1.0
+B005CUU25G,pet food,1.0
+B005DFL4PM,drink,1.0
+B005DGIAUI,pet food,1.0
+B005DVIL5W,seasoning & spice,1.0
+B005DXTWP8,noodle & pasta,1.0
+B005DZHI9I,other,1.0
+B005E9OT5O,soup,1.0
+B005EF0HTK,snack,1.0
+B005EV2EJA,seasoning & spice,1.0
+B005EX6L7E,candy,1.0
+B005F5KAYQ,sauce & dressing,1.0
+B005FC6T08,drink,1.0
+B005FC72AO,snack,1.0
+B005FCN8ZM,coffee,1.0
+B005FG6NY6,pet food,1.0
+B005FO3558,flour & baking mix,1.0
+B005FUMNQO,snack,1.0
+B005GAORJE,coffee,1.0
+B005GGAHNI,noodle & pasta,1.0
+B005GIF5VU,pet food,0.5
+B005GRBQ0K,coffee,1.0
+B005GRCWDU,coffee,1.0
+B005GTTFW4,rice & grain,1.0
+B005GTWCTM,coffee,1.0
+B005GX00BK,coffee,1.0
+B005GX8MMO,coffee,1.0
+B005GXEULG,snack,1.0
+B005GXF0OW,candy,1.0
+B005GXF6K0,noodle & pasta,1.0
+B005GXHKSG,coffee,1.0
+B005GYJUCO,coffee,1.0
+B005GYULZY,pet food,1.0
+B005HB4HGU,seasoning & spice,1.0
+B005HB4HH4,seasoning & spice,1.0
+B005HG9ERW,drink,1.0
+B005HG9ESG,drink,1.0
+B005HG9ET0,drink,1.0
+B005HGAUZC,coffee,1.0
+B005HGAV8I,drink,1.0
+B005HGAVDI,drink,1.0
+B005HGIVTY,drink,1.0
+B005HQODCI,candy,1.0
+B005HQS9MS,drink,1.0
+B005HUVI40,coffee,1.0
+B005I5M42E,candy,1.0
+B005IDLJCW,other,1.0
+B005IDW20A,pet food,1.0
+B005IPJTZE,coffee,1.0
+B005IPS8SS,cheese,1.0
+B005IW4WFY,nuts & seeds,0.4
+B005JEKO6W,plant,1.0
+B005K4Q1RW,candy,1.0
+B005K4Q1T0,coffee,0.75
+B005K4Q1VI,chocolate,1.0
+B005K4Q1W2,candy,0.3333333333333333
+B005K4Q1YA,coffee,1.0
+B005K4Q34S,coffee,0.5
+B005K4Q37A,coffee,0.75
+B005K4Q4KG,milk & cream,0.3333333333333333
+B005K4Q4LK,coffee,0.6666666666666666
+B005K4Q68Q,coffee,0.5
+B005KSJD8C,candy,1.0
+B005LCQZGA,snack,1.0
+B005LMLZCO,tea,1.0
+B005LMM26M,coffee,1.0
+B005LNA5VK,oil & vinegar,0.5
+B005LPD86C,other,1.0
+B005LVNJME,chocolate,1.0
+B005LXGBUE,seasoning & spice,1.0
+B005LXGGH2,energy bar,1.0
+B005MGDP90,seasoning & spice,1.0
+B005MGDPAE,drink,1.0
+B005MHRMB6,baby food,1.0
+B005MIWPGC,other,1.0
+B005MU5M06,drink,1.0
+B005N29HGI,pet food,1.0
+B005NVU5BK,coffee,0.5
+B005NVU64Q,candy,1.0
+B005NYXE1K,candy,0.5
+B005NYXE1U,candy,1.0
+B005NYXE8S,candy,1.0
+B005O072PC,cheese,1.0
+B005OKDC9C,chocolate,1.0
+B005OPQF2I,other,1.0
+B005OVPK9G,snack,1.0
+B005P0WL1G,candy,1.0
+B005P3BF0G,sauce & dressing,1.0
+B005P6TCGW,drink,1.0
+B005PD7VDQ,coffee,1.0
+B005PKMWH4,other,1.0
+B005Q8BL9A,tea,1.0
+B005QRPH3M,pet food,1.0
+B005R2MNRY,coffee,1.0
+B005R8JDEE,tea,1.0
+B005SLSVMK,drink,1.0
+B005SPMRDK,nuts & seeds,1.0
+B005SPQENY,sugar & sweetener,0.5
+B005T05TNE,candy,1.0
+B005T12ZXK,drink,1.0
+B005T7P2QQ,drink,1.0
+B005TH72FK,chocolate,1.0
+B005TRIV1Y,pet food,1.0
+B005TY2PS2,rice & grain,1.0
+B005UD0B7Y,snack,1.0
+B005UNZ56Q,honey,1.0
+B005V375TU,pet food,1.0
+B005V9UG18,drink,1.0
+B005VBBSVI,snack,1.0
+B005VBD4A6,soup,1.0
+B005VDDQB6,meat,1.0
+B005VGXX2A,other,1.0
+B005VGZ49U,seasoning & spice,1.0
+B005VOOL00,coffee,1.0
+B005VOOLXM,coffee,1.0
+B005VOOM2W,coffee,1.0
+B005VOOM4A,coffee,1.0
+B005VOOM5E,coffee,1.0
+B005VOONGM,coffee,1.0
+B005VOONI0,coffee,1.0
+B005VOONKI,coffee,1.0
+B005VOONLW,coffee,1.0
+B005VOONM6,coffee,1.0
+B005VOOT52,coffee,1.0
+B005VOOT8O,snack,1.0
+B005VUILWI,syrup,1.0
+B005WINOZS,tea,1.0
+B005X4STQ0,coffee,1.0
+B005X5GBEG,drink,1.0
+B005XB3U26,coffee,1.0
+B005XB5K0G,coffee,1.0
+B005XPKYUI,drink,1.0
+B005Y111XA,jam & spread,1.0
+B005ZBZLSU,coffee,0.8
+B005ZBZLT4,coffee,1.0
+B005ZBZM52,coffee,0.75
+B00600N5UQ,other,1.0
+B006048P5M,oil & vinegar,1.0
+B00609PJEC,pet food,1.0
+B0060ECUTE,coffee,1.0
+B0060JNAE8,oil & vinegar,1.0
+B0060KPEM8,tea,1.0
+B0061IUIDY,coffee,1.0
+B0061IUKDM,tea,1.0
+B0061UQ2K0,coffee,1.0
+B0061UQ8Y0,drink,1.0
+B00622CYVS,drink,1.0
+B0062A87HA,canned food,0.8
+B0062MEOTI,coffee,1.0
+B006392M7Q,syrup,1.0
+B006392MMG,other,1.0
+B006449TLW,snack,1.0
+B0064EMCYI,tea,1.0
+B0064KIVGK,candy,1.0
+B0064KR008,candy,1.0
+B00654I0XE,other,1.0
+B0065EQYLE,other,1.0
+B0065P7DCW,other,1.0
+B0068RFY4Q,snack,1.0
+B0069AFIN4,drink,1.0
+B0069H08A0,other,1.0
+B006ACQYB6,seasoning & spice,1.0
+B006ACQYXY,seasoning & spice,1.0
+B006AH9E2M,seasoning & spice,1.0
+B006BXUY2Y,candy,0.6666666666666666
+B006BXUYN8,snack,1.0
+B006BXUZVO,cereal,1.0
+B006BXV14E,snack,1.0
+B006BXV1H6,chocolate,1.0
+B006C2KZMI,syrup,1.0
+B006CFW3CA,tea,1.0
+B006DQZ064,coffee,1.0
+B006EQ0J50,fruit,1.0
+B006FRYOXG,candy,1.0
+B006G1C6K4,coffee,1.0
+B006GA666U,coffee,1.0
+B006GZZ9B8,pet food,1.0
+B006H32VYC,tea,1.0
+B006H34C6C,cereal,1.0
+B006H34CUS,nuts & seeds,0.6666666666666666
+B006HLYOOE,sugar & sweetener,1.0
+B006HYLW32,snack,0.6666666666666666
+B006ILRBWU,snack,1.0
+B006J3S9P0,tea,1.0
+B006J4MAUE,snack,0.5
+B006JG8704,snack,1.0
+B006JG8ALK,candy,1.0
+B006JUUKN2,candy,1.0
+B006JXY0E4,drink,1.0
+B006K10TXQ,pet food,1.0
+B006MONQMC,drink,1.0
+B006MT4QNK,flour & baking mix,1.0
+B006N08SPA,tea,1.0
+B006N3HYDE,tea,1.0
+B006N3HYYS,coffee,0.6666666666666666
+B006N3HZ6K,coffee,1.0
+B006N3I0DM,coffee,0.5
+B006N3I0N2,coffee,1.0
+B006N3I2JE,coffee,1.0
+B006N3I3I4,coffee,1.0
+B006N3I69A,coffee,1.0
+B006N3I7JO,coffee,1.0
+B006N3I7S0,drink,1.0
+B006N3I84I,coffee,1.0
+B006N3I8PC,tea,1.0
+B006N3IE6A,coffee,1.0
+B006N3IG4K,coffee,1.0
+B006NGE1G4,chocolate,1.0
+B006O9WAHW,canned food,1.0
+B006Q7YG2O,pet food,1.0
+B006Q820X0,coffee,1.0
+B006R1E6NS,rice & grain,1.0
+B006SJOFLM,snack,1.0
+B006U1XCAI,sugar & sweetener,1.0
+B006UH2SSO,biscuit & cookie,1.0
+B006UK168Y,drink,1.0
+B006ULZHZQ,candy,1.0
+B006VRTQYC,coffee,1.0
+B006VY2THQ,tea,1.0
+B006W5WAL4,cereal,0.5
+B006W5WDS4,cereal,1.0
+B006W6YHV4,pet food,1.0
+B006W6YHYQ,pet food,1.0
+B006WLNUWG,candy,1.0
+B006WOFLL6,plant,1.0
+B006WP5UC0,rice & grain,1.0
+B006WYSFZK,drink,0.5
+B006XAFWB8,noodle & pasta,1.0
+B006XL9W7W,flour & baking mix,1.0
+B006YC3RQC,dried fruit,1.0
+B006Z7N3GA,chocolate,1.0
+B0070SGNS8,candy,1.0
+B0071H9PQ0,other,1.0
+B007237380,fruit,1.0
+B0072Z1ZGY,cereal,1.0
+B007570YC0,snack,1.0
+B00764BRS2,coffee,0.5
+B0076MLL12,chocolate,0.6666666666666666
+B0078OYZWK,coffee,1.0
+B0078Y6CN0,coffee,1.0
+B007A3TBXM,jerky & dried meat,1.0
+B007A69QB6,coffee,1.0
+B007B9J6G2,canned food,1.0
+B007B9YQ62,snack,1.0
+B007CBBH2U,coffee,1.0
+B007EFRIK4,coffee,1.0
+B007FK3HHG,tea,1.0
+B007FRDKXU,tea,1.0
+B007GYQ6LA,snack,0.5
+B007I7YZJK,tea,0.8
+B007I7Z3Z0,drink,0.6666666666666666
+B007IIRHPI,seasoning & spice,1.0
+B007IVE938,tea,1.0
+B007J6LBQA,jam & spread,1.0
+B007JFMH8M,biscuit & cookie,0.46153846153846156
+B007JFMH96,snack,0.5
+B007JFXWRC,tea,0.6666666666666666
+B007JT7AEY,tea,1.0
+B007KIOBMS,drink,1.0
+B007KNNKK2,other,1.0
+B007KTEZ78,coffee,1.0
+B007L3NVKU,coffee,1.0
+B007LO6NGI,drink,1.0
+B007M832Y4,snack,1.0
+B007M832YY,snack,0.6666666666666666
+B007M83302,snack,0.8
+B007M8AFYO,drink,1.0
+B007N3KR7S,other,1.0
+B007N8SCBG,candy,1.0
+B007N9J9US,baby food,1.0
+B007NIAR0K,drink,1.0
+B007NU60HC,tea,1.0
+B007NVZTO6,chocolate,1.0
+B007O5CO6M,snack,1.0
+B007OSBE1U,coffee,1.0
+B007OSBEV0,coffee,1.0
+B007OVX77G,tea,1.0
+B007OXJJQ2,coffee,1.0
+B007OXJK1Q,coffee,1.0
+B007OXJK3Y,coffee,1.0
+B007OXJL0G,drink,1.0
+B007P2O88G,jerky & dried meat,1.0
+B007P4BX1Y,meat,1.0
+B007PA30TG,coffee,1.0
+B007PA30ZU,coffee,1.0
+B007PA32L2,coffee,1.0
+B007PA33KM,coffee,1.0
+B007PA33NY,drink,1.0
+B007PA34DS,coffee,1.0
+B007PE7ANY,snack,1.0
+B007PKBH2I,biscuit & cookie,1.0
+B007POA176,snack,1.0
+B007PUYTLY,supplement,1.0
+B007QTQ95I,snack,1.0
+B007R1PGVS,drink,1.0
+B007R900WA,coffee,0.5
+B007RJE6M0,rice & grain,1.0
+B007RLRCLK,tea,0.6666666666666666
+B007RTR898,hair care,1.0
+B007RTR8A2,hair care,1.0
+B007RTR8AM,hair care,1.0
+B007RTR8T8,snack,1.0
+B007RTR8UM,hair care,1.0
+B007RTR9DS,hair care,1.0
+B007RTR9E2,hair care,1.0
+B007RTR9FQ,hair care,1.0
+B007RTR9G0,hair care,1.0
+B007TGDXMU,coffee,0.6666666666666666
+B007TGDXNO,coffee,1.0
+B007TGO1TY,sugar & sweetener,1.0
+B007TGO1U8,tea,1.0
+B007TJGY46,coffee,1.0
+B007TJGY4Q,coffee,1.0
+B007TJGZ0Y,coffee,1.0
+B007TJGZ18,coffee,0.6666666666666666
+B007TJGZ4A,coffee,0.75
+B007TJGZ54,coffee,0.6666666666666666
+B007TJGZ5E,coffee,1.0
+B007U6I9GY,baby food,1.0
+B007WP3XU0,baby food,1.0
+B007Y59HVM,coffee,1.0
+B007ZU3JAQ,coffee,1.0
+B0080YNRQC,coffee,1.0
+B0081XIA1E,drink,0.5
+B0081XIAOQ,pet food,0.6666666666666666
+B0081XIASW,pet food,1.0
+B0081XIAUK,pet food,0.6666666666666666
+B0081XPTBS,milk & cream,0.6666666666666666
+B0081XSTGK,drink,1.0
+B0082P9C7M,cake & pastry,1.0
+B0083JP1K4,chocolate,1.0
+B0083LJD1A,drink,1.0
+B0083QJU5O,syrup,1.0
+B0083T5TAQ,coffee,0.6666666666666666
+B0083T6HC0,snack,0.5
+B0085E7B8W,coffee,1.0
+B0085G4ACA,drink,1.0
+B0085HLZ4K,coffee,1.0
+B0085P6LPU,snack,1.0
+B0085XGAFI,candy,1.0
+B0085YB4DU,other,1.0
+B00872572E,tea,1.0
+B0087GH4US,coffee,1.0
+B0088129IO,other,1.0
+B00889EL96,snack,1.0
+B0088Q299I,flour & baking mix,1.0
+B0088YBUOU,vegetable,1.0
+B0089SPDUW,coffee,1.0
+B0089SPENI,coffee,1.0
+B0089SPEO2,tea,1.0
+B008ADQOC2,coffee,1.0
+B008ADQSRS,tea,1.0
+B008ATDIDE,cereal,1.0
+B008BLFFAK,nuts & seeds,1.0
+B008BWJ6CW,other,1.0
+B008BY7NSE,jam & spread,0.5
+B008BY7O9W,jam & spread,1.0
+B008CTB5DW,jam & spread,1.0
+B008CTBK7S,drink,1.0
+B008DJ0N5W,cake & pastry,1.0
+B008EG58V8,cereal,0.6666666666666666
+B008EG5ADY,milk & cream,1.0
+B008FHUCNU,coffee,0.5
+B008FHUDW0,pet food,0.5
+B008FHUFAU,coffee,0.5
+B008FHUGNQ,coffee,0.8333333333333334
+B008FHUKE6,coffee,1.0
+B008FHUQJA,coffee,1.0
+B008GRIB0A,seasoning & spice,1.0
+B008GRONV6,supplement,1.0
+B008I99CPO,chocolate,1.0
+B008J1HO4C,dried fruit,0.4
+B008JKSJJ2,energy bar,0.25
+B008JKTH2A,snack,0.5
+B008JKTTUA,snack,0.42857142857142855
+B008JKU2CO,nuts & seeds,0.5
+B008K9TJDM,coffee,1.0
+B008K9TOU0,coffee,1.0
+B008K9TQPS,drink,1.0
+B008MFFB1I,seasoning & spice,1.0
+B008MMJTKU,other,1.0
+B008MPC2LK,canned food,1.0
+B008N06K8K,bread,1.0
+B008N8FCTA,drink,1.0
+B008O2EHNC,coffee,1.0
+B008O3G25W,drink,1.0
+B008O3G2K2,pet food,1.0
+B008PGNYMC,fruit,1.0
+B008RWUHA6,snack,1.0
+B008RWUKXK,drink,0.4
+B008S5KWWU,sauce & dressing,1.0
+B008TAWJ0W,cake & pastry,1.0
+B008UDPA1S,coffee,1.0
+B008VQ01Y0,coffee,1.0
+B008XCHNSE,sauce & dressing,1.0
+B008XOKY1U,snack,1.0
+B008YA1DZE,coffee,1.0
+B008YA1LQK,coffee,1.0
+B008YA1NWC,coffee,1.0
+B008ZRKZSM,seasoning & spice,0.3333333333333333
+B0090X8IPM,coffee,1.0
+B0092VQC3W,tea,1.0
+B0092VQKR0,coffee,1.0
+B0094Z2EOW,jam & spread,1.0
+B0094Z2JMY,jam & spread,1.0
+B00954NY46,coffee,1.0
+B00954NYVY,coffee,1.0
+B0096EZHM2,pet food,1.0
+B0096PKSAC,soup,1.0
+B0096S2E10,jam & spread,1.0
+B0098C6AKK,coffee,1.0
+B0098WV8F2,snack,0.5
+B009AFJ548,other,1.0
+B009E7YC54,jam & spread,0.5
+B009HFZS1A,drink,1.0
+B009HXB2JO,seasoning & spice,1.0
+B009JMD4YY,snack,1.0
+B009M2LRTA,drink,1.0
+B009M2LUEW,drink,1.0
+B009NN54I8,snack,1.0
+B009NY1MC4,other,1.0
+B009PFJUF2,plant,1.0
+B009RB4GO4,sugar & sweetener,0.5

@@ -1,0 +1,8 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {"name": "ugc-dashboard", "runtimeExecutable": "streamlit",
+     "runtimeArgs": ["run", "app/streamlit_app.py", "--server.port", "8552", "--server.headless", "true"],
+     "port": 8552}
+  ]
+}

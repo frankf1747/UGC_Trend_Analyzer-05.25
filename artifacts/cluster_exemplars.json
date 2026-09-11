@@ -1,0 +1,516 @@
+{
+ "k": 24,
+ "silhouette_grid": {
+  "24": 0.047,
+  "32": 0.0453,
+  "40": 0.0424,
+  "48": 0.0377,
+  "56": 0.033
+ },
+ "clusters": {
+  "0": {
+   "n": 294,
+   "mean_star": 2.28,
+   "top_categories": {
+    "baby & pet": 38,
+    "drink": 38,
+    "other": 33
+   },
+   "sentences": [
+    "i was very disappointed in the taste of this product.",
+    "do not waste your money or taste buds on this.",
+    "the flavor is sharp and irritating -- think \"tang\" and you'll get the taste profile. really awful.",
+    "one taste caused me to throw out my sandwich, and subsequently throw out the entire jar of unused mayonnaise. i would give this less than 1 star, if i could. steer clear from this unless you're a majo",
+    "have had the other flavors , this tastes the worst.",
+    "i am so disappointed that this tastes so gross and will probably sit in my pantry forever.",
+    "that stuff is pure crap. we then went through a bag of orijen, which i think is an excellent food, but not for her.",
+    "i would not recommend eating this caviar from the jar.",
+    "i am a big fan of stevia over artificial sweeteners like saccharine or sucralose so i was really looking forward to switching my diet soda and i bought a case of this stuff having never tried it, but ",
+    "i did not like these beans and won't be purchasing them again."
+   ]
+  },
+  "1": {
+   "n": 348,
+   "mean_star": 3.99,
+   "top_categories": {
+    "drink": 49,
+    "snack": 45,
+    "other": 42
+   },
+   "sentences": [
+    "i've bought this before at a local health food store, and thought i would get a better deal from amazon like i always do, but i found the same item for a lot less at my local grocery store yesterday.",
+    "buying from amazon is 1.00 cheaper than the grocery store.",
+    "buying from amazon is 1.00 cheaper than the grocery store.",
+    "i get these for around $3.50 per 7.2 oz bag at my local grocery store, so i'm a little confused by the astronomical prices shown by the current people selling them on amazon.",
+    "the price has been increasing recently and through cajunmarket.info i was able to save some money over what the local stores charged.",
+    "i have checked many places and this product can be as much as double in price elsewhere.",
+    "they are so much cheaper to purchase on amazon than at my local grocery store.",
+    "the price is much more reasonable if you buy a mega treat pak from a vendor online compared to a smaller amount in a pet store, although a trial with the individually wrapped ones is a good way to sta",
+    "you can buy small bags or larger quantities.",
+    "more expensive than the buck-a-box stuff at the supermarket, but worth it."
+   ]
+  },
+  "2": {
+   "n": 554,
+   "mean_star": 4.5,
+   "top_categories": {
+    "drink": 112,
+    "snack": 83,
+    "coffee": 69
+   },
+   "sentences": [
+    "i was surprised that i actually like the taste.",
+    "i am very happy with the taste and quality.",
+    "this is my first time trying this flavor.",
+    "it is one of the best tasting snacks i have eaten for a long time.",
+    "i am so happy that i discovered this food.",
+    "i admit i like some flavors more than others.",
+    "i absolutely love this product and most of the flavors.",
+    "i loved the taste, the way it made me fill and the convenience it offered. highly recommended.",
+    "this is great stuff and i am really happy with how great it tastes.",
+    "it turned out to be one of my favorite drinks."
+   ]
+  },
+  "3": {
+   "n": 409,
+   "mean_star": 3.47,
+   "top_categories": {
+    "drink": 96,
+    "snack": 50,
+    "condiments": 48
+   },
+   "sentences": [
+    "also, with the main ingredient simply a more processed version of sugar, i'm not really seeing any advantage to using nectresse over other highly processed sweeteners like splenda. nice container thou",
+    "i tried using one can each but it's too high in protein and they get the runs, so be sure to experiment with the right mix...",
+    "overall, not a good value, but tasty for packaged.",
+    "i switched to this product thinking i would get more of a value than buying the bagged form but i was wrong..it takes some time for this sugar to dissolve into what you are adding it to which was not ",
+    "if it weren't for the almonds, it would have no taste at all. it's too fine to eat dry as a snack, and too solid to eat with cold milk as a cereal. i imagine it would be a decent substitute for granol",
+    "i also like the fact that the the ingredients seem to be nourishing (no by-products) although since some reviewers have mentioned a possibly dangerous ingredient, i think i will do a little more resea",
+    "the java lime is a bit sour so if you dont like sour these might not be for you.",
+    "but the notice said the low fat variety which this is not! will have to update this review i've tried the product if it's not part of the recall.",
+    "they dont mention that they replace sugar with sucralose; a chlorinated sweetener (chlorine has a byproduct dioxin which the epa found to be 300,000 times as carcinogenic as the pesticide ddt.-mercola",
+    "and supposedly good for you health too, if taken in moderation. but despite some of the comments above, the box i received had the same (good) formulation for the 85% bars that i've seen in the past -"
+   ]
+  },
+  "4": {
+   "n": 358,
+   "mean_star": 2.93,
+   "top_categories": {
+    "other": 57,
+    "drink": 45,
+    "coffee": 43
+   },
+   "sentences": [
+    "the product is not quite what i expected based on the reviews and hype offered.",
+    "although the price was good, the product was not what i expected or can use.",
+    "i am thinking about getting away from this product due to inconsistency with amazon delivery and freshness. i would say: buyer beware",
+    "the others i purchased at amazon did not last very long unfortunately.",
+    "i sent the first one back thinking maybe it was defective.",
+    "the condition of the cans shipped was not as good as i would have hoped.",
+    "but i was wrong when i received and tried it today.",
+    "the product i received was in good condition but wasn't what i thought i was getting.",
+    "they were reported to me as being not that good",
+    "this item was brought up in a forum with a link to amazon."
+   ]
+  },
+  "5": {
+   "n": 514,
+   "mean_star": 4.63,
+   "top_categories": {
+    "coffee": 488,
+    "drink": 11,
+    "tea": 8
+   },
+   "sentences": [
+    "the coffee has a nice taste to it.",
+    "very pleased with this coffee, but there are so many others like it.",
+    "my favorite coffee it is bold but not over powering.",
+    "this coffee has a great robust flavor and is a great pick-me-up.",
+    "by the way, it is a very good strong and sweet coffee. regards, pag",
+    "the coffee is very good if you like flavored coffee.",
+    "this is some of the best coffee of any kind that i've had in years.",
+    "i had tried this coffee before, it is wonderful.",
+    "i really enjoy the flavor of this coffee!",
+    "i love my coffee strong and rich tasting and this fits the bill."
+   ]
+  },
+  "6": {
+   "n": 516,
+   "mean_star": 4.56,
+   "top_categories": {
+    "drink": 108,
+    "coffee": 97,
+    "tea": 63
+   },
+   "sentences": [
+    "the taste is not too strong or overpowering and not too weak.",
+    "it is not too sweet, has a great flavor.",
+    "it has enough spice to taste but not overpowering.",
+    "it is not too strong but has a good not-too bitter flavor.",
+    "the taste is subtle and not too strong.",
+    "has a great taste to it as well.",
+    "the taste is good, albeit strong; i recommend taking it with a generous portion of water.",
+    "it's not overwhelming in sweetness or vitamin in taste.",
+    "if you add more, it tastes fruitier without becoming overly sweet.",
+    "it has a slight sweetness from the licorice and the flavor is bold enough to compare with coffee. highly recommended."
+   ]
+  },
+  "7": {
+   "n": 242,
+   "mean_star": 4.4,
+   "top_categories": {
+    "snack": 35,
+    "drink": 30,
+    "tea": 27
+   },
+   "sentences": [
+    "i am not sure why this product is no longer in the stores.",
+    "i found this once in a store but they don't carry it any more.",
+    "unfortunately, i can no longer find it in the stores.",
+    "bought this at a public store a few years ago but couldn't find it again.",
+    "i was not able to find this variety at my local store.",
+    "i bought this online because i couldn't find it anywhere in the stores.",
+    "i used to buy it in local stores but it's been unavailable the last year.",
+    "i can't find it at my local grocer.",
+    "used to get this all the time but can no longer find it in grocery stores.",
+    "i bought this on amazon becuase it disappeared from real stores."
+   ]
+  },
+  "8": {
+   "n": 562,
+   "mean_star": 4.7,
+   "top_categories": {
+    "snack": 87,
+    "drink": 82,
+    "condiments": 59
+   },
+   "sentences": [
+    "try all the flavors - they're all great, and very low in fat with lots of fiber. highly recommend.",
+    "add a few drops of real vanilla extract and it is outstanding as well. enjoy!",
+    "if you aren't a fan, then new flavors probably won't matter to you. i am not sure how long this one has been out, but do know that it is fairly new. we finally found it in a grocery store here, and hu",
+    "if you like cherries not sweet but tardy then this is the product for you. i put them in my oatmeal while still hot and they plump up and taste so so good and they are healthy for you too. when i have",
+    "and for me, that is a good thing! my fav is the bbq flavor, however their other flavors are very tasty as well :-)",
+    "i just tried the nutty marshmallow and it is awesome. i have problems with some bars due to acid reflux and also gallbladder problems, but this hasn't bothered me yet.",
+    "i absolutely love annie's gummies, they healthy and yummy with an awesome texture.",
+    "they have a really nice, lingering black pepper burn (don't be scared, it's about the equivelant of 1/2 star if you're thinking asian food spice level)! they apparently have a little garlic and onion ",
+    "the best way i found to eat these is to get a small bowl of raspberry applesauce and start dipping. delicious!",
+    "i look forward to trying other flavors but you can't go wrong with this one!"
+   ]
+  },
+  "9": {
+   "n": 478,
+   "mean_star": 4.57,
+   "top_categories": {
+    "other": 97,
+    "coffee": 65,
+    "snack": 56
+   },
+   "sentences": [
+    "i am very happy with my purchase of this product.",
+    "this product turned out to be really fulfilling.",
+    "i got a great product for a great price.",
+    "i am very impressed with this product (and the company that creates it).",
+    "i am so glad i found a place to purchase this product.",
+    "i purchased this item for its place of origin.",
+    "extremely happy to find one of my favorite products.",
+    "i would recommend this product to a friend.",
+    "i recently bought this item based on the good reviews i saw here.",
+    "i was surprised to see that amazon carried this product."
+   ]
+  },
+  "10": {
+   "n": 406,
+   "mean_star": 4.35,
+   "top_categories": {
+    "baby & pet": 313,
+    "candy": 29,
+    "protein snacks": 20
+   },
+   "sentences": [
+    "my dog is relatively picky when it comes to treats, but she loves these.",
+    "i bought these treats because they looked liked they could break into suitable pieces for my pup.",
+    "loving pets treats are some of the best according to my dog.",
+    "my dog is ho-hum about these treats.",
+    "it is a fun treat to give them, and my dogs really like it.",
+    "it is a fun treat to give them, and my dogs really like it.",
+    "one of my dogs is choicy and he barks when he wants a treat.",
+    "i have been buying these canidae treats for a while now for my dogs.",
+    "and the smell is very strong, you cannot put them in a open bag, must seal it everytime you gave it as treat, otherwise your dog will stand up trying to fetch more. i believe the taste is great from m",
+    "my dog loves these but i only give her one or two a week because they can be fattening."
+   ]
+  },
+  "11": {
+   "n": 481,
+   "mean_star": 4.66,
+   "top_categories": {
+    "drink": 80,
+    "staples": 74,
+    "snack": 68
+   },
+   "sentences": [
+    "it is delicious and a great source of protein and fiber.",
+    "this is a great meal on the go.",
+    "it has to taste great and be nutritious.",
+    "it's great in soups and all sorts of sauces.",
+    "compared to other healthy foods, you can't beat the price.",
+    "it has diverse ingredients and they are very good for you.",
+    "this has become a magnificent staple and comfort food.",
+    "it is great on toast, corn, steamed vegetables, rice, pasta etc.",
+    "this is a good product if eaten quickly.",
+    "it is great with a squeeze of lemon and with cannelini beans and onions."
+   ]
+  },
+  "12": {
+   "n": 437,
+   "mean_star": 3.69,
+   "top_categories": {
+    "snack": 160,
+    "candy": 66,
+    "baby & pet": 31
+   },
+   "sentences": [
+    "they have a hint of pb flavor, but not enough to please my palate.",
+    "they're just not all that tasty, and all have a nasty aftertaste from the artificial sweeteners. this product almost earned itself a one-star review because in addition to the aftertaste, there are li",
+    "they aren't too sweet and have a good flavor and consistency.",
+    "i like the single-serving bags, and this is the second batch of jtc rounds i've bought, but they certainly aren't my favorite snack. they are crunchy, and have a decent texture, but they're saltier th",
+    "i bought these because of the amount in bag - they were tougher then the ones i get locally - they get better after spending the night in the refrigerator - but would not recommended if eating fresh.",
+    "there are a lot of snacks on the market that are supposedly healthier alternatives to their full-fat counterparts, but in my experience, reducing the \"bad stuff\" usually causes similar reductions in t",
+    "i can't say they were awful but they have a really grainy dry kinda taste.",
+    "they are not overly sweet or too hard to chew.",
+    "seriously, i could eat them until i throw up. i'm not a big fan of hard chocolates or even crunchy ones.",
+    "i held off ordering these for a while because i was concerned i might not like the taste."
+   ]
+  },
+  "13": {
+   "n": 392,
+   "mean_star": 3.93,
+   "top_categories": {
+    "snack": 80,
+    "other": 43,
+    "candy": 40
+   },
+   "sentences": [
+    "they are wrapped together in a bag inside the box.",
+    "they come in bags, i think nitrogen sealed.",
+    "i was surprised how many were really in container.",
+    "i don't know how they can improve the packing, the can came all slime. it was send well packed (refrigeration) and it came on a timely manner.",
+    "i think the difference was that the \"skins\" people engineered the size of the box just right so the puffy bags held each other in place, while the \"rounds\" people just threw a dozen bags into the box ",
+    "it came as two 4.5 lb bags in one box.",
+    "i was a bit skeptical as to how big the bags were, but was satiated in the end.",
+    "buy a bag and a jar to keep them in (if you can resist eating them all at once)",
+    "not sure how many cashews i lost in the delivery process, but doesn't look to have been too many.",
+    "they are in a nice quality resealable bag to keep them fresh."
+   ]
+  },
+  "14": {
+   "n": 271,
+   "mean_star": 4.3,
+   "top_categories": {
+    "baby & pet": 205,
+    "staples": 33,
+    "snack": 8
+   },
+   "sentences": [
+    "my cat loves it and he can be a bit picky about his food.",
+    "my cats enjoy the taste of this, it seems to be healthy for them also.",
+    "very good! the food does have some nutritional content; i always look for that when i buy food for the cat.",
+    "i feed them the same formula canidae kibble and canned food, so these treats fit in well with their diet - no worry about upset tummies.",
+    "one of my dogs is an extremely picky eater so when i find a food he will eat without a problem i can safely recommend it to everyone.",
+    "my cats seem to enjoy this food as much as their erstwhile favorite, wellness wet food.",
+    "plus my cat really like this cat food.",
+    "i purchased this product thinking it would be safe to feed my dog.",
+    "i have been using this food for my 3 dogs for over a year.",
+    "my dog loves this food, and i do too, as she eats well and healthy."
+   ]
+  },
+  "15": {
+   "n": 474,
+   "mean_star": 4.66,
+   "top_categories": {
+    "snack": 302,
+    "candy": 36,
+    "staples": 29
+   },
+   "sentences": [
+    "that said though, they are an excellent snack and a much healthier alternative to potato chips or corn chips. the main thing that surprised me about these chips is how good they taste.",
+    "they're very tasty and a great snack to have on hand.",
+    "these are great to have around as a snack...",
+    "i guess i would call them light and fluffy and yet nice and crisp with a great natural flavor. these have taken some of the guilt out of eating this type of snack for me.",
+    "on the whole, it is a healthy snack.",
+    "these are a great snack for when you need something sweet, yet portion controlled.",
+    "these are really good and low in calories, perfect for a lunch snack or anytime treat.",
+    "overall a great product and i love the snack size.",
+    "i love how the flavor is not overwhelming and they are a one handed snack.",
+    "i snack on these when i need a boost of energy."
+   ]
+  },
+  "16": {
+   "n": 208,
+   "mean_star": 4.51,
+   "top_categories": {
+    "baby & pet": 116,
+    "candy": 18,
+    "other": 15
+   },
+   "sentences": [
+    "she is on meds and a healthy pet food now.",
+    "a little pricy, but i like her to have healthier treats.",
+    "she smells much better. the pieces are very small and easy for her to eat.",
+    "it provides a way to give some variety without upsetting her system.",
+    "she loves the way this product is prepared.",
+    "she doesn't like crunchy treats much, so these are perfect for her.",
+    "i also always keep an eye on her when she is eating one. great product.",
+    "i am very careful what food she eats, but i feel these snacks are okay for her.",
+    "even finding treats she likes has been a challange.",
+    "she now gets excited at meal times & wont eat anything but this food."
+   ]
+  },
+  "17": {
+   "n": 542,
+   "mean_star": 4.66,
+   "top_categories": {
+    "snack": 142,
+    "candy": 83,
+    "baby & pet": 61
+   },
+   "sentences": [
+    "i love these things they have a perfect flavor.",
+    "while i understand they are a little sweet...they taste sooo good!",
+    "the ones i received from amazon.com were absolutely delicious.",
+    "would recommend trying to others since they're very tasty.",
+    "i was impressed with how yummy and natural they are.",
+    "they taste great and are easy to take with you.",
+    "i find they keep for a long time once opened as long as i keep them in the fridge. they are just yummy",
+    "today, we got them and they are very tasty.",
+    "they are pricey but they are such a treat.",
+    "they are well worth it if you find them for less than $4 per bag. yum!"
+   ]
+  },
+  "18": {
+   "n": 471,
+   "mean_star": 3.16,
+   "top_categories": {
+    "drink": 107,
+    "tea": 64,
+    "coffee": 53
+   },
+   "sentences": [
+    "it did not taste well to me or my friends.",
+    "however it did not deliver on the taste.",
+    "it doesn't taste to much so takes on the taste of whatever you put it in.",
+    "just not the normal flavors i am used to getting.",
+    "some may like the flavor but i found it cloying and slightly sweet - not earl grey in my book.",
+    "when at room temperature, the taste is a bit strange and off-putting.",
+    "it does not really taste that great, but it is okay.",
+    "this one does not have great flavor compared to other brands.",
+    "i just couldn't get into the taste of this product.",
+    "this flavor isn't that great, i'd rather have something different."
+   ]
+  },
+  "19": {
+   "n": 298,
+   "mean_star": 3.53,
+   "top_categories": {
+    "baby & pet": 119,
+    "drink": 26,
+    "other": 25
+   },
+   "sentences": [
+    "i used to give him smelly wet food, but i just couldn't handle gagging 2 times a day... since i ground it into a fine powder, i did notice some pea-sized bits of hard something, most likely bone.",
+    "so i was incredibly excited that he was finally happy about a toy i had given him. i, however, was not happy that it only took him 8 minutes to eat the entire thing. i was also not happy when he puked",
+    "eventually we realized the treats might be making him sick.",
+    "i had my dog on this food until he developed an infection in his anal glands.",
+    "that did not go well. next i tried dumping a few tablespoons into yogurt and then eating it.",
+    "we tried this food and unfortunately it gave the dogs bad breath (a fishy smell).",
+    "i was feeding them what i thought was high quality (nutro), but it was tearing up their stomachs.",
+    "by the time he did show weakness, the cancer was far too advanced to operate on or save him and he died within a month. that set me to feeding my two dogs (his mate who is still with me, and her new m",
+    "although this product accomplished the mission of getting my cat to take his pill, the side effect of the horrible diarrhea he got from these was definitely not worth it.",
+    "as many others have noted, these treats made our dog extremely ill."
+   ]
+  },
+  "20": {
+   "n": 466,
+   "mean_star": 4.54,
+   "top_categories": {
+    "drink": 77,
+    "staples": 71,
+    "condiments": 58
+   },
+   "sentences": [
+    "i also add some veggies to the mix.",
+    "you can mix with water or with milk.",
+    "i recomend using after cooking for best flavor.",
+    "i mixed this into a bulgogi type of recipe.",
+    "just purchased this, used almost a tablespoon to make 1 cup.",
+    "when boiling, i add an egg to the mix.",
+    "i also used it in place of flour in making apple crisp, i will try other uses eventually.",
+    "i love this product and use it as a rice substitute.",
+    "i use it not only for cooking, but also i made my own lotion (olive oil, bee-wax and coconut oil, vitamin e)...perfect.",
+    "i like adding veggies and cheddar overall if i serve it as a side dish."
+   ]
+  },
+  "21": {
+   "n": 395,
+   "mean_star": 4.49,
+   "top_categories": {
+    "drink": 101,
+    "other": 85,
+    "tea": 45
+   },
+   "sentences": [
+    "i used this when i feel like im getting sick thanks !",
+    "i used this when i feel like im getting sick thanks !",
+    "i drink it 3 times a day and it has helped me feel much healthier.",
+    "i drink one bottle when i am feeling tired and it gives me sustained energy and no jitters plus when i take it regualry i have noticed it helps my stress levels.",
+    "this product is very good for my mind and body.",
+    "i tried this for about a week, taking a couple of teaspoons worth each morning and evening.",
+    "this has become part of my regular vitamin routine.",
+    "i use this product in my evening protein drink, which has really helped me.",
+    "this stuff does give you an energy boost and i believe (with proper diet and exercise) it will speed your weight loss.",
+    "i am drinking it during my pregnancy to tone the uterus."
+   ]
+  },
+  "22": {
+   "n": 386,
+   "mean_star": 3.59,
+   "top_categories": {
+    "coffee": 363,
+    "tea": 9,
+    "drink": 5
+   },
+   "sentences": [
+    "this particular coffee is a bit strong for my taste.",
+    "this coffee is strong enough, but a little on the bitter side for my taste.",
+    "this coffee is strong enough, but a little on the bitter side for my taste.",
+    "i don't like strong coffee so this wasn't my favorite.",
+    "i find flavored coffee's to just be a bit too much.",
+    "to me, this is bad business and taking advantage of the dedicated consumer. the coffee itself is more than wondeful.",
+    "i found this coffee to be a little strong for my tastes, i prefer a slightly milder coffee.",
+    "i am not one of the super picky coffee people out there.",
+    "i like strong coffee, but, sometimes the bold varieties are somewhat bitter.",
+    "unfortunately, artificial flavoring also plainly occupies the front face. the aroma from the coffee is quite pleasant, however, after brewing, the coffee itself is nothing to write home about."
+   ]
+  },
+  "23": {
+   "n": 452,
+   "mean_star": 4.51,
+   "top_categories": {
+    "tea": 379,
+    "coffee": 59,
+    "drink": 11
+   },
+   "sentences": [
+    "i have been drinking this tea for some time.",
+    "i have been enjoying this unique tea for the past couple of years and give it 5 stars.",
+    "this has quickly become one of my favorite teas.",
+    "this delicately flavored herbal tea has become a favorite of mine.",
+    "have enjoyed many cups of this flavorful tea which was first given to me by a friend.",
+    "this tea is a must for people who like a flavored tea.",
+    "the tea does not have a bad taste, doable for its purpose.",
+    "my two teas of choice are green tea and earl grey.",
+    "i love that it is a black tea as well.",
+    "this is a delicious blend that is a nice alternative to traditional tea."
+   ]
+  }
+ }
+}

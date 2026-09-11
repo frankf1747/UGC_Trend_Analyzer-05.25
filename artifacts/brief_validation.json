@@ -1,0 +1,62 @@
+{
+ "total_claims": 103,
+ "unmatched": 0,
+ "by_category": {
+  "coffee": {
+   "claims_checked": 7,
+   "unmatched": []
+  },
+  "snack": {
+   "claims_checked": 8,
+   "unmatched": []
+  },
+  "drink": {
+   "claims_checked": 6,
+   "unmatched": []
+  },
+  "baby & pet": {
+   "claims_checked": 10,
+   "unmatched": []
+  },
+  "tea": {
+   "claims_checked": 6,
+   "unmatched": []
+  },
+  "candy": {
+   "claims_checked": 7,
+   "unmatched": []
+  },
+  "staples": {
+   "claims_checked": 6,
+   "unmatched": []
+  },
+  "other": {
+   "claims_checked": 7,
+   "unmatched": []
+  },
+  "condiments": {
+   "claims_checked": 8,
+   "unmatched": []
+  },
+  "protein snacks": {
+   "claims_checked": 8,
+   "unmatched": []
+  },
+  "seasoning & spice": {
+   "claims_checked": 7,
+   "unmatched": []
+  },
+  "chocolate": {
+   "claims_checked": 9,
+   "unmatched": []
+  },
+  "baked goods": {
+   "claims_checked": 7,
+   "unmatched": []
+  },
+  "dairy": {
+   "claims_checked": 7,
+   "unmatched": []
+  }
+ }
+}
