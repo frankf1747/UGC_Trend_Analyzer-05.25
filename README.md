@@ -112,8 +112,8 @@ built from thirteen reviews.
 
 ## The report
 
-A five-page summary — executive summary, why the finding matters, where the
-method transfers to other industries, and what it gets wrong — is at
+A three-page summary — the approach as a flow, and where the method transfers
+to other industries — is at
 [`docs/UGC_Trend_Analyzer_Report.pdf`](docs/UGC_Trend_Analyzer_Report.pdf).
 Source for it is in `docs/report_src/`; it renders with headless Chrome.
 
