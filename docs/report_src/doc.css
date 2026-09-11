@@ -58,3 +58,17 @@
 .pfoot { position:absolute; left:52px; right:52px; bottom:14px; font-family:Plex; font-size:9px;
          letter-spacing:.1em; text-transform:uppercase; color:var(--mute); display:flex;
          justify-content:space-between; border-top:1px solid var(--line); padding-top:7px; }
+
+/* page 3 — findings first */
+.finds { display:flex; gap:10px; margin-top:11px; }
+.find { flex:1; border-top:2.5px solid var(--hot); padding-top:7px; }
+.find .n { font-family:Anton; font-size:31px; line-height:1; color:var(--hot); letter-spacing:-.01em; }
+.find .n small { font-size:17px; }
+.find .t { font-size:11px; font-weight:700; color:var(--title); margin:4px 0 3px 0; line-height:1.2; }
+.find .d { font-size:9.6px; line-height:1.34; color:#4a4763; }
+.secttl { font-family:Plex; font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+          color:var(--mute); margin:13px 0 6px 0; display:flex; align-items:center; gap:9px; }
+.secttl:after { content:""; flex:1; height:1px; background:var(--line); }
+.rw.tight { padding:4.5px 0; }
+.rw.tight .w1 { flex:0 0 104px; font-size:10.8px; }
+.rw.tight .w2 { font-size:10px; line-height:1.34; }

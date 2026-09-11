@@ -88,6 +88,20 @@ p{font-size:29px;line-height:1.3;color:var(--ink);max-width:30ch;position:relati
 .pfoot { position:absolute; left:52px; right:52px; bottom:14px; font-family:Plex; font-size:9px;
          letter-spacing:.1em; text-transform:uppercase; color:var(--mute); display:flex;
          justify-content:space-between; border-top:1px solid var(--line); padding-top:7px; }
+
+/* page 3 — findings first */
+.finds { display:flex; gap:10px; margin-top:11px; }
+.find { flex:1; border-top:2.5px solid var(--hot); padding-top:7px; }
+.find .n { font-family:Anton; font-size:31px; line-height:1; color:var(--hot); letter-spacing:-.01em; }
+.find .n small { font-size:17px; }
+.find .t { font-size:11px; font-weight:700; color:var(--title); margin:4px 0 3px 0; line-height:1.2; }
+.find .d { font-size:9.6px; line-height:1.34; color:#4a4763; }
+.secttl { font-family:Plex; font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+          color:var(--mute); margin:13px 0 6px 0; display:flex; align-items:center; gap:9px; }
+.secttl:after { content:""; flex:1; height:1px; background:var(--line); }
+.rw.tight { padding:4.5px 0; }
+.rw.tight .w1 { flex:0 0 104px; font-size:10.8px; }
+.rw.tight .w2 { font-size:10px; line-height:1.34; }
 </style></head><body><div class='sheet'><div class="card" style="--bg:#f5f3ec;--title:#f2247a;--ink:#262048;--noise:#dcd7ca;--hot:#f2247a">
   <div class="noise">:;507GJ<b>8</b>Z99AEM<b>6</b>;51SFR3FU0EGSBADZ4RT#H<b>G</b>;LMMIY#A5BZ6<b>G</b>J<b>Q</b>7SE5AXI.I<br>LT7M8MY6DCQZ61E.7RNE:CXIIV1IBW<b>C</b>8EUE2CIV.#B<b>4</b>YAFH#Y5;F<b>0</b>6BH7,AJMV<br>:PQ/MYUICRHR#1U7ERCRT<b>4</b>I<b>M</b>RJ8G9XM.A2LW1KOY;A40V9G9HYTUB<b>F</b>VRBECVI1<br>1:,F:S313Y7J1,2ABCZ4FE;Z.V.G<b>7</b>Q<b>B</b>JSW,50M<b>/</b>8128N2I8LUMMIIQ/#I8B4X0<br>VM.C74MNKGI;G;W68M;XMGAF840VQHKZVXLLV<b>G</b>W<b>7</b>RTZ209H<b>4</b>7PZMAQV01G96CK<br>K2D,1TSRS<b>S</b>P8YUDUO.<b>P</b>G;PH#NWHI;8#1IIHT7R4MPP9CA<b>/</b>C2FK8.N,E:7NQJ96<br>3LX;F/,;AN6TUJUH:RTO1XBZMX25L;SO2S9/22FG<b>F</b>99O1;VV,ECWY;<b>8</b>XH#P8KY<br>SDHJL<b>;</b>.CMN66:RT3QZVFONY1DP.:#KU1724AJF7G;50MF:2,TZTEIZHA.4ANJY<br>TZFMHR8YJIL<b>Z</b>;FCHE/IJY#ZUP6QV:YVGK237JM1MBMI4VXHI43QVHAX4K3<b>;</b>LIY<br>8B#JHLI4DCJ,.74S;#H11BD7YTE:Z.12ZEX#K#EI2<b>;</b>PBE:Z5<b>T</b>U,.MDWB38DTUR<br>I:KTMPSX15TLRFE1<b>C</b>5Q4SMRBJC5,E9UC0812K/:QP25<b>Q</b>6DL<b>6</b>,0QBL2PDC7Q,0Q<br>,6D;NC6J1<b>C</b>#J3/C7QPFX7K9V5LZNDW3.NT,LN#RR1Q4NXXP<b>H</b>U:Y1TPM6N/I3:J<br>R:YWS7C8ATENWX8/,YSRZKPVJQ3BHER,TU<b>E</b>WXQLY<b>X</b>N<b>8</b>2#E:<b>Y</b>IRXBMQP2A,33VG<br>UNKK74#29U0EGT:<b>.</b>7.QZ8UNI#IRI7OAIR8Y<b>I</b>HM2HB.E9Z#4NJGQ/URJZOMQJTA<br>.M##3D77MP:DB2EBT<b>;</b>N<b>X</b>1P,2G.#<b>7</b>4UXRX:R9GN<b>N</b>INGX<b>/</b>ZZ2<b>N</b>L5UOLEUWA897:8<br>4H;;YY<b>4</b>C:<b>5</b>DJV7.ZI,L9JGQCQW<b>2</b>/RP3,ED3EJLCOH77,98M/V86NI5IQ7TEX#E<br>/7;HW#5HSF;.#:XSRA<b>P</b>XQR5GN<b>X</b>BWBJX09OZOHE991NJG<b>F</b>9Q.H<b>J</b>XB#2G0EI0SP#</div>
   <div class="top"><span class="logo">Frank Fu</span><svg class="arrow" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20.5" style="fill:var(--bg)"/><path d="M16 28 L28 16 M19 16 H28 V25"/></svg></div>
@@ -156,41 +170,61 @@ p{font-size:29px;line-height:1.3;color:var(--ink);max-width:30ch;position:relati
 </div>
 
 <div class="card doc">
-  <div class="kick">02 — Why it matters</div>
+  <div class="kick">02 — What it found, and where else it applies</div>
   <h1>The score tells you who left.<br>The text tells you why.</h1>
-  <p class="lede">Every organisation with a rating already knows its number went down. None of them
-  learn the reason from the number. This reads the sentence instead — which is where the reason
-  always was.</p>
+  <p class="lede">Four findings from this corpus that a rating-based read cannot produce — then
+  what the same method is for.</p>
 
+  <div class="finds">
+    <div class="find"><div class="n">17.5<small>%</small></div>
+      <div class="t">Complaints hide in five-star reviews</div>
+      <div class="d">Of all sentences inside 5★ reviews, 17.5% are complaints — 26.5% in 4★.
+      These are problems reported by customers who <b>stayed</b>, and a rating-weighted read
+      counts every one of them as praise.</div></div>
+
+    <div class="find"><div class="n">+0.22<small>★</small></div>
+      <div class="t">Some complaints are demand signals</div>
+      <div class="d">Complaining you cannot <b>find</b> a product travels with a rating 0.22★
+      <b>higher</b> (p=0.03). Scarcity complaints come from devotees. Route them to distribution,
+      not to the fix list.</div></div>
+
+    <div class="find"><div class="n">84.6<small>%</small></div>
+      <div class="t">The worst category is a logistics problem</div>
+      <div class="d">Protein snacks rate lowest (3.88★). Its condition-on-arrival mentions are
+      84.6% negative, at 14% of reviews — complaints about dates, bags and descriptions. Nothing
+      in the recipe needed changing.</div></div>
+
+    <div class="find"><div class="n">“natural”</div>
+      <div class="t">A marketing claim that backfires</div>
+      <div class="d">The single strongest marker of a <b>low</b>-rated drink review. Reviewers
+      reach for the word while giving one star — the claim was read as a promise about taste and
+      missed it. In pet food the equivalent word is “china”.</div></div>
+  </div>
+
+  <div class="secttl">The same method, wherever text sits beside a score</div>
   <div class="two w">
     <div>
-      <div class="h3">Where the same problem exists today</div>
       <div class="rows">
-        <div class="rw"><div class="w1">Live comment streams</div><div class="w2">Comments arrive faster than anyone can read them. Aspect + polarity per comment turns a feed into a live count of <b>which specific thing</b> people are reacting to — separating a pricing backlash from a delivery outage within minutes, not at the next review cycle.</div></div>
-        <div class="rw"><div class="w1">Support &amp; CSAT</div><div class="w2">Ticket text inherits the survey score, so friction inside "satisfied" tickets is never counted. The same fix applies, and the outcome you weight against becomes renewal.</div></div>
-        <div class="rw"><div class="w1">App store &amp; marketplace</div><div class="w2">A five-star review naming a missing feature is the best product input a team receives, and exactly what a star-weighted dashboard throws away.</div></div>
-        <div class="rw"><div class="w1">Employee &amp; patient surveys</div><div class="w2">Free text beside eNPS or an overall score. Because themes are aspects rather than moods, "manager support" or "discharge communication" can be tracked as improving or worsening over time.</div></div>
-        <div class="rw"><div class="w1">Regulated complaints</div><div class="w2">Narratives needing triage and an audit trail. A published error rate and an explicit "unassigned" class are what make such a model defensible to a reviewer.</div></div>
+        <div class="rw tight"><div class="w1">Live comment streams</div><div class="w2">Comments arrive faster than anyone can read them. Aspect plus polarity per comment turns a feed into a live count of <b>which specific thing</b> people are reacting to — a pricing backlash separated from a delivery outage within minutes, not at the next review cycle.</div></div>
+        <div class="rw tight"><div class="w1">Support &amp; CSAT</div><div class="w2">Ticket text inherits the survey score, so friction inside “satisfied” tickets is never counted. Same correction; weight against renewal instead of the survey.</div></div>
+        <div class="rw tight"><div class="w1">App store &amp; marketplace</div><div class="w2">A five-star review naming a missing feature is the best product input a team receives, and exactly what a star-weighted dashboard discards.</div></div>
+        <div class="rw tight"><div class="w1">Surveys &amp; complaints</div><div class="w2">eNPS, patient experience, regulated narratives. Aspects rather than moods means “discharge communication” can be tracked as improving or worsening over time.</div></div>
       </div>
     </div>
-
     <div>
-      <div class="h3">What has to be true before anyone trusts it</div>
       <div class="rows risk">
-        <div class="rw"><div class="w1">Silent mislabelling</div><div class="w2">A classifier that never abstains will file chatter under a real theme. Guard: an explicit unassigned class, and a hand-judged accuracy figure published beside every result.</div></div>
-        <div class="rw"><div class="w1">False causation</div><div class="w2">Polarity is read from the same text that produced the score, so the link is mechanical. This is a triage order, never "fix X and the rating rises". Stated in those words.</div></div>
-        <div class="rw"><div class="w1">Thin slices</div><div class="w2">Small segments produce confident nonsense. Guard: sample-size floors that make the system <b>decline to answer</b> — four of fourteen categories here report no language analysis at all.</div></div>
-        <div class="rw"><div class="w1">Drifting definitions</div><div class="w2">If a model renames themes on each run, no trend is real. Guard: the taxonomy is frozen in version control, so any change to a theme appears in a diff.</div></div>
-        <div class="rw"><div class="w1">Confident prose</div><div class="w2">Generated summaries are fluent whether or not they are right. Guard: every numeric claim is machine-checked against the evidence, and the checker's own blind spot is documented.</div></div>
+        <div class="rw tight"><div class="w1">Silent mislabelling</div><div class="w2">A classifier that never abstains files chatter under a real theme. Guard: an explicit unassigned class — 20.7% here — and a hand-judged accuracy published beside every result.</div></div>
+        <div class="rw tight"><div class="w1">False causation</div><div class="w2">Polarity is read from the same text that produced the score, so the link is mechanical. A triage order, never “fix X and the rating rises”.</div></div>
+        <div class="rw tight"><div class="w1">Thin slices</div><div class="w2">Small segments produce confident nonsense. Guard: floors that make the system <b>decline to answer</b> — four of fourteen categories report no language analysis at all.</div></div>
+        <div class="rw tight"><div class="w1">Drift &amp; fluent prose</div><div class="w2">Renamed themes destroy trends; generated summaries read well whether or not they are right. Guard: taxonomy frozen in git, and every number machine-checked against its evidence.</div></div>
       </div>
     </div>
   </div>
 
-  <div class="band2"><p><b>What it takes to point this at something else:</b> free text, a numeric
-  outcome, and a few thousand rows. Only the taxonomy is rewritten — an afternoon — and every
-  stage after it is unchanged. <b>The finding that makes it worth doing:</b> 17.5% of sentences
-  inside five-star reviews are complaints. Those are the problems your happiest customers are
-  telling you about, and the score is hiding all of them.</p></div>
+  <div class="band2"><p><b>To point it at something else</b> you need free text, a numeric outcome,
+  and a few thousand rows. Only the taxonomy is rewritten — an afternoon's work — and every stage
+  after it is unchanged: same embeddings, same entailment, same regression, same claim checker.
+  It runs on open weights, on one laptop GPU, with no API key and no per-call cost.</p></div>
   <div class="pfoot"><span>UGC &amp; Trend Analyzer</span><span>Frank Fu · July 2025</span><span>03</span></div>
 </div>
 </div></body></html>
